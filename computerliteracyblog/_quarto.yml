@@ -1,19 +1,41 @@
 project:
   type: website
+  preview:
+    port: 5550
+    browser: false
+    watch-inputs: true
+    navigate: false
 
 website:
-  title: "computerliteracyblog"
+  title: "{{< iconify uis microscope size=30px >}} &nbsp; K-6 Computer Literacy Program"
+  search:
+    location: navbar
+  reader-mode: false
+  back-to-top-navigation: true
+  page-navigation: true
+  favicon: "icons/favicon.ico"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - tech-leader-guide/index.qmd
+      - activities/index.qmd
+      - about/index.qmd
+
+  page-footer:
+    right:
+      - text: "{{< iconify fa github size=18px >}}"
+        href: https://github.com/K-6-computing-literacy
+      - text: "{{< iconify bi rss-fill size=18px >}}"
+        href: "blog/index.xml"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    mainfont: Inter
+    monofont: Ubuntu Mono
+    fontsize: 1.25em
+    theme: zephyr
+    highlight-style: github
+    css: css/styles.css
 
-
+execute:
+  freeze: auto
 

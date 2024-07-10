@@ -1,0 +1,37 @@
+---
+title: "Activity 11: Minecraft Designer"
+subtitle: "Exploring Minecraft through Block Coding on Code.org"
+grades: All Grades
+time_required: 35 minutes
+---
+
+## Description
+
+Students will use the Code.org platform to play the Minecraft block coding game. This activity introduces various uses of block coding, making it easier for students to grasp coding concepts through interactive gameplay.
+
+## Materials Required
+
+- iPad
+- Code.org platform: [Minecraft Designer](https://studio.code.org/s/minecraft)
+
+## Steps to Conduct the Activity
+
+### Step 1: Setup and Introduction
+
+- Open the Code.org platform on iPads.
+- Show students the introductory video provided before starting the activity.
+
+### Step 2: Engaging with Minecraft Blocks
+
+- Guide students through the initial stages of the Minecraft block coding game.
+- Disable subsequent instructional videos to encourage independent exploration.
+
+## Reflection
+
+- Pause at the 30-minute mark to discuss progress and challenges.
+- Ask students to describe what they observed Minecraft mobs doing with the block codes.
+- Relate the activity to game development, emphasizing how coding principles translate into interactive gameplay experiences.
+
+## Learning Outcomes
+
+This activity demonstrates the foundational steps in creating video games using Minecraft block coding. It explores fundamental computer science concepts, such as the use of loops in game mechanics. Students will gain insights into coding's role in everyday activities like gaming, fostering a deeper understanding of computational thinking.

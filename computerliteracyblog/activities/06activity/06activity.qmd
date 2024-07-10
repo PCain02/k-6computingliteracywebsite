@@ -1,0 +1,43 @@
+---
+title: "Activity 6: Debugging"
+subtitle: "Teaching students to identify and fix bugs in code through hands-on activities."
+grades: 4th - 6th Grade
+time_required: 30 minutes
+---
+
+## Description
+
+This activity is designed to teach students about debugging and the different ways bugs present themselves in code. The lesson will consist of activities that help identify when there is a bug, how to fix it, and the difference between syntax errors and logic errors. It is important to emphasize what each example represents.
+
+## Materials Required
+
+- Debugging Scenarios
+- Pencil
+- Paper
+
+## Steps to Conduct the Activity
+
+### Step 1: Identifying Bugs
+
+- Explain what a bug is in code and show an example through given scenarios. Ensure the scenarios are instructions for different tasks and do not contain actual lines of code.
+- Distribute scenarios for students to identify statements that need debugging. Ensure students identify and fix all bugs present in the instructions.
+
+### Step 2: Categorizing Bugs
+
+- Explain the differences between syntax errors and logic errors. Syntax errors prevent instructions from being executed, while logic errors allow execution but not in the intended way.
+- Provide students with more scenarios that require them to identify if there is a bug and whether it is a syntax or logic error.
+
+### Step 3: Practice
+
+- Have students create instructions that contain mistakes, no mistakes, syntax errors, and logic errors.
+- This exercise will improve their understanding of how to identify bugs and the different types they might encounter.
+
+## Reflection
+
+- Explain the similarity between actual code and the activity, emphasizing how debugging requires the skills practiced in the activity.
+- Ask students if they found the activity challenging and what new concepts they learned.
+- Inquire which was harder: identifying bugs or categorizing them.
+
+## Summary
+
+This activity introduces students to the basics of debugging. It highlights common errors in code and methods for addressing them. Engagement in these activities can better prepare students for coding by providing a solid understanding of how to handle errors.

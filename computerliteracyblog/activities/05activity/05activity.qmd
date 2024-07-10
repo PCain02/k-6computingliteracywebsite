@@ -1,0 +1,35 @@
+---
+title: "Activity 5: Simon's Bracket"
+subtitle: "Teaching students to use light brackets through imitation and collaboration."
+grades: 5th & 6th Grade
+time_required: 1 hour
+---
+
+## Description
+
+Students will be given light brackets and shown pictures that they must imitate. They can work in groups or individually depending on the figures being shown to them. This activity will teach them how to use light brackets effectively.
+
+## Materials Required
+
+- Light bracket board
+- Pictures of bracket boards
+
+## Steps to Conduct the Activity
+
+### Step 1: Teaching the Bracket
+
+- Explain to the students how to use a bracket board to make certain lights turn on. Allow them to become familiar with using the board before starting the activity.
+
+### Step 2: Using Bracket Images
+
+- Once the students are ready, show them pictures of bracket boards that they must imitate. The first student or group to correctly imitate the picture wins.
+- Create images that require students to collaborate with others to complete the image.
+
+## Reflection
+
+- Ask students what they found challenging about getting the bracket boards to work.
+- Inquire which image they found the hardest to create and why.
+
+## Summary
+
+This activity helps students understand how to use light brackets and introduces them to some areas of computer science. It exposes them to aspects of hardware and demonstrates the different ways it can be used.

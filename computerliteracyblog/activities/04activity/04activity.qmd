@@ -1,0 +1,54 @@
+---
+title: "Activity 4: Bee Bots"
+subtitle: "Engaging students in creating obstacles and routes through block coding with Bee Bots."
+grades: Kindergarten - 6th Grade
+time_required: Varies by grade
+---
+
+## Description
+
+In this activity, students will create obstacles through conditional actions using the Bee Bot app. Students will pair up and create routes that require block coding to navigate. Block coding is a hands-on way for children to learn the basics of coding. This activity will help students understand coding concepts and the creative ways they can be applied.
+
+## Grades & Time Required
+
+- **Kindergarten**: 45 minutes
+- **2nd - 4th Grade**: 30 minutes
+- **5th & 6th Grade**: 25 minutes
+
+## Materials Required
+
+- Bee Bot
+- Pencil
+- Paper
+- Bee Bot Map (optional)
+
+## Steps to Conduct the Activity
+
+### Step 1: Forming Groups
+
+- The activity can be done individually or in groups.
+- Start with individual competition to allow all students to practice creating routes independently. This will enhance their understanding of the game.
+- After individual practice, move to group activities to foster collaboration and teamwork.
+
+### Step 2: Creating Routes and Conditions
+
+- Encourage students to explore Bee Bot and the different blocks available.
+- Explain that they need to create a route with specific rules. For example, they could create a rule that the Bee Bot cannot move backwards.
+- On a separate sheet of paper, have students write down the rules they have created, specifying what their opponents are not allowed to do.
+
+### Step 3: Completing Routes
+
+- Once students have created their routes and conditions, have them swap with their partners.
+- Time the students to see who can create a route first, conducting multiple rounds with different partners.
+- Ensure that only group members collaborate, with no assistance from opposing teams.
+- If a student is struggling, provide guidance on the initial steps to help them succeed.
+
+## Reflection
+
+- Discuss with students how easy or difficult they found the activity.
+- Ask them which conditions were the hardest to follow.
+- Inquire if there were any conditions they wanted to create but couldn't implement.
+
+## Summary
+
+Participating in this activity will enhance students' computational thinking. Block coding with Bee Bots helps students understand basic coding principles and improves their programming skills. Encouraging students to create and solve obstacles in block coding will significantly boost their coding proficiency.
