@@ -1,19 +1,27 @@
 /* css styles */
 
+
 .navbar {
-    background-color: #397dc9;  /* Replace with your desired background color */
+    background-color: #ffc005;  /* bg color */
 }
 
 .navbar a, .navbar .navbar-brand {
-    color: #ffffff;  /* Replace with your desired text color */
+    color: #000000;  /* text color */
 }
 
 .navbar a:hover, .navbar .navbar-brand:hover {
-    color: #66ccff;  /* Replace with your desired hover text color */
+    color: #66ccff;  /* hover color */
+}
+
+.navbar-title {
+    font-weight: bold;
+}
+
+.navbar-text {
+    font-weight: bold;
 }
 
 
-
 body {
-    background-color: #f0f0f0;  /* Light grey background */
+    background-color: #f0f0f0;  /* main page bg */
 }
