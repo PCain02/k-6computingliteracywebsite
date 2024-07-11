@@ -2,7 +2,9 @@ project:
   type: website
 
 website:
-  title: "K-6 Computer Literacy Program"
+  title: |
+    <img src="/images/logonew.png" alt="Logo" style="height: 90px; vertical-align: middle; margin-right: 5px;">
+    K-6 Computer Literacy Program
   search:
     location: navbar
   reader-mode: false
@@ -26,10 +28,10 @@ website:
 
 format:
   html:
-    mainfont: Inter
+    mainfont:  Fira Sans Black
     monofont: Ubuntu Mono
     fontsize: 1.25em
-    theme: materia
+    theme: yeti
     highlight-style: github
     css: css/styles.css
 
