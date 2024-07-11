@@ -18,11 +18,11 @@ website:
       - text: "About"
         href: "about/index.qmd"
 
-
   page-footer:
     right:
-      - text: "{{< iconify fa github size=18px >}}"
+      - icon: github
         href: https://github.com/K-6-computing-literacy
+      
 
 format:
   html:

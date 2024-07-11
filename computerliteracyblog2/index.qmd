@@ -4,5 +4,5 @@ layout: full
 toc: false
 ---
 
-# WELCOME TO THE PROGRAM BLOG!
+# Welcome to the computer literacy blog!
 

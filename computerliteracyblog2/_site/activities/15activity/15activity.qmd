@@ -1,0 +1,42 @@
+---
+title: "Activity 15: Arduino"
+subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
+grades: All grades
+time_required: 1 hour
+toc: true
+---
+
+## Description
+
+Students will be introduced to the basics of electronics using Arduino, an open-source microcontroller. They will learn to control the flow of current through LEDs, programming them to turn on and off at specified intervals. This hands-on experience with Arduino will provide them with a foundational understanding of how electronic circuits and programming interact.
+
+## Materials required
+
+- Arduino Board and program
+- Arduino USB connector cable
+- 3 LEDs
+- 3 1k ohm resistor
+- Connecting Wire
+
+## Steps to conduct the activity
+
+### Step 1: Setup and Introduction
+
+- Open the Code.org platform on iPads.
+- Show students the introductory video provided before starting the activity.
+
+### Step 2: Engaging with Minecraft Blocks
+
+- Guide students through the initial stages of the Frozen block coding game.
+- Disable subsequent instructional videos to encourage independent exploration.
+
+## Reflection
+
+- Pause at the 50-minute mark to discuss progress and challenges 
+- Ask students to describe what they observed from trying to get the LEDs to light up 
+- Relate the activity to everday use of certain electironic that work with simalr electonics like LED lights. 
+
+
+## Learning Outcomes
+
+- Introducing students to the fundamentals of electronics equips them with a deeper understanding of how we interact with and manipulate electronic devices. By gaining this foundational knowledge, they can comprehend the essential processes and steps required to make electronic components function effectively. This early exposure not only explains the workings of everyday technology but also fosters curiosity and encourages hands-on experimentation.
