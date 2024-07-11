@@ -1,0 +1,52 @@
+---
+title: "Activity 10: Internet Safety Routes"
+subtitle: "Teaching internet safety through identifying safe and unsafe actions online using Spheros."
+grades: All grades except Kindergarten
+time_required: 45 mins to 1 hour
+toc: true
+---
+
+## Description
+
+This activity teaches students how to practice internet safety by identifying safe and unsafe actions on the internet. Students will watch a video about internet safety and then engage in an activity using Spheros to create and navigate routes based on safe and unsafe terms.
+
+## Materials Required
+
+- Internet safety flashcards
+- Wooden blocks
+- Spheros
+- iPad
+
+## Steps to Conduct the Activity
+
+### Step 1: Internet Safety Video
+
+- Start by discussing with students their experiences using the internet and activities they have done online.
+- Explain the importance of learning safe practices for internet use.
+- Play the Twinkl video on internet safety: [Twinkl Internet Safety Video](https://www.youtube.com/watch?v=JTl211YlFzc).
+- After watching, ask students what they learned from the video.
+
+### Step 2: Flashcards
+
+- Divide students into two groups and provide them with flashcards containing safe and unsafe terms/actions.
+- Instruct students to sort the flashcards into safe and unsafe categories.
+- Review the sorted flashcards to ensure understanding before proceeding.
+
+### Step 3: Creating Routes
+
+- Using wooden blocks and the sorted flashcards, have students create two routes: one for safe terms/actions and one for unsafe terms/actions that their Sphero can navigate through.
+- Kindergarteners will focus on creating routes without the flashcard sorting component.
+
+### Step 4: Using Spheros
+
+- Allow students to use Spheros to navigate through the routes they created.
+- Encourage students to create new routes for their Spheros after completing the initial ones.
+
+## Reflection
+
+- Conduct a reflection session after watching the video.
+- Ask students what they learned about internet safety and what actions they might do differently online after watching the video.
+
+## Summary
+
+This activity aims to enhance students' understanding of internet safety by actively engaging them in identifying safe and unsafe online behaviors. By using Spheros to navigate through created routes, students apply their knowledge in a practical and interactive manner, reinforcing internet safety practices.

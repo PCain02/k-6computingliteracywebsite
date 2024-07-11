@@ -1,0 +1,632 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "K-6 Computer Literacy Blog",
+    "section": "",
+    "text": "WELCOME TO THE PROGRAM BLOG!\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "tech-leader-guide/index.html",
+    "href": "tech-leader-guide/index.html",
+    "title": "Guide for Computing Outreach Fellows",
+    "section": "",
+    "text": "Computing outreach involves engaging K-6 students in regular, hands-on computing activities to foster interest and competency in computational skills. This includes introducing students to computational thinking and problem-solving through events, workshops, and classroom activities, and using technologies. The goal is to provide consistent exposure in the computing field in a fun way.\n\n\n\n\nYou will be tasked with activities that will vary depending on the grades you are working with\nAll activities will be held in groups that can vary depending on the size of the class\nWorking with younger students ranging from K to 2nd grade, will require to participate in activities that are more based in reading and explain methods of computational skills\nOlder students from 5th to 6th grade will involve the use of more robotics in activities, requiring fellows to understand how the robots work and how they fit into the activities\nYou will be given outlines that will guide you through the necessary steps to doing activities\n\n\n\n\n\nWorking with children\nCollaborating with faculty at Meadville public schools\nRunning through and understanding activities beforehand\nReading books that improve students understanding of computational skills"
+  },
+  {
+    "objectID": "tech-leader-guide/index.html#what-is-the-computing-outreach-program",
+    "href": "tech-leader-guide/index.html#what-is-the-computing-outreach-program",
+    "title": "Guide for Computing Outreach Fellows",
+    "section": "",
+    "text": "Computing outreach involves engaging K-6 students in regular, hands-on computing activities to foster interest and competency in computational skills. This includes introducing students to computational thinking and problem-solving through events, workshops, and classroom activities, and using technologies. The goal is to provide consistent exposure in the computing field in a fun way."
+  },
+  {
+    "objectID": "tech-leader-guide/index.html#what-to-expect-as-a-computing-outreach-fellow",
+    "href": "tech-leader-guide/index.html#what-to-expect-as-a-computing-outreach-fellow",
+    "title": "Guide for Computing Outreach Fellows",
+    "section": "",
+    "text": "You will be tasked with activities that will vary depending on the grades you are working with\nAll activities will be held in groups that can vary depending on the size of the class\nWorking with younger students ranging from K to 2nd grade, will require to participate in activities that are more based in reading and explain methods of computational skills\nOlder students from 5th to 6th grade will involve the use of more robotics in activities, requiring fellows to understand how the robots work and how they fit into the activities\nYou will be given outlines that will guide you through the necessary steps to doing activities"
+  },
+  {
+    "objectID": "tech-leader-guide/index.html#key-responsibilities",
+    "href": "tech-leader-guide/index.html#key-responsibilities",
+    "title": "Guide for Computing Outreach Fellows",
+    "section": "",
+    "text": "Working with children\nCollaborating with faculty at Meadville public schools\nRunning through and understanding activities beforehand\nReading books that improve students understanding of computational skills"
+  },
+  {
+    "objectID": "activities/01activity/01activity.html",
+    "href": "activities/01activity/01activity.html",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "",
+    "text": "In this activity, students will learn the fundamentals of if-else-if else (elif) statements through a hands-on lesson involving a model car and a programmable robot (GoPiGo). Students will explore decision-making using block code processes by programming the robot to navigate a multi-way road with a barricade, simulating real-life scenarios where alternate routes must be taken when the primary route is blocked."
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#description",
+    "href": "activities/01activity/01activity.html#description",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "",
+    "text": "In this activity, students will learn the fundamentals of if-else-if else (elif) statements through a hands-on lesson involving a model car and a programmable robot (GoPiGo). Students will explore decision-making using block code processes by programming the robot to navigate a multi-way road with a barricade, simulating real-life scenarios where alternate routes must be taken when the primary route is blocked."
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#materials-required",
+    "href": "activities/01activity/01activity.html#materials-required",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nModel car\nTwo-/three-way road setup. Picture of demo map is shown below.\nBarricade (mini yellow cones)\nGoPiGo robot\nLaptop configured for GoPiGo"
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#steps-to-conduct-the-activity",
+    "href": "activities/01activity/01activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Topic Explanation\n\nUse simple examples to illustrate the concept of if-else statements, such as deciding whether to bring an umbrella based on whether it is raining.\n\n\n\nStep 2: Explain the Problem\n\nShow the students a model car on a three-way road. Place a barricade on one of the roads, explaining that the primary route is blocked due to construction.\nIllustrate how and why the car needs to decide to take an alternative route if the primary route is blocked.\nBlock another route, and ask students what they would do now since two main routes are blocked.\n\n\n\nStep 3: Interactive Time\n\nAsk students what they would do if they were in this situation. Would they take the other route? How would they do it? Are there any other options they would prefer?\nDivide the class into two groups, each group with a laptop under supervision.\nUsing block code, guide each group to set up their robot (which will serve as the car) to reenact the two situations.\nAllow the students to test their code by running the robot on the road setup."
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#reflection",
+    "href": "activities/01activity/01activity.html#reflection",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "Reflection",
+    "text": "Reflection\n\nBring the groups together to discuss their experiences. Ask each group to share their challenges and solutions."
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#learning-outcomes",
+    "href": "activities/01activity/01activity.html#learning-outcomes",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this activity, students should be able to:\n\nComprehend the basic structure and function of if-else-elif statements in programming.\nUse conditional statements to create decision-making processes in block coding.\nSimulate real-life problem-solving by programming a robot to navigate alternate routes when the primary path is blocked.\nEnhance their computational thinking skills by breaking down a problem into smaller, manageable conditions and actions.\nTest their block code in a practical setup and debug any issues that arise to ensure the robot navigates correctly."
+  },
+  {
+    "objectID": "activities/01activity/01activity.html#picture-of-the-map",
+    "href": "activities/01activity/01activity.html#picture-of-the-map",
+    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "section": "Picture of the Map",
+    "text": "Picture of the Map\n\n\n\nMap Picture"
+  },
+  {
+    "objectID": "activities/08activity/08activity.html",
+    "href": "activities/08activity/08activity.html",
+    "title": "Activity 8: Designing and Programming Robots",
+    "section": "",
+    "text": "This activity aims to encourage students to reflect on their experiences with robots, foster creativity through drawing, and develop critical thinking skills through an engaging online coding exercise."
+  },
+  {
+    "objectID": "activities/08activity/08activity.html#objective",
+    "href": "activities/08activity/08activity.html#objective",
+    "title": "Activity 8: Designing and Programming Robots",
+    "section": "",
+    "text": "This activity aims to encourage students to reflect on their experiences with robots, foster creativity through drawing, and develop critical thinking skills through an engaging online coding exercise."
+  },
+  {
+    "objectID": "activities/08activity/08activity.html#materials-needed",
+    "href": "activities/08activity/08activity.html#materials-needed",
+    "title": "Activity 8: Designing and Programming Robots",
+    "section": "Materials Needed",
+    "text": "Materials Needed\n\nPaper and pencils for drawing\nComputers or tablets with internet access for the online activity"
+  },
+  {
+    "objectID": "activities/08activity/08activity.html#instructions",
+    "href": "activities/08activity/08activity.html#instructions",
+    "title": "Activity 8: Designing and Programming Robots",
+    "section": "Instructions",
+    "text": "Instructions\n\nStep 1: Reflection and Observation\n\nProvide each student with a piece of paper.\nAsk students to reflect on their experiences with robots, especially what they observed during their time at the camp. This includes features like distance sensors, speakers, and cameras.\nEncourage them to list as many features and details as they can remember.\n\n\n\nStep 2: Creative Drawing\n\nBased on their reflections, instruct students to draw their own robot.\nThis drawing session allows students to express their creativity and apply what they have learned about the various parts and functions of robots.\n\n\n\nStep 3: Online Coding Activity - RodoCode\n\nAfter the drawing session, introduce students to the online activity called RodoCode on Code.org.\nRodoCode is an interactive coding exercise where students use blocks to program a robot to reach its destination.\nEmphasize that this activity will enhance critical thinking and problem-solving skills while reinforcing their understanding of robotics concepts."
+  },
+  {
+    "objectID": "activities/08activity/08activity.html#summary",
+    "href": "activities/08activity/08activity.html#summary",
+    "title": "Activity 8: Designing and Programming Robots",
+    "section": "Summary",
+    "text": "Summary\nThis activity engages students in reflecting on their robot experiences, expressing creativity through drawing, and developing coding skills through an online exercise. It combines observation, artistic expression, and computational thinking in a fun and educational manner."
+  },
+  {
+    "objectID": "activities/10activity/activity10.html",
+    "href": "activities/10activity/activity10.html",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "",
+    "text": "This activity teaches students how to practice internet safety by identifying safe and unsafe actions on the internet. Students will watch a video about internet safety and then engage in an activity using Spheros to create and navigate routes based on safe and unsafe terms."
+  },
+  {
+    "objectID": "activities/10activity/activity10.html#description",
+    "href": "activities/10activity/activity10.html#description",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "",
+    "text": "This activity teaches students how to practice internet safety by identifying safe and unsafe actions on the internet. Students will watch a video about internet safety and then engage in an activity using Spheros to create and navigate routes based on safe and unsafe terms."
+  },
+  {
+    "objectID": "activities/10activity/activity10.html#materials-required",
+    "href": "activities/10activity/activity10.html#materials-required",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nInternet safety flashcards\nWooden blocks\nSpheros\niPad"
+  },
+  {
+    "objectID": "activities/10activity/activity10.html#steps-to-conduct-the-activity",
+    "href": "activities/10activity/activity10.html#steps-to-conduct-the-activity",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Internet Safety Video\n\nStart by discussing with students their experiences using the internet and activities they have done online.\nExplain the importance of learning safe practices for internet use.\nPlay the Twinkl video on internet safety: Twinkl Internet Safety Video.\nAfter watching, ask students what they learned from the video.\n\n\n\nStep 2: Flashcards\n\nDivide students into two groups and provide them with flashcards containing safe and unsafe terms/actions.\nInstruct students to sort the flashcards into safe and unsafe categories.\nReview the sorted flashcards to ensure understanding before proceeding.\n\n\n\nStep 3: Creating Routes\n\nUsing wooden blocks and the sorted flashcards, have students create two routes: one for safe terms/actions and one for unsafe terms/actions that their Sphero can navigate through.\nKindergarteners will focus on creating routes without the flashcard sorting component.\n\n\n\nStep 4: Using Spheros\n\nAllow students to use Spheros to navigate through the routes they created.\nEncourage students to create new routes for their Spheros after completing the initial ones."
+  },
+  {
+    "objectID": "activities/10activity/activity10.html#reflection",
+    "href": "activities/10activity/activity10.html#reflection",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "Reflection",
+    "text": "Reflection\n\nConduct a reflection session after watching the video.\nAsk students what they learned about internet safety and what actions they might do differently online after watching the video."
+  },
+  {
+    "objectID": "activities/10activity/activity10.html#summary",
+    "href": "activities/10activity/activity10.html#summary",
+    "title": "Activity 10: Internet Safety Routes",
+    "section": "Summary",
+    "text": "Summary\nThis activity aims to enhance students’ understanding of internet safety by actively engaging them in identifying safe and unsafe online behaviors. By using Spheros to navigate through created routes, students apply their knowledge in a practical and interactive manner, reinforcing internet safety practices."
+  },
+  {
+    "objectID": "activities/12activity/activity12.html",
+    "href": "activities/12activity/activity12.html",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "",
+    "text": "Students will use the Blue-Bot robots to play with the Blue-Bloc app. The activity incorperates the use of blocking coding, a ataic used to simply the understading of code for students. The activity will also include the use of conditional statements that require new ays of thinking and improve skills in computational thinking."
+  },
+  {
+    "objectID": "activities/12activity/activity12.html#description",
+    "href": "activities/12activity/activity12.html#description",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "",
+    "text": "Students will use the Blue-Bot robots to play with the Blue-Bloc app. The activity incorperates the use of blocking coding, a ataic used to simply the understading of code for students. The activity will also include the use of conditional statements that require new ays of thinking and improve skills in computational thinking."
+  },
+  {
+    "objectID": "activities/12activity/activity12.html#time-required",
+    "href": "activities/12activity/activity12.html#time-required",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "Time Required",
+    "text": "Time Required\n\nTime Required: 4th grade: 35min, 5th & 6th: 30min"
+  },
+  {
+    "objectID": "activities/12activity/activity12.html#materials-required",
+    "href": "activities/12activity/activity12.html#materials-required",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nBlue-Bot\nBlue-Bot Map\nFlashcards\nIPAD\nPencil\n\nPaper\n\n\nStep 1: Forming Groups\n\nPut students in groups of two at each Map, giving them each three rows of space to put down blank flashcards for obstacles and one picture flashcard as their goal.\nEach student needs a paper, pencil and IPAD to connect to their Blue-Bot\n\n\n\nStep 2: Creating Routes\n\nEncourage students to play around with Bee Bot to see the different blocks available to them for 5 minutes max.\nUsing the flashcards and three rows avaliable to them, tell students to create routes they can run their Blue-Bots through. Give students up to 10 minutes to complete this\n\n\n\nStep 3: Creating Conditions\n\nWith the paper and pencil tell students to create two restictions based upon the avaiable blocks on Blue-Blocs, they cannot have the same restrictions as their partner on the map\n\nExamples: No forward block, No turning 45 degrees, Only 45 degree blocks for turns, Can only turn left etc…\n\n\n\n\nStep 4: Completing Routes and Switching\n\nHave the students run through their own routes with conditions and once completed, switch with their partner and abide by their restrictions.\nOnce both students have done each other routes wait for another group to be done so they can switch places.\nHave the students keep their paper at their original map and use the new ones they find when switching\nKeep the students switching until they have done all the diffrent routes avaliable."
+  },
+  {
+    "objectID": "activities/12activity/activity12.html#reflection",
+    "href": "activities/12activity/activity12.html#reflection",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "Reflection",
+    "text": "Reflection\n\nLeave at least 5 minutes of the activity to ask questions about what they did\nExplore with students how easy or hard they found the activity\nAsk the students what they found were the hardest conditions to abide by.\nAsk them if there were any conditions they tried making but weren’t able to."
+  },
+  {
+    "objectID": "activities/12activity/activity12.html#summary",
+    "href": "activities/12activity/activity12.html#summary",
+    "title": "Activity 12: Blue-Blocs",
+    "section": "Summary",
+    "text": "Summary\n\nParticipation in the activity is meant to improve students computational thinking. Block coding helps students get a better understanding of how coding works and can help them improve their skills in programming. Encouraging students to create and solve obstacles for block coding will greatly improve their coding skills."
+  },
+  {
+    "objectID": "activities/03activity/03activity.html",
+    "href": "activities/03activity/03activity.html",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "",
+    "text": "Kids will learn about sorting by arranging numbered paper strips in order and using different sorting approaches that a computer can take."
+  },
+  {
+    "objectID": "activities/03activity/03activity.html#description",
+    "href": "activities/03activity/03activity.html#description",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "",
+    "text": "Kids will learn about sorting by arranging numbered paper strips in order and using different sorting approaches that a computer can take."
+  },
+  {
+    "objectID": "activities/03activity/03activity.html#materials-required",
+    "href": "activities/03activity/03activity.html#materials-required",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nPaper pieces labelled 1-10\nNotebook & pen"
+  },
+  {
+    "objectID": "activities/03activity/03activity.html#steps-to-conduct-the-activity",
+    "href": "activities/03activity/03activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Introduction\n\nUsing paper pieces, label them from 1 to 10.\nInteract with students and ask why they think having things sorted and arranged can be useful.\nExplain the three different sorting methods we will be using: Bubble Sort, Selection Sort, and Insertion Sort.\n\n\n\nStep 2: How Each Sorting Method Works\n\nBubble Sort\n\nBubble Sort: Takes two adjacent pieces and compares them together, arranging them by swapping if they are in the wrong order.\nLay out the numbered paper strips in a random order.\nCompare each pair of adjacent strips and swap them if they are in the wrong order.\nRepeat this process until the strips are sorted.\n\nReference video to be played before activity: Bubble Sort Algorithm\n\n\nSelection Sort\n\nSelection Sort: Repeatedly finds the smallest item in the unsorted part and moves it to the end of the sorted part.\nLay out the numbered paper strips in a random order.\nFind the smallest number among all the strips and move it to the first position.\nFind the next smallest number from the remaining strips and place it next to the first.\nRepeat until all strips are sorted.\n\nReference video to be played before activity: Selection Sort Algorithm\n\n\nInsertion Sort\n\nInsertion Sort: Involves sorting one item at a time by comparing each new item with the items already sorted and inserting it in the correct position.\nLay out the numbered paper strips in a random order.\nStart with the second strip and compare it to the first. Insert it in the correct position (before or after the first strip).\nTake the third strip and compare it to the already sorted strips, inserting it in the correct position.\nRepeat the process until all strips are sorted.\n\nReference video to be played before activity: Insertion Sort Algorithm"
+  },
+  {
+    "objectID": "activities/03activity/03activity.html#reflection",
+    "href": "activities/03activity/03activity.html#reflection",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "Reflection",
+    "text": "Reflection\n\nGather back as a class and ask students which method took them the least amount of time to complete.\nIf the answers vary, ask them why they felt that way.\n\n\nAnswers on Which Algorithm is Usually Faster\n\nBubble Sort: Slow because it has to compare and swap a lot.\nSelection Sort: A little better than bubble sort but still has to make many comparisons.\nInsertion Sort: Often the fastest of the three for small lists because it finds the right spot for each item without many unnecessary moves."
+  },
+  {
+    "objectID": "activities/03activity/03activity.html#learning-outcomes",
+    "href": "activities/03activity/03activity.html#learning-outcomes",
+    "title": "Activity 3: Different Ways a Computer Sorts",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this activity, students should:\n\nUnderstand the basic concepts of sorting and why it is useful.\nLearn how to perform Bubble Sort, Selection Sort, and Insertion Sort.\nRecognize the differences in efficiency between the three sorting methods."
+  },
+  {
+    "objectID": "activities/index.html",
+    "href": "activities/index.html",
+    "title": "Activities",
+    "section": "",
+    "text": "Activities\nWelcome to the page where you can find activities. Below you’ll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 10: Internet Safety Routes\n\n\nTeaching internet safety through identifying safe and unsafe actions online using Spheros.\n\n\n\n\n\nAll grades except Kindergarten\n\n\n45 mins to 1 hour\n\n\n\n\n\n\n\nActivity 11: Minecraft Designer\n\n\nExploring Minecraft through Block Coding on Code.org\n\n\n\n\n\nAll Grades\n\n\n35 minutes\n\n\n\n\n\n\n\nActivity 12: Blue-Blocs\n\n\nEnhancing Computational Thinking through Interactive Coding Challenges.\n\n\n\n\n\n4th, 5th, and 6th grade\n\n\nTime requirements listed below.\n\n\n\n\n\n\n\nActivity 13: Sphero Exploration\n\n\nProviding students with practice using Sphero robots through a fun and engaging competition.\n\n\n\n\n\n1st Grade onwards\n\n\n25 minutes\n\n\n\n\n\n\n\nActivity 1: Navigating Decisions with If-Else-Elif Statements\n\n\nTeaching students the fundamentals of if-else-elif statements through hands-on activities.\n\n\n\n\n\n5th Grade\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 2: Binary & Balloons\n\n\nIntroducing students to binary numbers through interactive and fun activities.\n\n\n\n\n\n2nd Grade onwards\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 3: Different Ways a Computer Sorts\n\n\nTeaching students about sorting algorithms through hands-on activities.\n\n\n\n\n\n1st Grade onwards\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 4: Bee Bots\n\n\nEngaging students in creating obstacles and routes through block coding with Bee Bots.\n\n\n\n\n\nKindergarten - 6th Grade\n\n\nVaries by grade\n\n\n\n\n\n\n\nActivity 5: Simon’s Bracket\n\n\nTeaching students to use light brackets through imitation and collaboration.\n\n\n\n\n\n5th & 6th Grade\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 6: Debugging\n\n\nTeaching students to identify and fix bugs in code through hands-on activities.\n\n\n\n\n\n4th - 6th Grade\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 7: Pattern Recognition Activity - Pattern Detectives\n\n\nEngaging students in identifying, analyzing, and creating simple patterns using shapes, colors, or numbers.\n\n\n\n\n\n1st Grade onwards\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 8: Designing and Programming Robots\n\n\nEncouraging creativity and critical thinking through robot design and online coding.\n\n\n\n\n\nKindergarden - 5th grade\n\n\n20-30 minutes\n\n\n\n\n\n\n\nActivity 9: Maze Navigation Activity\n\n\nIntroducing computational thinking through maze navigation and algorithmic planning.\n\n\n\n\n\nKindergarten and beyond (Adaptable Complexity)\n\n\n30 - 40 minutes\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "activities/13activity/activity13.html",
+    "href": "activities/13activity/activity13.html",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "",
+    "text": "Students will utilize Sphero robots to create trails with wooden blocks. This activity is designed to provide them with better practice using the devices in preparation for future activities. To maintain engagement and control, a competition involving the Spheros will be organized, as they can be challenging to maneuver initially."
+  },
+  {
+    "objectID": "activities/13activity/activity13.html#description",
+    "href": "activities/13activity/activity13.html#description",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "",
+    "text": "Students will utilize Sphero robots to create trails with wooden blocks. This activity is designed to provide them with better practice using the devices in preparation for future activities. To maintain engagement and control, a competition involving the Spheros will be organized, as they can be challenging to maneuver initially."
+  },
+  {
+    "objectID": "activities/13activity/activity13.html#materials-required",
+    "href": "activities/13activity/activity13.html#materials-required",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nSpheros\niPads\nWooden Blocks"
+  },
+  {
+    "objectID": "activities/13activity/activity13.html#steps-to-conduct-the-activity",
+    "href": "activities/13activity/activity13.html#steps-to-conduct-the-activity",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Creating Trails\n\nStart by giving students wooden blocks and direct them to create trails they can use for the Spheros.\nAllow this part to last for at least 10 minutes.\n\n\n\nStep 2: Distributing Spheros\n\nSpheros need iPads to work. Open the Sphero app on the iPad, which will start by trying to find a Sphero to connect to.\nOnce connected, distribute the Spheros to the students. If there are not enough for all the students, create pairs.\n\n\n\nStep 3: Racing Spheros\n\nAfter students have used the Spheros on their own or in pairs for 5 minutes, direct them towards making trails that will allow space for two Spheros to race one another to see who will finish first.\nKeep this part of the activity going until there are 3 minutes left."
+  },
+  {
+    "objectID": "activities/13activity/activity13.html#reflection",
+    "href": "activities/13activity/activity13.html#reflection",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "Reflection",
+    "text": "Reflection\n\nAfter students have finished cleaning up the wooden blocks, ask them if they found it hard to maneuver the Spheros."
+  },
+  {
+    "objectID": "activities/13activity/activity13.html#summary",
+    "href": "activities/13activity/activity13.html#summary",
+    "title": "Activity 13: Sphero Exploration",
+    "section": "Summary",
+    "text": "Summary\nThis activity helps students get a better understanding of the device and exposes them to some areas of computer science."
+  },
+  {
+    "objectID": "activities/02activity/02activity.html",
+    "href": "activities/02activity/02activity.html",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "",
+    "text": "This activity is suitable for younger kids as it involves simpler tasks but can also be adjusted to be more challenging. It involves students mixing and matching a set of balloons with binary numbers (0 and 1) on them and decoding these sequences into decimal numbers. Additionally, it introduces students to how different binary sequences can represent different decimal numbers.\nFor students unfamiliar with the powers of 2, a reference sheet will be provided to guide them."
+  },
+  {
+    "objectID": "activities/02activity/02activity.html#description",
+    "href": "activities/02activity/02activity.html#description",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "",
+    "text": "This activity is suitable for younger kids as it involves simpler tasks but can also be adjusted to be more challenging. It involves students mixing and matching a set of balloons with binary numbers (0 and 1) on them and decoding these sequences into decimal numbers. Additionally, it introduces students to how different binary sequences can represent different decimal numbers.\nFor students unfamiliar with the powers of 2, a reference sheet will be provided to guide them."
+  },
+  {
+    "objectID": "activities/02activity/02activity.html#materials-required",
+    "href": "activities/02activity/02activity.html#materials-required",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "Materials Required",
+    "text": "Materials Required\n\n3-4 Balloons\nMarkers\nA sheet with the powers of 2\nPiece of paper and pens for calculations / Whiteboards and markers"
+  },
+  {
+    "objectID": "activities/02activity/02activity.html#steps-to-conduct-the-activity",
+    "href": "activities/02activity/02activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Preparation\n\nInflate 3 balloons and secure them. Blow up one more in case an additional example is needed.\nWrite the binary digits 0 and 1 on the balloons using a permanent marker. Example provided in this folder: .\n\n\n\nStep 2: Implementation\n\nArrange the balloons in a line. You can use string or tape to ensure they stay in place.\nPrepare several different sequences for demonstration and practice (e.g., 000, 010, 011, 100, 110, 111).\nHave the extra balloon ready to be added to the activity so students can experiment with different examples.\n\n\n\nStep 3: Explanation\n\nExplain to the students that each balloon represents a binary digit (bit), and the position of the balloon determines its value in the binary number system.\nExplain that the index of the first balloon is always zero and increases from there.\nExplain the formula for decoding binary into decimal numbers.\nProvide examples of how binary is used in real life.\n\n\n\nStep 4: Implementation\n\nDivide students into different groups and ask them to solve the binary code.\nMix up their balloons with those of another group.\nAfter solving, bring the groups together to compare their answers. If they got the same answer, discuss how they arrived at it."
+  },
+  {
+    "objectID": "activities/02activity/02activity.html#reflection",
+    "href": "activities/02activity/02activity.html#reflection",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "Reflection",
+    "text": "Reflection\nAsk the following questions to stimulate discussion:\n\nWhat was the most challenging part of the activity?\nDid you find it easier to understand binary numbers after the activity? Why or why not?\nCan you think of other ways binary numbers might be used in the real world?"
+  },
+  {
+    "objectID": "activities/02activity/02activity.html#learning-outcomes",
+    "href": "activities/02activity/02activity.html#learning-outcomes",
+    "title": "Activity 2: Binary & Balloons",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nBy the end of this activity, students should:\n\nHave a basic understanding of binary numbers and their positional value.\nBe able to convert simple binary numbers to decimal numbers.\nDevelop problem-solving and teamwork skills through group activities."
+  },
+  {
+    "objectID": "activities/09activity/09activity.html",
+    "href": "activities/09activity/09activity.html",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "",
+    "text": "This activity introduces students to computational thinking by guiding a “robot” through a maze using basic commands. It helps students develop skills in problem-solving, pattern recognition, and algorithmic thinking."
+  },
+  {
+    "objectID": "activities/09activity/09activity.html#description",
+    "href": "activities/09activity/09activity.html#description",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "",
+    "text": "This activity introduces students to computational thinking by guiding a “robot” through a maze using basic commands. It helps students develop skills in problem-solving, pattern recognition, and algorithmic thinking."
+  },
+  {
+    "objectID": "activities/09activity/09activity.html#materials-required",
+    "href": "activities/09activity/09activity.html#materials-required",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nA printed or drawn maze on paper\nA small car figure or token\nA set of command cards (e.g., move forward, turn left, turn right)"
+  },
+  {
+    "objectID": "activities/09activity/09activity.html#activity-steps",
+    "href": "activities/09activity/09activity.html#activity-steps",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "Activity Steps",
+    "text": "Activity Steps\n\nIntroduction\n\nExplain the concept of computational thinking, which involves breaking down problems into manageable steps, recognizing patterns, and creating algorithms to solve problems.\nIntroduce the maze activity and its goal: to navigate the robot from the start to the finish.\n\n\n\nStep 1: Setting Up\n\nProvide each student or group with a maze, a robot token, and command cards.\nClearly show the starting position and the goal on the maze.\n\n\n\nStep 2: Planning the Route\n\nAsk students to analyze the maze and plan a route for the robot.\nEncourage them to use the command cards to create a sequence of instructions that will guide the robot through the maze.\nHave students lay out the sequence of commands in order.\n\n\n\nStep 3: Executing the Plan\n\nStudents place their robot token at the starting position.\nThey follow their planned sequence of commands to navigate the robot through the maze.\nIf the robot encounters an obstacle or reaches a dead end, students should revise their plan and try again.\n\n\n\nExtension: Blockly Maze Game\n\nOnce students successfully complete the maze activity, they can advance to a more challenging and interactive coding game using an iPad, such as the Blockly Maze Game."
+  },
+  {
+    "objectID": "activities/09activity/09activity.html#reflection",
+    "href": "activities/09activity/09activity.html#reflection",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "Reflection",
+    "text": "Reflection\n\nAfter completing the maze activity, gather students into a group and discuss:\n\nWhat challenges did you face?\nHow did you solve any problems that arose?\nWhat strategies helped you find the correct path?\nDiscuss how this activity relates to real-world computational thinking and problem-solving."
+  },
+  {
+    "objectID": "activities/09activity/09activity.html#learning-outcomes",
+    "href": "activities/09activity/09activity.html#learning-outcomes",
+    "title": "Activity 9: Maze Navigation Activity",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDevelop computational thinking skills through planning and executing a sequence of steps.\nEnhance problem-solving abilities by identifying patterns and applying appropriate strategies.\n\n\nPicture of the Map\n\n\n\nMap Picture"
+  },
+  {
+    "objectID": "activities/11activity/activity11.html",
+    "href": "activities/11activity/activity11.html",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "",
+    "text": "Students will use the Code.org platform to play the Minecraft block coding game. This activity introduces various uses of block coding, making it easier for students to grasp coding concepts through interactive gameplay."
+  },
+  {
+    "objectID": "activities/11activity/activity11.html#description",
+    "href": "activities/11activity/activity11.html#description",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "",
+    "text": "Students will use the Code.org platform to play the Minecraft block coding game. This activity introduces various uses of block coding, making it easier for students to grasp coding concepts through interactive gameplay."
+  },
+  {
+    "objectID": "activities/11activity/activity11.html#materials-required",
+    "href": "activities/11activity/activity11.html#materials-required",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "Materials Required",
+    "text": "Materials Required\n\niPad\nCode.org platform: Minecraft Designer"
+  },
+  {
+    "objectID": "activities/11activity/activity11.html#steps-to-conduct-the-activity",
+    "href": "activities/11activity/activity11.html#steps-to-conduct-the-activity",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Setup and Introduction\n\nOpen the Code.org platform on iPads.\nShow students the introductory video provided before starting the activity.\n\n\n\nStep 2: Engaging with Minecraft Blocks\n\nGuide students through the initial stages of the Minecraft block coding game.\nDisable subsequent instructional videos to encourage independent exploration."
+  },
+  {
+    "objectID": "activities/11activity/activity11.html#reflection",
+    "href": "activities/11activity/activity11.html#reflection",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "Reflection",
+    "text": "Reflection\n\nPause at the 30-minute mark to discuss progress and challenges.\nAsk students to describe what they observed Minecraft mobs doing with the block codes.\nRelate the activity to game development, emphasizing how coding principles translate into interactive gameplay experiences."
+  },
+  {
+    "objectID": "activities/11activity/activity11.html#learning-outcomes",
+    "href": "activities/11activity/activity11.html#learning-outcomes",
+    "title": "Activity 11: Minecraft Designer",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nThis activity demonstrates the foundational steps in creating video games using Minecraft block coding. It explores fundamental computer science concepts, such as the use of loops in game mechanics. Students will gain insights into coding’s role in everyday activities like gaming, fostering a deeper understanding of computational thinking."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog\n\n\n Back to top"
+  },
+  {
+    "objectID": "activities/06activity/06activity.html",
+    "href": "activities/06activity/06activity.html",
+    "title": "Activity 6: Debugging",
+    "section": "",
+    "text": "This activity is designed to teach students about debugging and the different ways bugs present themselves in code. The lesson will consist of activities that help identify when there is a bug, how to fix it, and the difference between syntax errors and logic errors. It is important to emphasize what each example represents."
+  },
+  {
+    "objectID": "activities/06activity/06activity.html#description",
+    "href": "activities/06activity/06activity.html#description",
+    "title": "Activity 6: Debugging",
+    "section": "",
+    "text": "This activity is designed to teach students about debugging and the different ways bugs present themselves in code. The lesson will consist of activities that help identify when there is a bug, how to fix it, and the difference between syntax errors and logic errors. It is important to emphasize what each example represents."
+  },
+  {
+    "objectID": "activities/06activity/06activity.html#materials-required",
+    "href": "activities/06activity/06activity.html#materials-required",
+    "title": "Activity 6: Debugging",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nDebugging Scenarios\nPencil\nPaper"
+  },
+  {
+    "objectID": "activities/06activity/06activity.html#steps-to-conduct-the-activity",
+    "href": "activities/06activity/06activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 6: Debugging",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Identifying Bugs\n\nExplain what a bug is in code and show an example through given scenarios. Ensure the scenarios are instructions for different tasks and do not contain actual lines of code.\nDistribute scenarios for students to identify statements that need debugging. Ensure students identify and fix all bugs present in the instructions.\n\n\n\nStep 2: Categorizing Bugs\n\nExplain the differences between syntax errors and logic errors. Syntax errors prevent instructions from being executed, while logic errors allow execution but not in the intended way.\nProvide students with more scenarios that require them to identify if there is a bug and whether it is a syntax or logic error.\n\n\n\nStep 3: Practice\n\nHave students create instructions that contain mistakes, no mistakes, syntax errors, and logic errors.\nThis exercise will improve their understanding of how to identify bugs and the different types they might encounter."
+  },
+  {
+    "objectID": "activities/06activity/06activity.html#reflection",
+    "href": "activities/06activity/06activity.html#reflection",
+    "title": "Activity 6: Debugging",
+    "section": "Reflection",
+    "text": "Reflection\n\nExplain the similarity between actual code and the activity, emphasizing how debugging requires the skills practiced in the activity.\nAsk students if they found the activity challenging and what new concepts they learned.\nInquire which was harder: identifying bugs or categorizing them."
+  },
+  {
+    "objectID": "activities/06activity/06activity.html#summary",
+    "href": "activities/06activity/06activity.html#summary",
+    "title": "Activity 6: Debugging",
+    "section": "Summary",
+    "text": "Summary\nThis activity introduces students to the basics of debugging. It highlights common errors in code and methods for addressing them. Engagement in these activities can better prepare students for coding by providing a solid understanding of how to handle errors."
+  },
+  {
+    "objectID": "activities/05activity/05activity.html",
+    "href": "activities/05activity/05activity.html",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "",
+    "text": "Students will be given light brackets and shown pictures that they must imitate. They can work in groups or individually depending on the figures being shown to them. This activity will teach them how to use light brackets effectively."
+  },
+  {
+    "objectID": "activities/05activity/05activity.html#description",
+    "href": "activities/05activity/05activity.html#description",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "",
+    "text": "Students will be given light brackets and shown pictures that they must imitate. They can work in groups or individually depending on the figures being shown to them. This activity will teach them how to use light brackets effectively."
+  },
+  {
+    "objectID": "activities/05activity/05activity.html#materials-required",
+    "href": "activities/05activity/05activity.html#materials-required",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nLight bracket board\nPictures of bracket boards"
+  },
+  {
+    "objectID": "activities/05activity/05activity.html#steps-to-conduct-the-activity",
+    "href": "activities/05activity/05activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Teaching the Bracket\n\nExplain to the students how to use a bracket board to make certain lights turn on. Allow them to become familiar with using the board before starting the activity.\n\n\n\nStep 2: Using Bracket Images\n\nOnce the students are ready, show them pictures of bracket boards that they must imitate. The first student or group to correctly imitate the picture wins.\nCreate images that require students to collaborate with others to complete the image."
+  },
+  {
+    "objectID": "activities/05activity/05activity.html#reflection",
+    "href": "activities/05activity/05activity.html#reflection",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "Reflection",
+    "text": "Reflection\n\nAsk students what they found challenging about getting the bracket boards to work.\nInquire which image they found the hardest to create and why."
+  },
+  {
+    "objectID": "activities/05activity/05activity.html#summary",
+    "href": "activities/05activity/05activity.html#summary",
+    "title": "Activity 5: Simon’s Bracket",
+    "section": "Summary",
+    "text": "Summary\nThis activity helps students understand how to use light brackets and introduces them to some areas of computer science. It exposes them to aspects of hardware and demonstrates the different ways it can be used."
+  },
+  {
+    "objectID": "activities/04activity/04activity.html",
+    "href": "activities/04activity/04activity.html",
+    "title": "Activity 4: Bee Bots",
+    "section": "",
+    "text": "In this activity, students will create obstacles through conditional actions using the Bee Bot app. Students will pair up and create routes that require block coding to navigate. Block coding is a hands-on way for children to learn the basics of coding. This activity will help students understand coding concepts and the creative ways they can be applied."
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#description",
+    "href": "activities/04activity/04activity.html#description",
+    "title": "Activity 4: Bee Bots",
+    "section": "",
+    "text": "In this activity, students will create obstacles through conditional actions using the Bee Bot app. Students will pair up and create routes that require block coding to navigate. Block coding is a hands-on way for children to learn the basics of coding. This activity will help students understand coding concepts and the creative ways they can be applied."
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#grades-time-required",
+    "href": "activities/04activity/04activity.html#grades-time-required",
+    "title": "Activity 4: Bee Bots",
+    "section": "Grades & Time Required",
+    "text": "Grades & Time Required\n\nKindergarten: 45 minutes\n2nd - 4th Grade: 30 minutes\n5th & 6th Grade: 25 minutes"
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#materials-required",
+    "href": "activities/04activity/04activity.html#materials-required",
+    "title": "Activity 4: Bee Bots",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nBee Bot\nPencil\nPaper\nBee Bot Map (optional)"
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#steps-to-conduct-the-activity",
+    "href": "activities/04activity/04activity.html#steps-to-conduct-the-activity",
+    "title": "Activity 4: Bee Bots",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Forming Groups\n\nThe activity can be done individually or in groups.\nStart with individual competition to allow all students to practice creating routes independently. This will enhance their understanding of the game.\nAfter individual practice, move to group activities to foster collaboration and teamwork.\n\n\n\nStep 2: Creating Routes and Conditions\n\nEncourage students to explore Bee Bot and the different blocks available.\nExplain that they need to create a route with specific rules. For example, they could create a rule that the Bee Bot cannot move backwards.\nOn a separate sheet of paper, have students write down the rules they have created, specifying what their opponents are not allowed to do.\n\n\n\nStep 3: Completing Routes\n\nOnce students have created their routes and conditions, have them swap with their partners.\nTime the students to see who can create a route first, conducting multiple rounds with different partners.\nEnsure that only group members collaborate, with no assistance from opposing teams.\nIf a student is struggling, provide guidance on the initial steps to help them succeed."
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#reflection",
+    "href": "activities/04activity/04activity.html#reflection",
+    "title": "Activity 4: Bee Bots",
+    "section": "Reflection",
+    "text": "Reflection\n\nDiscuss with students how easy or difficult they found the activity.\nAsk them which conditions were the hardest to follow.\nInquire if there were any conditions they wanted to create but couldn’t implement."
+  },
+  {
+    "objectID": "activities/04activity/04activity.html#summary",
+    "href": "activities/04activity/04activity.html#summary",
+    "title": "Activity 4: Bee Bots",
+    "section": "Summary",
+    "text": "Summary\nParticipating in this activity will enhance students’ computational thinking. Block coding with Bee Bots helps students understand basic coding principles and improves their programming skills. Encouraging students to create and solve obstacles in block coding will significantly boost their coding proficiency."
+  },
+  {
+    "objectID": "activities/07activity/07activity.html",
+    "href": "activities/07activity/07activity.html",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "",
+    "text": "Children will identify, analyze, and create simple patterns using shapes, colors, or numbers."
+  },
+  {
+    "objectID": "activities/07activity/07activity.html#objectives",
+    "href": "activities/07activity/07activity.html#objectives",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "",
+    "text": "Children will identify, analyze, and create simple patterns using shapes, colors, or numbers."
+  },
+  {
+    "objectID": "activities/07activity/07activity.html#materials-needed",
+    "href": "activities/07activity/07activity.html#materials-needed",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "Materials Needed",
+    "text": "Materials Needed\n\nPaper and colored pencils/crayons\nPattern blocks or cut-out shapes\nOptional: A whiteboard and markers"
+  },
+  {
+    "objectID": "activities/07activity/07activity.html#instructions",
+    "href": "activities/07activity/07activity.html#instructions",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "Instructions",
+    "text": "Instructions\n\nStep 1: Introduction to Patterns\n\nBegin with a brief discussion about patterns, explaining that patterns are sequences that repeat in a certain order.\nShow examples of simple patterns using shapes and colors:\n\nShapes: ⬛⬛🔴⬛⬛🔴… (Two squares, one circle, repeat)\nColors: 🔵🟢🔵🟢🔵… (Blue, green, repeat)\nNumbers: 1, 2, 1, 2, 1, 2… (Alternating 1 and 2)\n\n\n\n\nStep 2: Identify the Pattern\n\nProvide students with sets of simple sequences and ask them to identify the pattern. Examples:\n\nShapes: 🔺🔺⚫️🔺🔺⚫️…\nColors: 🟡🟡🟠🟡🟡🟠…\nNumbers: 3, 3, 6, 3, 3, 6…\n\n\n\n\nStep 3: Extend the Pattern\n\nOnce students identify the pattern, challenge them to continue the sequence by adding the next few elements.\n\nExample: Sequence: 🔵🔵🟢🔵🔵🟢… (They add 🔵🔵🟢 next)\n\n\n\n\nStep 4: Create Your Own Pattern\n\nInstruct students to create their own simple patterns using shapes, colors, or numbers on paper.\nEncourage them to share their patterns with a partner and see if their partner can identify and extend the pattern.\n\n\n\nStep 5: Pattern Puzzles\n\nCreate “pattern puzzles” where some elements in the sequence are missing, and ask students to fill in the blanks.\n\nExample: Sequence: 🟣, 🟣, 🟤, , 🟣, 🟣, 🟤,  (They fill in with 🟣, 🟣, 🟤)\n\n\n\n\nExtensions\n\nFor students who complete the exercises, introduce them to the coding challenge on Blockly Turtle Blockly Turtle. This program prompts students to code shapes."
+  },
+  {
+    "objectID": "activities/07activity/07activity.html#reflection",
+    "href": "activities/07activity/07activity.html#reflection",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "Reflection",
+    "text": "Reflection\n\nHave students display their patterns and share them with the class to foster pride in their work and appreciation for the diversity of patterns created.\nAfter completing the Blockly Turtle challenge, discuss with students the challenges they faced and how they solved coding problems."
+  },
+  {
+    "objectID": "activities/07activity/07activity.html#learning-outcomes",
+    "href": "activities/07activity/07activity.html#learning-outcomes",
+    "title": "Activity 7: Pattern Recognition Activity - Pattern Detectives",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nStudents will develop the ability to recognize and extend patterns.\nStudents will enhance critical thinking and problem-solving skills.\nStudents will learn to create their own patterns and communicate them effectively."
+  }
+]

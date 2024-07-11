@@ -1,0 +1,42 @@
+---
+title: "Activity 13: Sphero Exploration"
+subtitle: "Providing students with practice using Sphero robots through a fun and engaging competition."
+grades: 1st Grade onwards
+time_required: 25 minutes
+toc: true
+---
+
+## **Description**
+
+Students will utilize Sphero robots to create trails with wooden blocks. This activity is designed to provide them with better practice using the devices in preparation for future activities. To maintain engagement and control, a competition involving the Spheros will be organized, as they can be challenging to maneuver initially.
+
+## **Materials Required**
+
+- Spheros
+- iPads
+- Wooden Blocks
+
+## **Steps to Conduct the Activity**
+
+### Step 1: Creating Trails
+
+- Start by giving students wooden blocks and direct them to create trails they can use for the Spheros.
+- Allow this part to last for at least 10 minutes.
+
+### Step 2: Distributing Spheros
+
+- Spheros need iPads to work. Open the Sphero app on the iPad, which will start by trying to find a Sphero to connect to.
+- Once connected, distribute the Spheros to the students. If there are not enough for all the students, create pairs.
+
+### Step 3: Racing Spheros
+
+- After students have used the Spheros on their own or in pairs for 5 minutes, direct them towards making trails that will allow space for two Spheros to race one another to see who will finish first.
+- Keep this part of the activity going until there are 3 minutes left.
+
+## **Reflection**
+
+- After students have finished cleaning up the wooden blocks, ask them if they found it hard to maneuver the Spheros.
+
+## **Summary**
+
+This activity helps students get a better understanding of the device and exposes them to some areas of computer science.

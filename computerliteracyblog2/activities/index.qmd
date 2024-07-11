@@ -1,0 +1,21 @@
+---
+title: Activities
+layout: full
+toc: true
+listing:
+    - id: featured-activities
+      type: default
+      sort-ui: true
+      filter-ui: true
+      fields: [title, subtitle, grades, time_required]
+      contents:
+        - "*activity/**/*.qmd"
+      sort:
+        - "title"
+        - "grades"
+        - "time_required"
+---
+
+# Activities
+
+Welcome to the page where you can find activities. Below you'll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.

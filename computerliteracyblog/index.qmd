@@ -1,7 +1,9 @@
 ---
-title: K-6 Computer Literacy Program
+title: "K-6 Computer Literacy Program"
 layout: full
 toc: false
 ---
 
 # Welcome to the Home Page!
+
+Hello, this is my blog.

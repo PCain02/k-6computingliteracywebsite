@@ -1,0 +1,8 @@
+---
+title: K-6 Computer Literacy Blog
+layout: full
+toc: false
+---
+
+# WELCOME TO THE PROGRAM BLOG!
+
