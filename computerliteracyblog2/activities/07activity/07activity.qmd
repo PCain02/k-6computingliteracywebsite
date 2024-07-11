@@ -22,7 +22,7 @@ Children will identify, analyze, and create simple patterns using shapes, colors
 
 - Begin with a brief discussion about patterns, explaining that patterns are sequences that repeat in a certain order.
 - Show examples of simple patterns using shapes and colors:
-  - Shapes: ⬛⬛🔴⬛⬛🔴… (Two squares, one circle, repeat)
+  - Shapes: `⬛⬛🔴⬛⬛🔴…` (Two squares, one circle, repeat)
   - Colors: 🔵🟢🔵🟢🔵… (Blue, green, repeat)
   - Numbers: 1, 2, 1, 2, 1, 2… (Alternating 1 and 2)
 
@@ -50,7 +50,7 @@ Children will identify, analyze, and create simple patterns using shapes, colors
 
 ### Extensions
 
-- For students who complete the exercises, introduce them to the coding challenge on Blockly Turtle [Blockly Turtle](https://blockly.games/turtle?lang=en). This program prompts students to code shapes.
+- For students who complete the exercises, introduce them to the coding challenge on [Blockly Turtle](https://blockly.games/turtle?lang=en). This program prompts students to code shapes.
 
 ## Reflection
 

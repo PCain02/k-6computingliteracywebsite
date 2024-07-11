@@ -31,7 +31,7 @@ format:
     fontsize: 1.25em
     theme: materia
     highlight-style: github
-    css: styles.css
+    css: css/styles.css
 
 execute:
   freeze: auto
