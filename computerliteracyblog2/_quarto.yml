@@ -13,8 +13,8 @@ website:
   favicon: "icons/favicon.ico"
   navbar:
     right:
-      - text: "Tech Leader Guide"
-        href: "tech-leader-guide/index.qmd"
+      - text: "Technical Leader Guide"
+        href: "technical-leader-guide/index.qmd"
       - text: "Activities"
         href: "activities/index.qmd"
       - text: "About"
@@ -28,7 +28,7 @@ website:
 
 format:
   html:
-    mainfont:  Fira Sans Black
+    mainfont: Fira Sans Black
     monofont: Ubuntu Mono
     fontsize: 1.25em
     theme: yeti

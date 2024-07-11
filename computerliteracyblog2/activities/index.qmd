@@ -1,5 +1,5 @@
 ---
-title: Find Activities
+title: Activities Page
 layout: full
 toc: true
 listing:
