@@ -1,10 +1,10 @@
 ---
-title: "Home"
+title: ""
 format: html
 ---
 
-<div class="hero-section" style="background-color: #397dc9; color: white; text-align: center; padding: 50px 20px;">
+<div class="hero-section" style="background-color: #397dc9; color: white; text-align: center; padding: 50px 20px; border-radius: 15px;">
   <h1>The Program</h1>
   <p>Let's make a world where we think like computers</p>
-  <a href="about/index.qmd" class="button" style="background-color: #ef3220; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">For more information, check out the about page</a>
+  <a href="about/index.qmd" class="button" style="background-color: #ef3220; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">For more information about what we do, check out the about page</a>
 </div>

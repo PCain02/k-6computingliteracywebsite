@@ -10,7 +10,7 @@ website:
   reader-mode: false
   back-to-top-navigation: true
   page-navigation: true
-  favicon: "icons/favicon.ico"
+  favicon: "images/logonew.png"
   navbar:
     right:
       - text: "Technical Leader Guide"
@@ -19,12 +19,10 @@ website:
         href: "activities/index.qmd"
       - text: "About"
         href: "about/index.qmd"
-
   page-footer:
     right:
       - icon: github
         href: https://github.com/K-6-computing-literacy
-      
 
 format:
   html:
@@ -37,4 +35,3 @@ format:
 
 execute:
   freeze: auto
-
