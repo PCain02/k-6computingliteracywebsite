@@ -3,6 +3,7 @@ title: "Activity 8: Designing and Programming Robots"
 subtitle: "Encouraging creativity and critical thinking through robot design and online coding."
 grades: Kindergarden - 5th grade
 time_required: "30 minutes"
+keywords: ["Kindergaten", "1", "2", "3", "4", "5", "30 minutes"]
 toc: true
 ---
 

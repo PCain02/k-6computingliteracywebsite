@@ -6,10 +6,12 @@
 
 .navbar a, .navbar .navbar-brand {
     color: #000000;  /* text color */
+    transition: transform 0.3s ease, color 0.3s ease;  /* add transition for smooth effect */
 }
 
 .navbar a:hover, .navbar .navbar-brand:hover {
-    color: #66ccff;  /* hover color */
+    color: #000000;  /* hover color */
+    transform: scale(1.1);  /* Enlarge the element */
 }
 
 .navbar-title {
@@ -36,6 +38,6 @@ body {
 }
 
 .button:hover {
-    background-color: #ff6347; /* A lighter shade of red for highlighting */
+    background-color: #ff6347; /* lighter shade of red for highlighting */
     color: white;
 }

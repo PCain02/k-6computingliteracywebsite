@@ -3,6 +3,7 @@ title: "Activity 2: Binary & Balloons"
 subtitle: "Introducing students to binary numbers through interactive and fun activities."
 grades: 2nd Grade onwards
 time_required: "30 minutes"
+keywords: ["2", "3", "4", "5", "6", "30 minutes"]
 toc: true
 ---
 
