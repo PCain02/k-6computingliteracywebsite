@@ -12,6 +12,7 @@ Students will be introduced to the basics of electronics using Arduino, an open-
 
 ## Materials required
 
+- Arduino Instructions: [Intro to Basic Electronics with Arduino](https://docs.google.com/document/d/1cPh0NCV_lXEYbUFzkZiseoTPQTM8filLLZxizIvs-Q4/edit#heading=h.h1avinm0cmy6)
 - Arduino Board and program
 - Arduino USB connector cable
 - 3 LEDs
@@ -20,15 +21,9 @@ Students will be introduced to the basics of electronics using Arduino, an open-
 
 ## Steps to conduct the activity
 
-### Step 1: Setup and Introduction
+### Step 1: Accessesing Arduino Instructions
 
-- Open the Code.org platform on iPads.
-- Show students the introductory video provided before starting the activity.
-
-### Step 2: Engaging with Minecraft Blocks
-
-- Guide students through the initial stages of the Frozen block coding game.
-- Disable subsequent instructional videos to encourage independent exploration.
+- Acssess insturction in order to run activity [Intro to Basic Electronics with Arduino](https://docs.google.com/document/d/1cPh0NCV_lXEYbUFzkZiseoTPQTM8filLLZxizIvs-Q4/edit#heading=h.h1avinm0cmy6)
 
 ## Reflection
 

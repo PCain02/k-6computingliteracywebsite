@@ -8,29 +8,46 @@ toc: true
 
 ## Description
 
-This activity is designed to teach students about debugging and the different ways bugs present themselves in code. The lesson will consist of activities that help identify when there is a bug, how to fix it, and the difference between syntax errors and logic errors. It is important to emphasize what each example represents.
+This activity is designed to educate students on debugging and the various manifestations of bugs in code. The lesson will encompass an activity that assists students in identifying the presence of a bug, methods for resolving it, and distinguishing between syntax errors and logic errors. Syntax errors occur due to grammatical or indentation mistakes in the code, which prevent the program from running correctly. These errors are akin to misspellings or improper punctuation in written language. On the other hand, logic errors arise when the lines of code, while syntactically correct, do not produce the intended outcome. These errors are caused by flawed logic that the computer cannot interpret as intended, leading to incorrect or unexpected results. The activity will use instructions to represent syntax and logic errors that the student will need to identify. It is crucial to highlight what each example represents to ensure a clear understanding of these concepts.
 
 ## Materials Required
 
+- Debugging Video: [Bugs!](https://www.youtube.com/watch?v=__y3BCwDG7M)
 - Debugging Scenarios
 - Pencil
 - Paper
 
 ## Steps to Conduct the Activity
 
+### Step 1: Printing out Debugging Sheets
+
+- Print out debugging sheet before activity starts or during debugging video if you are running activity with someone else
+
+DEBUGGING SHEET: [Debugging Sheet](https://docs.google.com/document/d/1L86-WB-uE4dBrraLybJxo6_hLuJ3e03cSk8X9bEUcEM/edit)
+
+
+DEBUGGING ANSWER SHEET: [Answer Sheet](https://docs.google.com/document/d/1pG_6DiegHk-gZd8qHC5B6bFUzoRRnpDrWdM2Ba9alVo/edit)
+
+
+### Step 2: Watching Debugging Video
+
+- Show students Debugging video [Bugs!](https://www.youtube.com/watch?v=__y3BCwDG7M)
+- After the video is done ask them about what they think bugs in coding will look like
+- Also ask them if they think bugs can show up in different ways or only one.
+    - Following this, it is important to emphasize to the students the types of errors they may encounter while learning to code. Syntax errors occur due to grammatical or indentation mistakes in the code, which prevent the program from running correctly. These errors are akin to misspellings or improper punctuation in written language. On the other hand, logic errors arise when the lines of code, while syntactically correct, do not produce the intended outcome. These errors are caused by flawed logic that the computer cannot interpret as intended, leading to incorrect or unexpected results.
+
 ### Step 1: Identifying Bugs
 
-- Explain what a bug is in code and show an example through given scenarios. Ensure the scenarios are instructions for different tasks and do not contain actual lines of code.
-- Distribute scenarios for students to identify statements that need debugging. Ensure students identify and fix all bugs present in the instructions.
+- Hand out the Sheets of paper with the identifying bugs side first
+- With the written examples in the first part of the sheet explain to students that instructions that do not make sense or are grammatically incorrect can be identified as bugs
 
 ### Step 2: Categorizing Bugs
 
-- Explain the differences between syntax errors and logic errors. Syntax errors prevent instructions from being executed, while logic errors allow execution but not in the intended way.
-- Provide students with more scenarios that require them to identify if there is a bug and whether it is a syntax or logic error.
+- The second part of the sheet has all bugs, direct the students to identify if the instruction be would syntax errors or logic errors
 
 ### Step 3: Practice
 
-- Have students create instructions that contain mistakes, no mistakes, syntax errors, and logic errors.
+- Have students create instructions that contain Bugs , no Bugs, syntax errors, and logic errors.
 - This exercise will improve their understanding of how to identify bugs and the different types they might encounter.
 
 ## Reflection

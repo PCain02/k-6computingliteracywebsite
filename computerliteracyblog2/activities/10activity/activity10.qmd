@@ -50,3 +50,7 @@ This activity teaches students how to practice internet safety by identifying sa
 ## Summary
 
 This activity aims to enhance students' understanding of internet safety by actively engaging them in identifying safe and unsafe online behaviors. By using Spheros to navigate through created routes, students apply their knowledge in a practical and interactive manner, reinforcing internet safety practices.
+
+## Examples of Flashcards 
+
+![Map Picture](/images/10activty.jpg)

@@ -1,36 +1,46 @@
 ---
-title: "Activity 5: Simon's Bracket"
-subtitle: "Teaching students to use light brackets through imitation and collaboration."
-grades: 5th & 6th Grade
-time_required: 1 hour
+title: "Activity 5: Ozobots"
+subtitle: "Improving students computational thinking skills through an conditional activity."
+grades: Kindergarten
+time_required: 30 mintues
 toc: true
 ---
 
 ## Description
 
-Students will be given light brackets and shown pictures that they must imitate. They can work in groups or individually depending on the figures being shown to them. This activity will teach them how to use light brackets effectively.
+Students will receive Ozobots and directional mats to collaboratively create intersecting paths. They will be instructed not to allow the Ozobots to collide during the activity. It's crucial to ensure they start their paths simultaneously to maintain the challenge of avoiding collisions effectively. Initially straightforward, the activity aims to gradually increase complexity. As students master the task, consider removing mats strategically to constrain movement further, promoting continuous skill development and engagement.
 
 ## Materials Required
 
-- Light bracket board
-- Pictures of bracket boards
+- Ozo bot
+- Directional Mats
 
 ## Steps to Conduct the Activity
 
-### Step 1: Teaching the Bracket
+### Step 1: Forming groups
 
-- Explain to the students how to use a bracket board to make certain lights turn on. Allow them to become familiar with using the board before starting the activity.
+- Split the students into groups of three
+- If there is an uneven amount of students create groups of four
+- If there is not enough Ozobots for everyone try to create groups that have at least two Ozobots
 
-### Step 2: Using Bracket Images
+### Step 2: Creating their Paths
 
-- Once the students are ready, show them pictures of bracket boards that they must imitate. The first student or group to correctly imitate the picture wins.
-- Create images that require students to collaborate with others to complete the image.
+- Allow students for up to 10 minutes to create their paths with the option of creating intersections if they want too
+- Once it has hit the 10 minute mark they must all create paths that are intersecting with on another
+
+### Step 3: Restriction
+
+- If students have successfully run through paths at least three times, require them to remove at least one of the directional mats they have. This could be forward, back, stop, dance etc.
+- Remove only a maximum of two mats at a time. Do not remove mats that will not allow them to be able to move effectively at all
+    -Example: Removing the forward and back mat at the same time
 
 ## Reflection
 
-- Ask students what they found challenging about getting the bracket boards to work.
-- Inquire which image they found the hardest to create and why.
+- Ask students what they found challenging about creating their paths with one another
+- Ask if they found it harder or easier to work with people or to make paths by themselves
+- Ask them if there was anything they wanted to do but didn't have the time to do.
 
-## Summary
+## Learning Outcomes
 
-This activity helps students understand how to use light brackets and introduces them to some areas of computer science. It exposes them to aspects of hardware and demonstrates the different ways it can be used.
+This activity is designed to enhance students' computational skills by fostering adaptability and problem-solving in response to varying conditions. It promotes the development of critical thinking abilities crucial for early learners. This simplified introduction to conditional statements is particularly beneficial for kindergarteners, laying a foundational understanding essential for their initial encounters with coding concepts.
+
