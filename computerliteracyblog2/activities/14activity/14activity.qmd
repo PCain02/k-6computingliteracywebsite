@@ -2,7 +2,7 @@
 title: "Activity 14: Code with Anna and Elsa"
 subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
 grades: All grades
-time_required: 35 minutes
+time_required: "30 minutes"
 toc: true
 ---
 

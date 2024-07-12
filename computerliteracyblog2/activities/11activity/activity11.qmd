@@ -2,7 +2,7 @@
 title: "Activity 11: Minecraft Designer"
 subtitle: "Exploring Minecraft through Block Coding on Code.org"
 grades: All Grades
-time_required: 35 minutes
+time_required: "30 minutes"
 toc: true
 ---
 

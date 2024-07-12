@@ -2,7 +2,7 @@
 title: "Activity 12: Blue-Blocs"
 subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
 grades: 4th, 5th, and 6th grade
-time_required: Time requirements listed below.
+time_required: "Varies by grade"
 toc: true
 ---
 

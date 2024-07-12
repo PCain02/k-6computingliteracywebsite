@@ -3,17 +3,17 @@ title: Activities Page
 layout: full
 toc: true
 listing:
-    - id: featured-activities
-      type: default
-      sort-ui: true
-      filter-ui: true
-      fields: [title, subtitle, grades, time_required]
-      contents:
-        - "*activity/**/*.qmd"
-      sort:
-        - "title:asc"
-        - "grades:asc"
-        - "time_required:asc"
+  - id: featured-activities
+    type: default
+    sort-ui: true
+    filter-ui: true
+    fields: [title, subtitle, grades, time_required]
+    contents:
+      - "*activity/**/*.qmd"
+    sort:
+      - "title:asc"
+      - "grades:asc"
+      - "time_required:asc"
 ---
 
 # Activity Archives
