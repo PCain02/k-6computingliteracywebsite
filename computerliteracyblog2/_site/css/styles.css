@@ -41,3 +41,8 @@ body {
     background-color: #ff6347; /* lighter shade of red for highlighting */
     color: white;
 }
+
+/* hide the keywords */
+.activities .keywords {
+    display: none;
+}

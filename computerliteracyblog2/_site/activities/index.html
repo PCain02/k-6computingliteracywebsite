@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-keywords','listing-title','listing-subtitle','listing-grades','listing-time_required',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-grades','listing-time_required','listing-keywords',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
@@ -207,10 +207,9 @@ window.Quarto = {
 <h1>Activity Archives</h1>
 <p>Welcome to the page where you can find activities. Below you’ll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.</p>
 <style>
-  /* Hide the keywords field in the displayed list */
-  .listing-keywords,
-  [data-field="keywords"] {
-    display: none !important;
+  /* hide the keywords field in the displayed list */
+  .listing-keywords {
+    display: none;
   }
 </style>
 
@@ -236,7 +235,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1720797818814" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1720807746901" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/01activity/01activity.html" class="no-external">Activity 1: Navigating Decisions with If-Else-Elif Statements</a>
@@ -247,19 +246,19 @@ window.Quarto = {
 </div>
 <div class="metadata">
 <p><a href="../activities/01activity/01activity.html" class="no-external"></a></p><a href="../activities/01activity/01activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-5th,1 hour
-</div>
 <div class="metadata-value listing-grades">
 5th Grade
 </div>
 <div class="metadata-value listing-time_required">
 1 hour
 </div>
+<div class="metadata-value listing-keywords">
+5th,1 hour
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1720797768113" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1720811008014" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/02activity/02activity.html" class="no-external">Activity 2: Binary &amp; Balloons</a>
@@ -270,19 +269,19 @@ window.Quarto = {
 </div>
 <div class="metadata">
 <p><a href="../activities/02activity/02activity.html" class="no-external"></a></p><a href="../activities/02activity/02activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 2nd Grade onwards
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1720797732019" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1720811036687" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/03activity/03activity.html" class="no-external">Activity 3: Different Ways a Computer Sorts</a>
@@ -293,19 +292,19 @@ window.Quarto = {
 </div>
 <div class="metadata">
 <p><a href="../activities/03activity/03activity.html" class="no-external"></a></p><a href="../activities/03activity/03activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-1,2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 1st Grade onwards
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1720797719567" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1720811058829" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/04activity/04activity.html" class="no-external">Activity 4: Bee Bots</a>
@@ -316,19 +315,19 @@ window.Quarto = {
 </div>
 <div class="metadata">
 <p><a href="../activities/04activity/04activity.html" class="no-external"></a></p><a href="../activities/04activity/04activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-kindergarten,1,2,3,4,5,6,varies
-</div>
 <div class="metadata-value listing-grades">
 Kindergarten - 6th Grade
 </div>
 <div class="metadata-value listing-time_required">
 Varies by grade
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1720797706054" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
+<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1720811074529" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/05activity/05activity.html" class="no-external">Activity 5: Ozobots</a>
@@ -339,19 +338,19 @@ Varies by grade
 </div>
 <div class="metadata">
 <p><a href="../activities/05activity/05activity.html" class="no-external"></a></p><a href="../activities/05activity/05activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-kindergarten,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 Kindergarten
 </div>
 <div class="metadata-value listing-time_required">
 30 mintues
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1720797556308" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
+<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1720811085489" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/06activity/06activity.html" class="no-external">Activity 6: Debugging</a>
@@ -362,19 +361,19 @@ Kindergarten
 </div>
 <div class="metadata">
 <p><a href="../activities/06activity/06activity.html" class="no-external"></a></p><a href="../activities/06activity/06activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 4th - 6th Grade
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1720797383257" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
+<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1720811107879" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/07activity/07activity.html" class="no-external">Activity 7: Pattern Recognition Activity - Pattern Detectives</a>
@@ -385,19 +384,19 @@ Kindergarten
 </div>
 <div class="metadata">
 <p><a href="../activities/07activity/07activity.html" class="no-external"></a></p><a href="../activities/07activity/07activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-1,2,3,4,5,6,1 hour
-</div>
 <div class="metadata-value listing-grades">
 1st Grade onwards
 </div>
 <div class="metadata-value listing-time_required">
 1 hour
 </div>
+<div class="metadata-value listing-keywords">
+1st,2nd,3rd,4th,5th,6th,1 hour
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1720797406348" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1720811126384" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/08activity/08activity.html" class="no-external">Activity 8: Designing and Programming Robots</a>
@@ -408,19 +407,19 @@ Kindergarten
 </div>
 <div class="metadata">
 <p><a href="../activities/08activity/08activity.html" class="no-external"></a></p><a href="../activities/08activity/08activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-Kindergaten,1,2,3,4,5,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 Kindergarden - 5th grade
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-file-modified-sort="1720797531865" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
+<div class="quarto-post image-right" data-index="8" data-listing-file-modified-sort="1720811135530" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/09activity/09activity.html" class="no-external">Activity 9: Maze Navigation Activity</a>
@@ -431,19 +430,19 @@ Kindergarden - 5th grade
 </div>
 <div class="metadata">
 <p><a href="../activities/09activity/09activity.html" class="no-external"></a></p><a href="../activities/09activity/09activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-kindergaten,1,2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 Kindergarten and beyond (Adaptable Complexity)
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-file-modified-sort="1720797522291" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+<div class="quarto-post image-right" data-index="9" data-listing-file-modified-sort="1720811150553" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/10activity/activity10.html" class="no-external">Activity 10: Internet Safety Routes</a>
@@ -454,19 +453,19 @@ Kindergarten and beyond (Adaptable Complexity)
 </div>
 <div class="metadata">
 <p><a href="../activities/10activity/activity10.html" class="no-external"></a></p><a href="../activities/10activity/activity10.html" class="no-external">
-<div class="metadata-value listing-keywords">
-1,2,3,4,5,6,1 hour
-</div>
 <div class="metadata-value listing-grades">
 1st grade onwards
 </div>
 <div class="metadata-value listing-time_required">
 1 hour
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,1 hour
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-file-modified-sort="1720797450430" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="quarto-post image-right" data-index="10" data-listing-file-modified-sort="1720811163008" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/11activity/activity11.html" class="no-external">Activity 11: Minecraft Designer</a>
@@ -477,19 +476,19 @@ Kindergarten and beyond (Adaptable Complexity)
 </div>
 <div class="metadata">
 <p><a href="../activities/11activity/activity11.html" class="no-external"></a></p><a href="../activities/11activity/activity11.html" class="no-external">
-<div class="metadata-value listing-keywords">
-Kindergaten,1,2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 All Grades
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-listing-file-modified-sort="1720797460715" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
+<div class="quarto-post image-right" data-index="11" data-listing-file-modified-sort="1720811180462" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/12activity/activity12.html" class="no-external">Activity 12: Blue-Blocs</a>
@@ -500,19 +499,19 @@ All Grades
 </div>
 <div class="metadata">
 <p><a href="../activities/12activity/activity12.html" class="no-external"></a></p><a href="../activities/12activity/activity12.html" class="no-external">
-<div class="metadata-value listing-keywords">
-4,5,6,Varies
-</div>
 <div class="metadata-value listing-grades">
 4th, 5th, and 6th grade
 </div>
 <div class="metadata-value listing-time_required">
 Varies by grade
 </div>
+<div class="metadata-value listing-keywords">
+4th,5th,6th,varies
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-listing-file-modified-sort="1720797475458" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="quarto-post image-right" data-index="12" data-listing-file-modified-sort="1720811196000" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/13activity/activity13.html" class="no-external">Activity 13: Sphero Exploration</a>
@@ -523,19 +522,19 @@ Varies by grade
 </div>
 <div class="metadata">
 <p><a href="../activities/13activity/activity13.html" class="no-external"></a></p><a href="../activities/13activity/activity13.html" class="no-external">
-<div class="metadata-value listing-keywords">
-1,2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 1st Grade onwards
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-listing-file-modified-sort="1720797483908" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+<div class="quarto-post image-right" data-index="13" data-listing-file-modified-sort="1720811208691" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/14activity/14activity.html" class="no-external">Activity 14: Code with Anna and Elsa</a>
@@ -546,19 +545,19 @@ Varies by grade
 </div>
 <div class="metadata">
 <p><a href="../activities/14activity/14activity.html" class="no-external"></a></p><a href="../activities/14activity/14activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-Kindergaten,1,2,3,4,5,6,30 minutes
-</div>
 <div class="metadata-value listing-grades">
 All grades
 </div>
 <div class="metadata-value listing-time_required">
 30 minutes
 </div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-listing-file-modified-sort="1720797492783" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="quarto-post image-right" data-index="14" data-listing-file-modified-sort="1720811221468" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/15activity/15activity.html" class="no-external">Activity 15: Arduino</a>
@@ -569,14 +568,14 @@ All grades
 </div>
 <div class="metadata">
 <p><a href="../activities/15activity/15activity.html" class="no-external"></a></p><a href="../activities/15activity/15activity.html" class="no-external">
-<div class="metadata-value listing-keywords">
-Kindergaten,1,2,3,4,5,6,1 hour
-</div>
 <div class="metadata-value listing-grades">
 All grades
 </div>
 <div class="metadata-value listing-time_required">
 1 hour
+</div>
+<div class="metadata-value listing-keywords">
+kindergarten,1st,2nd,3rd,4th,5th,6th,1 hour
 </div>
 </a>
 </div>
