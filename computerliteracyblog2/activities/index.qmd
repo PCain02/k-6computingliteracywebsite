@@ -7,22 +7,15 @@ listing:
     type: default
     sort-ui: true
     filter-ui: true
-    fields: [keywords, title, subtitle, grades, time_required]
+    fields: [title, subtitle, grades, time_required, keywords]
     contents:
       - "*activity/**/*.qmd"
     sort:
       - "title:asc"
-
 ---
 
 # Activity Archives
 
 Welcome to the page where you can find activities. Below you'll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.
 
-<style>
-  /* hide the keywords field in the displayed list */
-  .listing-keywords,
-  [data-field="keywords"] {
-    display: none !important;
-  }
-</style>
+<!-- Temporarily show keywords for debugging -->

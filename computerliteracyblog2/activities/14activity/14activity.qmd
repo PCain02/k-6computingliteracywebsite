@@ -3,7 +3,7 @@ title: "Activity 14: Code with Anna and Elsa"
 subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
 grades: All grades
 time_required: "30 minutes"
-keywords: ["Kindergaten", "1", "2", "3", "4", "5", "6", "30 minutes"]
+keywords: ["kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "30 minutes"]
 toc: true
 ---
 
