@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-grades','listing-time_required',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-keywords','listing-grades','listing-title','listing-subtitle','listing-time_required',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
@@ -206,6 +206,12 @@ window.Quarto = {
 <section id="activity-archives" class="level1">
 <h1>Activity Archives</h1>
 <p>Welcome to the page where you can find activities. Below you’ll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.</p>
+<style>
+  /* Hide the keywords field in the displayed list */
+  .listing-keywords {
+    display: none;
+  }
+</style>
 
 
 
@@ -229,7 +235,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1720756327647" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1720796677479" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/01activity/01activity.html" class="no-external">Activity 1: Navigating Decisions with If-Else-Elif Statements</a>
@@ -240,6 +246,9 @@ window.Quarto = {
 </div>
 <div class="metadata">
 <p><a href="../activities/01activity/01activity.html" class="no-external"></a></p><a href="../activities/01activity/01activity.html" class="no-external">
+<div class="metadata-value listing-keywords">
+5th,1
+</div>
 <div class="metadata-value listing-grades">
 5th Grade
 </div>
