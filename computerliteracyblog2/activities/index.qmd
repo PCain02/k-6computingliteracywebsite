@@ -7,7 +7,7 @@ listing:
     type: default
     sort-ui: true
     filter-ui: true
-    fields: [keywords, title, subtitle]
+    fields: [keywords, title, subtitle, grades, time_required]
     contents:
       - "*activity/**/*.qmd"
     sort:
@@ -21,7 +21,8 @@ Welcome to the page where you can find activities. Below you'll find a list of a
 
 <style>
   /* Hide the keywords field in the displayed list */
-  .listing-keywords {
-    display: none;
+  .listing-keywords,
+  [data-field="keywords"] {
+    display: none !important;
   }
 </style>
