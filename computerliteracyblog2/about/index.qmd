@@ -1,8 +1,6 @@
 ---
 title: "About"
-about:
-  template: jolla
-
+toc: true
 ---
 
 ## Pennsylvania Education 
@@ -19,7 +17,7 @@ about:
 
 ### STEM in Meadville
 
-## Our Mission and Goal
+### Our Mission and Goal
 
 - Adhering to the standards upheld by the Pennsylvania education system, our goal is to develop and implement a program that promotes sustained and ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative aims to provide a systematic introduction to computing for K-6 students, ensuring that every student in Crawford Central is regularly exposed to computing concepts at each stage of their education.
 
