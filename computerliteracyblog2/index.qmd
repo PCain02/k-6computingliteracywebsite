@@ -1,7 +1,10 @@
 ---
-title: K-6 Computer Literacy Blog
-layout: full
-toc: false
+title: "Home"
+format: html
 ---
 
-# Welcome to the computer literacy blog!
+<div class="hero-section" style="background-color: #397dc9; color: white; text-align: center; padding: 50px 20px;">
+  <h1>The Program</h1>
+  <p>Let's make a world where we think like computers</p>
+  <a href="about/index.qmd" class="button" style="background-color: #ef3220; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">For more information, check out the about page</a>
+</div>

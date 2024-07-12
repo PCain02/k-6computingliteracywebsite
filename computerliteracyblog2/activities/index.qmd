@@ -11,9 +11,9 @@ listing:
       contents:
         - "*activity/**/*.qmd"
       sort:
-        - "title"
-        - "grades"
-        - "time_required"
+        - "title:asc"
+        - "grades:asc"
+        - "time_required:asc"
 ---
 
 # Activity Archives
