@@ -20,7 +20,7 @@ listing:
 Welcome to the page where you can find activities. Below you'll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.
 
 <style>
-  /* Hide the keywords field in the displayed list */
+  /* hide the keywords field in the displayed list */
   .listing-keywords,
   [data-field="keywords"] {
     display: none !important;
