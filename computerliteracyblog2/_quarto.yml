@@ -20,12 +20,11 @@ website:
       - text: "About"
         href: "about/index.qmd"
   page-footer:
-    left:
-      - text: |
-          <img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;">
+    left: |
+      <a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;"></a>
     right:
       - icon: github
-        href: https://github.com/K-6-computing-literacy/k-6computerliteracywebsite
+        href: https://github.com/K-6-computing-literacy
 
 format:
   html:
