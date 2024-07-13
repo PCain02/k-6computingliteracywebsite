@@ -20,9 +20,12 @@ website:
       - text: "About"
         href: "about/index.qmd"
   page-footer:
+    left:
+      - text: |
+          <img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;">
     right:
       - icon: github
-        href: https://github.com/K-6-computing-literacy
+        href: https://github.com/K-6-computing-literacy/k-6computerliteracywebsite
 
 format:
   html:
