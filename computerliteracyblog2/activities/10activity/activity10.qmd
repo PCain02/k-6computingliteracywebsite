@@ -3,7 +3,7 @@ title: "Activity 10: Internet Safety Routes"
 subtitle: "Teaching internet safety through identifying safe and unsafe actions online using Spheros."
 grades: 1st grade onwards
 time_required: "1 hour"
-keywords: ["kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "1 hour"]
+categories: ["kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "1 hour"]
 toc: true
 ---
 
