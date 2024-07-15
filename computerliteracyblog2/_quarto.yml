@@ -2,9 +2,7 @@ project:
   type: website
 
 website:
-  title: |
-    <img src="/images/logonew.png" alt="Logo" style="height: 90px; vertical-align: middle; margin-right: 5px;">
-    K-6 Computer Literacy Program
+  title: '<img src="/images/logonew.png" alt="Logo" style="height: 90px; vertical-align: middle; margin-right: 5px;"> K-6 Computer Literacy Program'
   search:
     location: navbar
   reader-mode: false
@@ -20,8 +18,7 @@ website:
       - text: "About"
         href: "about/index.qmd"
   page-footer:
-    left: |
-      <a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;"></a>
+    left: '<a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 70px; vertical-align: middle; margin-right: 50px;"></a>'
     right:
       - icon: github
         href: https://github.com/K-6-computing-literacy

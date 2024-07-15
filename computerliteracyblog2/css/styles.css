@@ -1,7 +1,8 @@
 /* css styles */
 
-.page-footer {
-    background-color: #002244; /* Change to your desired background color */
+body .page-footer,
+body .nav-footer {
+    background-color: #002244 !important; /* Increase specificity and use !important */
 }
 
 .navbar {
