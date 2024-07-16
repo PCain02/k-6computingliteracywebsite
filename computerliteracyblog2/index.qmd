@@ -10,4 +10,3 @@ css: styles.css
   <a href="activities/index.qmd" class="button">Explore our engaging and educational activities designed for young digital learners.</a>
   <a href="about/index.qmd" class="button">Learn more about our exciting initiatives on the About page.</a>
 </div>
-
