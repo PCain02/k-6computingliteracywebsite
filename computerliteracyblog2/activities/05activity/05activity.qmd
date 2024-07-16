@@ -3,7 +3,7 @@ title: "Activity 5: Ozobots"
 subtitle: "Improving students computational thinking skills through an conditional activity."
 grades: Kindergarten
 time_required: "30 mintues"
-categories: ["KINDERGATEN", "30 MINUTES"]
+categories: ["KINDERGARTEN", "30 MINUTES"]
 toc: true
 ---
 
