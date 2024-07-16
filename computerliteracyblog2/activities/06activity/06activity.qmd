@@ -3,7 +3,7 @@ title: "Activity 6: Debugging"
 subtitle: "Teaching students to identify and fix bugs in code through hands-on activities."
 grades: 4th - 6th Grade
 time_required: "30 minutes"
-categories: ["4th", "5th", "6th", "30 minutes"]
+categories: ["4th", "5th", "6th", "30 MINUTES"]
 toc: true
 ---
 

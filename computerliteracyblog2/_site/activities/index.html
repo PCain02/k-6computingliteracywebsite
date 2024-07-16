@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-grades','listing-time_required',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -179,7 +179,7 @@ window.Quarto = {
   <li><a href="#activity-archives" id="toc-activity-archives" class="nav-link active" data-scroll-target="#activity-archives">Activity Archives</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="1 HOUR">1 HOUR <span class="quarto-category-count">(4)</span></div><div class="category" data-category="1st">1st <span class="quarto-category-count">(10)</span></div><div class="category" data-category="2nd">2nd <span class="quarto-category-count">(11)</span></div><div class="category" data-category="30 MINUTES">30 MINUTES <span class="quarto-category-count">(10)</span></div><div class="category" data-category="3rd">3rd <span class="quarto-category-count">(11)</span></div><div class="category" data-category="4th">4th <span class="quarto-category-count">(13)</span></div><div class="category" data-category="5th">5th <span class="quarto-category-count">(14)</span></div><div class="category" data-category="6th">6th <span class="quarto-category-count">(12)</span></div><div class="category" data-category="KINDERGARTEN">KINDERGARTEN <span class="quarto-category-count">(7)</span></div><div class="category" data-category="KINDERGATEN">KINDERGATEN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VARIES">VARIES <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -205,12 +205,6 @@ window.Quarto = {
 <section id="activity-archives" class="level1">
 <h1>Activity Archives</h1>
 <p>Welcome to the page where you can find activities. Below you’ll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.</p>
-<style>
-  /* hide the keywords field in the displayed list */
-  .listing-keywords {
-    display: none;
-  }
-</style>
 
 
 
@@ -234,7 +228,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="5th,1 hour" data-listing-file-modified-sort="1720923225630" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="quarto-post image-right" data-index="0" data-categories="5th,1 HOUR" data-listing-file-modified-sort="1721158419531" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/01activity/01activity.html" class="no-external">Activity 1: Navigating Decisions with If-Else-Elif Statements</a>
@@ -246,8 +240,8 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('5th'); return false;">
 5th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('1 hour'); return false;">
-1 hour
+<div class="listing-category" onclick="window.quartoListingCategory('1 HOUR'); return false;">
+1 HOUR
 </div>
 </div>
 </div>
@@ -262,7 +256,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923275660" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
+<div class="quarto-post image-right" data-index="1" data-categories="2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158412209" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/02activity/02activity.html" class="no-external">Activity 2: Binary &amp; Balloons</a>
@@ -286,8 +280,8 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -302,7 +296,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923278450" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
+<div class="quarto-post image-right" data-index="2" data-categories="1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158406973" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/03activity/03activity.html" class="no-external">Activity 3: Different Ways a Computer Sorts</a>
@@ -329,8 +323,8 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -345,7 +339,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923282027" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+<div class="quarto-post image-right" data-index="3" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158400812" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/04activity/04activity.html" class="no-external">Activity 4: Bee Bots</a>
@@ -354,8 +348,8 @@ window.Quarto = {
 <a href="../activities/04activity/04activity.html" class="no-external">Engaging students in creating obstacles and routes through block coding with Bee Bots.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -375,8 +369,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -391,7 +385,7 @@ Varies by grade
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="kindergarten,30 minutes" data-listing-file-modified-sort="1720923286583" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
+<div class="quarto-post image-right" data-index="4" data-categories="KINDERGATEN,30 MINUTES" data-listing-file-modified-sort="1721158394181" data-listing-reading-time-sort="2" data-listing-word-count-sort="348">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/05activity/05activity.html" class="no-external">Activity 5: Ozobots</a>
@@ -400,11 +394,11 @@ Varies by grade
 <a href="../activities/05activity/05activity.html" class="no-external">Improving students computational thinking skills through an conditional activity.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGATEN'); return false;">
+KINDERGATEN
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -419,7 +413,7 @@ Kindergarten
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923304531" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
+<div class="quarto-post image-right" data-index="5" data-categories="4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158385105" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/06activity/06activity.html" class="no-external">Activity 6: Debugging</a>
@@ -437,8 +431,8 @@ Kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -453,7 +447,7 @@ Kindergarten
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="1st,2nd,3rd,4th,5th,6th,1 hour" data-listing-file-modified-sort="1720923307894" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
+<div class="quarto-post image-right" data-index="6" data-categories="1st,2nd,3rd,4th,5th,6th,1 HOUR" data-listing-file-modified-sort="1721158379083" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/07activity/07activity.html" class="no-external">Activity 7: Pattern Recognition Activity - Pattern Detectives</a>
@@ -480,8 +474,8 @@ Kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('1 hour'); return false;">
-1 hour
+<div class="listing-category" onclick="window.quartoListingCategory('1 HOUR'); return false;">
+1 HOUR
 </div>
 </div>
 </div>
@@ -496,7 +490,7 @@ Kindergarten
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="kindergarten,1st,2nd,3rd,4th,5th,30 minutes" data-listing-file-modified-sort="1720923312181" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="quarto-post image-right" data-index="7" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,30 MINUTES" data-listing-file-modified-sort="1721158367764" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/08activity/08activity.html" class="no-external">Activity 8: Designing and Programming Robots</a>
@@ -505,8 +499,8 @@ Kindergarten
 <a href="../activities/08activity/08activity.html" class="no-external">Encouraging creativity and critical thinking through robot design and online coding.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -523,8 +517,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('5th'); return false;">
 5th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -539,7 +533,7 @@ Kindergarden - 5th grade
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923315793" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
+<div class="quarto-post image-right" data-index="8" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158357218" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/09activity/09activity.html" class="no-external">Activity 9: Maze Navigation Activity</a>
@@ -548,8 +542,8 @@ Kindergarden - 5th grade
 <a href="../activities/09activity/09activity.html" class="no-external">Introducing computational thinking through maze navigation and algorithmic planning.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -569,8 +563,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -585,7 +579,7 @@ Kindergarten and beyond (Adaptable Complexity)
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,1 hour" data-listing-file-modified-sort="1720923319155" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+<div class="quarto-post image-right" data-index="9" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,1 HOUR" data-listing-file-modified-sort="1721158346604" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/10activity/activity10.html" class="no-external">Activity 10: Internet Safety Routes</a>
@@ -594,8 +588,8 @@ Kindergarten and beyond (Adaptable Complexity)
 <a href="../activities/10activity/activity10.html" class="no-external">Teaching internet safety through identifying safe and unsafe actions online using Spheros.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -615,8 +609,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('1 hour'); return false;">
-1 hour
+<div class="listing-category" onclick="window.quartoListingCategory('1 HOUR'); return false;">
+1 HOUR
 </div>
 </div>
 </div>
@@ -631,7 +625,7 @@ kindergarten
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923323276" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="quarto-post image-right" data-index="10" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158338816" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/11activity/activity11.html" class="no-external">Activity 11: Minecraft Designer</a>
@@ -640,8 +634,8 @@ kindergarten
 <a href="../activities/11activity/activity11.html" class="no-external">Exploring Minecraft through Block Coding on Code.org</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -661,8 +655,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -677,7 +671,7 @@ All Grades
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="4th,5th,6th,varies" data-listing-file-modified-sort="1720923326747" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
+<div class="quarto-post image-right" data-index="11" data-categories="4th,5th,6th,VARIES" data-listing-file-modified-sort="1721158331745" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/12activity/activity12.html" class="no-external">Activity 12: Blue-Blocs</a>
@@ -695,8 +689,8 @@ All Grades
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('varies'); return false;">
-varies
+<div class="listing-category" onclick="window.quartoListingCategory('VARIES'); return false;">
+VARIES
 </div>
 </div>
 </div>
@@ -711,7 +705,7 @@ Varies by grade
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923333430" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<div class="quarto-post image-right" data-index="12" data-categories="1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158320535" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/13activity/activity13.html" class="no-external">Activity 13: Sphero Exploration</a>
@@ -738,8 +732,8 @@ Varies by grade
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -754,7 +748,7 @@ Varies by grade
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,30 minutes" data-listing-file-modified-sort="1720923336516" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+<div class="quarto-post image-right" data-index="13" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,30 MINUTES" data-listing-file-modified-sort="1721158311905" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/14activity/14activity.html" class="no-external">Activity 14: Code with Anna and Elsa</a>
@@ -763,8 +757,8 @@ Varies by grade
 <a href="../activities/14activity/14activity.html" class="no-external">Enhancing Computational Thinking through Interactive Coding Challenges.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -784,8 +778,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('30 minutes'); return false;">
-30 minutes
+<div class="listing-category" onclick="window.quartoListingCategory('30 MINUTES'); return false;">
+30 MINUTES
 </div>
 </div>
 </div>
@@ -800,7 +794,7 @@ All grades
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="kindergarten,1st,2nd,3rd,4th,5th,6th,1 hour" data-listing-file-modified-sort="1720923339644" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="quarto-post image-right" data-index="14" data-categories="KINDERGARTEN,1st,2nd,3rd,4th,5th,6th,1 HOUR" data-listing-file-modified-sort="1721158300133" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/15activity/15activity.html" class="no-external">Activity 15: Arduino</a>
@@ -809,8 +803,8 @@ All grades
 <a href="../activities/15activity/15activity.html" class="no-external">Enhancing Computational Thinking through Interactive Coding Challenges.</a>
 </div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('kindergarten'); return false;">
-kindergarten
+<div class="listing-category" onclick="window.quartoListingCategory('KINDERGARTEN'); return false;">
+KINDERGARTEN
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('1st'); return false;">
 1st
@@ -830,8 +824,8 @@ kindergarten
 <div class="listing-category" onclick="window.quartoListingCategory('6th'); return false;">
 6th
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('1 hour'); return false;">
-1 hour
+<div class="listing-category" onclick="window.quartoListingCategory('1 HOUR'); return false;">
+1 HOUR
 </div>
 </div>
 </div>
