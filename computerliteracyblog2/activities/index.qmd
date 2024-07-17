@@ -11,7 +11,7 @@ listing:
     type: default
     sort-ui: true
     filter-ui: true
-    categories: true
+    categories: unnumbered
     fields: [categories, title, subtitle, grades, time_required]
 ---
 

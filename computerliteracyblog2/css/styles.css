@@ -46,3 +46,31 @@ body {
     background-color: #ff6347; /* lighter shade of red for highlighting */
     color: white;
 }
+
+/* Style for the categories section */
+.listing-filters .categories {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd;    /* Border for the categories section */
+    border-radius: 5px;        /* Rounded corners */
+    padding: 10px;             /* Padding inside the section */
+}
+
+/* Style for each category */
+.listing-filters .categories .category {
+    display: inline-block;        /* Inline block to place categories next to each other */
+    margin: 5px;                  /* Margin around each category */
+    padding: 5px 10px;            /* Padding inside each category */
+    background-color: #e9ecef;    /* Default background color */
+    border-radius: 3px;           /* Rounded corners for categories */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for categories */
+.listing-filters .categories .category:hover {
+    background-color: #dee2e6;    /* Slightly darker on hover */
+}
+
+/* Active/selected category style */
+.listing-filters .categories .category.selected {
+    background-color: #ced4da;    /* Darker background color for selected category */
+}
