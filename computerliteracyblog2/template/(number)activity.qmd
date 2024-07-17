@@ -1,0 +1,47 @@
+---
+title: "Activity _ : "
+subtitle: "Blurb about the activity"
+grades: Grade
+time_required: " hour"
+categories: ["", ""]
+toc: true # creates a table of contents
+---
+
+## IMPORTANT (REMOVE LATER)
+
+Please git pull then move your finished activity to the activities folder, ensure the numbering is correct.
+
+## Description
+
+Add description of the activity
+
+## Materials Required
+
+-
+-
+
+## Steps to Conduct the Activity
+
+### Step 1:
+
+- 
+
+### Step 2:
+
+
+### Step 3
+
+Add more steps, if required.
+
+## Reflection
+
+## Learning Outcomes
+
+By the end of this activity, students should be able to:
+
+-
+
+## Pictures (if required)
+
+![Picture](link to the picture)
+
