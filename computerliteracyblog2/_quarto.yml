@@ -21,12 +21,12 @@ website:
     left: '<a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;"></a>'
     right:
       - icon: github
-        href: https://github.com/K-6-computing-literacy
+        href: https://github.com/K-6-computing-literacy/k-6computerliteracywebsite
 
 format:
   html:
-    mainfont: Fira Sans Black
-    monofont: Ubuntu Mono
+    mainfont: Inter
+    monofont: Sans Serif
     fontsize: 1.25em
     theme: yeti
     highlight-style: github
