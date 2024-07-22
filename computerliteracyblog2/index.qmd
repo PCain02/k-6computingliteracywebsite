@@ -1,12 +1,22 @@
 ---
-title: ""
-format: html
-css: styles.css
+title: "Learn, Code, Create: K-6 Computer Literacy"
+format:
+  html:
+    css: css/styles.css
 ---
 
-<div class="hero-section" style="background-color: #397dc9; color: white; text-align: center; padding: 50px 20px; border-radius: 15px;">
+<!-- Information Section -->
+<div class="hero-section">
   <h1>Building a Future of Digital Thinkers</h1>
   <p>Empowering the next generation to think like computers!</p>
   <a href="activities/index.qmd" class="button">Explore our engaging and educational activities designed for young digital learners.</a>
   <a href="about/index.qmd" class="button">Learn more about our exciting initiatives on the About page.</a>
+</div>
+
+<!-- Slideshow Section -->
+<h1> Check out pictures from our summer camp! </h1>
+<div class="slider-holder">
+  <img src="images/slideshow/1.jpeg" class="slider-image" alt="Slide 1"/>
+  <img src="images/slideshow/2.jpeg" class="slider-image" alt="Slide 2"/>
+  <img src="images/slideshow/3.jpeg" class="slider-image" alt="Slide 3"/>
 </div>
