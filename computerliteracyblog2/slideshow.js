@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
         'images/slideshow/1.jpeg',
         'images/slideshow/2.jpeg',
         'images/slideshow/3.jpeg',
-        'images/slideshow/4.jpeg',
-        'images/slideshow/5.jpg',
     ];
 
     const sliderHolder = document.getElementById('slider');
