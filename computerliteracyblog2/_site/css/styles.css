@@ -77,8 +77,6 @@ body {
     background-color: #ced4da;    /* Darker background color for selected category */
 }
 
-/* styles.css */
-
 /* Slider styles */
 .slider-holder {
     width: 100%;
@@ -90,47 +88,59 @@ body {
 }
 
 .slider-image {
-    width: 100%;
-    height: 400px;
+    width: auto; /* Maintain aspect ratio */
+    height: 100%; /* Fill the height of the slider */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    display: block; /* Ensure images are block elements */
     position: absolute;
-    animation: slider 15s infinite;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
     opacity: 0;
+    transition: opacity 0.5s ease; /* Smooth transition for image opacity */
 }
 
-.slider-image:nth-child(1) {
-    animation-delay: 0s;
+.slider-image.active {
+    opacity: 1; /* Show active image */
 }
 
-.slider-image:nth-child(2) {
-    animation-delay: 5s;
+/* Slideshow navigation buttons */
+.prev-button, .next-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border: none; /* Remove default button border */
+    z-index: 1; /* Ensure buttons are above images */
 }
 
-.slider-image:nth-child(3) {
-    animation-delay: 10s;
+.next-button {
+    right: 10px; /* Adjusted to move within the slider-holder */
+    border-radius: 3px 0 0 3px;
 }
 
-@keyframes slider {
-    0% {
-        opacity: 0;
-    }
-    33% {
-        opacity: 1;
-    }
-    66% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+.prev-button {
+    left: 10px; /* Adjusted to move within the slider-holder */
+    border-radius: 0 3px 3px 0;
 }
 
-/* additional styles */
+.prev-button:hover, .next-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+/* Additional existing styles */
 .info-section {
     padding: 20px;
     text-align: center;
 }
 
-/* Additional styles for the hero section */
 .hero-section {
     background-color: #002244;
     color: white;
@@ -140,7 +150,6 @@ body {
     margin-top: 20px; /* Add margin-top to create space above the hero section */
 }
 
-/* button styles */
 .button {
     background-color: #ef3220;
     color: white;

@@ -26,7 +26,7 @@ website:
 format:
   html:
     mainfont: Inter
-    monofont: Sans Serif
+    monofont: Ubuntu
     fontsize: 1.25em
     theme: yeti
     highlight-style: github

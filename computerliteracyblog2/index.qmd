@@ -15,8 +15,10 @@ format:
 
 <!-- Slideshow Section -->
 <h1> Check out pictures from our summer camp! </h1>
-<div class="slider-holder">
-  <img src="images/slideshow/1.jpeg" class="slider-image" alt="Slide 1"/>
-  <img src="images/slideshow/2.jpeg" class="slider-image" alt="Slide 2"/>
-  <img src="images/slideshow/3.jpeg" class="slider-image" alt="Slide 3"/>
+<div class="slider-holder" id="slider">
+  <button class="prev-button" id="prevButton">&#10094;</button>
+  <button class="next-button" id="nextButton">&#10095;</button>
 </div>
+
+<!-- Include the JavaScript file -->
+<script src="/slideshow.js"></script>
