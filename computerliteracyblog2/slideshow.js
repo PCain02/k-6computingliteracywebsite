@@ -3,9 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
         'images/slideshow/1.jpeg',
         'images/slideshow/2.jpeg',
         'images/slideshow/3.jpeg',
-        'images/slideshow/8.jpeg',
-        'images/slideshow/5.jpg',  // Ensure this image path is correct and accessible
-        // Add more image paths here
+        'images/slideshow/4.jpeg',
+        'images/slideshow/5.jpg',
     ];
 
     const sliderHolder = document.getElementById('slider');

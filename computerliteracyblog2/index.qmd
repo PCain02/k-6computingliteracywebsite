@@ -1,5 +1,5 @@
 ---
-title: "Learn, Code, Create: K-6 Computer Literacy"
+title: "Learn, Code, Create"
 format:
   html:
     css: css/styles.css

@@ -1,16 +1,15 @@
 ---
 title: "Guide for Computing Outreach Fellows"
 toc: true
-toc-depth: 5
 page-layout: full
 ---
 # A complete guide for the fellows!
 
-## **What is the Computing Outreach Program?**
+## What is the Computing Outreach Program?
 
 Computing outreach involves engaging K-6 students in regular, hands-on computing activities to foster interest and competency in computational skills. This includes introducing students to computational thinking and problem-solving through events, workshops, and classroom activities, and using technologies. The goal is to provide consistent exposure in the computing field in a fun way.
 
-## **What to Expect as a Computing Outreach Fellow**
+## What to Expect as a Computing Outreach Fellow
 
 * You will be tasked with activities that will vary depending on the grades you are working with
 * All activities will be held in groups that can vary depending on the size of the class
@@ -18,7 +17,7 @@ Computing outreach involves engaging K-6 students in regular, hands-on computing
 * Older students from 5th to 6th grade will involve the use of more robotics in activities, requiring fellows to understand how the robots work and how they fit into the activities
 * You will be given outlines that will guide you through the necessary steps to doing activities
 
-## **Key Responsibilities**
+## Key Responsibilities
 
 * Working with children
 * Collaborating with faculty at Meadville public schools
