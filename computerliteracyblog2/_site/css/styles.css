@@ -13,17 +13,6 @@ body .nav-footer {
     background-color: transparent !important;
 }
 
-.title-container {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    height: 100px;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
 body {
     background-color: #ffffff;
     margin: 0;
