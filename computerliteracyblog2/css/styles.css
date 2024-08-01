@@ -1,151 +1,115 @@
-/* Existing CSS styles... */
+/* Existing imports */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+/* Existing styles */
 body .page-footer,
 body .nav-footer {
-    background-color: #002244 !important; /* Increase specificity and use !important */
-}
-
-.navbar {
-    background-color: #002244;  /* bg color */
-}
-
-.navbar a, .navbar .navbar-brand {
-    color: #ffffff;  /* text color */
-    transition: transform 0.3s ease, color 0.3s ease;  /* add transition for smooth effect */
-}
-
-.navbar a:hover, .navbar .navbar-brand:hover {
-    color: #f1f1f1;  /* hover color */
-    transform: scale(1.1);  /* Enlarge the element */
-}
-
-.navbar-title {
-    font-weight: bold;
-}
-
-.navbar-text {
-    font-weight: bold;
+    background-color: #002244 !important;
 }
 
 body {
-    background-color: #f0f0f0;  /* main page bg */
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.full-page-section {
+    background-color: #002D72;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20;
+}
+
+.main-title {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .button {
-    background-color: #ef3220;
+    background-color: #007BFF;
+    padding: 15px 30px;
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
     display: inline-block;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
 }
 
 .button:hover {
-    background-color: #ff6347; /* lighter shade of red for highlighting */
-    color: white;
+    background-color: #0056b3;
 }
 
-/* Style for the categories section */
-.listing-filters .categories {
-    background-color: #f8f9fa; /* Light background color */
-    border: 1px solid #ddd;    /* Border for the categories section */
-    border-radius: 5px;        /* Rounded corners */
-    padding: 10px;             /* Padding inside the section */
+.button-green {
+    background-color: #28A745;
 }
 
-/* Style for each category */
-.listing-filters .categories .category {
-    display: inline-block;        /* Inline block to place categories next to each other */
-    margin: 5px;                  /* Margin around each category */
-    padding: 5px 10px;            /* Padding inside each category */
-    background-color: #e9ecef;    /* Default background color */
-    border-radius: 3px;           /* Rounded corners for categories */
-    transition: background-color 0.3s; /* Smooth transition for background color */
+.button-green:hover {
+    background-color: #218838;
 }
 
-/* Hover effect for categories */
-.listing-filters .categories .category:hover {
-    background-color: #dee2e6;    /* Slightly darker on hover */
-}
-
-/* Active/selected category style */
-.listing-filters .categories .category.selected {
-    background-color: #ced4da;    /* Darker background color for selected category */
-}
-
-/* Slider styles */
-.slider-holder {
-    width: 100%;
-    height: 400px;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 20px; /* Add margin-top to create space above the slider section */
-}
-
-.slider-image {
-    width: auto; /* Maintain aspect ratio */
-    height: 100%; /* Fill the height of the slider */
-    max-height: 100%; /* Ensure the image doesn't exceed the container height */
-    display: block; /* Ensure images are block elements */
-    position: absolute;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    opacity: 0;
-    transition: opacity 0.5s ease; /* Smooth transition for image opacity */
-}
-
-.slider-image.active {
-    opacity: 1; /* Show active image */
-}
-
-/* Slideshow navigation buttons */
-.prev-button, .next-button {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    border: none; /* Remove default button border */
-    z-index: 1; /* Ensure buttons are above images */
-}
-
-.next-button {
-    right: 10px; /* Adjusted to move within the slider-holder */
-    border-radius: 3px 0 0 3px;
-}
-
-.prev-button {
-    left: 10px; /* Adjusted to move within the slider-holder */
-    border-radius: 0 3px 3px 0;
-}
-
-.prev-button:hover, .next-button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
-}
-
-/* Additional existing styles */
+/* New styles */
 .info-section {
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
 }
 
-.hero-section {
-    background-color: #002244;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-    border-radius: 15px;
-    margin-top: 20px; /* Add margin-top to create space above the hero section */
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-content {
+    max-width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.info-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.info-content .button {
+    margin-top: 20px;
+}
+
+/* Reversed section for image on the right */
+.info-section-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
 }

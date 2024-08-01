@@ -11,14 +11,14 @@ website:
   favicon: "images/logonew.png"
   navbar:
     right:
-      - text: "Technical Leader Guide"
+      - text: "Outreach Guide"
         href: "technical-leader-guide/index.qmd"
       - text: "Activities"
         href: "activities/index.qmd"
       - text: "About"
         href: "about/index.qmd"
   page-footer:
-    left: '<a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 50px; vertical-align: middle; margin-right: 5px;"></a>'
+    left: '<a href="https://www.cis.allegheny.edu/"><img src="/images/footer_logo.png" alt="Footer Image" style="height: 70px; vertical-align: middle; margin-right: 5px;"></a>'
     right:
       - icon: github
         href: https://github.com/K-6-computing-literacy/k-6computerliteracywebsite
@@ -28,7 +28,8 @@ format:
     mainfont: Inter
     monofont: Roboto
     fontsize: 1.25em
-    theme: yeti
+    theme:
+      light: zephyr
     highlight-style: github
     css: css/styles.css
 
