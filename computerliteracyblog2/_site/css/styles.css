@@ -3,7 +3,7 @@
 
 
 .navbar {
-    background-color: #002244;
+    background-color: #034efd;
     
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .button {
-    background-color: #002244;
+    background-color: #034efd;
     padding: 15px 30px;
     color: white;
     text-decoration: none;
@@ -60,15 +60,15 @@ body {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #3a5aff;
 }
 
-.button-green {
-    background-color: #e1ed05;
+.button-yellow {
+    background-color: #ffc300;
 }
 
-.button-green:hover {
-    background-color: #218838;
+.button-yellow:hover {
+    background-color: #e5b800;
 }
 
 /* New styles */
