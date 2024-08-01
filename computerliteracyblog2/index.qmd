@@ -7,23 +7,25 @@ format:
 ---
 
 <div class="hero-section">
-  <h1 class="main-title">K-6 Computer Literacy Program</h1>
+  <div class="title-container">
+  <img src="/images/logonew.png" alt="Logo" class="logo">
+    <h1 class="main-title">K-6 Computer Literacy Program</h1>
+  </div>
   <p class="subtitle">Empowering the next generation to think like computers!</p>
   <div class="button-container">
   <a href="activities/index.qmd" class="button">Explore our engaging and educational activities designed for young digital learners.</a>
   <a href="about/index.qmd" class="button button-green">Learn more about our exciting initiatives on the About page.</a>
   </div>
 </div>
-
 <div class="info-section">
   <div class="info-image">
-  <img src="./images/4.jpeg" alt="Picture of the kids">
+  <img src="./images/6.jpg" alt="Picture of the kids">
   </div>
   <div class="info-content">
-  <h2 class="info-title">Discover More</h2>
-  <p class="info-subtitle">Learn about the impact of our program and how we're shaping the future.</p>
-  <a href="impact/index.qmd" class="button">Find Out More</a>
-  <a href="impact/index.qmd" class="button">Find Out More</a>
+  <h2 class="info-title">Outreach Fellows</h2>
+  <p class="info-subtitle">As a Computing Outreach Fellow, you'll guide engaging activities for students of all ages. Don't worry—clear, step-by-step guides will be at your side to help you throughout the process. Get ready for a rewarding experience!</p>
+  <a href="about/index.qmd" class="button"> Check out the guide</a>
+  <a href="about/index.qmd" class="button button-green">Apply to be a Fellow!</a>
   </div>
 </div>
 
@@ -35,7 +37,7 @@ format:
   <h2 class="info-title">Discover More</h2>
   <p class="info-subtitle">Learn about the impact of our program and how we're shaping the future.</p>
   <a href="impact/index.qmd" class="button">Find Out More</a>
-  <a href="impact/index.qmd" class="button">Find Out More</a>
+  <a href="impact/index.qmd" class="button button-green">Find Out More</a>
   </div>
 </div>
 
