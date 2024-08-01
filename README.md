@@ -1,12 +1,10 @@
 # Website for the K-6 Computer Literacy Program
 
-## Table of Contents
-
 ## Overview
 
 ## Features
 - **Engaging Activities:** Find curated activities which have already been implemented!
-- **Outreach Fellow Resources:** Tips from a fellow to a fellow
+- **Outreach Fellow Resources:** Tips from a fellow to a fellow & apply to a fellow.
 - **Teacher Resources:** Apply to bring the Outreach Fellows to your classroom!
 
 ## Installation
@@ -36,5 +34,3 @@ Contributions are welcome! To contribute:
 For questions or feedback, please contact:
 - **Email:** [Compsci Email](compsci@allegheny.edu)
 - **GitHub Issues:** [GitHub Issues](https://github.com/K-6-computing-literacy/k-6computerliteracywebsite/issues)
-
-We hope you find the K-6 Computer Literacy Program website helpful and enjoyable!
