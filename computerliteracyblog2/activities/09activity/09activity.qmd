@@ -3,7 +3,7 @@ title: "Activity 9: Maze Navigation Activity"
 subtitle: "Introducing computational thinking through maze navigation and algorithmic planning."
 grades: Kindergarten and beyond (Adaptable Complexity)
 time_required: "30 minutes"
-categories: ["KINDERGARTEN", "1st", "2nd", "3rd", "4th", "5th", "6th", "30 MINUTES"]
+categories: ["kindergarten", "1st", "2nd", "3rd", "4th", "5th", "6th", "30 minutes"]
 toc: true
 ---
 

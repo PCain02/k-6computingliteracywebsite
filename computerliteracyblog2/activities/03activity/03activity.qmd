@@ -3,7 +3,7 @@ title: "Activity 3: Different Ways a Computer Sorts"
 subtitle: "Teaching students about sorting algorithms through hands-on activities."
 grades: 1st Grade onwards
 time_required: "30 minutes"
-categories: ["1st", "2nd", "3rd", "4th", "5th", "6th", "30 MINUTES"]
+categories: ["1st", "2nd", "3rd", "4th", "5th", "6th", "30 minutes"]
 toc: true
 ---
 
