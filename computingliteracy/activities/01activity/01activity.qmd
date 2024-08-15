@@ -3,7 +3,7 @@ title: "Activity 1: Navigating Decisions with If-Else-Elif Statements"
 subtitle: "Teaching students the fundamentals of if-else-elif statements through hands-on activities."
 grades: 5th Grade
 time_required: "1 hour"
-categories: ["5th", "1 hour"]
+categories: ["5th Grade", "1 Hour"]
 toc: true
 ---
 
