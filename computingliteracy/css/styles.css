@@ -1,11 +1,9 @@
 /* Existing imports */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
-
 .navbar {
     background-color: #034efd;
     font-weight: bolder;
-    
 }
 
 body .page-footer,
@@ -66,7 +64,7 @@ body {
 }
 
 /* New styles */
-.info-section {
+.info-section, .info-section-reverse {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,11 +100,63 @@ body {
 }
 
 .info-section-reverse {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: row-reverse;
-    padding: 40px 20px;
-    background-color: #ffffff;
-    margin: 20px 0;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .info-section, .info-section-reverse {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .info-content {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .info-title {
+        font-size: 1.8em;
+    }
+
+    .info-subtitle {
+        font-size: 1em;
+    }
+
+    .info-section-reverse {
+        flex-direction: column;
+    }
+
+    .section-divider {
+        border: 0;
+        height: 2px;
+        background-color: #034efd;
+        margin: 40px 0;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+.section-divider {
+    display: none;
 }
