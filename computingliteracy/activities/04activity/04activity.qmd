@@ -3,7 +3,7 @@ title: "Activity 4: Bee Bots"
 subtitle: "Engaging students in creating obstacles and routes through block coding with Bee Bots."
 grades: Kindergarten - 6th Grade
 time_required: "Varies by grade"
-categories: ["Kindergarten", "1st Grade", "2nd Grade", "3rd Grade", "4th Grade", "5th Grade", "6th Grade", "30 Minutes"]
+categories: ["Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "30 Minutes"]
 
 toc: true
 ---

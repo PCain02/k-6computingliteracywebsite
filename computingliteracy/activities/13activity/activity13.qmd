@@ -3,7 +3,7 @@ title: "Activity 13: Sphero Exploration"
 subtitle: "Providing students with practice using Sphero robots through a fun and engaging competition."
 grades: 1st Grade onwards
 time_required: 30 minutes
-categories: ["1st Grade", "2nd Grade", "3rd Grade", "4th Grade", "5th Grade", "6th Grade", "30 Minutes"]
+categories: ["Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "30 Minutes"]
 toc: true
 ---
 
