@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: 'K-6 Computer Literacy Program'
+  title: 'K-6 Computing Literacy Program'
   search:
     location: navbar
   reader-mode: false
