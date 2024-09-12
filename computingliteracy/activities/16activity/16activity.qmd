@@ -1,5 +1,5 @@
 ---
-title: "Protect Your Password"
+title: "Activity 16: Protect Your Password"
 subtitle: "Learning the Importance of Strong Passwords"  
 grades: 3rd Grade onwards
 time_required: "1 hour"
