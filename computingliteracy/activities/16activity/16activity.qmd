@@ -1,0 +1,69 @@
+---
+title: "Protect Your Password"
+subtitle: "Learning the Importance of Strong Passwords"  
+grades: 3rd Grade onwards
+time_required: "1 hour"
+categories: ["Grade 3", "Grade 4", "Grade 5", "Grade 6", "1 Hour"]
+toc: true
+---
+
+## Description
+
+In this activity, students will learn about the importance of creating strong passwords to protect their online accounts. Through interactive games and discussions, students will understand the concept of a strong password, learn why weak passwords can be easily guessed, and practice creating secure passwords using a mix of characters. This hands-on activity helps introduce cybersecurity concepts and promotes safe online behavior.
+
+
+## Materials Required
+
+- Whiteboard or digital presentation for demonstrating concepts
+- Paper and pencils for password creation practice
+- Printouts or projector for displaying examples of strong and weak passwords
+- [Online password strength meter](https://www.passwordmonster.com/)
+
+
+## Steps to Conduct the Activity
+
+### Step 1: Introduction to Passwords
+
+- Start by asking students what passwords are and why they are used. 
+- Explain that passwords help protect personal information from being accessed by others online.
+- Discuss the importance of using passwords that are hard to guess, and introduce the term “strong password.”
+
+### Step 2: What Makes a Strong Password?
+
+- Write examples of weak passwords on the board (e.g., `123456`, `password`, `abc123`) and explain why these are easy to guess.
+- Discuss what makes a strong password, including:
+    - A mix of uppercase and lowercase letters
+    - Numbers
+    - Symbols (e.g., `@`, `#`, `$`, etc.)
+    - Avoiding common words or personal information (like names and birthdays)
+
+### Step 3: Password Creation Game
+
+- Divide the students into small groups.
+- Challenge each group to come up with a easy password and a strong password following the rules discussed.
+- Give them a reason to come up with this idea (Like a treasure password).
+- Once groups have created their passwords, have them test their passwords using an online password strength meter 
+- Then have a game play out where different group guess each of their passwords to see if it is easy to guess the passwords.
+
+### Step 4: Password Protection Tips
+
+- Discuss how to keep passwords safe:
+    - Don’t share passwords with others.
+    - Use different passwords for different websites.
+    - Change passwords regularly.
+    - Use a password manager.
+
+### Step 5: Reflection and Wrap-Up
+
+- Ask students why it’s important to use strong passwords and how they can protect themselves online.
+- Let them share their own tips for staying safe online.
+
+
+## Learning Outcomes
+
+By the end of this activity, students should:
+
+- Understand the importance of strong passwords in cybersecurity.
+- Learn how to create secure passwords using a combination of letters, numbers, and symbols.
+- Recognize the risks of using weak passwords and sharing them with others.
+- Gain confidence in protecting their personal information online.
