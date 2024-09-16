@@ -3,7 +3,7 @@ title: "Activity 12: Blue-Blocs"
 subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
 grades: 4th, 5th, and 6th grade
 time_required: "Varies by grade"
-categories: ["Grade 4", "Grade 5", "Grade 6", "Time varies"]
+categories: ["Grade: 4", "Grade: 5", "Grade: 6", "Time: Time varies"]
 toc: true
 ---
 

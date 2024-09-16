@@ -3,7 +3,7 @@ title: "Activity 7: Pattern Recognition Activity - Pattern Detectives"
 subtitle: "Engaging students in identifying, analyzing, and creating simple patterns using shapes, colors, or numbers."
 grades: 1st Grade onwards
 time_required: "1 hour"
-categories: ["Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "1 Hour"]
+categories: ["Grade: 1", "Grade: 2", "Grade: 3", "Grade: 4", "Grade: 5", "Grade: 6", "Time: 1 Hour"]
 toc: true
 ---
 

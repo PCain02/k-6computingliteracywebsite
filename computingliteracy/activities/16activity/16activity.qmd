@@ -3,7 +3,7 @@ title: "Activity 16: Protect Your Password"
 subtitle: "Learning the Importance of Strong Passwords"  
 grades: 3rd Grade onwards
 time_required: "1 hour"
-categories: ["Grade 3", "Grade 4", "Grade 5", "Grade 6", "1 Hour"]
+categories: ["Grade: 3", "Grade: 4", "Grade: 5", "Grade: 6", "Time: 1 Hour"]
 toc: true
 ---
 

@@ -3,7 +3,7 @@ title: "Activity 11: Minecraft Designer"
 subtitle: "Exploring Minecraft through Block Coding on Code.org"
 grades: All Grades
 time_required: "30 minutes"
-categories: ["Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "30 Minutes"]
+categories: ["Grade: Kindergarten", "Grade: 1", "Grade: 2", "Grade: 3", "Grade: 4", "Grade: 5", "Grade: 6", "Time: 30 Minutes"]
 toc: true
 ---
 
