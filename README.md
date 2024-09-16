@@ -1,7 +1,5 @@
 # Website for the K-6 Computer Literacy Program
 
-## Overview
-
 ## Features
 - **Engaging Activities:** Find curated activities which have already been implemented!
 - **Outreach Fellow Resources:** Tips from a fellow to a fellow & apply to a fellow.
