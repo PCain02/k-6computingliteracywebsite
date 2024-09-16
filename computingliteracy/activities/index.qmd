@@ -15,4 +15,4 @@ listing:
   fields: [categories, title, subtitle, grades, time_required]
 ---
 
-Welcome to the page where you can find all the activities that have already been implemented. Below you'll find a list of activities with their subtitles and grades. Use the filters to find activities based on grade and time required.
+Welcome to the page where you can find all the activities that have already been implemented. Use the categories to find activities based on grade and time required.
