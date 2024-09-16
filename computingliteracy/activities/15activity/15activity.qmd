@@ -3,7 +3,7 @@ title: "Activity 15: Arduino"
 subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
 grades: All grades
 time_required: "1 hour"
-categories: ["Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6 ", "1 Hour"]
+categories: ["Kindergarten", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "1 Hour"]
 toc: true
 ---
 

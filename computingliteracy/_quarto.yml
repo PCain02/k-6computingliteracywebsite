@@ -29,7 +29,7 @@ format:
     monofont: Roboto
     fontsize: 1.25em
     theme:
-      zephyr
+      default
     highlight-style: github
     css: css/styles.css
 
