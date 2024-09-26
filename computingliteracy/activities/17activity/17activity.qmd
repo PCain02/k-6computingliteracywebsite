@@ -1,0 +1,35 @@
+---
+title: "Activity 17: Facts and Questions"
+subtitle: "Enhancing Computational Thinking through Interactive Coding Challenges."
+grades: All grades
+time_required: "1 hour"
+categories: ["Grade: Grade: 4", "Grade: 5", "Grade: 6", "Time: 45 Minutes"]
+toc: true
+---
+
+## Description
+
+Students will engage in an activity designed to introduce them to the fundamentals of prompt engineering. Prompt engineering involves creating well-structured inputs, or prompts, that effectively guide generative AI models to produce desired outputs. Students will be presented with specific facts on various topics and tasked with matching them to corresponding questions. These questions will range from vague, incomplete inquiries to more precise, well-defined ones that align closely with the provided facts. Following this, students will create their own facts and formulate both vague and specific questions based on those facts. Other students will then review these questions and determine whether they are vague or specific. This exercise encourages critical thinking and reinforces the importance of clarity in question formulation.
+
+## Materials required
+
+- [PROMPT ENGINNERING SHEET](https://docs.google.com/document/d/1mJAJydQ2olyK8WIuekeiCnQtRRAY-yUmrFYf052cTBU/edit)
+- Pencil 
+
+## Steps to conduct the activity
+
+- Students will first complete the prompt enginnering sheet 
+
+- Direct the students to create 2 facts based on one a topic of thier choosing, then prompt then to create two question for each fact one being vauge the other being specific 
+
+- Pair students in groups of two to switch sheets to ideinfity which question are vauge and specific. 
+
+- Keep switching groups until students have rotated at least three times. 
+
+## Reflection
+
+- Ask students what part of the actvity they found the hardest. Then ask if they found identifying question or creating them to be harder. 
+
+## Learning Outcomes
+
+As advancements in AI technology continue to grow, prompt engineering has emerged as a critical skill, with increasing demand in the job market. Introducing students to these concepts at an early age will enhance their understanding of how prompt engineering works and how it connects to their existing curriculum, fostering essential skills for the future of technology and innovation. Requiring students to formulate more specific and detailed questions will enhance their ability to identify and construct clear, precise prompts, an essential skill in prompt engineering. This practice not only deepens their understanding of the subject matter but also strengthens their critical thinking and problem-solving abilities, which are vital for success in the evolving field of AI and technology.
