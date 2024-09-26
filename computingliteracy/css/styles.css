@@ -156,3 +156,30 @@ body {
         display: block;
     }
 }
+
+/* Style all elements with the data-category attribute */
+[data-category] {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adds spacing between each data category */
+    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+  }
+  
+  /* Style for any element with a data-category attribute that includes "Grade" */
+  [data-category*="Grade"] {
+    background-color: #ffcc00; /* Yellow background */
+    color: #000; /* Text color */
+  }
+  
+  /* Style for any element with a data-category attribute that includes "Time" */
+  [data-category*="Time"] {
+    background-color: #034efd; /* Blue background */
+    color: #000; /* Text color */
+  }
+  
+  /* Add a hover effect for better interaction */
+  [data-category]:hover {
+    background-color: #e0e0e0; /* Slightly darker gray for hover effect */
+  }

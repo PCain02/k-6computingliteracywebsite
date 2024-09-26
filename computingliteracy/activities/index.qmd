@@ -7,7 +7,6 @@ listing:
     - "*activity/**/*.qmd"
   sort:
     - "title:asc"
-    - "grades:asc"
   type: default
   sort-ui: true
   filter-ui: true
