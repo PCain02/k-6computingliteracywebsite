@@ -7,7 +7,7 @@ format:
 ---
 
 <div class="hero-section">
-  <h1 class="main-title">K-6 Computing Literacy Program</h1>
+  <h1 class="main-title">CODE WITH CHOMPERS</h1>
   <p class="subtitle">Empowering the next generation to think like computers!</p>
   <div class="button-container">
   <a href="activities/index.qmd" class="button">Explore our engaging and educational activities designed for young digital learners.</a>
