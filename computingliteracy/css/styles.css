@@ -55,8 +55,13 @@ body {
 
 .button-yellow {
     background-color: #ffc300;
+    padding: 15px 30px;
     color: black;
     font-weight: bolder;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
 }
 
 .button-yellow:hover {
@@ -169,14 +174,14 @@ body {
   
   /* Style for any element with a data-category attribute that includes "Grade" */
   [data-category*="Grade"] {
-    background-color: #ffcc00; /* Yellow background */
+    background-color: #ffcc00;  /* Yellow background */
     color: #000; /* Text color */
   }
   
   /* Style for any element with a data-category attribute that includes "Time" */
   [data-category*="Time"] {
     background-color: #057c3e; /* Green background */
-    color: #000; /* Text color */
+    color: #ffffff; /* Text color */
   }
   
   /* Add a hover effect for better interaction */
