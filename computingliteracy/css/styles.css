@@ -188,3 +188,24 @@ body {
   [data-category]:hover {
     background-color: #e0e0e0; /* Slightly darker gray for hover effect */
   }
+
+
+
+/* will work on the overflow of activities later, this is to test it */
+
+
+/* .list.quarto-listing-default { */
+    /* display: flex; */
+    /* flex-wrap: wrap; Ensure activities wrap onto new rows */
+    /* justify-content: space-between; Adjusts spacing between items */
+    /* gap: 20px; Adds space between each post */
+/* } */
+
+/* .quarto-listing-default .quarto-post { */
+    /* margin-bottom: 20px; */
+    /* overflow: auto; */
+/* } */
+
+/* .quarto-back-to-top { */
+    /* color: #057c3e !important;
+} */
