@@ -24,20 +24,20 @@ Children will identify, analyze, and create simple patterns using shapes, colors
 - Begin with a brief discussion about patterns, explaining that patterns are sequences that repeat in a certain order.
 - Show examples of simple patterns using shapes and colors:
   - Shapes: `⬛⬛🔴⬛⬛🔴…` (Two squares, one circle, repeat)
-  - Colors: 🔵🟢🔵🟢🔵… (Blue, green, repeat)
-  - Numbers: 1, 2, 1, 2, 1, 2… (Alternating 1 and 2)
+  - Colors: `🔵🟢🔵🟢🔵… `(Blue, green, repeat)
+  - Numbers: `1, 2, 1, 2, 1, 2…` (Alternating 1 and 2)
 
 ### Step 2: Identify the Pattern
 
 - Provide students with sets of simple sequences and ask them to identify the pattern. Examples:
-  - Shapes: 🔺🔺⚫️🔺🔺⚫️…
-  - Colors: 🟡🟡🟠🟡🟡🟠…
-  - Numbers: 3, 3, 6, 3, 3, 6…
+  - Shapes: `🔺🔺⚫️🔺🔺⚫️…`
+  - Colors: `🟡🟡🟠🟡🟡🟠…`
+  - Numbers: `3, 3, 6, 3, 3, 6…`
 
 ### Step 3: Extend the Pattern
 
 - Once students identify the pattern, challenge them to continue the sequence by adding the next few elements.
-  - Example: Sequence: 🔵🔵🟢🔵🔵🟢… (They add 🔵🔵🟢 next)
+  - Example: Sequence: `🔵🔵🟢🔵🔵🟢…` (They add 🔵🔵🟢 next)
 
 ### Step 4: Create Your Own Pattern
 
@@ -47,7 +47,7 @@ Children will identify, analyze, and create simple patterns using shapes, colors
 ### Step 5: Pattern Puzzles
 
 - Create "pattern puzzles" where some elements in the sequence are missing, and ask students to fill in the blanks.
-  - Example: Sequence: 🟣, 🟣, 🟤, ___, 🟣, 🟣, 🟤, ___ (They fill in with 🟣, 🟣, 🟤)
+  - Example: Sequence: `🟣, 🟣, 🟤, ___, 🟣, 🟣, 🟤, ___`(They fill in with `🟣, 🟣, 🟤`)
 
 ### Extensions
 
