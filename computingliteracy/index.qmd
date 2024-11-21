@@ -8,7 +8,7 @@ format:
 
 <div class="hero-section">
   <h1 class="main-title">Code with Chompers</h1>
-  <p class="subtitle">Inspiring future technologists to think like computers!</p>
+  <p class="subtitle">Inspiring future technologists to think computationally!</p>
   <div class="button-container">
   <a href="activities/index.qmd" class="button">Explore our engaging and educational activities designed for young digital learners.</a>
   <a href="about/index.qmd" class="button">Learn more about our exciting initiatives on the About page.</a>
