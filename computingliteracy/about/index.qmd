@@ -2,35 +2,21 @@
 title: "About"
 toc: true
 ---
+
 ## Our Mission and Goal
 
-Adhering to the standards upheld by the Pennsylvania education system, our goal is to develop and implement a program that promotes sustained and ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative aims to provide a systematic introduction to computing for K-6 students, ensuring that every student in Crawford Central is regularly exposed to computing concepts at each stage of their education.
+Our goal is to foster an ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative introduces K-6 students to computing concepts, ensuring consistent exposure to STEM from early education.
 
-- Adhering to the standards upheld by the 
+## Pennsylvania Education Framework
 
-- 
+### STEM in Pennsylvania
 
-## Pennsylvania Education 
+STEM education in Pennsylvania emphasizes literacy for all students, reflection, iteration, community integration, and partnerships between educators, families, and institutions.
 
-### STEM In Pennsylvania 
+### Computer Science Literacy
 
-STEM education in Pennslyvania is bulit on the foundational beliefs that all students are capable of STEM literacy, iteration and relfection are an important part of the STEM learning process, STEM education should transcends the classroom walls by intergrating into the community and success depends upon the patnership between educators students, families, postsecondary providers etc. 
+The current Pennsylvania framework prioritizes grades 7-12, but we aim to bridge this gap by introducing computer science concepts to younger students, aligned with state standards.
 
-### Computer Science Literacy in Pennslyvania Schools 
-
-The existing framework for computer science literacy in Pennsylvania schools places a significantly greater emphasis on grades 7 through 12. This is primarily because the current content and programs available are not feasible for implementation in kindergarten through sixth grade. 
-
-A critical component of teaching computer science in schools is the development of programs that equip teachers to deliver effective lessons. The PA board of education states "all programs are expected to have course content aligned with state standards. All teacher preparation programs are expected to provide all candidates with the knowledge and skills to teach a standards-based curriculum effectively and successfully. Through university coursework and extensive, well-designed clinical experiences, all candidates for the profession are expected to learn how to use materials and resources for instruction (including technology) to meet the individual needs of each student in their classroom". 
-
-#### Sources 
-
-[PA Department of Education STEM Guidelines](https://www.education.pa.gov/Pages/STEM-Competition.aspx)
-
-[The Framework for Computer Science 7-12 Program Guidelines](https://www.education.pa.gov/Documents/Teachers-Administrators/Certification%20Preparation%20Programs/Specific%20Program%20Guidelines/Computer%20Science%207-12%20Program%20Guidelines.pdf)
-
-
-
-
-
-
-
+#### Sources
+- [PA Department of Education STEM Guidelines](https://www.education.pa.gov/Pages/STEM-Competition.aspx)
+- [The Framework for Computer Science 7-12 Program Guidelines](https://www.education.pa.gov/Documents/Teachers-Administrators/Certification%20Preparation%20Programs/Specific%20Program%20Guidelines/Computer%20Science%207-12%20Program%20Guidelines.pdf)
