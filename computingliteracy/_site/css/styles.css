@@ -162,31 +162,32 @@ body {
     }
 }
 
-/* Style all elements with the data-category attribute */
+/* style all elements with the data-category attribute */
 [data-category] {
     padding: 10px;
     background-color: #f0f0f0;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 10px; /* Adds spacing between each data category */
-    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+    margin-bottom: 10px; /* add spacing between each data category */
+    transition: background-color 0.3s ease; /* smooth transition for background color changes */
   }
   
-  /* Style for any element with a data-category attribute that includes "Grade" */
+  /* style for any element with a data-category attribute that includes "Grade" */
   [data-category*="Grade"] {
-    background-color: #ffcc00;  /* Yellow background */
-    color: #000; /* Text color */
+    background-color: #ffcc00;  /* yellow background */
+    color: #000; /* text color */
   }
   
-  /* Style for any element with a data-category attribute that includes "Time" */
+  /* style for any element with a data-category attribute that includes "Time" */
   [data-category*="Time"] {
-    background-color: #057c3e; /* Green background */
-    color: #ffffff; /* Text color */
+    background-color: #057c3e; /* green background */
+    color: #ffffff; /* text color */
   }
   
-  /* Add a hover effect for better interaction */
+  /* add a hover effect for better interaction */
   [data-category]:hover {
-    background-color: #e0e0e0; /* Slightly darker gray for hover effect */
+    background-color: #e0e0e0; /* slightly darker gray for hover effect */
+    color: black
   }
 
 
