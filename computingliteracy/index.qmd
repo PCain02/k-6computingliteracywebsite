@@ -1,9 +1,9 @@
 ---
 title: ""
+page-layout: full
 format:
   html:
     css: css/styles.css
-    page-layout: full
 ---
 
 <div class="hero-section">
