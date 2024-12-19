@@ -142,6 +142,26 @@ body {
     transition: background-color 0.3s ease; /* smooth transition for background color changes */
 }
 
+/* work on this later */
+
+/* .toc-active {
+    color: #057c3e;
+    font-weight: bold;
+}
+
+.nav-link active {
+    color: #057c3e;
+} */
+
+
+/* back to top styling */
+
+#quarto-back-to-top {
+    background-color: #057c3e; /* Green background */
+    color: #ffcc00; /* White text */
+    font-weight: bold;
+}
+
 /* style for any element with a data-category attribute that includes "Grade" */
 [data-category*="Grade"] {
     background-color: #ffcc00;  /* yellow background */
