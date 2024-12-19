@@ -1,6 +1,9 @@
 /* Existing imports */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
+
+/* navbar styling */
+
 .navbar {
     background-color: #057c3e;
     font-weight: bolder;
@@ -30,6 +33,8 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+/* button styling */
 
 .button-container {
     display: flex;
@@ -68,7 +73,8 @@ body {
     background-color: #fbcd35;
 }
 
-/* New styles */
+/* info section styling */
+
 .info-section, .info-section-reverse {
     display: flex;
     align-items: center;
@@ -108,6 +114,42 @@ body {
     flex-direction: row-reverse;
 }
 
+/* activities page: category filter styling */
+
+[data-category] {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* add spacing between each data category */
+    transition: background-color 0.3s ease; /* smooth transition for background color changes */
+}
+
+  /* style for any element with a data-category attribute that includes "Grade" */
+[data-category*="Grade"] {
+    background-color: #ffcc00;  /* yellow background */
+    color: #000; /* text color */
+}
+
+  /* style for any element with a data-category attribute that includes "Time" */
+[data-category*="Time"] {
+    background-color: #057c3e; /* green background */
+    color: #ffffff; /* text color */
+}
+
+  /* add a hover effect for better interaction */
+[data-category]:hover {
+    background-color: #e0e0e0; /* slightly darker gray for hover effect */
+    color: black
+}
+
+/* activities page: pagination styling */
+
+.pagination- .pagination {
+    display: flex;
+    justify-content: center; /* Centers the pagination */
+    gap: 10px; /* Adds spacing between buttons */
+}
 /* media queries */
 @media (max-width: 768px) {
     .main-title {
@@ -161,52 +203,3 @@ body {
         display: block;
     }
 }
-
-/* style all elements with the data-category attribute */
-[data-category] {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px; /* add spacing between each data category */
-    transition: background-color 0.3s ease; /* smooth transition for background color changes */
-  }
-  
-  /* style for any element with a data-category attribute that includes "Grade" */
-  [data-category*="Grade"] {
-    background-color: #ffcc00;  /* yellow background */
-    color: #000; /* text color */
-  }
-  
-  /* style for any element with a data-category attribute that includes "Time" */
-  [data-category*="Time"] {
-    background-color: #057c3e; /* green background */
-    color: #ffffff; /* text color */
-  }
-  
-  /* add a hover effect for better interaction */
-  [data-category]:hover {
-    background-color: #e0e0e0; /* slightly darker gray for hover effect */
-    color: black
-  }
-
-
-
-/* will work on the overflow of activities later, this is to test it */
-
-
-/* .list.quarto-listing-default { */
-    /* display: flex; */
-    /* flex-wrap: wrap; Ensure activities wrap onto new rows */
-    /* justify-content: space-between; Adjusts spacing between items */
-    /* gap: 20px; Adds space between each post */
-/* } */
-
-/* .quarto-listing-default .quarto-post { */
-    /* margin-bottom: 20px; */
-    /* overflow: auto; */
-/* } */
-
-/* .quarto-back-to-top { */
-    /* color: #057c3e !important;
-} */
