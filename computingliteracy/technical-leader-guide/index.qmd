@@ -3,7 +3,6 @@ title: "Guide for Computing Outreach Fellows"
 toc: true
 page-layout: full
 ---
-#
 
 ## What is the Computing Outreach Program?
 
