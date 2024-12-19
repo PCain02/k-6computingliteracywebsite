@@ -9,6 +9,21 @@
     font-weight: bolder;
 }
 
+.navbar-title {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffcc00 !important;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    color: #ffcc00 !important;
+    text-decoration: none;
+}
+
 body .page-footer,
 body .nav-footer {
     background-color: transparent !important;
@@ -153,6 +168,7 @@ body {
 
 .page-item .page-link {
     color: #057c3e;  /* green text */
+    font-weight: bold;
 }
 
 .page-item.active .page-link {
@@ -160,9 +176,9 @@ body {
     color: #ffcc00; /* white text */
 }
 
-
-
-
+.bi .bi-arrow-up {
+    color: #057c3e; /* green arrow */
+}
 
 /* media queries */
 @media (max-width: 768px) {
