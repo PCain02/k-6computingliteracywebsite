@@ -1,8 +1,9 @@
 ---
 title: Activities
-layout: full
+page-layout: full
 toc: true
 listing:
+  page-size: 10
   contents:
     - "*activity/**/*.qmd"
   sort:
