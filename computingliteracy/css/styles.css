@@ -145,11 +145,25 @@ body {
 
 /* activities page: pagination styling */
 
-.pagination- .pagination {
+.listing-pagination {
     display: flex;
-    justify-content: center; /* Centers the pagination */
-    gap: 10px; /* Adds spacing between buttons */
+    justify-content: center; /* center the pagination */
+    gap: 5px; /* add spacing between buttons */
 }
+
+.page-item .page-link {
+    color: #057c3e;  /* green text */
+}
+
+.page-item.active .page-link {
+    background-color: #057c3e; /* green bg */
+    color: #ffcc00; /* white text */
+}
+
+
+
+
+
 /* media queries */
 @media (max-width: 768px) {
     .main-title {
