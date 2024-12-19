@@ -40,5 +40,3 @@ format:
   <a href="https://forms.gle/vqGo5faLw4V5fhzH6" class="button button-yellow">Apply to be a Fellow!</a>
   </div>
 </div>
-
-
