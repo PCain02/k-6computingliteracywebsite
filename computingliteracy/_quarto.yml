@@ -8,7 +8,7 @@ website:
   reader-mode: false
   back-to-top-navigation: true
   page-navigation: true
-  favicon: "images/logonew.png"
+  favicon: "images/logo.svg"
   navbar:
     right:
       - text: "Outreach Guide"
