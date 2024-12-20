@@ -375,14 +375,14 @@
     "href": "about/index.html",
     "title": "About",
     "section": "",
-    "text": "Adhering to the standards upheld by the Pennsylvania education system, our goal is to develop and implement a program that promotes sustained and ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative aims to provide a systematic introduction to computing for K-6 students, ensuring that every student in Crawford Central is regularly exposed to computing concepts at each stage of their education.\n\nAdhering to the standards upheld by the"
+    "text": "Our goal is to foster an ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative introduces K-6 students to computing concepts, ensuring consistent exposure to STEM from early education."
   },
   {
     "objectID": "about/index.html#our-mission-and-goal",
     "href": "about/index.html#our-mission-and-goal",
     "title": "About",
     "section": "",
-    "text": "Adhering to the standards upheld by the Pennsylvania education system, our goal is to develop and implement a program that promotes sustained and ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative aims to provide a systematic introduction to computing for K-6 students, ensuring that every student in Crawford Central is regularly exposed to computing concepts at each stage of their education.\n\nAdhering to the standards upheld by the"
+    "text": "Our goal is to foster an ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative introduces K-6 students to computing concepts, ensuring consistent exposure to STEM from early education."
   },
   {
     "objectID": "about/index.html#pennsylvania-education",
@@ -838,5 +838,12 @@
     "title": "Activity 17: Facts and Questions",
     "section": "Learning Outcomes",
     "text": "Learning Outcomes\nAs advancements in AI technology continue to grow, prompt engineering has emerged as a critical skill, with increasing demand in the job market. Introducing students to these concepts at an early age will enhance their understanding of how prompt engineering works and how it connects to their existing curriculum, fostering essential skills for the future of technology and innovation. Requiring students to formulate more specific and detailed questions will enhance their ability to identify and construct clear, precise prompts, an essential skill in prompt engineering. This practice not only deepens their understanding of the subject matter but also strengthens their critical thinking and problem-solving abilities, which are vital for success in the evolving field of AI and technology."
+  },
+  {
+    "objectID": "about/index.html#pennsylvania-education-framework",
+    "href": "about/index.html#pennsylvania-education-framework",
+    "title": "About",
+    "section": "Pennsylvania Education Framework",
+    "text": "Pennsylvania Education Framework\n\nSTEM in Pennsylvania\nSTEM education in Pennsylvania emphasizes literacy for all students, reflection, iteration, community integration, and partnerships between educators, families, and institutions.\n\n\nComputer Science Literacy\nThe current Pennsylvania framework prioritizes grades 7-12, but we aim to bridge this gap by introducing computer science concepts to younger students, aligned with state standards.\n\nSources\n\nPA Department of Education STEM Guidelines\nThe Framework for Computer Science 7-12 Program Guidelines"
   }
 ]
