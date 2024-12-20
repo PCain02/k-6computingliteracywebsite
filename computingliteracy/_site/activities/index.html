@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Activities – CODE WITH CHOMPERS</title>
+<title>Activities – Code with Chompers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../images/logonew.png" rel="icon" type="image/png">
+<link href="../images/logo.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -79,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-categories','listing-title','listing-subtitle','listing-grades','listing-time_required',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
@@ -139,7 +140,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">CODE WITH CHOMPERS</span>
+    <span class="navbar-title">Code with Chompers</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -168,14 +169,14 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="Grade: 1">Grade: 1</div><div class="category" data-category="Grade: 2">Grade: 2</div><div class="category" data-category="Grade: 3">Grade: 3</div><div class="category" data-category="Grade: 4">Grade: 4</div><div class="category" data-category="Grade: 5">Grade: 5</div><div class="category" data-category="Grade: 6">Grade: 6</div><div class="category" data-category="Grade: Grade: 4">Grade: Grade: 4</div><div class="category" data-category="Grade: Kindergarten">Grade: Kindergarten</div><div class="category" data-category="Time: 1 Hour">Time: 1 Hour</div><div class="category" data-category="Time: 30 Minutes">Time: 30 Minutes</div><div class="category" data-category="Time: 45 Minutes">Time: 45 Minutes</div><div class="category" data-category="Time: Varies">Time: Varies</div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -184,7 +185,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -438,7 +439,7 @@ Time: 30 Minutes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Grade: 1,Grade: 2,Grade: 3,Grade: 4,Grade: 5,Grade: 6,Time: 1 Hour" data-listing-file-modified-sort="1726456287187" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
+<div class="quarto-post image-right" data-index="6" data-categories="Grade: 1,Grade: 2,Grade: 3,Grade: 4,Grade: 5,Grade: 6,Time: 1 Hour" data-listing-file-modified-sort="1730331763935" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../activities/07activity/07activity.html" class="no-external">Activity 7: Pattern Recognition Activity - Pattern Detectives</a>
@@ -906,6 +907,9 @@ All grades
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
