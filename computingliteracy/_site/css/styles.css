@@ -162,6 +162,13 @@ body {
     font-weight: bold;
 }
 
+
+#quarto-back-to-top:hover {
+    font-size: 1.0em;
+    transition: font-size 0.3s ease;
+
+}
+
 /* style for any element with a data-category attribute that includes "Grade" */
 [data-category*="Grade"] {
     background-color: #ffcc00;  /* yellow background */
@@ -196,10 +203,6 @@ body {
 .page-item.active .page-link {
     background-color: #057c3e; /* green bg */
     color: #ffcc00; /* white text */
-}
-
-.bi .bi-arrow-up {
-    color: #057c3e; /* green arrow */
 }
 
 /* media queries */
