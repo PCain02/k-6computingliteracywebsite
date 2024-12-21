@@ -22,7 +22,7 @@ To run the website locally, follow these steps:
 Once the development server is running, you can access the website at `quarto preview`. The homepage will provide navigation to different sections of the program, including activities, resources, application forms.
 
 ## Contributing
-Contributions are welcome! To contribute:
+Contributions are welcome! To add new activities:
 
 - Go to the template folder
 - Copy the `.qmd` file and you can start creating activities
