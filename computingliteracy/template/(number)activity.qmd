@@ -5,11 +5,12 @@ grades: Grade
 time_required: " hour"
 categories: ["", ""]
 toc: true # creates a table of contents
+page-layout: full # ensures the page is full width
 ---
 
 ## IMPORTANT (REMOVE LATER)
 
-Please git pull then move your finished activity to the activities folder, ensure the numbering is correct.
+Please ensure you are creating an activity as a PR and getting it reviewed by the team before merging it to the main branch. Thank you!
 
 ## Description
 
