@@ -30,7 +30,7 @@ For students unfamiliar with the powers of 2, a reference sheet will be provided
 ### Step 2: Implementation
 
 - Arrange the balloons in a line. You can use string or tape to ensure they stay in place.
-- Prepare several different sequences for demonstration and practice (e.g., 000, 010, 011, 100, 110, 111).
+- Prepare several different sequences for demonstration and practice (e.g., `000`, `010`, `011`, `100`, `110`, `111`).
 - Have the extra balloon ready to be added to the activity so students can experiment with different examples.
 
 ### Step 3: Explanation
