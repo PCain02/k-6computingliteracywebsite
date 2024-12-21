@@ -169,6 +169,13 @@ body {
 
 }
 
+.quarto-category {
+    background-color: #ffcc00; /* Green background */
+    color: #000; /* White text */
+    box-shadow: #000 0px 0px 10px;
+    font-weight: bolder;
+}
+
 /* style for any element with a data-category attribute that includes "Grade" */
 [data-category*="Grade"] {
     background-color: #ffcc00;  /* yellow background */
