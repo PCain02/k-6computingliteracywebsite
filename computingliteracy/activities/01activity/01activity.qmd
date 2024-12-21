@@ -5,6 +5,7 @@ grades: 5th Grade
 time_required: "1 hour"
 categories: ["Grade: 5", "Time: 1 Hour"]
 toc: true
+page-layout: full
 ---
 
 ## Description

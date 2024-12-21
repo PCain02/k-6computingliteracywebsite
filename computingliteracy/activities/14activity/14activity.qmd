@@ -5,6 +5,7 @@ grades: All grades
 time_required: "30 minutes"
 categories: ["Grade: Kindergarten", "Grade: 1", "Grade: 2", "Grade: 3", "Grade: 4", "Grade: 5", "Grade: 6", "Time: 30 Minutes"]
 toc: true
+page-layout: full
 ---
 
 ## Description

@@ -5,6 +5,7 @@ grades: 4th, 5th, and 6th grade
 time_required: "Varies by grade"
 categories: ["Grade: 4", "Grade: 5", "Grade: 6", "Time: Varies"]
 toc: true
+page-layout: full
 ---
 
 ## Description

@@ -5,6 +5,7 @@ grades: 4th - 6th Grade
 time_required: "30 minutes"
 categories: ["Grade: 4", "Grade: 5", "Grade: 6", "Time: 30 Minutes"]
 toc: true
+page-layout: full
 ---
 
 ## Description
