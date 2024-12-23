@@ -15,7 +15,7 @@ To run the website locally, follow these steps:
 
 2. **Navigate to the Project Directory:**
     ```bash
-    cd computerliteracy
+    cd computingliteracy
     ```
 
 ## Usage
