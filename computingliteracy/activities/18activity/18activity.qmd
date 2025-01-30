@@ -1,0 +1,33 @@
+---
+title: "Activity 18: Play Doh Lights"
+subtitle: "Enhancing Knowledge of Electricity and Inspiring Creativity."
+grades: All grades
+time_required: "1 hour"
+categories: ["Grade: Kindergarten", "Grade: 1", "Grade: 2", "Grade: 3", "Grade: 4", "Grade: 5", "Grade: 6", "Time: 30 Minutes"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+Students will engage in an activity designed to introduce them to the fundamentals of electronics by making a simple circuit. The Play Doh conducts electricity and can be used to turn the LEDs on.
+
+## Materials required
+
+- Play Doh in a variety of colors
+- LEDs in a variety of colors
+- 5V Batteries with 5V Battery Holders (Alternative option is an Arduino with a laptop)
+- Non-conductive Clay (optional)
+
+## Steps to conduct the activity
+
+1. Set up the station by organizing the materials
+2. Explain to the students that batteries have both a positive (red) and negative (black) side and in order to turn anything on a circuit needs to connect these two sides using the lights and the play doh. 
+
+## Reflection
+
+- Ask students what part of the actvity they found the hardest. Then ask if they found identifying question or creating them to be harder. 
+
+## Learning Outcomes
+
+As advancements in AI technology continue to grow, prompt engineering has emerged as a critical skill, with increasing demand in the job market. Introducing students to these concepts at an early age will enhance their understanding of how prompt engineering works and how it connects to their existing curriculum, fostering essential skills for the future of technology and innovation. Requiring students to formulate more specific and detailed questions will enhance their ability to identify and construct clear, precise prompts, an essential skill in prompt engineering. This practice not only deepens their understanding of the subject matter but also strengthens their critical thinking and problem-solving abilities, which are vital for success in the evolving field of AI and technology.
