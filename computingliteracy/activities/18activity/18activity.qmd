@@ -22,7 +22,11 @@ Students will engage in an activity designed to introduce them to the fundamenta
 ## Steps to conduct the activity
 
 1. Set up the station by organizing the materials
-2. Explain to the students that batteries have both a positive (red) and negative (black) side and in order to turn anything on a circuit needs to connect these two sides using the lights and the play doh. 
+2. Explain to the students that batteries have both a positive (red) and negative (black) side and in order to turn anything on a circuit needs to connect these two sides using the lights and the play doh. A circuit is like a trail and the negative needs to be able to walk back to the battery through the postive.
+3. Demonstrate the creation of a playdoh light system. Start by creating two blobs of playdough connect the red end of the battery to one and the black end to the other blob. Explain that the light has a long leg and a short leg. The short leg always has to be on the negative (black) side and the long leg always has to be towards the postive (red) side. Then connect the light to the blobs. Explain that the blobs can not touch out the electricity will skip past the light and not turn it on (this is called a short circuit). After connecting the light correctly the light should turn on. Explain if the light does not turn on when they try the first thing to test is to switch the direction of the legs (this is the most common mistake). 
+4. Show the students it is possible to connect two lights by creating 3 blobs of playdoh and the outer blobs should be the postivie and negative ends connected to the play dough. Then use a light to connect the blobs with the long leg always facing the postive side. This is a series circuit.
+6. Show the students it is possible to connect more than one light in the same section. Connect a second LED in the same direction as the one next to it. This is called a parallel circuit. 
+5. Now give each of the students their materials to make their own. 
 
 ## Reflection
 
