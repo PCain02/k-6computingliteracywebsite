@@ -18,20 +18,36 @@ Students will engage in an activity designed to introduce them to the fundamenta
 - LEDs in a variety of colors
 - 5V Batteries with 5V Battery Holders (Alternative option is an Arduino with a laptop)
 - Non-conductive Clay (optional)
+- Print out this [Worksheet](https://docs.google.com/document/d/1iW4f0jPNCIwvbq399E8cg8kOai0Hg_kiSf8HCAkqTdA/edit?usp=sharing)
 
 ## Steps to conduct the activity
+1. Show this video to the class on playdoh circuits [YouTube Link](https://www.youtube.com/watch?v=VcdqBmFETNw)
+2. Set up the station by organizing the materials
+3. Explain to the students that batteries have both a positive (red) and negative (black) side and in order to turn anything on a circuit needs to connect these two sides using the lights and the play doh. A circuit is like a trail and the negative needs to be able to walk back to the battery through the postive.
+4. Demonstrate the creation of a playdoh light system. Start by creating two blobs of playdough connect the red end of the battery to one and the black end to the other blob. Explain that the light has a long leg and a short leg. The short leg always has to be on the negative (black) side and the long leg always has to be towards the postive (red) side. Then connect the light to the blobs. Explain that the blobs can not touch out the electricity will skip past the light and not turn it on (this is called a short circuit). After connecting the light correctly the light should turn on. Explain if the light does not turn on when they try the first thing to test is to switch the direction of the legs (this is the most common mistake). 
 
-1. Set up the station by organizing the materials
-2. Explain to the students that batteries have both a positive (red) and negative (black) side and in order to turn anything on a circuit needs to connect these two sides using the lights and the play doh. A circuit is like a trail and the negative needs to be able to walk back to the battery through the postive.
-3. Demonstrate the creation of a playdoh light system. Start by creating two blobs of playdough connect the red end of the battery to one and the black end to the other blob. Explain that the light has a long leg and a short leg. The short leg always has to be on the negative (black) side and the long leg always has to be towards the postive (red) side. Then connect the light to the blobs. Explain that the blobs can not touch out the electricity will skip past the light and not turn it on (this is called a short circuit). After connecting the light correctly the light should turn on. Explain if the light does not turn on when they try the first thing to test is to switch the direction of the legs (this is the most common mistake). 
-4. Show the students it is possible to connect two lights by creating 3 blobs of playdoh and the outer blobs should be the postivie and negative ends connected to the play dough. Then use a light to connect the blobs with the long leg always facing the postive side. This is a series circuit.
-5. Show the students it is possible to connect more than one light in the same section. Connect a second LED in the same direction as the one next to it. This is called a parallel circuit. 
-6. Non-conductive clay can be used to block current and connect the creations. Try not to mix the play doh with the clay.
-7. Now give each of the students their materials to make their own. Here are some example challengegs to give them to try
+![LED_pins](images/led_pins.png){width=80%}
+
+![single_circuit](images/single.png){width=80%}
+
+5. Show the students it is possible to connect two lights by creating 3 blobs of playdoh and the outer blobs should be the postivie and negative ends connected to the play dough. Then use a light to connect the blobs with the long leg always facing the postive side. This is a series circuit.
+
+![series_circuit](images/series_circuit.png){width=80%}
+
+6. Show the students it is possible to connect more than one light in the same section. Connect a second LED in the same direction as the one next to it. This is called a parallel circuit. 
+
+![parellel_circuit](images/parallel_circuit.png){width=80%}
+
+7. Non-conductive clay can be used to block current and connect the creations. Try not to mix the play doh with the clay.
+8. Now give each of the students their materials to make their own. Here are some example challengegs to give them to try
     - Can you follow the path that electricity takes to light up starting with the black wire?
     - Can you get all the different colors to light up?
     - Can you get more than 3 blobs of playdoh connected in a circuit?
-8. An alternative method of this activity is using an arduino. Set up an Arduino with the following blink code changing the pin 13 to whatever pin/s you plan to use. An arduino can run more than one playdoh circuit at a time by adding more pins. You can also try to add the pins to light up at different times to create a christmas light display.
+9. An alternative method of this activity is using an arduino. Set up an Arduino with the following blink code using the Arduino IDE changing the pin 13 to whatever pin/s you plan to use. The Arduino IDE can be used on any laptop. An Arduino can run more than one playdoh circuit at a time by adding more pins. You can also try to add the pins to light up at different times to create a christmas light display. Make sure the black wire is connected to the GND on the Ardunio and the red wire is connected to the digital pin number.
+
+![arduino_blink](images/arduino_blink.png){width=80%}
+
+![arduino_pins](images/arduino_pins.png){width=80%}
 
 ```C++
 void setup() {
