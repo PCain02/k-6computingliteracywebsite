@@ -1,0 +1,62 @@
+---
+title: "Activity 19: Paper Pattern Recognition"
+subtitle: "Learn more about pattern recognition by creating your own patterns!"
+grades: Kindergarten, 1st, 2nd, 3rd
+time_required: "30 minutes"
+categories: ["Grade: Kindergarten", "Grade: 1", "Grade: 2", "Grade: 3", "Time: 30 Minutes"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+In this fun and interactive activity, students will explore pattern recognition by first learning how to identify different patterns using shapes. After practicing identifying patterns, students will play a creative game where they can mix and match shapes to create their own unique patterns and challenge their peers to figure out how their patterns work!
+
+## Time Required
+
+- **Time Required**: 30 minutes
+
+## Important Note
+
+This activity is similar to [Activity 7](https://codewithchompers.com/activities/07activity/07activity). While both activities focus on identifying, creating, and extending patterns, [Activity 7](https://codewithchompers.com/activities/07activity/07activity) is more comprehensive, incorporating pattern analysis, puzzle solving, and a coding extension using Blockly Turtle. On the other hand, [Activity 19](codewithchompers.com/activities/19activity/19activity) offers a shorter, more interactive experience, where students create patterns and engage in a fun game of guessing each other's patterns, making it more suitable for younger students.
+
+## Materials Required
+
+- Shape cutouts (linked below!)
+
+### Step 1: Learning the Basics of Patterns
+
+- Begin by introducing the students to different types of patterns, such as alternating shapes (e.g., circle, square, circle, square), repeating sequences (e.g., red, blue, red, blue), or growing patterns (e.g., one, two, three, four).
+- Use a large whiteboard or paper to draw out simple examples of each type of pattern, explaining how each pattern works and how to identify what comes next.
+
+### Step 2: Practice Identifying Patterns
+
+- Hand out shape cutouts to the students and ask them to identify the next shape in a given sequence.
+- For example, if the pattern is circle, square, circle, square, ask them to identify what shape comes next. You can also introduce variations such as color patterns or number patterns.
+- Give the students a few different sequences to practice with, reinforcing how to spot and predict the next part of a pattern.
+
+### Step 3: Creating Their Own Patterns
+
+- Encourage students to mix and match the shape cutouts to create their own patterns on the paper or whiteboard.
+- As they work, ask them to think about how their patterns work—whether they repeat, alternate, or grow.
+- Allow the students to share their patterns with the class and ask their peers to guess how the patterns work.
+
+### Step 4: Peer Challenge Game
+
+- Once each student has created their pattern, let them challenge their peers to identify the pattern they made.
+- Students will take turns presenting their patterns to the group, while the rest of the class tries to figure out how the pattern works. This encourages teamwork and sharpens their pattern recognition skills.
+
+## Link to the sheets of patterns.
+
+[Save the sheets of patterns that can be used for the session!](./patterns.pdf)
+
+## Reflection
+
+- At the end of the activity, gather the students and ask them about the patterns they created. Discuss the following questions:
+  - How did you come up with your pattern?
+  - Was it easy or hard to guess how your peer's pattern worked? Why?
+  - What kinds of patterns did you like creating the most? 
+
+## Summary
+
+- By creating and identifying patterns, students will strengthen their logical thinking and problem-solving skills. This activity fosters creativity while also helping young learners develop an understanding of sequences, repetition, and structure—key skills in both mathematics and everyday life.
