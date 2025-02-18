@@ -21,7 +21,8 @@ In this activity, students will use Blue-Bots to navigate maps filled with condi
 - Blue-Bots 
 - Blue-Bot App: Blue's Bloc (IPAD)
 - Blue-Bots Map 
-- Conditional Color Sheet ()
+- Conditional Color Sheet () [Condtional Color Sheet](./ColorSheet.pdf)
+
 - Colored Flashcards
 
 ### Step 1: Setting Up a Conditional Map
