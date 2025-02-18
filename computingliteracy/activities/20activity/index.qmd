@@ -49,10 +49,10 @@ In this activity, students will use Blue-Bots to navigate maps filled with condi
 
 ## Reflection
 
-- At the end of the activity, gather the students and ask them what conditional color they had the hardest time getting passed and why. Addtionally for those who had kept count ask how many times they were able to completle their obstacles.
-  - What color did you find the hardest to pass and why?
-  - Was there any colors you found too easy to pass by?
-  - How many times were you able to finish your obstacle courses? 
+- At the end of the activity, gather the students and ask them which conditional color they had the hardest time passing and why. Additionally, for those who kept count, ask how many times they were able to complete their obstacles.
+    - What color did you find the hardest to pass and why?
+    - Were there any colors you found too easy to pass by?
+    - How many times were you able to finish your obstacle courses?
 
 ## Summary
 
