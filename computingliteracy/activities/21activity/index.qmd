@@ -1,0 +1,59 @@
+---
+title: "Activity 20: Conditional Color Coding with Blue-Bots"
+subtitle: "Complete the Blue-Bot maps but make sure to follow the color code."
+grades: 2nd, 3rd
+time_required: "30 minutes"
+categories: ["Grade: Grade: 2", "Grade: 3", "Time: 30 Minutes"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+In this activity, students will use Blue-Bots to navigate maps filled with conditional statements that require them to adhere to specific constraints. Each student will receive a color-coded reference sheet outlining the conditions that must be followed when standing on a particular color. As students progress through the obstacles, they will gradually encounter more complex challenges incorporating additional conditional statements. This structured approach fosters critical thinking and problem-solving skills while enhancing their understanding of conditional logic in programming.
+
+## Time Required
+
+- **Time Required**: 30 minutes
+
+## Materials Required
+
+- Blue-Bots 
+- Blue-Bot App: Blue's Bloc (IPAD)
+- Blue-Bots Map 
+- Conditional Color Sheet () [Condtional Color Sheet](./ColorSheet.pdf)
+
+- Colored Flashcards
+
+### Step 1: Setting Up a Conditional Map
+
+- Each map should have at least two students, with each assigned three columns for their obstacle course. A fifth colored flashcard should mark the end goal in the top row.
+- Ensure there is one Blue-Bot for every three columns. If there are more students than available maps or Blue-Bots, pairing them is the best option.
+    - When pairing students, ensure they take equal turns using the device.
+- Design the course using flashcards so that students encounter at least five conditions regardless of their chosen path to the goal.
+
+### Step 2: Explaining the Conditional Sheet
+
+- Students should be familiar with the Blue-Bots application, which uses code blocks to control movement. If unfamiliar, they may complete up to four condition-free obstacles before progressing.
+- Introduce the color-coded sheet, which specifies conditions requiring either the use or restriction of certain code blocks.
+- Since some conditions involve turning at specific angles, ensure students understand the difference between 45-degree and 90-degree turns.
+- Clearly state each color used and the required action when landing on it.
+
+### Step 3: Completing the Map 
+
+- Encourage students to complete the course independently and assist those who are confused or struggling with the task.
+- If students are hesitant to help, involve a nearby teacher to better manage the situation.
+- Once a student achieves their goal, have them reposition the marked goal within the top row of their three columns.
+- After meeting their marked goals twice, allow them to modify the flashcards and provide guidance if their courses are not conditionally possible. 
+- Once modifying their courses, ask them to keep track of how many times they meet their goal. 
+
+## Reflection
+
+- At the end of the activity, gather the students and ask them which conditional color they had the hardest time passing and why. Additionally, for those who kept count, ask how many times they were able to complete their obstacles.
+    - What color did you find the hardest to pass and why?
+    - Were there any colors you found too easy to pass by?
+    - How many times were you able to finish your obstacle courses?
+
+## Summary
+
+- By programming Blue-Bots to navigate maps with specific constraints, students develop an understanding of how conditions affect movement and decision-making. The activity reinforces computational thinking, logical reasoning, and teamwork while encouraging students to experiment with different coding sequences.
