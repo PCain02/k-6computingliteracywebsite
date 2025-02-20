@@ -45,11 +45,11 @@ In this activity, students will use Blue-Bots to create squares made up of forwa
 
 ## Reflection
 
-- At the end of the activity, gather the students and ask how many of them were able to create their squares and where, if applicable, they had any troubles. Additionally, for those who kept count, ask how many times they were able to complete their pathways.
+At the end of the activity, gather the students and ask how many of them were able to create their squares and where, if applicable, they had any troubles. Additionally, for those who kept count, ask how many times they were able to complete their pathways.
     - What directional combinations were tricky and why?
     - Were there any pathways you found to be easy?
     - How many times were you able to finish your A-to-B pathways?
 
 ## Summary
 
-- By programming Blue-Bots to navigate maps with specific constraints, students develop an understanding of how conditions affect movement and decision-making. The activity reinforces computational thinking, logical reasoning, and teamwork while encouraging students to experiment with different coding sequences.
+By programming Blue-Bots to navigate maps with specific constraints, students develop an understanding of how conditions affect movement and decision-making. The activity reinforces computational thinking, logical reasoning, and teamwork while encouraging students to experiment with different coding sequences.
