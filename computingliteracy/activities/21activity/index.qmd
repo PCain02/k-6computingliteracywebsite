@@ -3,7 +3,7 @@ title: "Activity 21: Shapes and A-to-B Movements with Blue-Bots"
 subtitle: "Use the Blue-Bot to create squares and various A-to-B pathways, making sure to test different combinations of movements."
 grades: 1st, 2nd
 time_required: "30 minutes"
-categories: ["Grade: Grade: 1", "Grade: 2", "Time: 30 Minutes"]
+categories: ["Grade: 1", "Grade: 2", "Time: 30 Minutes"]
 toc: true
 page-layout: full
 ---

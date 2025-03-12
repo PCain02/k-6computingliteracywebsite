@@ -3,7 +3,7 @@ title: "Activity 20: Conditional Color Coding with Blue-Bots"
 subtitle: "Complete the Blue-Bot maps but make sure to follow the color code."
 grades: 2nd, 3rd
 time_required: "30 minutes"
-categories: ["Grade: Grade: 2", "Grade: 3", "Time: 30 Minutes"]
+categories: ["Grade: 2", "Grade: 3", "Time: 30 Minutes"]
 toc: true
 page-layout: full
 ---
