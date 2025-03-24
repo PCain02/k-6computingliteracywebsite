@@ -1,0 +1,39 @@
+---
+title: "Activity 1: TODO"
+subtitle: "TODO"
+topic: Python
+time_required: "1 hour"
+categories: ["Topic: Python", "Time: 1 Hour"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+TODO
+
+## Materials Required
+
+TODO
+
+## Steps to Conduct the Activity
+
+### Step 1: Topic Explanation
+
+- TODO
+
+### Step 2: Explain the Problem
+
+- TODO
+
+### Step 3: Interactive Time
+
+- TODO
+
+## Reflection
+
+- TODO
+
+## Learning Outcomes
+
+TODO

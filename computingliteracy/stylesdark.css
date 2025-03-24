@@ -13,18 +13,60 @@ code, pre, .monospace {
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1.25em;
-    background-color: #727272;
+    background-color: #121212;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, li, ul{
     color: white;
 }
 
+a{
+    color: #4da6ff;
+}
 
+/* Ensure all text inside list quarto-listing-default is white */
+.list.quarto-listing-default {
+    color: white !important; 
+}
+
+/* Ensure links inside the listing are white */
+.list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
+}
+
+/* Ensure specific styling for titles */
+.list.quarto-listing-default .listing-title {
+    color: white !important; 
+    font-weight: bold;
+}
+
+/* Ensure specific styling for subtitles */
+.list.quarto-listing-default .listing-subtitle {
+    color: white !important; 
+    font-style: italic; 
+}
+
+/* Ensure specific styling for categories */
+.list.quarto-listing-default .listing-category {
+    color: white !important; 
+    background-color: transparent;
+}
+
+/* Sidebar TOC*/
+.sidebar nav[role="doc-toc"] ul > li > a:hover {
+    color: #4da6ff !important; 
+    text-decoration: underline; 
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+    color: #4da6ff !important;
+    font-weight: bold;
+}
 
 /* navbar styling */
 
@@ -237,18 +279,6 @@ body .nav-footer {
     background-color: #057c3e; /* green bg */
     color: #ffcc00; /* white text */
 }
-
-/* Footer */
-footer {
-    width: 100%;
-    background-color: #1B3054; 
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin: 0;
-    box-sizing: border-box;
-    flex-shrink: 0;
-  }
 
 /* media queries */
 @media (max-width: 768px) {

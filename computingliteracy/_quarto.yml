@@ -14,8 +14,12 @@ website:
     right:
       - text: "Outreach Guide"
         href: "technical-leader-guide/index.qmd"
-      - text: "Activities"
-        href: "activities/index.qmd"
+      - text: "K-6 Activities"
+        href: "k-6_activities/index.qmd"
+      - text: "Middle School Outreach"
+        href: "middle_school/index.qmd"
+      - text: "High School Outreach"
+        href: "high_school/index.qmd"
       - text: "About"
         href: "about/index.qmd"
   page-footer:

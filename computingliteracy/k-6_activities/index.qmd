@@ -1,5 +1,5 @@
 ---
-title: Activities
+title: K-6 Activities
 page-layout: full
 toc: true
 listing:
