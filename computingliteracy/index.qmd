@@ -1,9 +1,7 @@
 ---
 title: ""
 page-layout: full
-format:
-  html:
-    css: css/styles.css
+toc: false
 ---
 
 <div class="hero-section">
@@ -19,7 +17,7 @@ format:
 
 <div class="info-section">
   <div class="info-image">
-  <img class="image" src="./images/4.jpeg" alt="Picture of the students">
+  <img class="image" src="./images/4.png" alt="Picture of the students">
   </div>
   <div class="info-content">
   <h2 class="info-title">For Teachers</h2>

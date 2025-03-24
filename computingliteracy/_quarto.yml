@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: 'Code with Chompers'
@@ -25,13 +26,9 @@ website:
 
 format:
   html:
-    mainfont: Inter
-    monofont: Roboto
-    fontsize: 1.25em
-    theme:
-      default
+    theme: 
+      light: styles.css
+      dark: stylesdark.css
     highlight-style: github
-    css: css/styles.css
-
 execute:
   freeze: auto
