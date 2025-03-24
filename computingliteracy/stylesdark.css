@@ -10,6 +10,21 @@ code, pre, .monospace {
     font-family: 'Roboto', monospace;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25em;
+    background-color: #727272;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
+}
+
+
 
 /* navbar styling */
 
@@ -41,16 +56,6 @@ code, pre, .monospace {
 body .page-footer,
 body .nav-footer {
     background-color: transparent !important;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25em;
-    background-color: #747272;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -112,7 +117,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 40px 20px;
-    background-color: #ffffff;
+    background-color: #727272;
     margin: 20px 0;
 }
 
@@ -232,6 +237,18 @@ body {
     background-color: #057c3e; /* green bg */
     color: #ffcc00; /* white text */
 }
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #1B3054; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
 
 /* media queries */
 @media (max-width: 768px) {
