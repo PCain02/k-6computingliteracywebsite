@@ -7,7 +7,7 @@
    ========================== */
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
 /* Base Font Styles */
 body {
@@ -32,24 +32,19 @@ code, pre, .monospace {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 15px 30px;
-    background: #057c3e !important;
     font-weight: bolder;
 }
 
 .navbar-title {
-    color: #ffffff !important;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #ffcc00 !important;
     text-decoration: none;
 }
 
 .navbar a.active {
-    color: #ffcc00 !important;
     text-decoration: none;
 }
 
@@ -82,33 +77,27 @@ body .nav-footer {
 }
 
 .button {
-    background-color: #057c3e;
     padding: 15px 30px;
-    color: white;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #08904a;
+    opacity: 0.9;
 }
 
 .button-yellow {
-    background-color: #ffc300;
     padding: 15px 30px;
-    color: black;
-    font-weight: bolder;
     text-decoration: none;
+    font-weight: bolder;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-}
-
-.button-yellow:hover {
-    background-color: #fbcd35;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* info section styling */
@@ -118,8 +107,8 @@ body .nav-footer {
     align-items: center;
     justify-content: space-between;
     padding: 40px 20px;
-    background-color: #ffffff;
     margin: 20px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .info-image img {
@@ -159,14 +148,31 @@ body .nav-footer {
 /* ==========================
    Light Mode Styles
    ========================== */
+
 [data-theme="light"] {
     background-color: #ffffff;
     color: #000000;
 }
 
+[data-theme="light"] h1, h2, h3, h4, h5, h6, p, li, ul {
+    color: #000000;
+}
+
+[data-theme="light"] .info-section, [data-theme="light"] .info-section-reverse {
+    background-color: #ffffff;
+    color: #000000; /* Explicitly set text color to black */
+}
+
+[data-theme="light"] .info-section .info-title,
+[data-theme="light"] .info-section .info-subtitle,
+[data-theme="light"] .info-section-reverse .info-title,
+[data-theme="light"] .info-section-reverse .info-subtitle {
+    color: #000000; /* Ensure titles and subtitles are black */
+}
+
 [data-theme="light"] .navbar {
-    background-color: #057c3e;
-    color: #ffffff;
+    background-color: #057c3e; /* Light gray for navbar */
+    color: #000000;
 }
 
 [data-theme="light"] .button {
@@ -183,17 +189,33 @@ body .nav-footer {
    Dark Mode Styles
    ========================== */
 [data-theme="dark"] {
-    background-color: #121212;
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .info-section, .info-section-reverse {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+
+[data-theme="dark"] h1, h2, h3, h4, h5, h6, p, li, ul{
+    color: white;
+}
+
+
+[data-theme="dark"] body{
+    background-color: #000000;
     color: #e0e0e0;
 }
 
 [data-theme="dark"] .navbar {
-    background-color: #1f1f1f;
+    background-color: #1a1a1a; /* Darker gray for navbar */
     color: #e0e0e0;
 }
 
 [data-theme="dark"] .button {
-    background-color: #333;
+    background-color: #333333;
     color: #ffffff;
 }
 
@@ -203,108 +225,51 @@ body .nav-footer {
 }
 
 [data-theme="dark"] .button:hover {
-    background-color: #555;
+    background-color: #555555;
 }
 
-/* ==========================
-   High Contrast Mode Styles
-   ========================== */
-[data-theme="high-contrast"] {
-    background-color: #000000;
-    color: #ffff00; /* Bright yellow for text */
+[data-theme="dark"] a{
+    color: #4da6ff;
 }
 
-[data-theme="high-contrast"] .navbar {
-    background-color: #000000; /* Black background for navbar */
-    color: #ffff00; /* Bright yellow text for navbar */
-    border-bottom: 2px solid #ffff00; /* Add a yellow border for emphasis */
+/* Ensure all text inside list quarto-listing-default is white */
+[data-theme="dark"] .list.quarto-listing-default {
+    color: white !important; 
 }
 
-[data-theme="high-contrast"] .navbar-title {
-    color: #ffff00 !important; /* Bright yellow for the title */
+/* Ensure links inside the listing are white */
+[data-theme="dark"] .list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
 }
 
-[data-theme="high-contrast"] .navbar a {
-    color: #ffff00 !important; /* Bright yellow for links */
-    text-decoration: underline; /* Underline links for better visibility */
+/* Ensure specific styling for titles */
+[data-theme="dark"] .list.quarto-listing-default .listing-title {
+    color: white !important; 
+    font-weight: bold;
 }
 
-[data-theme="high-contrast"] .navbar a:hover {
-    color: #ffffff !important; /* White text on hover */
-    background-color: #ffff00; /* Yellow background on hover */
-    text-decoration: none; /* Remove underline on hover */
+/* Ensure specific styling for subtitles */
+[data-theme="dark"] .list.quarto-listing-default .listing-subtitle {
+    color: white !important; 
+    font-style: italic; 
 }
 
-[data-theme="high-contrast"] .button {
-    background-color: #000000;
-    color: #ffff00;
-    border: 2px solid #ffff00; /* Add a border for better visibility */
+/* Ensure specific styling for categories */
+[data-theme="dark"] .list.quarto-listing-default .listing-category {
+    color: white !important; 
+    background-color: transparent;
 }
 
-[data-theme="high-contrast"] .button:hover {
-    background-color: #ffff00;
-    color: #000000;
+/* Sidebar TOC*/
+[data-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a:hover {
+    color: #4da6ff !important; 
+    text-decoration: underline; 
 }
 
-[data-theme="high-contrast"] .button-yellow {
-    background-color: #ffff00;
-    color: #000000;
-}
-
-[data-theme="high-contrast"] .button-yellow:hover {
-    background-color: #000000;
-    color: #ffff00;
-}
-
-[data-theme="high-contrast"] a {
-    color: #ffff00;
-    text-decoration: underline;
-}
-
-[data-theme="high-contrast"] a:hover {
-    color: #ffffff;
-}
-
-/* ==========================
-   High Contrast Light Mode Styles
-   ========================== */
-[data-theme="light-high-contrast"] {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-[data-theme="light-high-contrast"] .navbar {
-    background-color: #000000;
-    color: #ffff00;
-    border-bottom: 2px solid #ffff00;
-}
-
-/* ==========================
-   High Contrast Dark Mode Styles
-   ========================== */
-[data-theme="dark-high-contrast"] {
-    background-color: #000000;
-    color: #ffff00;
-}
-
-[data-theme="dark-high-contrast"] .navbar {
-    background-color: #000000;
-    color: #ffff00;
-    border-bottom: 2px solid #ffff00;
-}
-
-/* High Contrast Buttons */
-[data-theme="light-high-contrast"] .button,
-[data-theme="dark-high-contrast"] .button {
-    background-color: #000000;
-    color: #ffff00;
-    border: 2px solid #ffff00;
-}
-
-[data-theme="light-high-contrast"] .button:hover,
-[data-theme="dark-high-contrast"] .button:hover {
-    background-color: #ffff00;
-    color: #000000;
+[data-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a.active {
+    color: #4da6ff !important;
+    font-weight: bold;
 }
 
 /* ==========================
