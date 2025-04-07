@@ -11,6 +11,13 @@ website:
   page-navigation: true
   favicon: "images/logo.svg"
   navbar:
+    left:
+      - text: "Settings"
+        menu:
+          - text: "Increase Text Size"
+            href: "javascript:increaseTextSize()"
+          - text: "Decrease Text Size"
+            href: "javascript:decreaseTextSize()"
     right:
       - text: "Outreach Guide"
         href: "technical-leader-guide/index.qmd"
@@ -33,6 +40,8 @@ format:
     theme: 
       light: styles.css
       dark: stylesdark.css
+    include-in-header: 
+      - _includes/settings.html
     highlight-style: github
 execute:
   freeze: auto
