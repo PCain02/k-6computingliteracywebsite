@@ -68,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- settings.html -->
+<script src="../_includes/settings.js"></script>
 
 
 </head>
@@ -101,6 +103,14 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="javascript:decreaseTextSize()">
  <span class="dropdown-text">Decrease Text Size</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:toggleTheme()">
+ <span class="dropdown-text">Toggle High Contrast Mode</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:resetAccessibilitySettings()">
+ <span class="dropdown-text">Reset Settings</span></a>
   </li>  
     </ul>
   </li>
@@ -200,34 +210,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-// settings.js
-
-let currentFontSize = 100; // Start at 100%
-
-function increaseTextSize() {
-  currentFontSize += 10;
-  applyFontSize();
-}
-
-function decreaseTextSize() {
-  currentFontSize = Math.max(50, currentFontSize - 10); // Minimum 50%
-  applyFontSize();
-}
-
-function applyFontSize() {
-  document.body.style.fontSize = currentFontSize + '%';
-  // Optionally store it in localStorage
-  localStorage.setItem('textSize', currentFontSize);
-}
-
-// Load saved font size on page load
-document.addEventListener("DOMContentLoaded", function () {
-  const savedSize = localStorage.getItem('textSize');
-  if (savedSize) {
-    currentFontSize = parseInt(savedSize);
-    applyFontSize();
-  }
-});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

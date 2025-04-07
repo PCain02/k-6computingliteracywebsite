@@ -2,16 +2,31 @@
 
 /* CSS styles */
 
-/* import google fonts */
+/* ==========================
+   Global Styles
+   ========================== */
+
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
+/* Base Font Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition between themes */
+}
 
 code, pre, .monospace {
     font-family: 'Roboto', monospace;
 }
 
-
-/* navbar styling */
+/* ==========================
+   Navbar Styles
+   ========================== */
 
 .navbar {
     display: flex;
@@ -43,17 +58,6 @@ body .nav-footer {
     background-color: transparent !important;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25em;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
 .main-title {
     font-size: 3em;
     margin-bottom: 10px;
@@ -66,7 +70,9 @@ body {
     text-align: center;
 }
 
-/* button styling */
+/* ==========================
+   Button Styles
+   ========================== */
 
 .button-container {
     display: flex;
@@ -146,94 +152,165 @@ body {
     flex-direction: row-reverse;
 }
 
-/* activities page: category filter styling */
+/* ==========================
+   Theme Styles
+   ========================== */
 
-[data-category] {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px; /* add spacing between each data category */
-    transition: background-color 0.3s ease; /* smooth transition for background color changes */
+/* ==========================
+   Light Mode Styles
+   ========================== */
+[data-theme="light"] {
+    background-color: #ffffff;
+    color: #000000;
 }
 
-/* work on this later */
-
-/* .toc-active {
-    color: #057c3e;
-    font-weight: bold;
+[data-theme="light"] .navbar {
+    background-color: #057c3e;
+    color: #ffffff;
 }
 
-.nav-link active {
-    color: #057c3e;
-} */
-
-
-/* back to top styling */
-
-#quarto-back-to-top {
-    background-color: #057c3e; /* Green background */
-    color: #ffcc00; /* White text */
-    font-weight: bold;
+[data-theme="light"] .button {
+    background-color: #057c3e;
+    color: #ffffff;
 }
 
-
-#quarto-back-to-top:hover {
-    font-size: 1.0em;
-    transition: font-size 0.3s ease;
-
+[data-theme="light"] .button-yellow {
+    background-color: #ffc300;
+    color: #000000;
 }
 
-.quarto-category {
-    background-color: #ffcc00; /* yello background */
-    color: #000; /* White text */
-    box-shadow: #000 0px 0px 10px;
-    font-weight: bolder;
+/* ==========================
+   Dark Mode Styles
+   ========================== */
+[data-theme="dark"] {
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-/* style for any element with a data-category attribute that includes "Grade" */
-[data-category*="Grade"] {
-    background-color: #ffcc00;  /* yellow background */
-    color: #000; /* text color */
+[data-theme="dark"] .navbar {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
 }
 
-/* style for any element with a data-category attribute that includes "Time" */
-[data-category*="Time"] {
-    background-color: #057c3e; /* green background */
-    color: #ffffff; /* text color */
+[data-theme="dark"] .button {
+    background-color: #333;
+    color: #ffffff;
 }
 
-/* add a hover effect for better interaction */
-[data-category]:hover {
-    background-color: #e0e0e0; /* slightly darker gray for hover effect */
-    color: black
+[data-theme="dark"] .button-yellow {
+    background-color: #ffc300;
+    color: #000000;
 }
 
-/* which clicked, turn bg to gray */
-[data-category].active {
-    background-color: #e0e0e0; /* slightly darker gray */
-    color: black;
+[data-theme="dark"] .button:hover {
+    background-color: #555;
 }
 
-/* activities page: pagination styling */
-
-.listing-pagination {
-    display: flex;
-    justify-content: center; /* center the pagination */
-    gap: 5px; /* add spacing between buttons */
+/* ==========================
+   High Contrast Mode Styles
+   ========================== */
+[data-theme="high-contrast"] {
+    background-color: #000000;
+    color: #ffff00; /* Bright yellow for text */
 }
 
-.page-item .page-link {
-    color: #057c3e;  /* green text */
-    font-weight: bold;
+[data-theme="high-contrast"] .navbar {
+    background-color: #000000; /* Black background for navbar */
+    color: #ffff00; /* Bright yellow text for navbar */
+    border-bottom: 2px solid #ffff00; /* Add a yellow border for emphasis */
 }
 
-.page-item.active .page-link {
-    background-color: #057c3e; /* green bg */
-    color: #ffcc00; /* white text */
+[data-theme="high-contrast"] .navbar-title {
+    color: #ffff00 !important; /* Bright yellow for the title */
 }
 
-/* media queries */
+[data-theme="high-contrast"] .navbar a {
+    color: #ffff00 !important; /* Bright yellow for links */
+    text-decoration: underline; /* Underline links for better visibility */
+}
+
+[data-theme="high-contrast"] .navbar a:hover {
+    color: #ffffff !important; /* White text on hover */
+    background-color: #ffff00; /* Yellow background on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+[data-theme="high-contrast"] .button {
+    background-color: #000000;
+    color: #ffff00;
+    border: 2px solid #ffff00; /* Add a border for better visibility */
+}
+
+[data-theme="high-contrast"] .button:hover {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+[data-theme="high-contrast"] .button-yellow {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+[data-theme="high-contrast"] .button-yellow:hover {
+    background-color: #000000;
+    color: #ffff00;
+}
+
+[data-theme="high-contrast"] a {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+[data-theme="high-contrast"] a:hover {
+    color: #ffffff;
+}
+
+/* ==========================
+   High Contrast Light Mode Styles
+   ========================== */
+[data-theme="light-high-contrast"] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+[data-theme="light-high-contrast"] .navbar {
+    background-color: #000000;
+    color: #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+
+/* ==========================
+   High Contrast Dark Mode Styles
+   ========================== */
+[data-theme="dark-high-contrast"] {
+    background-color: #000000;
+    color: #ffff00;
+}
+
+[data-theme="dark-high-contrast"] .navbar {
+    background-color: #000000;
+    color: #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+
+/* High Contrast Buttons */
+[data-theme="light-high-contrast"] .button,
+[data-theme="dark-high-contrast"] .button {
+    background-color: #000000;
+    color: #ffff00;
+    border: 2px solid #ffff00;
+}
+
+[data-theme="light-high-contrast"] .button:hover,
+[data-theme="dark-high-contrast"] .button:hover {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+/* ==========================
+   Media Queries
+   ========================== */
+
 @media (max-width: 768px) {
     .main-title {
         font-size: 2em;
@@ -285,4 +362,10 @@ body {
         margin-right: auto;
         display: block;
     }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
 }
+
