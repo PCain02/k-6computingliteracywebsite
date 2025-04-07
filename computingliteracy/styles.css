@@ -301,21 +301,6 @@ body .nav-footer {
     background-color: #ffffff;  /* White background */
     color: #1a1a1a;  /* Dark text for contrast */
 }
-
-/* Ensure proper contrast for text */
-[data-theme="dark-high-contrast"] h1,
-[data-theme="dark-high-contrast"] h2,
-[data-theme="dark-high-contrast"] h3,
-[data-theme="dark-high-contrast"] h4,
-[data-theme="dark-high-contrast"] h5,
-[data-theme="dark-high-contrast"] h6,
-[data-theme="dark-high-contrast"] p,
-[data-theme="dark-high-contrast"] li,
-[data-theme="dark-high-contrast"] ul,
-[data-theme="dark-high-contrast"] .subtitle {
-    color: #000000;  /* Light text for better readability */
-}
-
 /* Navbar */
 [data-theme="light-high-contrast"] .navbar {
     background-color: #005b2f;  /* Darker green for better contrast */
@@ -328,6 +313,21 @@ body .nav-footer {
     color: #ffffff;  /* White links */
     text-decoration: underline;
 }
+
+/* Ensure proper contrast for text */
+[data-theme="light-high-contrast"] h1,
+[data-theme="light-high-contrast"] h2,
+[data-theme="light-high-contrast"] h3,
+[data-theme="light-high-contrast"] h4,
+[data-theme="light-high-contrast"] h5,
+[data-theme="light-high-contrast"] h6,
+[data-theme="light-high-contrast"] p,
+[data-theme="light-high-contrast"] li,
+[data-theme="light-high-contrast"] ul,
+[data-theme="light-high-contrast"] .subtitle {
+    color: #000000;  /* Light text for better readability */
+}
+
 
 [data-theme="light-high-contrast"] .navbar a:hover {
     color: #ffcc00;  /* Yellow links on hover */
@@ -397,7 +397,7 @@ body .nav-footer {
 }
 
 [data-theme="light-high-contrast"] a:hover {
-    color: #ffcc00;  /* Yellow links on hover */
+    color: #005b2f;  /* Yellow links on hover */
     text-decoration: underline;  /* Underline links on hover */
 }
 
@@ -448,6 +448,36 @@ body .nav-footer {
     color: #ffffff;  /* Light text for better readability */
 }
 
+
+
+/* Ensure all text inside list quarto-listing-default is white */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default {
+    color: white !important; 
+}
+
+/* Ensure links inside the listing are white */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
+}
+
+/* Ensure specific styling for titles */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-title {
+    color: white !important; 
+    font-weight: bold;
+}
+
+/* Ensure specific styling for subtitles */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-subtitle {
+    color: white !important; 
+    font-style: italic; 
+}
+
+/* Ensure specific styling for categories */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-category {
+    color: white !important; 
+    background-color: transparent;
+}
 
 /* Navbar */
 [data-theme="dark-high-contrast"] .navbar {
