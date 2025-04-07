@@ -154,8 +154,18 @@ body .nav-footer {
     color: #000000;
 }
 
-[data-theme="light"] h1, h2, h3, h4, h5, h6, p, li, ul {
-    color: #000000;
+/* Ensure proper contrast for text */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #ffffff;  /* Light text for better readability */
 }
 
 [data-theme="light"] .info-section, [data-theme="light"] .info-section-reverse {
@@ -193,14 +203,25 @@ body .nav-footer {
     color: #e0e0e0;
 }
 
-[data-theme="dark"] .info-section, .info-section-reverse {
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+[data-theme="dark"] .info-section .info-title,
+[data-theme="dark"] .info-section .info-subtitle,
+[data-theme="dark"] .info-section-reverse .info-title,
+[data-theme="dark"] .info-section-reverse .info-subtitle {
+    color: #ffffff; /* Ensure titles and subtitles are black */
 }
 
-
-[data-theme="dark"] h1, h2, h3, h4, h5, h6, p, li, ul{
-    color: white;
+/* Ensure proper contrast for text */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #ffffff;  /* Light text for better readability */
 }
 
 
@@ -282,8 +303,17 @@ body .nav-footer {
 }
 
 /* Ensure proper contrast for text */
-[data-theme="light-high-contrast"] h1, h2, h3, h4, h5, h6, p, li, ul {
-    color: #1a1a1a;  /* Dark text for better readability */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #000000;  /* Light text for better readability */
 }
 
 /* Navbar */
@@ -383,6 +413,139 @@ body .nav-footer {
     border: 0;
     height: 2px;
     background-color: #005b2f;  /* Dark green divider */
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* ==========================
+   High Contrast Dark Mode Styles
+   ========================== */
+
+   [data-theme="dark-high-contrast"] {
+    background-color: #121212;  /* Dark background for high contrast */
+    color: #e0e0e0;  /* Light text color for high contrast */
+}
+
+[data-theme="dark-high-contrast"] body{
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+/* Ensure proper contrast for text */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #ffffff;  /* Light text for better readability */
+}
+
+
+/* Navbar */
+[data-theme="dark-high-contrast"] .navbar {
+    background-color: #1f1f1f;  /* Darker gray for navbar */
+    color: #e0e0e0;  /* Light text for navbar */
+    border-bottom: 3px solid #ffcc00;  /* Bright yellow for high contrast */
+}
+
+/* Navbar links and hover states */
+[data-theme="dark-high-contrast"] .navbar a {
+    color: #e0e0e0;  /* Light text for links */
+    text-decoration: underline;
+}
+
+[data-theme="dark-high-contrast"] .navbar a:hover {
+    color: #ffcc00;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for emphasis */
+}
+
+/* Dropdown menu in High Contrast Dark Mode */
+[data-theme="dark-high-contrast"] .dropdown-menu {
+    background-color: #1f1f1f;  /* Dark background for dropdown */
+    color: #e0e0e0;  /* Light text for dropdown items */
+    border: 1px solid #ffcc00;  /* Yellow border for visibility */
+}
+
+[data-theme="dark-high-contrast"] .dropdown-menu a {
+    color: #e0e0e0;  /* Light text for dropdown links */
+}
+
+[data-theme="dark-high-contrast"] .dropdown-menu a:hover {
+    background-color: #ffcc00;  /* Yellow background on hover */
+    color: #000000;  /* Black text on hover */
+}
+
+/* Info sections */
+[data-theme="dark-high-contrast"] .info-section,
+[data-theme="dark-high-contrast"] .info-section-reverse {
+    background-color: #2a2a2a;  /* Dark background for info sections */
+    color: #e0e0e0;  /* Light text */
+    border: 2px solid #1f1f1f;  /* Dark border for separation */
+}
+
+[data-theme="dark-high-contrast"] .info-section .info-title,
+[data-theme="dark-high-contrast"] .info-section .info-subtitle,
+[data-theme="dark-high-contrast"] .info-section-reverse .info-title,
+[data-theme="dark-high-contrast"] .info-section-reverse .info-subtitle {
+    color: #ffcc00;  /* Yellow for titles and subtitles */
+}
+
+/* Buttons */
+[data-theme="dark-high-contrast"] .button {
+    background-color: #1f1f1f;  /* Dark button background */
+    color: #e0e0e0;  /* Light text for buttons */
+    border: 2px solid #1f1f1f;  /* Dark border to match the background */
+}
+
+[data-theme="dark-high-contrast"] .button:hover {
+    background-color: #ffcc00;  /* Yellow on hover */
+    color: #121212;  /* Dark text on yellow background */
+    border-color: #ffcc00;  /* Yellow border on hover */
+}
+
+[data-theme="dark-high-contrast"] .button-yellow {
+    background-color: #ffcc00;  /* Bright yellow button */
+    color: #121212;  /* Dark text */
+    border: 2px solid #ffcc00;  /* Yellow border */
+}
+
+[data-theme="dark-high-contrast"] .button-yellow:hover {
+    background-color: #1f1f1f;  /* Dark gray on hover */
+    color: #e0e0e0;  /* Light text on dark background */
+    border-color: #1f1f1f;  /* Dark gray border on hover */
+}
+
+/* Links */
+[data-theme="dark-high-contrast"] a {
+    color: #ffcc00;  /* Yellow links */
+    text-decoration: none;
+}
+
+[data-theme="dark-high-contrast"] a:hover {
+    color: #e0e0e0;  /* Light links on hover */
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+/* Footer */
+[data-theme="dark-high-contrast"] .page-footer,
+[data-theme="dark-high-contrast"] .nav-footer {
+    background-color: #1f1f1f;  /* Dark gray footer */
+    color: #e0e0e0;  /* Light text */
+}
+
+/* Section dividers */
+[data-theme="dark-high-contrast"] .section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #ffcc00;  /* Bright yellow divider */
     margin: 40px 0;
     width: 80%;
     margin-left: auto;
