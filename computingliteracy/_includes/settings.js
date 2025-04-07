@@ -1,5 +1,7 @@
 // settings.js
 
+let currentFontSize = 100; // Default font size
+
 // Function to toggle High Contrast Mode
 function toggleAccessibilityTheme() {
   const html = document.documentElement;
@@ -43,8 +45,8 @@ function resetAccessibilitySettings() {
   currentFontSize = 100;
   applyFontSize();
   document.documentElement.setAttribute("data-theme", "light");
+  localStorage.setItem("theme", "light");
   localStorage.removeItem("textSize");
-  localStorage.removeItem("theme");
 }
 
 // Function to increase text size
@@ -67,15 +69,17 @@ function applyFontSize() {
 
 // Restore the saved theme and text size from localStorage when the page loads
 document.addEventListener("DOMContentLoaded", function () {
-  const savedTheme = localStorage.getItem("theme");
+  const savedTheme = localStorage.getItem("theme") || "light"; // Default to light mode
   const savedSize = localStorage.getItem("textSize");
 
-  if (savedTheme) {
-    document.documentElement.setAttribute("data-theme", savedTheme); // Apply the saved theme
-  }
+  // Apply the saved or default theme
+  document.documentElement.setAttribute("data-theme", savedTheme);
 
+  // Apply the saved or default font size
   if (savedSize) {
     currentFontSize = parseInt(savedSize);
-    applyFontSize();
+  } else {
+    currentFontSize = 100; // Default font size
   }
+  applyFontSize();
 });
