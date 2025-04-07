@@ -272,8 +272,123 @@ body .nav-footer {
     font-weight: bold;
 }
 
+/* ==========================
+   High Contrast Light Mode Styles
+   ========================== */
 
+[data-theme="light-high-contrast"] {
+    background-color: #ffffff;  /* White background */
+    color: #1a1a1a;  /* Dark text for contrast */
+}
 
+/* Ensure proper contrast for text */
+[data-theme="light-high-contrast"] h1, h2, h3, h4, h5, h6, p, li, ul {
+    color: #1a1a1a;  /* Dark text for better readability */
+}
+
+/* Navbar */
+[data-theme="light-high-contrast"] .navbar {
+    background-color: #005b2f;  /* Darker green for better contrast */
+    color: #ffffff;  /* White text */
+    border-bottom: 3px solid #ffcc00;  /* Yellow accent for high visibility */
+}
+
+/* Navbar links and hover states */
+[data-theme="light-high-contrast"] .navbar a {
+    color: #ffffff;  /* White links */
+    text-decoration: underline;
+}
+
+[data-theme="light-high-contrast"] .navbar a:hover {
+    color: #ffcc00;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for additional emphasis */
+}
+
+/* Dropdown menu in High Contrast Light Mode */
+[data-theme="light-high-contrast"] .dropdown-menu {
+    background-color: #000000;  /* Black background for dropdown */
+    color: #ffffff;  /* White text for dropdown items */
+    border: 1px solid #ffcc00;  /* Yellow border for visibility */
+}
+
+[data-theme="light-high-contrast"] .dropdown-menu a {
+    color: #ffffff;  /* White text for dropdown links */
+}
+
+[data-theme="light-high-contrast"] .dropdown-menu a:hover {
+    background-color: #ffcc00;  /* Yellow background on hover */
+    color: #000000;  /* Black text on hover */
+}
+
+/* Info sections */
+[data-theme="light-high-contrast"] .info-section,
+[data-theme="light-high-contrast"] .info-section-reverse {
+    background-color: #f7f7f7;  /* Light gray background */
+    color: #1a1a1a;  /* Dark text */
+    border: 2px solid #005b2f;  /* Dark green border for separation */
+}
+
+[data-theme="light-high-contrast"] .info-section .info-title,
+[data-theme="light-high-contrast"] .info-section .info-subtitle,
+[data-theme="light-high-contrast"] .info-section-reverse .info-title,
+[data-theme="light-high-contrast"] .info-section-reverse .info-subtitle {
+    color: #000000;  /* Dark green for headings */
+}
+
+/* Buttons */
+[data-theme="light-high-contrast"] .button {
+    background-color: #005b2f;  /* Dark green for buttons */
+    color: #ffffff;  /* White text for visibility */
+    border: 2px solid #005b2f;  /* Green border to match the background */
+}
+
+[data-theme="light-high-contrast"] .button:hover {
+    background-color: #ffcc00;  /* Yellow on hover */
+    color: #1a1a1a;  /* Dark text on yellow background */
+    border-color: #ffcc00;  /* Yellow border on hover */
+}
+
+[data-theme="light-high-contrast"] .button-yellow {
+    background-color: #ffcc00;  /* Bright yellow button */
+    color: #1a1a1a;  /* Dark text */
+    border: 2px solid #ffcc00;  /* Yellow border */
+}
+
+[data-theme="light-high-contrast"] .button-yellow:hover {
+    background-color: #005b2f;  /* Dark green on hover */
+    color: #ffffff;  /* White text on dark green */
+    border-color: #005b2f;  /* Dark green border on hover */
+}
+
+/* Links */
+[data-theme="light-high-contrast"] a {
+    color: #005b2f;  /* Green links */
+    text-decoration: none;
+}
+
+[data-theme="light-high-contrast"] a:hover {
+    color: #ffcc00;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+/* Footer */
+[data-theme="light-high-contrast"] .page-footer,
+[data-theme="light-high-contrast"] .nav-footer {
+    background-color: #005b2f;  /* Dark green background */
+    color: #ffffff;  /* White text */
+}
+
+/* Section dividers */
+[data-theme="light-high-contrast"] .section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #005b2f;  /* Dark green divider */
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 /* ==========================
    Media Queries
