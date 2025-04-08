@@ -1,0 +1,80 @@
+---
+title: "Presentation 2: ROV Design"
+subtitle: "Week 3 Part 1 of Building Underwater Robots"
+topic: Robotics
+time_required: "20 Minutes"
+categories: ["Topic: Robotics", "Time: 20 Minutes", "Type: Presentation"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+This hands-on workshop introduces students to the design and construction of Remotely Operated Vehicles (ROVs). Students will explore what ROVs are, their uses, core systems, and engage in building their own basic frame using PVC parts. This is the first part of a multi-part ROV curriculum.
+
+## Materials Required
+
+- PVC Pipe of Various Sizes:
+  - 2 × 7" long ½" PVC
+  - 4 × 6" long ½" PVC
+  - 2 × 5" long ½" PVC
+  - 2 × 3" long ½" PVC
+  - 4 × 2" long ½" PVC
+  - 6 × 1" long ½" PVC
+- 10 × ½" PVC Corner piece SxS
+- 6 × ½" PVC T pieces SxSxS
+- Zip ties
+- Netting
+
+## Questions to Ask
+
+- What is an ROV and what makes it different from other robots?
+- Why might we want an ROV to be tethered?
+- Which systems are most important for underwater movement?
+- How do buoyancy and propulsion interact?
+- What kinds of tasks can ROVs be designed for?
+
+## Activities
+
+### Step 1: What is an ROV?
+
+Students learn about the concept of remotely operated vehicles, tethering, and real-world use cases like underwater archaeology and water quality monitoring.
+
+### Step 2: Understanding ROV Systems
+
+Introduce students to essential subsystems:
+- Frame
+- Buoyancy
+- Propulsion
+- Power
+- Control
+- Tether
+- (Optionally mention sensors/payloads)
+
+### Step 3: ROV Design Styles
+
+Compare orthogonal and vector motor configurations:
+- Orthogonal: Surge, Heave, Yaw, Sway
+- Vector: Surge, Heave (vectored), Yaw, Sway (vectored)
+
+### Step 4: Build Your Own Frame
+
+Use the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal ROV frame. One motor for horizontal motion and one for vertical.
+
+Build instructions link:  
+[Google Doc Instructions](https://docs.google.com/document/d/1JO1pM3XBeRCmAP9afXCYYmD5eIm-PML3H3EooP9FBmE/edit?usp=sharing)
+
+See activity 3 for the rest of the building activity.
+
+## Reflection
+
+- What challenges did you think you will face when building your ROV frame?
+- How do you think your design would perform in water?
+- If you could add one new feature or improvement to your ROV, what would it be?
+
+## Learning Outcomes
+
+- Understand what an ROV is and identify its core components.
+- Compare different underwater movement systems and ROV layouts.
+- Apply design thinking and basic engineering principles to construct an ROV frame.
+- Collaborate in teams to solve real-world-inspired challenges.

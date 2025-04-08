@@ -60,7 +60,7 @@
     "href": "middle_school/index.html",
     "title": "Middle School Outreach",
     "section": "",
-    "text": "Welcome to the page where you can find all the activities that have already been implemented. Use the categories to find activities based on topic and time required.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 1: TODO\n\n\nTODO\n\n\n\nTopic: Robotics\n\n\nTime: 1 Hour\n\n\n\n\n\n\n\n\n\n\n\nActivity 1: TODO\n\n\nTODO\n\n\n\nTopic: Python\n\n\nTime: 1 Hour\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 1: TODO\n\n\nTODO\n\n\n\nTopic: Python\n\n\nTime: 1 Hour\n\n\nType: Activity\n\n\n\n\n\n\n\n\n\n\n\nPresentation 1: Intro to Robotics\n\n\nWeek 1 Part 1 of Building Underwater Robots\n\n\n\nTopic: Robotics\n\n\nTime: 30 Minutes\n\n\nType: Presentation\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "middle_school/01activity/01activity.html",
@@ -1244,5 +1244,61 @@
     "title": "Guide for Computing Outreach Fellows",
     "section": "Key Responsibilities",
     "text": "Key Responsibilities\n\nWorking with children\nCollaborating with faculty at Meadville public schools\nRunning through and understanding activities beforehand\nReading books that improve students understanding of computational skills"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html",
+    "href": "middle_school/01presentation/01presentation.html",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "",
+    "text": "This lesson introduces middle school students to the exciting world of robotics. Students will learn about the wide range of applications for robots, explore different types of robotic systems (like manipulators, wheeled, legged, humanoid, aerial, and underwater robots), and understand why robotics is a growing field with strong career prospects. This is designed to inspire curiosity and introduce core ideas in STEM through discussion and examples."
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#description",
+    "href": "middle_school/01presentation/01presentation.html#description",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "",
+    "text": "This lesson introduces middle school students to the exciting world of robotics. Students will learn about the wide range of applications for robots, explore different types of robotic systems (like manipulators, wheeled, legged, humanoid, aerial, and underwater robots), and understand why robotics is a growing field with strong career prospects. This is designed to inspire curiosity and introduce core ideas in STEM through discussion and examples."
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#materials-required",
+    "href": "middle_school/01presentation/01presentation.html#materials-required",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nProjector or computer with presentation\nOptional: toy robots, robot arms, or images/videos of real-world robots for demonstration"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#steps-to-conduct-the-activity",
+    "href": "middle_school/01presentation/01presentation.html#steps-to-conduct-the-activity",
+    "title": "Presentation 1: Intro to Robotics: Building Underwater Robots",
+    "section": "Steps to Conduct the Activity",
+    "text": "Steps to Conduct the Activity\n\nStep 1: Topic Explanation\n\nTODO\n\n\n\nStep 2: Explain the Problem\n\nTODO\n\n\n\nStep 3: Interactive Time\n\nTODO"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#reflection",
+    "href": "middle_school/01presentation/01presentation.html#reflection",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat is one thing you learned today that surprised you?\nWhich type of robot would you want to build or work with?\nHow might robotics change the world in the next 10 years?\nDo you think robots will make more jobs or take jobs away? Why?"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#learning-outcomes",
+    "href": "middle_school/01presentation/01presentation.html#learning-outcomes",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nStudents will be able to:\n\nIdentify common uses of robots in various fields like manufacturing, healthcare, and space.\nDescribe at least three types of robots and their applications.\nUnderstand how robots help increase safety, efficiency, and convenience in daily life.\nDiscuss the role of robotics in future careers and its impact on society."
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#questions-to-ask",
+    "href": "middle_school/01presentation/01presentation.html#questions-to-ask",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Questions to Ask",
+    "text": "Questions to Ask\n\nWhat are some examples of robots you’ve seen or heard about?\nWhy do you think robots are useful in dangerous environments?\nHow are wheeled robots different from legged robots?\nWhat is one job you think a robot could never do?\nWhich type of robot do you think is the coolest? Why?\nWould you like to design or work with robots someday?"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#presentation-link",
+    "href": "middle_school/01presentation/01presentation.html#presentation-link",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Presentation Link",
+    "text": "Presentation Link"
   }
 ]

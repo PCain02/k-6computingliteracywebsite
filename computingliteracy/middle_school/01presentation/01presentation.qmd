@@ -1,0 +1,45 @@
+---
+title: "Presentation 1: Intro to Robotics"
+subtitle: "Week 1 Part 1 of Building Underwater Robots"
+topic: Robotics
+time_required: "30 Minutes"
+categories: ["Topic: Robotics", "Time: 30 Minutes", "Type: Presentation"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+This lesson introduces middle school students to the exciting world of robotics. Students will learn about the wide range of applications for robots, explore different types of robotic systems (like manipulators, wheeled, legged, humanoid, aerial, and underwater robots), and understand why robotics is a growing field with strong career prospects. This is designed to inspire curiosity and introduce core ideas in STEM through discussion and examples.
+
+## Materials Required
+
+- Projector or computer with presentation
+- Optional: toy robots, robot arms, or images/videos of real-world robots for demonstration
+
+## [Presentation Link](https://docs.google.com/presentation/d/1lBvxaRCd3KU_Ci5lfe21iA764TSjV_uB2NCJ-5d7bz0/edit?usp=sharing)
+
+## Questions to Ask
+
+- What are some examples of robots you’ve seen or heard about?
+- Why do you think robots are useful in dangerous environments?
+- How are wheeled robots different from legged robots?
+- What is one job you think a robot could never do?
+- Which type of robot do you think is the coolest? Why?
+- Would you like to design or work with robots someday?
+
+## Learning Outcomes
+
+Students will be able to:
+
+- Identify common uses of robots in various fields like manufacturing, healthcare, and space.
+- Describe at least three types of robots and their applications.
+- Understand how robots help increase safety, efficiency, and convenience in daily life.
+- Discuss the role of robotics in future careers and its impact on society.
+
+## Reflection
+
+- What is one thing you learned today that surprised you?
+- Which type of robot would you want to build or work with?
+- How might robotics change the world in the next 10 years?
+- Do you think robots will make more jobs or take jobs away? Why?

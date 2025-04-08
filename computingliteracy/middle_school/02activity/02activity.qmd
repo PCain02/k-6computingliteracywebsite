@@ -1,39 +1,218 @@
 ---
-title: "Activity 1: TODO"
-subtitle: "TODO"
-topic: Python
+title: "Activity 2: Coding with Arduino"
+subtitle: "Week 2 of Building Underwater Robots"
+topic: Electronics
 time_required: "1 hour"
-categories: ["Topic: Python", "Time: 1 Hour"]
+categories: ["Topic: Electronics", "Time: 1 Hour", "Type: Activity"]
 toc: true
 page-layout: full
 ---
 
 ## Description
 
-TODO
+In this 30-minute session, students will explore coding with Arduino by building a circuit with 3 single-color LEDs and 1 RGB LED. They'll learn how to use digital and PWM pins to control light patterns and colors, and write basic Arduino sketches to make lights blink and fade.
 
 ## Materials Required
 
-TODO
+- 1 Arduino Uno or equivalent per student  
+- 6 or more male-to-male hookup wires  
+- 3 x 470 ohm resistors (or similar)  
+- 3 LEDs of any color  
+- 1 RGB LED  
 
-## Steps to Conduct the Activity
-
-### Step 1: Topic Explanation
-
-- TODO
-
-### Step 2: Explain the Problem
-
-- TODO
-
-### Step 3: Interactive Time
-
-- TODO
-
-## Reflection
-
-- TODO
+## [Presentation Link](https://docs.google.com/presentation/d/1glz2kz48QZUh9vxGn77U0fta346_-CcPX2OKMbvTHKU/edit?usp=sharing)
 
 ## Learning Outcomes
 
-TODO
+- Understand the difference between digital and PWM pins on Arduino  
+- Build a circuit using multiple LEDs and resistors  
+- Use `digitalWrite()` to blink LEDs  
+- Use `analogWrite()` to control an RGB LED's color  
+- Debug common wiring/code errors  
+
+## Agenda
+
+### 1. Introduction to LED Control
+- Review: What is an LED?  
+- Polarity and how to wire an LED safely  
+- Using resistors with LEDs
+
+### 2. Blinking 3 LEDs
+- Connect 3 single-color LEDs to pins 11, 12, and 13  
+- Use `digitalWrite()` and `delay()`  
+- Challenge: Create a pattern (e.g., traffic light or chase light)
+
+### 3. RGB LED Basics
+- Common Anode vs. Cathode RGB LEDs  
+- Use PWM pins (9, 10, 11) for red, green, and blue  
+- Create solid colors and mixes using `analogWrite()`  
+
+### 4. Example Code Snippets
+
+
+#### Lesson 1: Blink
+
+```cpp
+/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+
+  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
+  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
+  the correct LED pin independent of which board is used.
+  If you want to know what pin the on-board LED is connected to on your Arduino
+  model, check the Technical Specs of your board at:
+  https://www.arduino.cc/en/Main/Products
+
+  modified 8 May 2014
+  by Scott Fitzgerald
+  modified 2 Sep 2016
+  by Arturo Guadalupi
+  modified 8 Sep 2016
+  by Colby Newman
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
+*/
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+
+```
+
+#### Lesson 2: Multiple Blinking Lights
+
+```cpp
+/*
+  Blink 3 
+*/
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(13, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(13, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+  digitalWrite(12, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(12, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);  
+  digitalWrite(11, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(11, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);              
+}
+```
+
+#### Lesson 3: RGB LED Mixing
+
+```cpp
+// Source https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch
+
+void setup()
+{
+  pinMode(11, OUTPUT); // Red Pin
+  pinMode(10, OUTPUT); // Green Pin
+  pinMode(9, OUTPUT);  // Blue Pin
+}
+
+void  loop() {
+  setColor(255, 0, 0); // Red Color
+  delay(1000);
+  setColor(0,  255, 0); // Green Color
+  delay(1000);
+  setColor(0, 0, 255); // Blue Color
+  delay(1000);
+  setColor(255, 255, 255); // White Color
+  delay(1000);
+  setColor(170, 0, 255); // Purple Color
+  delay(1000);
+  setColor(127, 127,  127); // Light Blue
+  delay(1000);
+}
+
+void setColor(int redValue, int greenValue,  int blueValue) {
+  analogWrite(11, redValue);
+  analogWrite(10,  greenValue);
+  analogWrite(9, blueValue);
+}
+```
+
+#### Lesson 4: Color Fade
+
+```cpp
+// Source https://www.reddit.com/r/arduino/comments/9ry4mg/fading_rgb_leds_through_the_color_spectrum/
+
+int red = 11; 
+int green = 10;
+int blue = 9;
+int t = 10; // Time for delay
+
+void setup(){
+    pinMode(red, OUTPUT);
+    pinMode(green, OUTPUT);
+    pinMode(blue, OUTPUT);
+}
+void Fade(){
+  for( int i = 0; i <= 255; i++){
+    analogWrite(red, i); // fade up 
+    analogWrite(green, 255 - i); // fade down
+    analogWrite(blue, 0); // do nothing
+    delay(t);
+  }
+  for( int i = 0; i <= 255; i++){
+    analogWrite(red, 255 - i); // fade down
+    analogWrite(green, 0); // do nothing
+    analogWrite(blue, i); // fade up 
+    delay(t);
+  }
+    for( int i = 0; i <= 255; i++){
+    analogWrite(red, 0); // do nothing
+    analogWrite(green, i); // fade up
+    analogWrite(blue, 255 - i); // fade down 
+    delay(t);
+  }
+} 
+void loop(){
+Fade();
+}
+
+```
+### 5. Extensions
+
+- Use loops to fade between colors
+- Add a button to change LED patterns
+- Build a mini light show
+
+## Reflection
+
+- Which part of wiring the LEDs was most confusing?
+- What would you try next with an RGB LED?
+- How could this be applied in real-world projects?
+
+## Questions to Ask
+- What’s the purpose of a resistor in your circuit?
+- How could you make your circuit interactive?
+- What happens if you remove the delay in your code?
+

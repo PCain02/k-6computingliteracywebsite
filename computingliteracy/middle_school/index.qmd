@@ -6,6 +6,7 @@ listing:
   page-size: 10
   contents:
     - "*activity/**/*.qmd"
+    - "*presentation/**/*.qmd"
   sort:
     - "title:asc"
   type: default
@@ -15,4 +16,4 @@ listing:
   fields: [categories, title, subtitle, topic time_required]
 ---
 
-Welcome to the page where you can find all the activities that have already been implemented. Use the categories to find activities based on topic and time required.
+Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.
