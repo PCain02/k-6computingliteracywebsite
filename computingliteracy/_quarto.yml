@@ -6,6 +6,7 @@ website:
   title: 'Code with Chompers'
   search:
     location: navbar
+    type: overlay
   reader-mode: false
   back-to-top-navigation: true
   page-navigation: true

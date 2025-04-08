@@ -48,7 +48,6 @@ code, pre, .monospace {
     text-decoration: none;
 }
 
-body .page-footer,
 body .nav-footer {
     background-color: transparent !important;
 }
@@ -154,19 +153,26 @@ body .nav-footer {
     color: #000000;
 }
 
+
 /* Ensure proper contrast for text */
-[data-theme="dark-high-contrast"] h1,
-[data-theme="dark-high-contrast"] h2,
-[data-theme="dark-high-contrast"] h3,
-[data-theme="dark-high-contrast"] h4,
-[data-theme="dark-high-contrast"] h5,
-[data-theme="dark-high-contrast"] h6,
-[data-theme="dark-high-contrast"] p,
-[data-theme="dark-high-contrast"] li,
-[data-theme="dark-high-contrast"] ul,
-[data-theme="dark-high-contrast"] .subtitle {
-    color: #ffffff;  /* Light text for better readability */
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6,
+[data-theme="light"] p,
+[data-theme="light"] li,
+[data-theme="light"] ul,
+[data-theme="light"] .subtitle {
+    color: #000000;  /* Light text for better readability */
 }
+
+[data-theme="light"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+
 
 [data-theme="light"] .info-section, [data-theme="light"] .info-section-reverse {
     background-color: #ffffff;
@@ -211,19 +217,24 @@ body .nav-footer {
 }
 
 /* Ensure proper contrast for text */
-[data-theme="dark-high-contrast"] h1,
-[data-theme="dark-high-contrast"] h2,
-[data-theme="dark-high-contrast"] h3,
-[data-theme="dark-high-contrast"] h4,
-[data-theme="dark-high-contrast"] h5,
-[data-theme="dark-high-contrast"] h6,
-[data-theme="dark-high-contrast"] p,
-[data-theme="dark-high-contrast"] li,
-[data-theme="dark-high-contrast"] ul,
-[data-theme="dark-high-contrast"] .subtitle {
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] ul,
+[data-theme="dark"] .subtitle {
     color: #ffffff;  /* Light text for better readability */
 }
 
+
+[data-theme="dark"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
 
 [data-theme="dark"] body{
     background-color: #000000;
@@ -300,6 +311,11 @@ body .nav-footer {
 [data-theme="light-high-contrast"] {
     background-color: #ffffff;  /* White background */
     color: #1a1a1a;  /* Dark text for contrast */
+}
+
+[data-theme="light-high-contrast"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
 }
 /* Navbar */
 [data-theme="light-high-contrast"] .navbar {
@@ -447,8 +463,6 @@ body .nav-footer {
 [data-theme="dark-high-contrast"] .subtitle {
     color: #ffffff;  /* Light text for better readability */
 }
-
-
 
 /* Ensure all text inside list quarto-listing-default is white */
 [data-theme="dark-high-contrast"] .list.quarto-listing-default {
