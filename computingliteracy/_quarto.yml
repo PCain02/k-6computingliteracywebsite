@@ -6,11 +6,25 @@ website:
   title: 'Code with Chompers'
   search:
     location: navbar
+    type: overlay
   reader-mode: false
   back-to-top-navigation: true
   page-navigation: true
   favicon: "images/logo.svg"
   navbar:
+    left:
+      - text: "⚙️ Settings"
+        menu:
+          - text: "Increase Text Size"
+            href: "javascript:increaseTextSize()"
+          - text: "Decrease Text Size"
+            href: "javascript:decreaseTextSize()"
+          - text: "Toggle High Contrast Mode"
+            href: "javascript:toggleAccessibilityTheme()"
+          - text: "Toggle Dark Mode"
+            href: "javascript:toggleTheme()"
+          - text: "Reset Settings"
+            href: "javascript:resetAccessibilitySettings()"
     right:
       - text: "Outreach Guide"
         href: "technical-leader-guide/index.qmd"
@@ -30,9 +44,9 @@ website:
 
 format:
   html:
-    theme: 
-      light: styles.css
-      dark: stylesdark.css
+    theme: styles.css
+    include-in-header: 
+      - _includes/settings.html
     highlight-style: github
 execute:
   freeze: auto

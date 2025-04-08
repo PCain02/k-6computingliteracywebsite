@@ -68,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- settings.html -->
+<script src="../_includes/settings.js"></script>
 
 
 </head>
@@ -88,6 +90,31 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-settings" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">⚙️ Settings</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-settings">    
+        <li>
+    <a class="dropdown-item" href="javascript:increaseTextSize()">
+ <span class="dropdown-text">Increase Text Size</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:decreaseTextSize()">
+ <span class="dropdown-text">Decrease Text Size</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:toggleTheme()">
+ <span class="dropdown-text">Toggle High Contrast Mode</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:resetAccessibilitySettings()">
+ <span class="dropdown-text">Reset Settings</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../technical-leader-guide/index.html"> 
