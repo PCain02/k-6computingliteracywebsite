@@ -60,28 +60,28 @@
     "href": "middle_school/index.html",
     "title": "Middle School Outreach",
     "section": "",
-    "text": "Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 1: TODO\n\n\nTODO\n\n\n\nTopic: Python\n\n\nTime: 1 Hour\n\n\nType: Activity\n\n\n\n\n\n\n\n\n\n\n\nPresentation 1: Intro to Robotics\n\n\nWeek 1 Part 1 of Building Underwater Robots\n\n\n\nTopic: Robotics\n\n\nTime: 30 Minutes\n\n\nType: Presentation\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 1: Intro to Arduino\n\n\nWeek 1 Part 2 of Building Underwater Robots\n\n\n\nTopic: Electronics\n\n\nTime: 30 Minutes\n\n\nType: Activity\n\n\n\n\n\n\n\n\n\n\n\nActivity 2: Coding with Arduino\n\n\nWeek 2 of Building Underwater Robots\n\n\n\nTopic: Electronics\n\n\nTime: 1 Hour\n\n\nType: Activity\n\n\n\n\n\n\n\n\n\n\n\nActivity 3: Building an ROV Frame\n\n\nWeek 3 of Building Underwater Robots\n\n\n\nTopic: Robotics\n\n\nTime: 40 Minutes\n\n\nType: Activity\n\n\n\n\n\n\n\n\n\n\n\nPresentation 1: Intro to Robotics\n\n\nWeek 1 Part 1 of Building Underwater Robots\n\n\n\nTopic: Robotics\n\n\nTime: 30 Minutes\n\n\nType: Presentation\n\n\n\n\n\n\n\n\n\n\n\nPresentation 2: ROV Design\n\n\nWeek 3 Part 1 of Building Underwater Robots\n\n\n\nTopic: Robotics\n\n\nTime: 20 Minutes\n\n\nType: Presentation\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "middle_school/01activity/01activity.html",
     "href": "middle_school/01activity/01activity.html",
-    "title": "Activity 1: TODO",
+    "title": "Activity 1: Intro to Arduino",
     "section": "",
-    "text": "TODO"
+    "text": "This 30-minute activity introduces middle school students to Arduino by guiding them through the process of wiring a basic LED circuit using a breadboard and Arduino Uno—no programming required. Students will learn the fundamentals of electronics, including how to safely and effectively connect components."
   },
   {
     "objectID": "middle_school/01activity/01activity.html#description",
     "href": "middle_school/01activity/01activity.html#description",
-    "title": "Activity 1: TODO",
+    "title": "Activity 1: Intro to Arduino",
     "section": "",
-    "text": "TODO"
+    "text": "This 30-minute activity introduces middle school students to Arduino by guiding them through the process of wiring a basic LED circuit using a breadboard and Arduino Uno—no programming required. Students will learn the fundamentals of electronics, including how to safely and effectively connect components."
   },
   {
     "objectID": "middle_school/01activity/01activity.html#materials-required",
     "href": "middle_school/01activity/01activity.html#materials-required",
-    "title": "Activity 1: TODO",
+    "title": "Activity 1: Intro to Arduino",
     "section": "Materials Required",
-    "text": "Materials Required\nTODO"
+    "text": "Materials Required\nPer student:\n\n1 Arduino Uno or equivalent\n\n1 Breadboard\n\n2 pieces of hookup wire (male-to-male)\n\n1 LED of any color\n\n1 470 ohm resistor (or close to it)\n\n1 10k ohm resistor (or greater)\n\n1 Arduino USB cable"
   },
   {
     "objectID": "middle_school/01activity/01activity.html#steps-to-conduct-the-activity",
@@ -93,16 +93,16 @@
   {
     "objectID": "middle_school/01activity/01activity.html#reflection",
     "href": "middle_school/01activity/01activity.html#reflection",
-    "title": "Activity 1: TODO",
+    "title": "Activity 1: Intro to Arduino",
     "section": "Reflection",
-    "text": "Reflection\n\nTODO"
+    "text": "Reflection\n\nWhat did you find easy or hard about building the circuit?\nWhat would you change about how you built it?\nWhat else would you like to build with Arduino?"
   },
   {
     "objectID": "middle_school/01activity/01activity.html#learning-outcomes",
     "href": "middle_school/01activity/01activity.html#learning-outcomes",
-    "title": "Activity 1: TODO",
+    "title": "Activity 1: Intro to Arduino",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nTODO"
+    "text": "Learning Outcomes\nBy the end of this activity, students will be able to:\n\nIdentify parts of the Arduino Uno\nUnderstand how breadboards function\nBuild a basic circuit to power an LED\nDemonstrate knowledge of polarity and resistance\nTroubleshoot common circuit connection issues"
   },
   {
     "objectID": "k-6_activities/22activity/index.html",
@@ -1178,23 +1178,23 @@
   {
     "objectID": "middle_school/02activity/02activity.html",
     "href": "middle_school/02activity/02activity.html",
-    "title": "Activity 1: TODO",
+    "title": "Activity 2: Coding with Arduino",
     "section": "",
-    "text": "TODO"
+    "text": "In this 30-minute session, students will explore coding with Arduino by building a circuit with 3 single-color LEDs and 1 RGB LED. They’ll learn how to use digital and PWM pins to control light patterns and colors, and write basic Arduino sketches to make lights blink and fade."
   },
   {
     "objectID": "middle_school/02activity/02activity.html#description",
     "href": "middle_school/02activity/02activity.html#description",
-    "title": "Activity 1: TODO",
+    "title": "Activity 2: Coding with Arduino",
     "section": "",
-    "text": "TODO"
+    "text": "In this 30-minute session, students will explore coding with Arduino by building a circuit with 3 single-color LEDs and 1 RGB LED. They’ll learn how to use digital and PWM pins to control light patterns and colors, and write basic Arduino sketches to make lights blink and fade."
   },
   {
     "objectID": "middle_school/02activity/02activity.html#materials-required",
     "href": "middle_school/02activity/02activity.html#materials-required",
-    "title": "Activity 1: TODO",
+    "title": "Activity 2: Coding with Arduino",
     "section": "Materials Required",
-    "text": "Materials Required\nTODO"
+    "text": "Materials Required\n\n1 Arduino Uno or equivalent per student\n\n6 or more male-to-male hookup wires\n\n3 x 470 ohm resistors (or similar)\n\n3 LEDs of any color\n\n1 RGB LED"
   },
   {
     "objectID": "middle_school/02activity/02activity.html#steps-to-conduct-the-activity",
@@ -1206,16 +1206,16 @@
   {
     "objectID": "middle_school/02activity/02activity.html#reflection",
     "href": "middle_school/02activity/02activity.html#reflection",
-    "title": "Activity 1: TODO",
+    "title": "Activity 2: Coding with Arduino",
     "section": "Reflection",
-    "text": "Reflection\n\nTODO"
+    "text": "Reflection\n\nWhich part of wiring the LEDs was most confusing?\nWhat would you try next with an RGB LED?\nHow could this be applied in real-world projects?"
   },
   {
     "objectID": "middle_school/02activity/02activity.html#learning-outcomes",
     "href": "middle_school/02activity/02activity.html#learning-outcomes",
-    "title": "Activity 1: TODO",
+    "title": "Activity 2: Coding with Arduino",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nTODO"
+    "text": "Learning Outcomes\n\nUnderstand the difference between digital and PWM pins on Arduino\n\nBuild a circuit using multiple LEDs and resistors\n\nUse digitalWrite() to blink LEDs\n\nUse analogWrite() to control an RGB LED’s color\n\nDebug common wiring/code errors"
   },
   {
     "objectID": "technical-leader-guide/index.html",
@@ -1300,5 +1300,159 @@
     "title": "Presentation 1: Intro to Robotics",
     "section": "Presentation Link",
     "text": "Presentation Link"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html",
+    "href": "middle_school/02presentation/02presentation.html",
+    "title": "Presentation 2: ROV Design",
+    "section": "",
+    "text": "This presentation introduces students to the design and construction of Remotely Operated Vehicles (ROVs). Students will explore what ROVs are, their uses, core systems, and engage in building their own basic frame using PVC parts See Activity 3."
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#description",
+    "href": "middle_school/02presentation/02presentation.html#description",
+    "title": "Presentation 2: ROV Design",
+    "section": "",
+    "text": "This presentation introduces students to the design and construction of Remotely Operated Vehicles (ROVs). Students will explore what ROVs are, their uses, core systems, and engage in building their own basic frame using PVC parts See Activity 3."
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#materials-required",
+    "href": "middle_school/02presentation/02presentation.html#materials-required",
+    "title": "Presentation 2: ROV Design",
+    "section": "Materials Required",
+    "text": "Materials Required\n\nProjector or computer with presentation\nOptional: ROV for demonstration"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#questions-to-ask",
+    "href": "middle_school/02presentation/02presentation.html#questions-to-ask",
+    "title": "Presentation 2: ROV Design",
+    "section": "Questions to Ask",
+    "text": "Questions to Ask\n\nWhat is an ROV and what makes it different from other robots?\nWhy might we want an ROV to be tethered?\nWhich systems are most important for underwater movement?\nHow do buoyancy and propulsion interact?\nWhat kinds of tasks can ROVs be designed for?"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#activities",
+    "href": "middle_school/02presentation/02presentation.html#activities",
+    "title": "Presentation 2: ROV Design",
+    "section": "Activities",
+    "text": "Activities\n\nStep 1: What is an ROV?\nStudents learn about the concept of remotely operated vehicles, tethering, and real-world use cases like underwater archaeology and water quality monitoring.\n\n\nStep 2: Understanding ROV Systems\nIntroduce students to essential subsystems: - Frame - Buoyancy - Propulsion - Power - Control - Tether - (Optionally mention sensors/payloads)\n\n\nStep 3: ROV Design Styles\nCompare orthogonal and vector motor configurations: - Orthogonal: Surge, Heave, Yaw, Sway - Vector: Surge, Heave (vectored), Yaw, Sway (vectored)\n\n\nStep 4: Build Your Own Frame\nUse the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal ROV frame. One motor for horizontal motion and one for vertical.\nSee Activity 3 for an online version the building activity.\nBuild instructions link:\nGoogle Doc Instructions"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#reflection",
+    "href": "middle_school/02presentation/02presentation.html#reflection",
+    "title": "Presentation 2: ROV Design",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat challenges do you think you will face when building your ROV frame?\nHow do you think certain designs perform in water?\nIf you could add one new feature or improvement to an ROV, what would it be?"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#learning-outcomes",
+    "href": "middle_school/02presentation/02presentation.html#learning-outcomes",
+    "title": "Presentation 2: ROV Design",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand what an ROV is and identify its core components.\nCompare different underwater movement systems and ROV layouts.\nApply design thinking and basic engineering principles to construct an ROV frame.\nCollaborate in teams to solve real-world-inspired challenges."
+  },
+  {
+    "objectID": "middle_school/01activity/01activity.html#presentation-link",
+    "href": "middle_school/01activity/01activity.html#presentation-link",
+    "title": "Activity 1: Intro to Arduino",
+    "section": "Presentation Link",
+    "text": "Presentation Link"
+  },
+  {
+    "objectID": "middle_school/01activity/01activity.html#activity-steps",
+    "href": "middle_school/01activity/01activity.html#activity-steps",
+    "title": "Activity 1: Intro to Arduino",
+    "section": "Activity Steps",
+    "text": "Activity Steps\n\n1. What is Arduino?\n\nOpen-source electronics platform\nUses programmable microcontrollers\nControlled via USB and written in a C++-like language\nGreat for prototyping\n\n\n\n2. Parts of the Arduino UNO\n\nUSB-B port (for programming)\nDigital pins (on/off signals)\nAnalog pins (range of values, ideal for sensors)\nPower pins (5V, 3.3V, GND)\n\n\n\n3. Breadboard Basics\n\nBlue (GND) and Red (PWR) buses connect vertically\nRows connect horizontally, separated in the middle\nEasy for prototyping and modifying connections\n\n\n\n4. LED Orientation\n\nLong leg = positive (connect to power)\nShort leg = negative (connect to ground)\nLED only lights in one direction\n\n\n\n5. Resistor Function\n\nLimits electrical current\n470Ω protects the LED\n10kΩ dims the LED significantly\nHigher resistance = dimmer LED\n\n\n\n6. Build Your First Circuit\nStep-by-step: 1. Connect GND to blue bus on breadboard\n2. Connect 5V to red bus\n3. Insert 470Ω resistor from blue bus to row 10\n4. Place short leg of LED in row 10, long leg into red bus\n5. Plug in Arduino and power it up\n6. LED should light up!"
+  },
+  {
+    "objectID": "middle_school/01activity/01activity.html#questions-to-ask",
+    "href": "middle_school/01activity/01activity.html#questions-to-ask",
+    "title": "Activity 1: Intro to Arduino",
+    "section": "Questions to Ask",
+    "text": "Questions to Ask\n\nCan you trace the flow of electricity from GND to 5V?\nWhat changes when you use the 10kΩ resistor instead of 470Ω?\nDo different colored LEDs vary in brightness?\nCan you add a second LED with the same color and parts? (Try 2 methods!)"
+  },
+  {
+    "objectID": "middle_school/02activity/02activity.html#presentation-link",
+    "href": "middle_school/02activity/02activity.html#presentation-link",
+    "title": "Activity 2: Coding with Arduino",
+    "section": "Presentation Link",
+    "text": "Presentation Link"
+  },
+  {
+    "objectID": "middle_school/02activity/02activity.html#agenda",
+    "href": "middle_school/02activity/02activity.html#agenda",
+    "title": "Activity 2: Coding with Arduino",
+    "section": "Agenda",
+    "text": "Agenda\n\n1. Introduction to LED Control\n\nReview: What is an LED?\n\nPolarity and how to wire an LED safely\n\nUsing resistors with LEDs\n\n\n\n2. Blinking 3 LEDs\n\nConnect 3 single-color LEDs to pins 11, 12, and 13\n\nUse digitalWrite() and delay()\n\nChallenge: Create a pattern (e.g., traffic light or chase light)\n\n\n\n3. RGB LED Basics\n\nCommon Anode vs. Cathode RGB LEDs\n\nUse PWM pins (9, 10, 11) for red, green, and blue\n\nCreate solid colors and mixes using analogWrite()\n\n\n\n4. Example Code Snippets\n\nLesson 1: Blink\n/*\n  Blink\n\n  Turns an LED on for one second, then off for one second, repeatedly.\n\n  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO\n  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to\n  the correct LED pin independent of which board is used.\n  If you want to know what pin the on-board LED is connected to on your Arduino\n  model, check the Technical Specs of your board at:\n  https://www.arduino.cc/en/Main/Products\n\n  modified 8 May 2014\n  by Scott Fitzgerald\n  modified 2 Sep 2016\n  by Arturo Guadalupi\n  modified 8 Sep 2016\n  by Colby Newman\n\n  This example code is in the public domain.\n\n  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink\n*/\n\n// the setup function runs once when you press reset or power the board\nvoid setup() {\n  // initialize digital pin LED_BUILTIN as an output.\n  pinMode(LED_BUILTIN, OUTPUT);\n}\n\n// the loop function runs over and over again forever\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)\n  delay(1000);                      // wait for a second\n  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW\n  delay(1000);                      // wait for a second\n}\n\n\nLesson 2: Multiple Blinking Lights\n/*\n  Blink 3 \n*/\n\n// the setup function runs once when you press reset or power the board\nvoid setup() {\n  // initialize digital pin LED_BUILTIN as an output.\n  pinMode(13, OUTPUT);\n  pinMode(12, OUTPUT);\n  pinMode(11, OUTPUT);\n}\n\n// the loop function runs over and over again forever\nvoid loop() {\n  digitalWrite(13, HIGH);  // turn the LED on (HIGH is the voltage level)\n  delay(1000);                      // wait for a second\n  digitalWrite(13, LOW);   // turn the LED off by making the voltage LOW\n  delay(1000);                      // wait for a second\n  digitalWrite(12, HIGH);  // turn the LED on (HIGH is the voltage level)\n  delay(1000);                      // wait for a second\n  digitalWrite(12, LOW);   // turn the LED off by making the voltage LOW\n  delay(1000);  \n  digitalWrite(11, HIGH);  // turn the LED on (HIGH is the voltage level)\n  delay(1000);                      // wait for a second\n  digitalWrite(11, LOW);   // turn the LED off by making the voltage LOW\n  delay(1000);              \n}\n\n\nLesson 3: RGB LED Mixing\n// Source https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/arduino-sketch\n\nvoid setup()\n{\n  pinMode(11, OUTPUT); // Red Pin\n  pinMode(10, OUTPUT); // Green Pin\n  pinMode(9, OUTPUT);  // Blue Pin\n}\n\nvoid  loop() {\n  setColor(255, 0, 0); // Red Color\n  delay(1000);\n  setColor(0,  255, 0); // Green Color\n  delay(1000);\n  setColor(0, 0, 255); // Blue Color\n  delay(1000);\n  setColor(255, 255, 255); // White Color\n  delay(1000);\n  setColor(170, 0, 255); // Purple Color\n  delay(1000);\n  setColor(127, 127,  127); // Light Blue\n  delay(1000);\n}\n\nvoid setColor(int redValue, int greenValue,  int blueValue) {\n  analogWrite(11, redValue);\n  analogWrite(10,  greenValue);\n  analogWrite(9, blueValue);\n}\n\n\nLesson 4: Color Fade\n// Source https://www.reddit.com/r/arduino/comments/9ry4mg/fading_rgb_leds_through_the_color_spectrum/\n\nint red = 11; \nint green = 10;\nint blue = 9;\nint t = 10; // Time for delay\n\nvoid setup(){\n    pinMode(red, OUTPUT);\n    pinMode(green, OUTPUT);\n    pinMode(blue, OUTPUT);\n}\nvoid Fade(){\n  for( int i = 0; i &lt;= 255; i++){\n    analogWrite(red, i); // fade up \n    analogWrite(green, 255 - i); // fade down\n    analogWrite(blue, 0); // do nothing\n    delay(t);\n  }\n  for( int i = 0; i &lt;= 255; i++){\n    analogWrite(red, 255 - i); // fade down\n    analogWrite(green, 0); // do nothing\n    analogWrite(blue, i); // fade up \n    delay(t);\n  }\n    for( int i = 0; i &lt;= 255; i++){\n    analogWrite(red, 0); // do nothing\n    analogWrite(green, i); // fade up\n    analogWrite(blue, 255 - i); // fade down \n    delay(t);\n  }\n} \nvoid loop(){\nFade();\n}\n\n\n\n5. Extensions\n\nUse loops to fade between colors\nAdd a button to change LED patterns\nBuild a mini light show"
+  },
+  {
+    "objectID": "middle_school/02activity/02activity.html#questions-to-ask",
+    "href": "middle_school/02activity/02activity.html#questions-to-ask",
+    "title": "Activity 2: Coding with Arduino",
+    "section": "Questions to Ask",
+    "text": "Questions to Ask\n\nWhat’s the purpose of a resistor in your circuit?\nHow could you make your circuit interactive?\nWhat happens if you remove the delay in your code?"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html",
+    "href": "middle_school/03activity/03activity.html",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "",
+    "text": "In this 40-minute session, students will build their own ROV Frame for an underwater robot. It is recommended to present the ROV Presentation first. Students should be broken up into groups with a maximum of 5 in each group. The following is the requirements per robot."
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#description",
+    "href": "middle_school/03activity/03activity.html#description",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "",
+    "text": "In this 40-minute session, students will build their own ROV Frame for an underwater robot. It is recommended to present the ROV Presentation first. Students should be broken up into groups with a maximum of 5 in each group. The following is the requirements per robot."
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#materials-required",
+    "href": "middle_school/03activity/03activity.html#materials-required",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Materials Required",
+    "text": "Materials Required\nPer Robot:\n\nPVC Pipe of Various Sizes:\n\n2 × 7” long ½” PVC\n4 × 6” long ½” PVC\n2 × 5” long ½” PVC\n2 × 3” long ½” PVC\n4 × 2” long ½” PVC\n6 × 1” long ½” PVC\n\n10 × ½” PVC Corner piece SxS\n6 × ½” PVC T pieces SxSxS\nZip ties\nNetting"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#presentation-link",
+    "href": "middle_school/03activity/03activity.html#presentation-link",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Presentation Link",
+    "text": "Presentation Link"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#learning-outcomes",
+    "href": "middle_school/03activity/03activity.html#learning-outcomes",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand what an ROV is and identify its core components.\nCompare different underwater movement systems and ROV layouts.\nApply design thinking and basic engineering principles to construct an ROV frame.\nCollaborate in teams to solve real-world-inspired challenges."
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#agenda",
+    "href": "middle_school/03activity/03activity.html#agenda",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Agenda",
+    "text": "Agenda\n\n1. Gather Your Materials\nPull from the main supply these materials:\n\n2x 7 in long ½ in PVC Pipe\n4x 6 in long ½ in PVC Pipe\n2x 5 in long ½ in PVC Pipe\n2x 3 in long ½ in PVC Pipe\n4x 2 in long ½ PVC Pipe\n6x 1 in long ½ in PVC Pipe\n10 ½ in PVC Corner piece SxS\n6 ½ in PVC T pieces SxSxS\n\n\n\n2. Build the Frame\n\nThe Base\n\nStart with the 2 in long PVCs and use a T piece with the exit hole facing the ceiling\n\n\n\n\nBase T\n\n\n\nNow attach 2 corner pieces on the other end of the 2 inch long pieces\n\n\n\n\nBase C\n\n\n\nPut the 1 in pieces on the other end of each corner piece. It should look like a U shape\n\n\n\n\nBase C+\n\n\n\nThen attach a T piece with the middle whole facing upwards to the ends of the 1 in pieces.\n\n\n\n\nBase C+T\n\n\n\nContinuing the build the base, attach a 5 inch PVC piece to the other end of the T piece opposite of the 1 inch pieces\n\n\n\n\nBase U\n\n\n\nThen attach 2 more T piece to the other ends of the 5 inch PVC pieces\n\n\n\n\nBase U+T\n\n\n\nOn the side opposite of the 5 inch pieces, put 1 inch pieces\n\n\n\n\nBase U+T+\n\n\n\nPut 2 corner pieces on the ends of the 1 inch pieces you just places and point the end of the corner facing the ceiling\n\n\n\n\nBase Final\n\n\n\n\nVertical Motor Holder (VMH)\n\nPlace the 3-inch long PVC in each of the middle holes\n\n\n\n\nVMH start\n\n\n\nThen put a corner piece on the other ends of the 3 inch long pieces where each hole is facing towards the center\n\n\n\n\nVMH+C\n\n\n\nConnect the two corners with two 2 inch pieces on each side\n\n\n\n\nVMH+L\n\n\n\nPut a T piece in the center with the exit hole facing towards the front of the ROV\n\n\n\n\nVMH+T\n\n\n\n\nTop of the Frame\n\nPlace two 6 inch pieces in the front holes and two 6 inch pieces in the holes towards the back\n\n\n\n\nTop Start\n\n\n\nPut a corner piece on the other end of each of the 6 inch pieces with the exit hole facing towards the piece in the same line\n\n\n\n\nTop+C\n\n\n\nConnect the corners together with two 7 inch pieces\n\n\n\n\nTop+L\n\n\n\nAdd 2 more 1 inch pieces to the left over T holes. We will be using them to attach our motors later\nCarefully use a rubber mallet to make sure the pieces are all tightly in place\nNow the frame is complete\n\n\n\n\n3. Add Netting\n\nCut the Netting\n\nThe goal is to create a net pocket for weights later on. First cut a large piece of net the same width and length as your frame base but add an extra inch to the outside perimeter\n\n\n\n\nCut Netting\n\n\n\nCut a smaller piece for the pocket that is smaller than the width of the inside of the base\n\n\n\n\nCut Pocket\n\n\n\n\nZip-tie the Netting\n\nUse Zip-ties to secure the larger piece to the base PVC pieces. Make sure it is secure on all sides. Note that the open end will be for the closed part of our pocket\n\n\n\n\nZip-Ties\n\n\n\n\n\nZip-Tie Close up\n\n\n\n\n\nZip-Ties\n\n\n\nTrim excess net off the edge and cut the excess zip-tie ends\n\n\n\n\nZip-Ties and netting trimmed\n\n\n\nNow secure the pocket net piece to the the top of the base net piece. Leave one edge open enough to slip small rocks or weights into it is recommended to use the edge that will be closest to the forward/backward motor as the opening and the edge that has no PVC as a closed part with zipped ties\n\n\n\n\nZip-Tie pocket\n\n\n\n\n\nZip-Tie pocket closed end\n\n\n\n\n\nZip-Tie pocket example\n\n\n\nCut excess zip-tie ends\n\n\n\n\n4. Add Floats\n\nAttaching the Floats\n\nCut 2 pieces of pool noodle to fit on the top horizontal piece of the ROV. They have to be less than the length of the PVC piece it is on or it will not fit.\nCarefully pull out the piece you would like to attach the floats onto and slide in onto the PVC pipe.\nReattach the piece you moved\n\n\n\n\nFloats Example 1\n\n\n\n\n\nFloats Example 2\n\n\n\n\n\n5. Extensions\n\nIf there is time left over have the students design an ROV logo in Canva\nYou could also work on customizing the ROVs"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#reflection",
+    "href": "middle_school/03activity/03activity.html#reflection",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat challenges did you face when building your ROV frame?\nHow do you think it will perform in water?\nIf you could add one new feature or improvement to an ROV, what would it be?"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#questions-to-ask",
+    "href": "middle_school/03activity/03activity.html#questions-to-ask",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Questions to Ask",
+    "text": "Questions to Ask\n\nWhat’s the purpose of a resistor in your circuit?\nHow could you make your circuit interactive?\nWhat happens if you remove the delay in your code?"
+  },
+  {
+    "objectID": "middle_school/03activity/03activity.html#learning-outcomes-1",
+    "href": "middle_school/03activity/03activity.html#learning-outcomes-1",
+    "title": "Activity 3: Building an ROV Frame",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand what an ROV is and identify its core components.\nCompare different underwater movement systems and ROV layouts.\nApply design thinking and basic engineering principles to construct an ROV frame.\nCollaborate in teams to solve real-world-inspired challenges."
   }
 ]

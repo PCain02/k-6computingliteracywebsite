@@ -10,21 +10,12 @@ page-layout: full
 
 ## Description
 
-This hands-on workshop introduces students to the design and construction of Remotely Operated Vehicles (ROVs). Students will explore what ROVs are, their uses, core systems, and engage in building their own basic frame using PVC parts. This is the first part of a multi-part ROV curriculum.
+This presentation introduces students to the design and construction of Remotely Operated Vehicles (ROVs). Students will explore what ROVs are, their uses, core systems, and engage in building their own basic frame using PVC parts [See Activity 3](../03activity/03activity.qmd).
 
 ## Materials Required
 
-- PVC Pipe of Various Sizes:
-  - 2 × 7" long ½" PVC
-  - 4 × 6" long ½" PVC
-  - 2 × 5" long ½" PVC
-  - 2 × 3" long ½" PVC
-  - 4 × 2" long ½" PVC
-  - 6 × 1" long ½" PVC
-- 10 × ½" PVC Corner piece SxS
-- 6 × ½" PVC T pieces SxSxS
-- Zip ties
-- Netting
+- Projector or computer with presentation
+- Optional: ROV for demonstration
 
 ## Questions to Ask
 
@@ -61,16 +52,17 @@ Compare orthogonal and vector motor configurations:
 
 Use the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal ROV frame. One motor for horizontal motion and one for vertical.
 
+[See Activity 3](../03activity/03activity.qmd) for an online version the building activity.
+
 Build instructions link:  
 [Google Doc Instructions](https://docs.google.com/document/d/1JO1pM3XBeRCmAP9afXCYYmD5eIm-PML3H3EooP9FBmE/edit?usp=sharing)
 
-See activity 3 for the rest of the building activity.
 
 ## Reflection
 
-- What challenges did you think you will face when building your ROV frame?
-- How do you think your design would perform in water?
-- If you could add one new feature or improvement to your ROV, what would it be?
+- What challenges do you think you will face when building your ROV frame?
+- How do you think certain designs perform in water?
+- If you could add one new feature or improvement to an ROV, what would it be?
 
 ## Learning Outcomes
 
