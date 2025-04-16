@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-86daaaaad7353f9cc0c554efc1dd6d94.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-842050d79884738c6182cc02d67d9003.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -172,14 +172,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>In this action-packed session, students will tackle two creative missions with Dash: <strong>Basketball Challenge</strong> and <strong>Castle Siege</strong>. Each task is designed with increasing difficulty by grade level, allowing students to build their programming logic as they play.</p>
 <p>Using Blockly, students will control Dash to move, aim, and launch in order to complete each objective. Along the way, they’ll explore fundamental computer science concepts like sequencing, debugging, conditionals, and loops—all wrapped inside a fun, interactive story.</p>
-<hr>
 </section>
 <section id="duration" class="level2">
 <h2 class="anchored" data-anchor-id="duration">Duration</h2>
 <ul>
 <li><strong>Estimated Time</strong>: 40 minutes</li>
 </ul>
-<hr>
 </section>
 <section id="materials" class="level2">
 <h2 class="anchored" data-anchor-id="materials">Materials</h2>
@@ -196,7 +194,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Optional: cones, obstacles, or themed props for story immersion (Note: You can create your own unique story for the kids)</li>
 </ul>
-<hr>
 </section>
 <section id="challenge-1-dashs-basketball-mission" class="level2">
 <h2 class="anchored" data-anchor-id="challenge-1-dashs-basketball-mission">Challenge 1: Dash’s Basketball Mission 🏀</h2>
@@ -230,7 +227,6 @@ ul.task-list li input[type="checkbox"] {
 - Students must build their own obstacle course and hit all 3 shots using a <strong>single sequence</strong> of blocks.<br>
 - Encourage use of loops, variables, and conditions to optimize.<br>
 - 🔍 <em>Focus Skill</em>: Efficiency, strategic thinking, and testing.</p>
-<hr>
 </section>
 </section>
 <section id="challenge-2-dashs-castle-siege" class="level2">
@@ -265,7 +261,6 @@ ul.task-list li input[type="checkbox"] {
 - Include extra steps like navigating inside the castle after it falls.<br>
 - Must use a complete block sequence with minimal trial edits.<br>
 - 🔍 <em>Focus Skill</em>: Conditional logic, multi-step planning.</p>
-<hr>
 </section>
 </section>
 <section id="discussion-reflection" class="level2">
@@ -277,7 +272,6 @@ ul.task-list li input[type="checkbox"] {
 <li>What strategy did you use for loops or conditionals?</li>
 <li>What part did you enjoy the most?</li>
 </ul>
-<hr>
 </section>
 <section id="wrap-up" class="level2">
 <h2 class="anchored" data-anchor-id="wrap-up">Wrap-Up</h2>
@@ -369,6 +363,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -479,6 +475,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

@@ -8,20 +8,15 @@ toc: true
 page-layout: full
 ---
 
-
 ## Overview
 
 In this action-packed session, students will tackle two creative missions with Dash: **Basketball Challenge** and **Castle Siege**. Each task is designed with increasing difficulty by grade level, allowing students to build their programming logic as they play.
 
 Using Blockly, students will control Dash to move, aim, and launch in order to complete each objective. Along the way, they'll explore fundamental computer science concepts like sequencing, debugging, conditionals, and loops—all wrapped inside a fun, interactive story.
 
----
-
 ## Duration
 
 - **Estimated Time**: 40 minutes
-
----
 
 ## Materials
 
@@ -31,8 +26,6 @@ Using Blockly, students will control Dash to move, aim, and launch in order to c
 - Tape or tiles for making paths  
 - Tablets with Blockly app  
 - Optional: cones, obstacles, or themed props for story immersion (Note: You can create your own unique story for the kids)
-
----
 
 ## Challenge 1: Dash’s Basketball Mission 🏀
 
@@ -65,8 +58,6 @@ Story 1: Dash dreams of being a pro basketball player. Today, he’s stepping up
 - Encourage use of loops, variables, and conditions to optimize.  
 - 🔍 *Focus Skill*: Efficiency, strategic thinking, and testing.
 
----
-
 ## Challenge 2: Dash’s Castle Siege 🏰
 
 ### Storyline
@@ -98,8 +89,6 @@ A princess is locked inside a castle made of blocks. Dash is on a quest to bring
 - Must use a complete block sequence with minimal trial edits.  
 - 🔍 *Focus Skill*: Conditional logic, multi-step planning.
 
----
-
 ## Discussion & Reflection
 
 After both challenges, gather the class for a quick debrief. We can ask:
@@ -108,8 +97,6 @@ After both challenges, gather the class for a quick debrief. We can ask:
 - Did your code work the first time? If not, how did you fix it?
 - What strategy did you use for loops or conditionals?
 - What part did you enjoy the most?
-
----
 
 ## Wrap-Up
 
