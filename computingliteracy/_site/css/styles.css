@@ -170,7 +170,7 @@ body {
 }
 
 .quarto-category {
-    background-color: #ffcc00; /* Green background */
+    background-color: #ffcc00; /* yello background */
     color: #000; /* White text */
     box-shadow: #000 0px 0px 10px;
     font-weight: bolder;
@@ -192,6 +192,12 @@ body {
 [data-category]:hover {
     background-color: #e0e0e0; /* slightly darker gray for hover effect */
     color: black
+}
+
+/* which clicked, turn bg to gray */
+[data-category].active {
+    background-color: #e0e0e0; /* slightly darker gray */
+    color: black;
 }
 
 /* activities page: pagination styling */
