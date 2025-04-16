@@ -102,7 +102,7 @@ A princess is locked inside a castle made of blocks. Dash is on a quest to bring
 
 ## Discussion & Reflection
 
-After both challenges, gather the class for a quick debrief. You can ask:
+After both challenges, gather the class for a quick debrief. We can ask:
 
 - What changes made your shots or launches more accurate?
 - Did your code work the first time? If not, how did you fix it?
