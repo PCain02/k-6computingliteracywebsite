@@ -1,346 +1,94 @@
 [
   {
-    "objectID": "activities/01activity/01activity.html",
-    "href": "activities/01activity/01activity.html",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "objectID": "activities/index.html",
+    "href": "activities/index.html",
+    "title": "Activities",
     "section": "",
-    "text": "In this activity, students will learn the fundamentals of if-else-if else (elif) statements through a hands-on lesson involving a model car and a programmable robot (GoPiGo). Students will explore decision-making using block code processes by programming the robot to navigate a multi-way road with a barricade, simulating real-life scenarios where alternate routes must be taken when the primary route is blocked."
+    "text": "Welcome to the page where you can find all the activities that have already been implemented. Use the categories to find activities based on grade and time required.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nActivity 1: Navigating Decisions with If-Else-Elif Statements\n\n\nTeaching students the fundamentals of if-else-elif statements through hands-on activities.\n\n\n\nGrade: 5\n\n\nTime: 1 Hour\n\n\n\n\n\n\n5th Grade\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 2: Binary & Balloons\n\n\nIntroducing students to binary numbers through interactive and fun activities.\n\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\n2nd Grade onwards\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 3: Different Ways a Computer Sorts\n\n\nTeaching students about sorting algorithms through hands-on activities.\n\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\n1st Grade onwards\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 4: Bee Bots\n\n\nEngaging students in creating obstacles and routes through block coding with Bee Bots.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nKindergarten - 6th Grade\n\n\nVaries by grade\n\n\n\n\n\n\n\nActivity 5: Ozobots\n\n\nImproving students computational thinking skills through an conditional activity.\n\n\n\nGrade: Kindergarten\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nKindergarten\n\n\n30 mintues\n\n\n\n\n\n\n\nActivity 6: Debugging\n\n\nTeaching students to identify and fix bugs in code through hands-on activities.\n\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\n4th - 6th Grade\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 7: Pattern Recognition Activity - Pattern Detectives\n\n\nEngaging students in identifying, analyzing, and creating simple patterns using shapes, colors, or numbers.\n\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 1 Hour\n\n\n\n\n\n\n1st Grade onwards\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 8: Designing and Programming Robots\n\n\nEncouraging creativity and critical thinking through robot design and online coding.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nKindergarden - 5th grade\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 9: Maze Navigation Activity\n\n\nIntroducing computational thinking through maze navigation and algorithmic planning.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nKindergarten and beyond (Adaptable Complexity)\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 10: Internet Safety Routes\n\n\nTeaching internet safety through identifying safe and unsafe actions online using Spheros.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 1 Hour\n\n\n\n\n\n\n1st grade onwards\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 11: Minecraft Designer\n\n\nExploring Minecraft through Block Coding on Code.org\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nAll Grades\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 12: Blue-Blocs\n\n\nEnhancing Computational Thinking through Interactive Coding Challenges.\n\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: Varies\n\n\n\n\n\n\n4th, 5th, and 6th grade\n\n\nVaries by grade\n\n\n\n\n\n\n\nActivity 13: Sphero Exploration\n\n\nProviding students with practice using Sphero robots through a fun and engaging competition.\n\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\n1st Grade onwards\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 14: Code with Anna and Elsa\n\n\nEnhancing Computational Thinking through Interactive Coding Challenges.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nAll grades\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 15: Arduino\n\n\nEnhancing Computational Thinking through Interactive Coding Challenges.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 1 Hour\n\n\n\n\n\n\nAll grades\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 16: Protect Your Password\n\n\nLearning the Importance of Strong Passwords\n\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 1 Hour\n\n\n\n\n\n\n3rd Grade onwards\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 17: Facts and Questions\n\n\nEnhancing Computational Thinking through Interactive Coding Challenges.\n\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 45 Minutes\n\n\n\n\n\n\nAll grades\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 18: Play Doh Lights\n\n\nEnhancing Knowledge of Electricity and Inspiring Creativity.\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nAll grades\n\n\n1 hour\n\n\n\n\n\n\n\nActivity 19: Paper Pattern Recognition\n\n\nLearn more about pattern recognition by creating your own patterns!\n\n\n\nGrade: Kindergarten\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nTime: 30 Minutes\n\n\n\n\n\n\nKindergarten, 1st, 2nd, 3rd\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 20: Conditional Color Coding with Blue-Bots\n\n\nComplete the Blue-Bot maps but make sure to follow the color code.\n\n\n\nGrade: Grade: 2\n\n\nGrade: 3\n\n\nTime: 30 Minutes\n\n\n\n\n\n\n2nd, 3rd\n\n\n30 minutes\n\n\n\n\n\n\n\nActivity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege\n\n\nProgram Dash to complete two missions using launching logic and movement!\n\n\n\nGrade: 1\n\n\nGrade: 2\n\n\nGrade: 3\n\n\nGrade: 4\n\n\nGrade: 5\n\n\nGrade: 6\n\n\nTime: 40 Minutes\n\n\n\n\n\n\n1st–6th\n\n\n40 minutes\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n Back to top"
   },
   {
-    "objectID": "activities/01activity/01activity.html#description",
-    "href": "activities/01activity/01activity.html#description",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
+    "objectID": "activities/22activity/index.html",
+    "href": "activities/22activity/index.html",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
     "section": "",
-    "text": "In this activity, students will learn the fundamentals of if-else-if else (elif) statements through a hands-on lesson involving a model car and a programmable robot (GoPiGo). Students will explore decision-making using block code processes by programming the robot to navigate a multi-way road with a barricade, simulating real-life scenarios where alternate routes must be taken when the primary route is blocked."
+    "text": "In this action-packed session, students will tackle two creative missions with Dash: Basketball Challenge and Castle Siege. Each task is designed with increasing difficulty by grade level, allowing students to build their programming logic as they play.\nUsing Blockly, students will control Dash to move, aim, and launch in order to complete each objective. Along the way, they’ll explore fundamental computer science concepts like sequencing, debugging, conditionals, and loops—all wrapped inside a fun, interactive story."
   },
   {
-    "objectID": "activities/01activity/01activity.html#materials-required",
-    "href": "activities/01activity/01activity.html#materials-required",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nModel car\nTwo-/three-way road setup. Picture of demo map is shown below.\nBarricade (mini yellow cones)\nGoPiGo robot\nLaptop configured for GoPiGo"
-  },
-  {
-    "objectID": "activities/01activity/01activity.html#steps-to-conduct-the-activity",
-    "href": "activities/01activity/01activity.html#steps-to-conduct-the-activity",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
-    "section": "Steps to Conduct the Activity",
-    "text": "Steps to Conduct the Activity\n\nStep 1: Topic Explanation\n\nUse simple examples to illustrate the concept of if-else statements, such as deciding whether to bring an umbrella based on whether it is raining.\n\n\n\nStep 2: Explain the Problem\n\nShow the students a model car on a three-way road. Place a barricade on one of the roads, explaining that the primary route is blocked due to construction.\nIllustrate how and why the car needs to decide to take an alternative route if the primary route is blocked.\nBlock another route, and ask students what they would do now since two main routes are blocked.\n\n\n\nStep 3: Interactive Time\n\nAsk students what they would do if they were in this situation. Would they take the other route? How would they do it? Are there any other options they would prefer?\nDivide the class into two groups, each group with a laptop under supervision.\nUsing block code, guide each group to set up their robot (which will serve as the car) to reenact the two situations.\nAllow the students to test their code by running the robot on the road setup."
-  },
-  {
-    "objectID": "activities/01activity/01activity.html#reflection",
-    "href": "activities/01activity/01activity.html#reflection",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
-    "section": "Reflection",
-    "text": "Reflection\n\nBring the groups together to discuss their experiences. Ask each group to share their challenges and solutions."
-  },
-  {
-    "objectID": "activities/01activity/01activity.html#learning-outcomes",
-    "href": "activities/01activity/01activity.html#learning-outcomes",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the end of this activity, students should be able to:\n\nComprehend the basic structure and function of if-else-elif statements in programming.\nUse conditional statements to create decision-making processes in block coding.\nSimulate real-life problem-solving by programming a robot to navigate alternate routes when the primary path is blocked.\nEnhance their computational thinking skills by breaking down a problem into smaller, manageable conditions and actions.\nTest their block code in a practical setup and debug any issues that arise to ensure the robot navigates correctly."
-  },
-  {
-    "objectID": "activities/01activity/01activity.html#picture-of-the-map",
-    "href": "activities/01activity/01activity.html#picture-of-the-map",
-    "title": "Activity 1: Navigating Decisions with If-Else-Elif Statements",
-    "section": "Picture of the Map",
-    "text": "Picture of the Map\n\n\n\nMap Picture"
-  },
-  {
-    "objectID": "activities/08activity/08activity.html",
-    "href": "activities/08activity/08activity.html",
-    "title": "Activity 8: Designing and Programming Robots",
+    "objectID": "activities/22activity/index.html#overview",
+    "href": "activities/22activity/index.html#overview",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
     "section": "",
-    "text": "This activity aims to encourage students to reflect on their experiences with robots, foster creativity through drawing, and develop critical thinking skills through an engaging online coding exercise."
+    "text": "In this action-packed session, students will tackle two creative missions with Dash: Basketball Challenge and Castle Siege. Each task is designed with increasing difficulty by grade level, allowing students to build their programming logic as they play.\nUsing Blockly, students will control Dash to move, aim, and launch in order to complete each objective. Along the way, they’ll explore fundamental computer science concepts like sequencing, debugging, conditionals, and loops—all wrapped inside a fun, interactive story."
   },
   {
-    "objectID": "activities/08activity/08activity.html#objective",
-    "href": "activities/08activity/08activity.html#objective",
-    "title": "Activity 8: Designing and Programming Robots",
+    "objectID": "activities/22activity/index.html#duration",
+    "href": "activities/22activity/index.html#duration",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Duration",
+    "text": "Duration\n\nEstimated Time: 40 minutes"
+  },
+  {
+    "objectID": "activities/22activity/index.html#materials",
+    "href": "activities/22activity/index.html#materials",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Materials",
+    "text": "Materials\n\nDash Robot (with Launcher add-on)\n\n3 soft balls per robot\n\nPlastic cups, blocks, or small boxes\n\nTape or tiles for making paths\n\nTablets with Blockly app\n\nOptional: cones, obstacles, or themed props for story immersion (Note: You can create your own unique story for the kids)"
+  },
+  {
+    "objectID": "activities/22activity/index.html#challenge-1-dashs-basketball-mission",
+    "href": "activities/22activity/index.html#challenge-1-dashs-basketball-mission",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Challenge 1: Dash’s Basketball Mission 🏀",
+    "text": "Challenge 1: Dash’s Basketball Mission 🏀\n\nStoryline\nStory 1: Dash dreams of being a pro basketball player. Today, he’s stepping up to take 3 shots at the hoop, but he needs your help to get the ball in every time.\n\n\nSetup\n\nPlace a cup or small container at a reasonable distance.\n\nDash must move to a firing position and attempt to land all 3 balls in the target.\n\nDepending on the grade, students can work with pre-made or self-designed paths.\n\n\n\nGrade-Level Breakdown\nGrades 1–2 (Getting Started)\n- Use a guided path for Dash.\n- Focus on simple commands like forward, turn, and launch.\n- One shot at a time, 3 total.\n- 🔍 Focus Skill: Following instructions, cause-and-effect logic.\nGrades 3–4 (Growing Coders)\n- Students design the path to the hoop.\n- Adjust launch strength to score.\n- Use blocks like launch at __%, repeat, and basic conditionals.\n- 🔍 Focus Skill: Adjusting variables, learning loops.\nGrades 5–6 (Code Pros)\n- Students must build their own obstacle course and hit all 3 shots using a single sequence of blocks.\n- Encourage use of loops, variables, and conditions to optimize.\n- 🔍 Focus Skill: Efficiency, strategic thinking, and testing."
+  },
+  {
+    "objectID": "activities/22activity/index.html#challenge-2-dashs-castle-siege",
+    "href": "activities/22activity/index.html#challenge-2-dashs-castle-siege",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Challenge 2: Dash’s Castle Siege 🏰",
+    "text": "Challenge 2: Dash’s Castle Siege 🏰\n\nStoryline\nA princess is locked inside a castle made of blocks. Dash is on a quest to bring down the gates and rescue her with his launcher, but the walls are tougher than they look.\n\n\nSetup\n\nCreate a “castle” out of stacked cups or blocks.\n\nDash will move into range and fire at lower blocks to topple the wall.\n\nAdd extra conditions or obstacles for upper levels.\n\n\n\nGrade-Level Breakdown\nGrades 1–2 (New Knights)\n- Follow a path to the castle.\n- Aim and fire to knock down the wall.\n- 🔍 Focus Skill: Object interaction and movement basics.\nGrades 3–4 (Castle Crushers)\n- Allow retries with loops.\n- Focus on hitting weak points in the wall.\n- Use repeat blocks and conditional retries.\n- 🔍 Focus Skill: Recognizing patterns, problem-solving.\nGrades 5–6 (Master Coders)\n- Add rules: “If wall is still up, fire again.”\n- Include extra steps like navigating inside the castle after it falls.\n- Must use a complete block sequence with minimal trial edits.\n- 🔍 Focus Skill: Conditional logic, multi-step planning."
+  },
+  {
+    "objectID": "activities/22activity/index.html#discussion-reflection",
+    "href": "activities/22activity/index.html#discussion-reflection",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Discussion & Reflection",
+    "text": "Discussion & Reflection\nAfter both challenges, gather the class for a quick debrief. We can ask:\n\nWhat changes made your shots or launches more accurate?\nDid your code work the first time? If not, how did you fix it?\nWhat strategy did you use for loops or conditionals?\nWhat part did you enjoy the most?"
+  },
+  {
+    "objectID": "activities/22activity/index.html#wrap-up",
+    "href": "activities/22activity/index.html#wrap-up",
+    "title": "Activity 22: Dash’s Adventure Series – Basketball Challenge & Castle Siege",
+    "section": "Wrap-Up",
+    "text": "Wrap-Up\nThese themed Dash activities blend creative storytelling with foundational programming skills. By adjusting challenge levels and allowing room for imagination, students stay engaged while learning how to think like a programmer: plan, test, adjust, and try again!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nCode with Chompers\n",
     "section": "",
-    "text": "This activity aims to encourage students to reflect on their experiences with robots, foster creativity through drawing, and develop critical thinking skills through an engaging online coding exercise."
+    "text": "Code with Chompers\n\n\nInspiring future technologists to think computationally!\n\n\nExplore our engaging and educational activities designed for young digital learners. Learn more about our exciting initiatives on the About page.\n\n\n\n\n\n\n\n\n\nFor Teachers\n\n\nLearn about how you can bring Outreach Fellows into your classroom and explore our Activities which can be conducted in classes.\n\nRegister to become an Outreach Fellow! Find Activities\n\n\n\n\n\n\n\n\nFor Outreach Fellows\n\n\nAs a Computing Outreach Fellow, you’ll guide engaging activities for students of all ages. Don’t worry—clear, step-by-step guides will be at your side to help you throughout the process. Get ready for a rewarding experience!\n\n Check out the Outreach Fellow Guide! Apply to be a Fellow!\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "activities/08activity/08activity.html#materials-needed",
-    "href": "activities/08activity/08activity.html#materials-needed",
-    "title": "Activity 8: Designing and Programming Robots",
-    "section": "Materials Needed",
-    "text": "Materials Needed\n\nPaper and pencils for drawing\nComputers or tablets with internet access for the online activity"
-  },
-  {
-    "objectID": "activities/08activity/08activity.html#instructions",
-    "href": "activities/08activity/08activity.html#instructions",
-    "title": "Activity 8: Designing and Programming Robots",
-    "section": "Instructions",
-    "text": "Instructions\n\nStep 1: Reflection and Observation\n\nProvide each student with a piece of paper.\nAsk students to reflect on their experiences with robots, especially what they observed during their time at the camp. This includes features like distance sensors, speakers, and cameras.\nEncourage them to list as many features and details as they can remember.\n\n\n\nStep 2: Creative Drawing\n\nBased on their reflections, instruct students to draw their own robot.\nThis drawing session allows students to express their creativity and apply what they have learned about the various parts and functions of robots.\n\n\n\nStep 3: Online Coding Activity - RodoCode\n\nAfter the drawing session, introduce students to the online activity called RodoCode on Code.org.\nRodoCode is an interactive coding exercise where students use blocks to program a robot to reach its destination.\nEmphasize that this activity will enhance critical thinking and problem-solving skills while reinforcing their understanding of robotics concepts."
-  },
-  {
-    "objectID": "activities/08activity/08activity.html#summary",
-    "href": "activities/08activity/08activity.html#summary",
-    "title": "Activity 8: Designing and Programming Robots",
-    "section": "Summary",
-    "text": "Summary\nThis activity engages students in reflecting on their robot experiences, expressing creativity through drawing, and developing coding skills through an online exercise. It combines observation, artistic expression, and computational thinking in a fun and educational manner."
-  },
-  {
-    "objectID": "activities/10activity/activity10.html",
-    "href": "activities/10activity/activity10.html",
-    "title": "Activity 10: Internet Safety Routes",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
     "section": "",
-    "text": "This activity teaches students how to practice internet safety by identifying safe and unsafe actions on the internet. Students will watch a video about internet safety and then engage in an activity using Spheros to create and navigate routes based on safe and unsafe terms."
+    "text": "Our goal is to foster an ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative introduces K-6 students to computing concepts, ensuring consistent exposure to STEM from early education."
   },
   {
-    "objectID": "activities/10activity/activity10.html#description",
-    "href": "activities/10activity/activity10.html#description",
-    "title": "Activity 10: Internet Safety Routes",
+    "objectID": "about/index.html#our-mission-and-goal",
+    "href": "about/index.html#our-mission-and-goal",
+    "title": "About",
     "section": "",
-    "text": "This activity teaches students how to practice internet safety by identifying safe and unsafe actions on the internet. Students will watch a video about internet safety and then engage in an activity using Spheros to create and navigate routes based on safe and unsafe terms."
+    "text": "Our goal is to foster an ongoing collaboration between the Department of Computer and Information Science at Allegheny College and Crawford Central elementary schools. This initiative introduces K-6 students to computing concepts, ensuring consistent exposure to STEM from early education."
   },
   {
-    "objectID": "activities/10activity/activity10.html#materials-required",
-    "href": "activities/10activity/activity10.html#materials-required",
-    "title": "Activity 10: Internet Safety Routes",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nInternet safety flashcards\nWooden blocks\nSpheros\niPad"
-  },
-  {
-    "objectID": "activities/10activity/activity10.html#steps-to-conduct-the-activity",
-    "href": "activities/10activity/activity10.html#steps-to-conduct-the-activity",
-    "title": "Activity 10: Internet Safety Routes",
-    "section": "Steps to Conduct the Activity",
-    "text": "Steps to Conduct the Activity\n\nStep 1: Internet Safety Video\n\nStart by discussing with students their experiences using the internet and activities they have done online.\nExplain the importance of learning safe practices for internet use.\nPlay the Twinkl video on internet safety: Twinkl Internet Safety Video.\nAfter watching, ask students what they learned from the video.\n\n\n\nStep 2: Flashcards\n\nDivide students into two groups and provide them with flashcards containing safe and unsafe terms/actions.\nInstruct students to sort the flashcards into safe and unsafe categories.\nReview the sorted flashcards to ensure understanding before proceeding.\n\n\n\nStep 3: Creating Routes\n\nUsing wooden blocks and the sorted flashcards, have students create two routes: one for safe terms/actions and one for unsafe terms/actions that their Sphero can navigate through.\nKindergarteners will focus on creating routes without the flashcard sorting component.\n\n\n\nStep 4: Using Spheros\n\nAllow students to use Spheros to navigate through the routes they created.\nEncourage students to create new routes for their Spheros after completing the initial ones."
-  },
-  {
-    "objectID": "activities/10activity/activity10.html#reflection",
-    "href": "activities/10activity/activity10.html#reflection",
-    "title": "Activity 10: Internet Safety Routes",
-    "section": "Reflection",
-    "text": "Reflection\n\nConduct a reflection session after watching the video.\nAsk students what they learned about internet safety and what actions they might do differently online after watching the video."
-  },
-  {
-    "objectID": "activities/10activity/activity10.html#summary",
-    "href": "activities/10activity/activity10.html#summary",
-    "title": "Activity 10: Internet Safety Routes",
-    "section": "Summary",
-    "text": "Summary\nThis activity aims to enhance students’ understanding of internet safety by actively engaging them in identifying safe and unsafe online behaviors. By using Spheros to navigate through created routes, students apply their knowledge in a practical and interactive manner, reinforcing internet safety practices."
-  },
-  {
-    "objectID": "activities/10activity/activity10.html#examples-of-flashcards",
-    "href": "activities/10activity/activity10.html#examples-of-flashcards",
-    "title": "Activity 10: Internet Safety Routes",
-    "section": "Examples of Flashcards",
-    "text": "Examples of Flashcards\n\n\n\nMap Picture"
-  },
-  {
-    "objectID": "activities/12activity/activity12.html",
-    "href": "activities/12activity/activity12.html",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "",
-    "text": "Students will use the Blue-Bot robots to play with the Blue-Bloc app. The activity incorperates the use of blocking coding, a ataic used to simply the understading of code for students. The activity will also include the use of conditional statements that require new ays of thinking and improve skills in computational thinking."
-  },
-  {
-    "objectID": "activities/12activity/activity12.html#description",
-    "href": "activities/12activity/activity12.html#description",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "",
-    "text": "Students will use the Blue-Bot robots to play with the Blue-Bloc app. The activity incorperates the use of blocking coding, a ataic used to simply the understading of code for students. The activity will also include the use of conditional statements that require new ays of thinking and improve skills in computational thinking."
-  },
-  {
-    "objectID": "activities/12activity/activity12.html#time-required",
-    "href": "activities/12activity/activity12.html#time-required",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "Time Required",
-    "text": "Time Required\n\nTime Required: 4th grade: 35min, 5th & 6th: 30min"
-  },
-  {
-    "objectID": "activities/12activity/activity12.html#materials-required",
-    "href": "activities/12activity/activity12.html#materials-required",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nBlue-Bot\nBlue-Bot Map\nFlashcards\nIPAD\nPencil\n\nPaper\n\n\nStep 1: Forming Groups\n\nPut students in groups of two at each Map, giving them each three rows of space to put down blank flashcards for obstacles and one picture flashcard as their goal.\nEach student needs a paper, pencil and IPAD to connect to their Blue-Bot\n\n\n\nStep 2: Creating Routes\n\nEncourage students to play around with Bee Bot to see the different blocks available to them for 5 minutes max.\nUsing the flashcards and three rows avaliable to them, tell students to create routes they can run their Blue-Bots through. Give students up to 10 minutes to complete this\n\n\n\nStep 3: Creating Conditions\n\nWith the paper and pencil tell students to create two restictions based upon the avaiable blocks on Blue-Blocs, they cannot have the same restrictions as their partner on the map\n\nExamples: No forward block, No turning 45 degrees, Only 45 degree blocks for turns, Can only turn left etc…\n\n\n\n\nStep 4: Completing Routes and Switching\n\nHave the students run through their own routes with conditions and once completed, switch with their partner and abide by their restrictions.\nOnce both students have done each other routes wait for another group to be done so they can switch places.\nHave the students keep their paper at their original map and use the new ones they find when switching\nKeep the students switching until they have done all the diffrent routes avaliable."
-  },
-  {
-    "objectID": "activities/12activity/activity12.html#reflection",
-    "href": "activities/12activity/activity12.html#reflection",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "Reflection",
-    "text": "Reflection\n\nLeave at least 5 minutes of the activity to ask questions about what they did\nExplore with students how easy or hard they found the activity\nAsk the students what they found were the hardest conditions to abide by.\nAsk them if there were any conditions they tried making but weren’t able to."
-  },
-  {
-    "objectID": "activities/12activity/activity12.html#summary",
-    "href": "activities/12activity/activity12.html#summary",
-    "title": "Activity 12: Blue-Blocs",
-    "section": "Summary",
-    "text": "Summary\n\nParticipation in the activity is meant to improve students computational thinking. Block coding helps students get a better understanding of how coding works and can help them improve their skills in programming. Encouraging students to create and solve obstacles for block coding will greatly improve their coding skills."
-  },
-  {
-    "objectID": "activities/03activity/03activity.html",
-    "href": "activities/03activity/03activity.html",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "",
-    "text": "Kids will learn about sorting by arranging numbered paper strips in order and using different sorting approaches that a computer can take."
-  },
-  {
-    "objectID": "activities/03activity/03activity.html#description",
-    "href": "activities/03activity/03activity.html#description",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "",
-    "text": "Kids will learn about sorting by arranging numbered paper strips in order and using different sorting approaches that a computer can take."
-  },
-  {
-    "objectID": "activities/03activity/03activity.html#materials-required",
-    "href": "activities/03activity/03activity.html#materials-required",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nPaper pieces labelled 1-10\nNotebook & pen"
-  },
-  {
-    "objectID": "activities/03activity/03activity.html#steps-to-conduct-the-activity",
-    "href": "activities/03activity/03activity.html#steps-to-conduct-the-activity",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "Steps to Conduct the Activity",
-    "text": "Steps to Conduct the Activity\n\nStep 1: Introduction\n\nUsing paper pieces, label them from 1 to 10.\nInteract with students and ask why they think having things sorted and arranged can be useful.\nExplain the three different sorting methods we will be using: Bubble Sort, Selection Sort, and Insertion Sort.\n\n\n\nStep 2: How Each Sorting Method Works\n\nBubble Sort\n\nBubble Sort: Takes two adjacent pieces and compares them together, arranging them by swapping if they are in the wrong order.\nLay out the numbered paper strips in a random order.\nCompare each pair of adjacent strips and swap them if they are in the wrong order.\nRepeat this process until the strips are sorted.\n\nReference video to be played before activity: Bubble Sort Algorithm\n\n\nSelection Sort\n\nSelection Sort: Repeatedly finds the smallest item in the unsorted part and moves it to the end of the sorted part.\nLay out the numbered paper strips in a random order.\nFind the smallest number among all the strips and move it to the first position.\nFind the next smallest number from the remaining strips and place it next to the first.\nRepeat until all strips are sorted.\n\nReference video to be played before activity: Selection Sort Algorithm\n\n\nInsertion Sort\n\nInsertion Sort: Involves sorting one item at a time by comparing each new item with the items already sorted and inserting it in the correct position.\nLay out the numbered paper strips in a random order.\nStart with the second strip and compare it to the first. Insert it in the correct position (before or after the first strip).\nTake the third strip and compare it to the already sorted strips, inserting it in the correct position.\nRepeat the process until all strips are sorted.\n\nReference video to be played before activity: Insertion Sort Algorithm"
-  },
-  {
-    "objectID": "activities/03activity/03activity.html#reflection",
-    "href": "activities/03activity/03activity.html#reflection",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "Reflection",
-    "text": "Reflection\n\nGather back as a class and ask students which method took them the least amount of time to complete.\nIf the answers vary, ask them why they felt that way.\n\n\nAnswers on Which Algorithm is Usually Faster\n\nBubble Sort: Slow because it has to compare and swap a lot.\nSelection Sort: A little better than bubble sort but still has to make many comparisons.\nInsertion Sort: Often the fastest of the three for small lists because it finds the right spot for each item without many unnecessary moves."
-  },
-  {
-    "objectID": "activities/03activity/03activity.html#learning-outcomes",
-    "href": "activities/03activity/03activity.html#learning-outcomes",
-    "title": "Activity 3: Different Ways a Computer Sorts",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nBy the end of this activity, students should:\n\nUnderstand the basic concepts of sorting and why it is useful.\nLearn how to perform Bubble Sort, Selection Sort, and Insertion Sort.\nRecognize the differences in efficiency between the three sorting methods."
-  },
-  {
-    "objectID": "activities/06activity/06activity.html",
-    "href": "activities/06activity/06activity.html",
-    "title": "Activity 6: Debugging",
-    "section": "",
-    "text": "This activity is designed to educate students on debugging and the various manifestations of bugs in code. The lesson will encompass an activity that assists students in identifying the presence of a bug, methods for resolving it, and distinguishing between syntax errors and logic errors. Syntax errors occur due to grammatical or indentation mistakes in the code, which prevent the program from running correctly. These errors are akin to misspellings or improper punctuation in written language. On the other hand, logic errors arise when the lines of code, while syntactically correct, do not produce the intended outcome. These errors are caused by flawed logic that the computer cannot interpret as intended, leading to incorrect or unexpected results. The activity will use instructions to represent syntax and logic errors that the student will need to identify. It is crucial to highlight what each example represents to ensure a clear understanding of these concepts."
-  },
-  {
-    "objectID": "activities/06activity/06activity.html#description",
-    "href": "activities/06activity/06activity.html#description",
-    "title": "Activity 6: Debugging",
-    "section": "",
-    "text": "This activity is designed to educate students on debugging and the various manifestations of bugs in code. The lesson will encompass an activity that assists students in identifying the presence of a bug, methods for resolving it, and distinguishing between syntax errors and logic errors. Syntax errors occur due to grammatical or indentation mistakes in the code, which prevent the program from running correctly. These errors are akin to misspellings or improper punctuation in written language. On the other hand, logic errors arise when the lines of code, while syntactically correct, do not produce the intended outcome. These errors are caused by flawed logic that the computer cannot interpret as intended, leading to incorrect or unexpected results. The activity will use instructions to represent syntax and logic errors that the student will need to identify. It is crucial to highlight what each example represents to ensure a clear understanding of these concepts."
-  },
-  {
-    "objectID": "activities/06activity/06activity.html#materials-required",
-    "href": "activities/06activity/06activity.html#materials-required",
-    "title": "Activity 6: Debugging",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nDebugging Video: Bugs!\nDebugging Scenarios\nPencil\nPaper"
-  },
-  {
-    "objectID": "activities/06activity/06activity.html#steps-to-conduct-the-activity",
-    "href": "activities/06activity/06activity.html#steps-to-conduct-the-activity",
-    "title": "Activity 6: Debugging",
-    "section": "Steps to Conduct the Activity",
-    "text": "Steps to Conduct the Activity\n\nStep 1: Printing out Debugging Sheets\n\nPrint out debugging sheet before activity starts or during debugging video if you are running activity with someone else\n\nDEBUGGING SHEET: Debugging Sheet\nDEBUGGING ANSWER SHEET: Answer Sheet\n\n\nStep 2: Watching Debugging Video\n\nShow students Debugging video Bugs!\nAfter the video is done ask them about what they think bugs in coding will look like\nAlso ask them if they think bugs can show up in different ways or only one.\n\nFollowing this, it is important to emphasize to the students the types of errors they may encounter while learning to code. Syntax errors occur due to grammatical or indentation mistakes in the code, which prevent the program from running correctly. These errors are akin to misspellings or improper punctuation in written language. On the other hand, logic errors arise when the lines of code, while syntactically correct, do not produce the intended outcome. These errors are caused by flawed logic that the computer cannot interpret as intended, leading to incorrect or unexpected results.\n\n\n\n\nStep 1: Identifying Bugs\n\nHand out the Sheets of paper with the identifying bugs side first\nWith the written examples in the first part of the sheet explain to students that instructions that do not make sense or are grammatically incorrect can be identified as bugs\n\n\n\nStep 2: Categorizing Bugs\n\nThe second part of the sheet has all bugs, direct the students to identify if the instruction be would syntax errors or logic errors\n\n\n\nStep 3: Practice\n\nHave students create instructions that contain Bugs , no Bugs, syntax errors, and logic errors.\nThis exercise will improve their understanding of how to identify bugs and the different types they might encounter."
-  },
-  {
-    "objectID": "activities/06activity/06activity.html#reflection",
-    "href": "activities/06activity/06activity.html#reflection",
-    "title": "Activity 6: Debugging",
-    "section": "Reflection",
-    "text": "Reflection\n\nExplain the similarity between actual code and the activity, emphasizing how debugging requires the skills practiced in the activity.\nAsk students if they found the activity challenging and what new concepts they learned.\nInquire which was harder: identifying bugs or categorizing them."
-  },
-  {
-    "objectID": "activities/06activity/06activity.html#summary",
-    "href": "activities/06activity/06activity.html#summary",
-    "title": "Activity 6: Debugging",
-    "section": "Summary",
-    "text": "Summary\nThis activity introduces students to the basics of debugging. It highlights common errors in code and methods for addressing them. Engagement in these activities can better prepare students for coding by providing a solid understanding of how to handle errors."
-  },
-  {
-    "objectID": "activities/05activity/05activity.html",
-    "href": "activities/05activity/05activity.html",
-    "title": "Activity 5: Ozobots",
-    "section": "",
-    "text": "Students will receive Ozobots and directional mats to collaboratively create intersecting paths. They will be instructed not to allow the Ozobots to collide during the activity. It’s crucial to ensure they start their paths simultaneously to maintain the challenge of avoiding collisions effectively. Initially straightforward, the activity aims to gradually increase complexity. As students master the task, consider removing mats strategically to constrain movement further, promoting continuous skill development and engagement."
-  },
-  {
-    "objectID": "activities/05activity/05activity.html#description",
-    "href": "activities/05activity/05activity.html#description",
-    "title": "Activity 5: Ozobots",
-    "section": "",
-    "text": "Students will receive Ozobots and directional mats to collaboratively create intersecting paths. They will be instructed not to allow the Ozobots to collide during the activity. It’s crucial to ensure they start their paths simultaneously to maintain the challenge of avoiding collisions effectively. Initially straightforward, the activity aims to gradually increase complexity. As students master the task, consider removing mats strategically to constrain movement further, promoting continuous skill development and engagement."
-  },
-  {
-    "objectID": "activities/05activity/05activity.html#materials-required",
-    "href": "activities/05activity/05activity.html#materials-required",
-    "title": "Activity 5: Ozobots",
-    "section": "Materials Required",
-    "text": "Materials Required\n\nOzo bot\nDirectional Mats"
-  },
-  {
-    "objectID": "activities/05activity/05activity.html#steps-to-conduct-the-activity",
-    "href": "activities/05activity/05activity.html#steps-to-conduct-the-activity",
-    "title": "Activity 5: Ozobots",
-    "section": "Steps to Conduct the Activity",
-    "text": "Steps to Conduct the Activity\n\nStep 1: Forming groups\n\nSplit the students into groups of three\nIf there is an uneven amount of students create groups of four\nIf there is not enough Ozobots for everyone try to create groups that have at least two Ozobots\n\n\n\nStep 2: Creating their Paths\n\nAllow students for up to 10 minutes to create their paths with the option of creating intersections if they want too\nOnce it has hit the 10 minute mark they must all create paths that are intersecting with on another\n\n\n\nStep 3: Restriction\n\nIf students have successfully run through paths at least three times, require them to remove at least one of the directional mats they have. This could be forward, back, stop, dance etc.\nRemove only a maximum of two mats at a time. Do not remove mats that will not allow them to be able to move effectively at all -Example: Removing the forward and back mat at the same time"
-  },
-  {
-    "objectID": "activities/05activity/05activity.html#reflection",
-    "href": "activities/05activity/05activity.html#reflection",
-    "title": "Activity 5: Ozobots",
-    "section": "Reflection",
-    "text": "Reflection\n\nAsk students what they found challenging about creating their paths with one another\nAsk if they found it harder or easier to work with people or to make paths by themselves\nAsk them if there was anything they wanted to do but didn’t have the time to do."
-  },
-  {
-    "objectID": "activities/05activity/05activity.html#learning-outcomes",
-    "href": "activities/05activity/05activity.html#learning-outcomes",
-    "title": "Activity 5: Ozobots",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nThis activity is designed to enhance students’ computational skills by fostering adaptability and problem-solving in response to varying conditions. It promotes the development of critical thinking abilities crucial for early learners. This simplified introduction to conditional statements is particularly beneficial for kindergarteners, laying a foundational understanding essential for their initial encounters with coding concepts."
-  },
-  {
-    "objectID": "activities/14activity/14activity.html",
-    "href": "activities/14activity/14activity.html",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "",
-    "text": "Students will engage with the Code.org platform to play an interactive coding game inspired by the movie “Frozen.” Through this activity, they will utilize block-based coding to deepen their comprehension of fundamental programming concepts. As they progress through the game, students will learn how to construct sequences, loops, and conditional statements, and observe how these elements interact to produce the desired outcomes. This hands-on experience aims to enhance their understanding of how coding works in a fun and educational environment, fostering their problem-solving skills and creativity"
-  },
-  {
-    "objectID": "activities/14activity/14activity.html#description",
-    "href": "activities/14activity/14activity.html#description",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "",
-    "text": "Students will engage with the Code.org platform to play an interactive coding game inspired by the movie “Frozen.” Through this activity, they will utilize block-based coding to deepen their comprehension of fundamental programming concepts. As they progress through the game, students will learn how to construct sequences, loops, and conditional statements, and observe how these elements interact to produce the desired outcomes. This hands-on experience aims to enhance their understanding of how coding works in a fun and educational environment, fostering their problem-solving skills and creativity"
-  },
-  {
-    "objectID": "activities/14activity/14activity.html#materials-required",
-    "href": "activities/14activity/14activity.html#materials-required",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "Materials required",
-    "text": "Materials required\n\nIPAD\nCode.org platform: Code with Anna and Elsa"
-  },
-  {
-    "objectID": "activities/14activity/14activity.html#steps-to-conduct-the-activity",
-    "href": "activities/14activity/14activity.html#steps-to-conduct-the-activity",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "Steps to conduct the activity",
-    "text": "Steps to conduct the activity\n\nStep 1: Setup and Introduction\n\nOpen the Code.org platform on iPads.\nShow students the introductory video provided before starting the activity.\n\n\n\nStep 2: Engaging with Minecraft Blocks\n\nGuide students through the initial stages of the Frozen block coding game.\nDisable subsequent instructional videos to encourage independent exploration."
-  },
-  {
-    "objectID": "activities/14activity/14activity.html#reflection",
-    "href": "activities/14activity/14activity.html#reflection",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "Reflection",
-    "text": "Reflection\n\nPause at the 30-minute mark to discuss progress and challenges.\nAsk students to describe what they observed Minecraft mobs doing with the block codes.\nRelate the activity to game development, emphasizing how coding principles translate into interactive gameplay experiences."
-  },
-  {
-    "objectID": "activities/14activity/14activity.html#learning-outcomes",
-    "href": "activities/14activity/14activity.html#learning-outcomes",
-    "title": "Activity 14: Code with Anna and Elsa",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nBy introducing them to basic coding principles, students will develop a stronger grasp of programming, leading to improved comprehension when they encounter more complex coding tasks in the future. This early exposure aims to build their confidence and proficiency in understanding and applying code effectively."
+    "objectID": "about/index.html#pennsylvania-education-framework",
+    "href": "about/index.html#pennsylvania-education-framework",
+    "title": "About",
+    "section": "Pennsylvania Education Framework",
+    "text": "Pennsylvania Education Framework\n\nSTEM in Pennsylvania\nSTEM education in Pennsylvania emphasizes literacy for all students, reflection, iteration, community integration, and partnerships between educators, families, and institutions.\n\n\nComputer Science Literacy\nThe current Pennsylvania framework prioritizes grades 7-12, but we aim to bridge this gap by introducing computer science concepts to younger students, aligned with state standards.\n\nSources\n\nPA Department of Education STEM Guidelines\nThe Framework for Computer Science 7-12 Program Guidelines"
   },
   {
     "objectID": "technical-leader-guide/index.html",
