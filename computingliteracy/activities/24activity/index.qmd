@@ -1,0 +1,58 @@
+---
+title: "Activity 24: Dash Bots Pathway Challenge and Free Play"
+subtitle: "Use the Dash Bot to create unique pathways, making sure to test various directional movements, sounds, and light changes."
+grades: 1st, 2nd
+time_required: "30 minutes"
+categories: ["Grade: Grade: 1", "Grade: 2", "Time: 30 Minutes"]
+toc: true
+page-layout: full
+---
+
+
+Instructions given on how to use the app to control the dash bots. Have the students create a path on a whiteboard and use the app to move the Dash bot to said path. Free play for rest of time.
+
+
+## Description
+
+In this activity, students will use Dash Bots to create various paths made up of different movements, sounds, and light changes. Students will create a plan for their Dash on a whiteboard, and then take turns driving the Dash through their created path. After students progress through the unique pathways challenge, they will be free to attempt more complex challenges or experiment with free play. This approach fosters a natural creativity the students may have, and will allow them to learn more about the Dash's abilities through firsthand experience.
+
+## Time Required
+
+- **Time Required**: 30 minutes
+
+## Materials Required
+
+- Dash Bots
+- Dash Bot App: Wonder (IPAD)
+- Whiteboard
+- Dry Erase Marker
+
+### Step 1: Distribution of Materials
+
+- Students will be split into groups of two. Each group will be given an IPAD, a Dash bot, a dry erase marker, and a whiteboard.
+- Ensure there is one Dash bot for every group of students. If there are more students than available Dash bots or IPADS, increasing the number of students per group is the best option.
+    - When pairing students, ensure they take equal turns using the device.
+
+### Step 2: Making the Pathway
+
+- Students should be familiar with the Dash bot application, which uses buttons to control movement. To refresh their awareness and to help with the lesson, have them attempt to mess the Dash Bot for 2 minutes. Now that they are refreshed, have the students use their whiteboard materials to create a pathway utilizing the different aspects of the Dash bot. 
+- Once the pathway has been created, have the students use the ipad to traverse the bot through the pathway they made. Make sure both students get a turn to try.
+
+### Step 3: Follow-up Challenge or Free Play 
+
+- Encourage students to complete the course independently and assist those who are confused or struggling with the task.
+- If students are hesitant to help, involve a nearby teacher to better manage the situation.
+- Once a student finishes their pathway, have them reposition the Blue Bot as designated by the ipad's new pathway.
+- After meeting their marked goals, allow them the chpice to create another pathway or engage in free play with te Dash bot.
+    - If partaking in another path, ask them to keep track of how many times they meet their goal. 
+
+## Reflection
+
+- At the end of the activity, gather the students and ask how many of them were able to complete their pathways and, if applicable, they had any troubles. Additionally, for those who kept count, ask how many times they were able to complete their pathways.
+    - What directional combinations were tricky and why?
+    - Were there any pathways you found to be easy?
+    - How many times were you able to finish your pathways?
+
+## Summary
+
+- By programming Dash bots to navigate pathways with various movement, audio, and visual cues, students develop an understanding of how different condition combinations affect the final result of a program. The activity reinforces computational thinking, logical reasoning, and teamwork while encouraging students to experiment with different sequence combinations.
