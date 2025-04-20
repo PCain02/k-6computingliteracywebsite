@@ -48,6 +48,77 @@ code, pre, .monospace {
     text-decoration: none;
 }
 
+.navbar #quarto-search.type-overlay .aa-Autocomplete {
+    width: 130px;
+  }
+  
+  .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
+    height: 50%; 
+    width: auto;
+    font-size: medium;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 5px;
+  }
+
+[data-theme="light"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #7F7F7F;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="dark"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #7F7F7F;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="light-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #202020;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="dark-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #202020;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  /* Search Bar */
+#search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+  }
+
+body .page-footer,
 body .nav-footer {
     background-color: transparent !important;
 }
@@ -67,6 +138,57 @@ body .nav-footer {
 /* ==========================
    Button Styles
    ========================== */
+
+   /* Light theme pagination button styling */
+[data-theme="light"] .pagination .page-item .page-link {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+[data-theme="light"] .pagination .page-item.active .page-link {
+    background-color: #057c3e;
+    color: #ffffff;
+    border-color: #057c3e;
+}
+
+[data-theme="light-high-contrast"] .pagination .page-item .page-link {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+[data-theme="light-high-contrast"] .pagination .page-item.active .page-link {
+    background-color: #057c3e;
+    color: #ffffff;
+    border-color: #057c3e;
+}
+
+/* Dark theme pagination button styling */
+[data-theme="dark"] .pagination .page-item .page-link {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+[data-theme="dark"] .pagination .page-item.active .page-link {
+    background-color: #4da6ff;
+    color: #000000;
+    border-color: #4da6ff;
+}
+
+/* Dark theme pagination button styling */
+[data-theme="dark-high-contrast"] .pagination .page-item .page-link {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+[data-theme="dark-high-contrast"] .pagination .page-item.active .page-link {
+    background-color: #ffc300;
+    color: #000000;
+    border-color: #ffc300;
+}
 
 .button-container {
     display: flex;
