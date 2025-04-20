@@ -1,30 +1,44 @@
 [
   {
-    "listing": "/activities/index.html",
+    "listing": "/middle_school/index.html",
     "items": [
-      "/activities/01activity/01activity.html",
-      "/activities/02activity/02activity.html",
-      "/activities/03activity/03activity.html",
-      "/activities/04activity/04activity.html",
-      "/activities/05activity/05activity.html",
-      "/activities/06activity/06activity.html",
-      "/activities/07activity/07activity.html",
-      "/activities/08activity/08activity.html",
-      "/activities/09activity/09activity.html",
-      "/activities/10activity/activity10.html",
-      "/activities/11activity/activity11.html",
-      "/activities/12activity/activity12.html",
-      "/activities/13activity/activity13.html",
-      "/activities/14activity/14activity.html",
-      "/activities/15activity/15activity.html",
-      "/activities/16activity/16activity.html",
-      "/activities/17activity/17activity.html",
-      "/activities/18activity/18activity.html",
-      "/activities/19activity/index.html",
-      "/activities/20activity/index.html",
-      "/activities/21activity/index.html",
-      "/activities/22activity/index.html",
-      "/activities/24activity/index.html"
+      "/middle_school/01activity/01activity.html",
+      "/middle_school/02activity/02activity.html"
+    ]
+  },
+  {
+    "listing": "/high_school/index.html",
+    "items": [
+      "/high_school/01activity/01activity.html",
+      "/high_school/02activity/02activity.html"
+    ]
+  },
+  {
+    "listing": "/k-6_activities/index.html",
+    "items": [
+      "/k-6_activities/01activity/01activity.html",
+      "/k-6_activities/02activity/02activity.html",
+      "/k-6_activities/03activity/03activity.html",
+      "/k-6_activities/04activity/04activity.html",
+      "/k-6_activities/05activity/05activity.html",
+      "/k-6_activities/06activity/06activity.html",
+      "/k-6_activities/07activity/07activity.html",
+      "/k-6_activities/08activity/08activity.html",
+      "/k-6_activities/09activity/09activity.html",
+      "/k-6_activities/10activity/activity10.html",
+      "/k-6_activities/11activity/activity11.html",
+      "/k-6_activities/12activity/activity12.html",
+      "/k-6_activities/13activity/activity13.html",
+      "/k-6_activities/14activity/14activity.html",
+      "/k-6_activities/15activity/15activity.html",
+      "/k-6_activities/16activity/16activity.html",
+      "/k-6_activities/17activity/17activity.html",
+      "/k-6_activities/18activity/18activity.html",
+      "/k-6_activities/19activity/index.html",
+      "/k-6_activities/20activity/index.html",
+      "/k-6_activities/21activity/index.html",
+      "/k-6_activities/22activity/index.html",
+      "/k-6_activities/24activity/index.html"
     ]
   }
 ]
