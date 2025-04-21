@@ -1334,7 +1334,7 @@
     "href": "middle_school/02presentation/02presentation.html#activities",
     "title": "Presentation 2: ROV Design",
     "section": "Activities",
-    "text": "Activities\n\nStep 1: What is an ROV?\nStudents learn about the concept of remotely operated vehicles, tethering, and real-world use cases like underwater archaeology and water quality monitoring.\n\n\nStep 2: Understanding ROV Systems\nIntroduce students to essential subsystems: - Frame - Buoyancy - Propulsion - Power - Control - Tether - (Optionally mention sensors/payloads)\n\n\nStep 3: ROV Design Styles\nCompare orthogonal and vector motor configurations: - Orthogonal: Surge, Heave, Yaw, Sway - Vector: Surge, Heave (vectored), Yaw, Sway (vectored)\n\n\nStep 4: Build Your Own Frame\nUse the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal ROV frame. One motor for horizontal motion and one for vertical.\nSee Activity 3 for an online version the building activity.\nBuild instructions link:\nGoogle Doc Instructions"
+    "text": "Activities\n\nStep 1: What is an ROV?\nStudents learn about the concept of remotely operated vehicles, tethering, and real-world use cases like underwater archaeology and water quality monitoring.\n\n\nStep 2: Understanding ROV Systems\nIntroduce students to essential subsystems: - Frame - Buoyancy - Propulsion - Power - Control - Tether - (Optionally mention sensors/payloads)\n\n\nStep 3: ROV Design Styles\nCompare orthogonal and vector motor configurations: - Orthogonal: Surge, Heave, Yaw, Sway - Vector: Surge, Heave (vectored), Yaw, Sway (vectored)\n\n\nStep 4: Build Your Own Frame\nUse the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal ROV frame. One motor for horizontal motion and one for vertical.\nSee Activity 3 for an online version the building activity.\nBuild instructions link:\nPDF Instructions"
   },
   {
     "objectID": "middle_school/02presentation/02presentation.html#reflection",
@@ -1411,7 +1411,7 @@
     "href": "middle_school/03activity/03activity.html#materials-required",
     "title": "Activity 3: Building an ROV Frame",
     "section": "Materials Required",
-    "text": "Materials Required\nPer Robot:\n\nPVC Pipe of Various Sizes:\n\n2 × 7” long ½” PVC\n4 × 6” long ½” PVC\n2 × 5” long ½” PVC\n2 × 3” long ½” PVC\n4 × 2” long ½” PVC\n6 × 1” long ½” PVC\n\n10 × ½” PVC Corner piece SxS\n6 × ½” PVC T pieces SxSxS\nZip ties\nNetting"
+    "text": "Materials Required\nPer Robot:\n\nPVC Pipe of Various Sizes:\n\n2 × 7” long ½” PVC\n4 × 6” long ½” PVC\n2 × 5” long ½” PVC\n2 × 3” long ½” PVC\n4 × 2” long ½” PVC\n6 × 1” long ½” PVC\n\n10 × ½” PVC Corner piece SxS\n6 × ½” PVC T pieces SxSxS\nZip ties\nNetting\n\nOptional: Build Frame Steps PDF"
   },
   {
     "objectID": "middle_school/03activity/03activity.html#presentation-link",
@@ -1465,58 +1465,58 @@
   {
     "objectID": "middle_school/04activity/04activity.html",
     "href": "middle_school/04activity/04activity.html",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "",
-    "text": "In this hour session, students will"
+    "text": "In this hour session, students will learn about motors and create their own motor systems for their ROVs. Students will go step-by-step through the process of connecting a battery pack, switches, and tethered motors, eventually waterproofing the system and customizing their builds."
   },
   {
     "objectID": "middle_school/04activity/04activity.html#description",
     "href": "middle_school/04activity/04activity.html#description",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "",
-    "text": "In this hour session, students will"
+    "text": "In this hour session, students will learn about motors and create their own motor systems for their ROVs. Students will go step-by-step through the process of connecting a battery pack, switches, and tethered motors, eventually waterproofing the system and customizing their builds."
   },
   {
     "objectID": "middle_school/04activity/04activity.html#materials-required",
     "href": "middle_school/04activity/04activity.html#materials-required",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "Materials Required",
-    "text": "Materials Required\nPer Robot:\n\nPVC Pipe of Various Sizes:\n\n2 × 7” long ½” PVC\n4 × 6” long ½” PVC\n2 × 5” long ½” PVC\n2 × 3” long ½” PVC\n4 × 2” long ½” PVC\n6 × 1” long ½” PVC\n\n10 × ½” PVC Corner piece SxS\n6 × ½” PVC T pieces SxSxS\nZip ties\nNetting"
+    "text": "Materials Required\n\nProjector or computer with presentation\nOptional: ROV for demonstration\n3 ft long 2-strand white wire\n9V battery holder\nRed and green solder seal wire connectors\nWire strippers\nSharpie\nHeat gun\nRed and black wire spools\n2 switches\nControl box (base and top)\n6-wire black tether\nBlue and yellow wire spools\nScrewdriver\nBolts for control box\nElectrical tape\n2 motors and propeller parts\n2 PVC motor holders\nCoax seal\nZip ties\n\nROV Motor Control Presentation PDF\nROV Motor Control Presentation Link\nOptional: ROV Motor Control Steps PDF"
   },
   {
     "objectID": "middle_school/04activity/04activity.html#learning-outcomes",
     "href": "middle_school/04activity/04activity.html#learning-outcomes",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nUnderstand what an ROV is and identify its core components.\nCompare different underwater movement systems and ROV layouts.\nApply design thinking and basic engineering principles to construct an ROV frame.\nCollaborate in teams to solve real-world-inspired challenges."
+    "text": "Learning Outcomes\n\nIdentify the basic components used in ROV motor systems\nUnderstand the electrical connections for powering and controlling motors\nSafely use solder seal connectors and heat tools\nBuild and waterproof an underwater motor system\nTest and troubleshoot an ROV motor system"
   },
   {
     "objectID": "middle_school/04activity/04activity.html#agenda",
     "href": "middle_school/04activity/04activity.html#agenda",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "Agenda",
-    "text": "Agenda\n\n1. Gather Your Materials\nPull from the main supply these materials:\n\n2x 7 in long ½ in PVC Pipe\n4x 6 in long ½ in PVC Pipe\n2x 5 in long ½ in PVC Pipe\n2x 3 in long ½ in PVC Pipe\n4x 2 in long ½ PVC Pipe\n6x 1 in long ½ in PVC Pipe\n10 ½ in PVC Corner piece SxS\n6 ½ in PVC T pieces SxSxS\n\n\n\n2. Build the Frame\n\nThe Base\n\nStart with the 2 in long PVCs and use a T piece with the exit hole facing the ceiling\n\n\n\n\nBase T\n\n\n\nNow attach 2 corner pieces on the other end of the 2 inch long pieces\n\n\n\n\nBase C\n\n\n\nPut the 1 in pieces on the other end of each corner piece. It should look like a U shape\n\n\n\n\nBase C+\n\n\n\nThen attach a T piece with the middle whole facing upwards to the ends of the 1 in pieces.\n\n\n\n\nBase C+T\n\n\n\nContinuing the build the base, attach a 5 inch PVC piece to the other end of the T piece opposite of the 1 inch pieces\n\n\n\n\nBase U\n\n\n\nThen attach 2 more T piece to the other ends of the 5 inch PVC pieces\n\n\n\n\nBase U+T\n\n\n\nOn the side opposite of the 5 inch pieces, put 1 inch pieces\n\n\n\n\nBase U+T+\n\n\n\nPut 2 corner pieces on the ends of the 1 inch pieces you just places and point the end of the corner facing the ceiling\n\n\n\n\nBase Final\n\n\n\n\nVertical Motor Holder (VMH)\n\nPlace the 3-inch long PVC in each of the middle holes\n\n\n\n\nVMH start\n\n\n\nThen put a corner piece on the other ends of the 3 inch long pieces where each hole is facing towards the center\n\n\n\n\nVMH+C\n\n\n\nConnect the two corners with two 2 inch pieces on each side\n\n\n\n\nVMH+L\n\n\n\nPut a T piece in the center with the exit hole facing towards the front of the ROV\n\n\n\n\nVMH+T\n\n\n\n\nTop of the Frame\n\nPlace two 6 inch pieces in the front holes and two 6 inch pieces in the holes towards the back\n\n\n\n\nTop Start\n\n\n\nPut a corner piece on the other end of each of the 6 inch pieces with the exit hole facing towards the piece in the same line\n\n\n\n\nTop+C\n\n\n\nConnect the corners together with two 7 inch pieces\n\n\n\n\nTop+L\n\n\n\nAdd 2 more 1 inch pieces to the left over T holes. We will be using them to attach our motors later\nCarefully use a rubber mallet to make sure the pieces are all tightly in place\nNow the frame is complete\n\n\n\n\n3. Add Netting\n\nCut the Netting\n\nThe goal is to create a net pocket for weights later on. First cut a large piece of net the same width and length as your frame base but add an extra inch to the outside perimeter\n\n\n\n\nCut Netting\n\n\n\nCut a smaller piece for the pocket that is smaller than the width of the inside of the base\n\n\n\n\nCut Pocket\n\n\n\n\nZip-tie the Netting\n\nUse Zip-ties to secure the larger piece to the base PVC pieces. Make sure it is secure on all sides. Note that the open end will be for the closed part of our pocket\n\n\n\n\nZip-Ties\n\n\n\n\n\nZip-Tie Close up\n\n\n\n\n\nZip-Ties\n\n\n\nTrim excess net off the edge and cut the excess zip-tie ends\n\n\n\n\nZip-Ties and netting trimmed\n\n\n\nNow secure the pocket net piece to the the top of the base net piece. Leave one edge open enough to slip small rocks or weights into it is recommended to use the edge that will be closest to the forward/backward motor as the opening and the edge that has no PVC as a closed part with zipped ties\n\n\n\n\nZip-Tie pocket\n\n\n\n\n\nZip-Tie pocket closed end\n\n\n\n\n\nZip-Tie pocket example\n\n\n\nCut excess zip-tie ends\n\n\n\n\n4. Add Floats\n\nAttaching the Floats\n\nCut 2 pieces of pool noodle to fit on the top horizontal piece of the ROV. They have to be less than the length of the PVC piece it is on or it will not fit.\nCarefully pull out the piece you would like to attach the floats onto and slide in onto the PVC pipe.\nReattach the piece you moved\n\n\n\n\nFloats Example 1\n\n\n\n\n\nFloats Example 2\n\n\n\n\n\n5. Extensions\n\nIf there is time left over have the students design an ROV logo in Canva\nYou could also work on customizing the ROVs"
+    "text": "Agenda\n\n1. Make Battery Connections\n\n1.1 Gather Your Materials\n\n1x 3 ft long 2 strand white wire\n1x 9v battery holder\nRed Solder Seal Wire Connectors (Share with Others)\nWire Strippers (Share with others)\nSharpie (Share with others)\nHeatgun (Share with others)\n\n\n\n\nMaterials\n\n\n\n\n1.2 Battery to Wires\n\nSeparate a small amount of the white wire at the ends. Strip the ends of the white wires carefully to about ½ in to 1 inch long on all 4 ends.\n\n\n\n\nWhite Wire\n\n\n\n\n\nWhite Wire\n\n\n\n\n\nWhite Wire\n\n\n\nStrip the battery holder wires ¼–½ inch.\n\n\n\n\nBattery Holder Wire\n\n\n\n\n\nBattery Holder Wire\n\n\n\nMark one side of the white wire on both ends with Sharpie to label it GND.\n\n\n\n\nWhite Wire Labeled\n\n\n\nTwist all wire ends so they are neat.\n\n\n\n\nTwisted Wires\n\n\n\nPick one end of the white wire with the sharpie mark to connect to the black wire of the battery holder. Use a solder seal wire connector to connect the black wire of the box and the sharpie marked wire together. Put the ends of the wires inside the seal piece and make sure the silver part in the middle (solder) is touching both wires. You may have to push the wires in further ro reach properly.\n\n\n\n\nSolder Connector\n\n\n\n\n\nSolder Connector\n\n\n\nUse the heat gun about 3 inches away from the wire to very carefully to shrink the connector ON A HEAT SAFE SURFACE - the regular wood of the table will burn so use a piece of scrap wood. Wait until the solder in the middle has melted to stop heating it. Don’t touch it with your fingers until it has cooled. Try your best not to melt the wires themselves and if you see that happening turn off the heat gun and ask for help.\n\n\n\n\nHeat Gun\n\n\n\n\n\nHeat Gun\n\n\n\nWait till it has cooled and check that the wires are secure in the connector and don’t move when you lightly tug on them.\nNow on the same end of the white wire take the side you did not mark and connect it to the red wire. Make sure the metal in the connector is touching both the wires. Use the heat gun very carefully to shrink the connector. Don’t touch it with your fingers until it has cooled.\n\n\n\n\nBattery Connection\n\n\n\n\n\nBattery Connection\n\n\n\n\n1.3 Wires to the Switches\nRequirements - Red wire spool - Black wire spool - 2 switches - Control box\n\nCut two 8-inch red and two 8-inch black wires.\n\n\n\n\nCut Wires\n\n\n\nStrip the ends of the loose black and red wires about ½ in and twist the ends so they are neat.\n\n\n\n\nCut Wires\n\n\n\n\n\nCut Wires\n\n\n\nIdentify the GND (Sharpie) side of the white wire and twist it with the two black wires.\n\n\n\n\nCut GND Wires\n\n\n\n\n\nCut GND Wires\n\n\n\nUse a green solder connector and run it over both the black wires and bring it to the point where the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.\n\n\n\n\nConnected Wire\n\n\n\n\n\nConnected Wire\n\n\n\nTwist the unmarked white wire with the two red wires and connect using another solder connector.Run a green solder connector over top both of the red wires and bring it to the point the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.\n\n\n\n\nConnected Red Wire\n\n\n\n\n\nConnected Red Wire\n\n\n\n\n\nConnected Red Wire\n\n\n\n\n\nConnected Red Wire\n\n\n\n\n\nConnected Red Wire\n\n\n\nRoute wires through the hole in the control box and tie a knot to prevent slipping.\n\n\n\n\nWires in the box\n\n\n\n\n\nWires in the box\n\n\n\n\n\nWires in the box\n\n\n\nLoosen switch screws and hook a red wire to one middle terminal of the switch. You do not have to take them out all the way. While it is hooked tighten the screw so that the red wire is stuck underneath it and it is snug enough you can not tug it out easily\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\nHook a black wire to the opposite middle terminal and tighten.\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\n\n\nSwitch\n\n\n\nRepeat for the second switch with the remaining red and black wires.\n\n\n\n1.4 Motor Tether to the Switches\nRequirements - 6 wire black tether - Blue wire spool - Yellow wire spool - Screwdriver - Wire strippers - 2x Switches and switch secures - Control box base and top - Bolts for control box lids - Electrical tape\n\nTake the black tether and strip the ends so that the colored wires are showing. Strip the black about 6 inches on one side and 3 inches on the other.\n\n \n\nStrip the yellow, white, orange and green colored wires ½ inch and twist the ends of the wires so they are neat.\nPush the 6-inch tether side through the same control box hole.\n\n\n\n\nControl Box\n\n\n\nCut two blue and two yellow wires about 2½ inches long and strip ends.\n\n\n\n\nBlue-Yellow\n\n\n\nConnect the white tether wire + a short blue wire to one switch terminal (above black wire).\n\n\n\n\nBlue White Wire\n\n\n\n\n\nBlue White Wire\n\n\n\nConnect the other end of the blue wire diagonally opposite (below black wire).\n\n\n\n\nBlue Diagonal\n\n\n\nConnect the orange wire + yellow wire to the opposite top terminal (above red wire).\n\n\n\n\nYellow Wire\n\n\n\nConnect the other end of the yellow wire diagonally opposite (below red wire).\n\n\n\n\nYellow Wire Diagonal\n\n\n\nRepeat for the second switch using the yellow and green tether wires + other yellow/blue jumpers. Screw the other end of the small yellow wire into the pole diagonal from it so below the black wire Now take the green tether wire and the short blue wire and screw them into the top right pole (above the black wire).Screw the other end of the blue wire diagonally across from it so underneath the red wire. The end result should be a cross shape\n\n\n\n\nSecond Switch\n\n\n\n\n\nSecond Switch\n\n\n\n\n\nSecond Switch\n\n\n\n\n\nSecond Switch\n\n\n\nNow check both switches for straggly wires that might accidentally touch other poles. You can trim them away or try to tuck them. Crossing poles is not good and your robot won’t work\n\n\n\n\nTrim Stragglers\n\n\n\nMount switches into the lid: white/orange switch on right, yellow/green on left.\n\n\n\n\nSwitch Box\n\n\n\nUse this order on each switch: on/off label, washer, nut, rubber topper (optional).\n\n\n\n\nSwitch Order\n\n\n\n\n\nSwitch Box\n\n\n\nUse electrical tape to secure white wire and tether inside the box.\n\n\n\n\nSwitch Box Tapped\n\n\n\nBolt the lid onto the control box.\n\n\n\n\n2. Make Motor-to-Tether Connections\n\n2.1 Prep the Motors\nRequirements - 2 motors and propellor parts - 2 PVC motor holders 1. Attach propellers to the motors using the presentation link.\n\n\n\nMotor\n\n\n\nMount motors into ROV: back motor facing backward, vertical motor facing up.\n\n\n\n\nMotor Mounted\n\n\n\n\n\nMotor Mounted\n\n\n\nStrip brown and black wires of both motors.\n\n\n\n\nMotor Wires\n\n\n\n\n2.2 Connect the Tether to the Motors\n\nStrip the orange, white, yellow, and green tether wires ½ inch.\n\n\n\n\nMotor Wires\n\n\n\n\n\nMotor Wires\n\n\n\nConnect white tether wire to brown motor wire using solder connector. Carefully use the heat gun to melt the solder. Do not touch the wires till they have cooled. Make sure to do this on a safe surface such as the scrap wood.\n\n\n\n\nMotor Wires\n\n\n\nConnect orange tether wire to black motor wire.\n\n\n\n\nMotor Wires\n\n\n\nFor vertical motor, connect yellow tether wire to brown motor wire.\n\n\n\n\nMotor Wires\n\n\n\nConnect green tether wire to black motor wire.\n\n\n\n\nMotor Wires\n\n\n\nUse heat gun to seal all connections safely.\n\n\n\n\n3. Plug it In\n\nCheck that no wires are in motor paths.\nPlug in 9V battery and flip switch on.\nUse switches to test motor direction.\nIf issues arise, check wire connections or ask for help.\n\n\n\n4. Waterproofing and Zip Tie\n\nWrap motor-to-tether solder joints with coax seal—fully squish and cover.\n\n\n\n\nWaterproofing\n\n\n\n\n\nWaterproofing\n\n\n\nSeal the tether base where wires emerge.\n\n\n\n\nWaterproofing\n\n\n\nCover red and black tether wires if unused.\nUse zip ties to cleanly attach wires to the frame.\nAdjust balance by compensating if wires add weight to one side.\nTrim zip ties.\n\n\n\n5. Extensions\n\nTest the finished ROV in a small pool.\nAllow time for students to decorate or customize their ROVs."
   },
   {
     "objectID": "middle_school/04activity/04activity.html#reflection",
     "href": "middle_school/04activity/04activity.html#reflection",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "Reflection",
-    "text": "Reflection\n\nWhat challenges did you face when building your ROV frame?\nHow do you think it will perform in water?\nIf you could add one new feature or improvement to an ROV, what would it be?"
+    "text": "Reflection\nReflect on what went well and where challenges occurred during motor assembly. Were any parts difficult to connect? Did waterproofing work as expected? What improvements could be made?"
   },
   {
     "objectID": "middle_school/04activity/04activity.html#learning-outcomes-1",
     "href": "middle_school/04activity/04activity.html#learning-outcomes-1",
-    "title": "Activity 3: Building an ROV Frame",
+    "title": "Activity 4: ROV Motor Control",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nUnderstand what an ROV is and identify its core components.\nCompare different underwater movement systems and ROV layouts.\nApply design thinking and basic engineering principles to construct an ROV frame.\nCollaborate in teams to solve real-world-inspired challenges."
+    "text": "Learning Outcomes"
   },
   {
     "objectID": "middle_school/index.html#multi-week-curriculums",
     "href": "middle_school/index.html#multi-week-curriculums",
     "title": "Middle School Outreach",
     "section": "Multi-week Curriculums",
-    "text": "Multi-week Curriculums\nExplore our multi-week curriculums designed to teach middle school students essential computing skills. Click on a curriculum to learn more.\n\n  \n    \n      Underwater Robotics\n      Learn the basics of underwater robotics hands-on activities to build your own robot."
+    "text": "Multi-week Curriculums\nExplore our multi-week curriculums designed to teach middle school students essential computing skills. Click on a curriculum to learn more.\n\n  \n    \n      Underwater Robotics\n      Learn the basics of underwater robotics with hands-on activities to build your own robot."
   },
   {
     "objectID": "middle_school/index.html#all-activities",
@@ -1530,14 +1530,14 @@
     "href": "middle_school/underwater_robotics.html",
     "title": "Underwater Robotics Curriculum",
     "section": "",
-    "text": "Welcome to the Underwater Robotics Curriculum, a 6-week program designed to teach students the fundamentals of robotics, engineering, and teamwork. Each week focuses on a specific aspect of building underwater robots, culminating in a fully functional ROV (Remotely Operated Vehicle).\nExplore the weekly breakdown below to access detailed activities and presentations."
+    "text": "Welcome to the Underwater Robotics Curriculum, a 6-week program designed to teach students the fundamentals of robotics, engineering, and teamwork. Each week focuses on a specific aspect of building underwater robots, culminating in a fully functional ROV (Remotely Operated Vehicle).\nExplore the weekly breakdown below to access detailed activities and presentations.\nCost Breakdown Link\nCost Breakdown PDF"
   },
   {
     "objectID": "middle_school/underwater_robotics.html#overview",
     "href": "middle_school/underwater_robotics.html#overview",
     "title": "Underwater Robotics Curriculum",
     "section": "",
-    "text": "Welcome to the Underwater Robotics Curriculum, a 6-week program designed to teach students the fundamentals of robotics, engineering, and teamwork. Each week focuses on a specific aspect of building underwater robots, culminating in a fully functional ROV (Remotely Operated Vehicle).\nExplore the weekly breakdown below to access detailed activities and presentations."
+    "text": "Welcome to the Underwater Robotics Curriculum, a 6-week program designed to teach students the fundamentals of robotics, engineering, and teamwork. Each week focuses on a specific aspect of building underwater robots, culminating in a fully functional ROV (Remotely Operated Vehicle).\nExplore the weekly breakdown below to access detailed activities and presentations.\nCost Breakdown Link\nCost Breakdown PDF"
   },
   {
     "objectID": "middle_school/underwater_robotics.html#week-breakdown",
@@ -1559,5 +1559,40 @@
     "title": "Underwater Robotics Curriculum",
     "section": "Resources",
     "text": "Resources\n\nSeaMATE"
+  },
+  {
+    "objectID": "middle_school/01activity/01activity.html#presentation-pdf",
+    "href": "middle_school/01activity/01activity.html#presentation-pdf",
+    "title": "Activity 1: Intro to Arduino",
+    "section": "Presentation PDF",
+    "text": "Presentation PDF"
+  },
+  {
+    "objectID": "middle_school/01presentation/01presentation.html#presentation-pdf",
+    "href": "middle_school/01presentation/01presentation.html#presentation-pdf",
+    "title": "Presentation 1: Intro to Robotics",
+    "section": "Presentation PDF",
+    "text": "Presentation PDF"
+  },
+  {
+    "objectID": "middle_school/02activity/02activity.html#presentation-pdf",
+    "href": "middle_school/02activity/02activity.html#presentation-pdf",
+    "title": "Activity 2: Coding with Arduino",
+    "section": "Presentation PDF",
+    "text": "Presentation PDF"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#presentation-link",
+    "href": "middle_school/02presentation/02presentation.html#presentation-link",
+    "title": "Presentation 2: ROV Design",
+    "section": "Presentation Link",
+    "text": "Presentation Link"
+  },
+  {
+    "objectID": "middle_school/02presentation/02presentation.html#presentation-pdf",
+    "href": "middle_school/02presentation/02presentation.html#presentation-pdf",
+    "title": "Presentation 2: ROV Design",
+    "section": "Presentation PDF",
+    "text": "Presentation PDF"
   }
 ]

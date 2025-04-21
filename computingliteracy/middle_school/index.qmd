@@ -27,7 +27,7 @@ Explore our multi-week curriculums designed to teach middle school students esse
   <div class="curriculum-box">
     <a href="underwater_robotics.qmd">
       <h3>Underwater Robotics</h3>
-      <p>Learn the basics of underwater robotics hands-on activities to build your own robot.</p>
+      <p>Learn the basics of underwater robotics with hands-on activities to build your own robot.</p>
     </a>
   </div>
 </div>

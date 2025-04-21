@@ -26,6 +26,8 @@ _Per student:_
 
 ## [Presentation Link](https://docs.google.com/presentation/d/1Uzj6hXgbsv0XJcUhdJ__9KNt1Tii-QKJaGz4chCLlt8/edit?usp=sharing)
 
+## [Presentation PDF](/pdfs/Intro_to_Arduino-HS_MS.pdf)
+
 ## Learning Outcomes
 
 By the end of this activity, students will be able to:

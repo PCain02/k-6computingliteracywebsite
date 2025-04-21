@@ -11,6 +11,10 @@ Welcome to the **Underwater Robotics Curriculum**, a 6-week program designed to 
 
 Explore the weekly breakdown below to access detailed activities and presentations.
 
+[Cost Breakdown Link](https://docs.google.com/spreadsheets/d/1m6NwvqEGM_kk9yCNwIA3HqpFnMnKD59viCjotZTHpiQ/edit?usp=sharing)
+
+[Cost Breakdown PDF](pdfs/Cost_of_Mini_Underwater_Robots.pdf)
+
 ---
 
 ## 6-Week Breakdown

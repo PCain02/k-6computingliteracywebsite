@@ -1,5 +1,5 @@
 ---
-title: "Activity 3: Building an ROV Frame"
+title: "Activity 4: ROV Motor Control"
 subtitle: "Week 4 of Building Underwater Robots"
 topic: Robotics
 time_required: "1 Hour"
@@ -10,185 +10,329 @@ page-layout: full
 
 ## Description
 
-In this hour session, students will 
+In this hour session, students will learn about motors and create their own motor systems for their ROVs. Students will go step-by-step through the process of connecting a battery pack, switches, and tethered motors, eventually waterproofing the system and customizing their builds.
 
 ## Materials Required
 
-_Per Robot:_
-
-- PVC Pipe of Various Sizes:
-  - 2 × 7" long ½" PVC
-  - 4 × 6" long ½" PVC
-  - 2 × 5" long ½" PVC
-  - 2 × 3" long ½" PVC
-  - 4 × 2" long ½" PVC
-  - 6 × 1" long ½" PVC
-- 10 × ½" PVC Corner piece SxS
-- 6 × ½" PVC T pieces SxSxS
+- Projector or computer with presentation
+- Optional: ROV for demonstration
+- 3 ft long 2-strand white wire
+- 9V battery holder
+- Red and green solder seal wire connectors
+- Wire strippers
+- Sharpie
+- Heat gun
+- Red and black wire spools
+- 2 switches
+- Control box (base and top)
+- 6-wire black tether
+- Blue and yellow wire spools
+- Screwdriver
+- Bolts for control box
+- Electrical tape
+- 2 motors and propeller parts
+- 2 PVC motor holders
+- Coax seal
 - Zip ties
-- Netting
+
+[ROV Motor Control Presentation PDF](pdfs/ROVMotorControlSteps.pdf)
+
+[ROV Motor Control Presentation Link](https://docs.google.com/presentation/d/16GiFRKUqk-WyLXOhBIQxm3BCg0l7T3-Y-6a_-5yf0d4/edit?usp=sharing)
+
+Optional: [ROV Motor Control Steps PDF](pdfs/ROVMotorControl-HS_MS.pdf)
 
 ## Learning Outcomes
 
-- Understand what an ROV is and identify its core components.
-- Compare different underwater movement systems and ROV layouts.
-- Apply design thinking and basic engineering principles to construct an ROV frame.
-- Collaborate in teams to solve real-world-inspired challenges.
+- Identify the basic components used in ROV motor systems
+- Understand the electrical connections for powering and controlling motors
+- Safely use solder seal connectors and heat tools
+- Build and waterproof an underwater motor system
+- Test and troubleshoot an ROV motor system
 
 ## Agenda
 
-### 1. Gather Your Materials
+### 1. Make Battery Connections
 
-Pull from the main supply these materials:
+#### 1.1 Gather Your Materials
 
-- 2x 7 in long ½ in PVC Pipe 
-- 4x 6 in long ½ in PVC Pipe
-- 2x 5 in long ½ in PVC Pipe
-- 2x 3 in long ½ in PVC Pipe 
-- 4x 2 in long ½ PVC Pipe
-- 6x 1 in long ½ in PVC Pipe
-- 10 ½ in PVC Corner piece SxS
-- 6 ½ in PVC T pieces SxSxS
+- 1x 3 ft long 2 strand white wire 
+- 1x 9v battery holder
+- Red Solder Seal Wire Connectors (Share with Others)
+- Wire Strippers (Share with others)
+- Sharpie (Share with others)
+- Heatgun (Share with others)
 
+![Materials](images/materials.png)
 
-### 2. Build the Frame
+#### 1.2 Battery to Wires
+1. Separate a small amount of the white wire at the ends. Strip the ends of the white wires carefully to about ½ in to 1 inch long on all 4 ends.
 
-#### The Base
+![White Wire](images/bw1.png)
 
-1. Start with the 2 in long PVCs and use a T piece with the exit hole facing the ceiling
+![White Wire](images/bw2.png)
 
-![Base T](images/base1.png)
+![White Wire](images/bw3.png)
 
-2. Now attach  2 corner pieces on the other end of the 2 inch long pieces 
+2. Strip the battery holder wires ¼–½ inch.
 
-![Base C](images/base2.png)
+![Battery Holder Wire](images/bh1.png)
 
-3. Put the 1 in pieces on the other end of each corner piece. It should look like a U shape
+![Battery Holder Wire](images/bh2.png)
 
-![Base C+](images/base3.png)
+3. Mark one side of the white wire on both ends with Sharpie to label it GND.
 
-4. Then attach a T piece with the middle whole facing upwards to the ends of the 1 in pieces. 
+![White Wire Labeled](images/ww.png)
 
-![Base C+T](images/base4.png)
+4. Twist all wire ends so they are neat.
 
-5. Continuing the build the base, attach a 5 inch PVC piece to the other end of the T piece opposite of the 1 inch pieces
+![Twisted Wires](images/tw.png)
 
-![Base U](images/base5.png)
+5. Pick one end of the white wire with the sharpie mark to connect to the black wire of the battery holder. Use a solder seal wire connector to connect the black wire of the box and the sharpie marked wire together. Put the ends of the wires inside the seal piece and make sure the silver part in the middle (solder) is touching both wires. You may have to push the wires in further ro reach properly. 
 
-6. Then attach 2 more T piece to the other ends of the 5 inch PVC pieces
+![Solder Connector](images/sw1.png)
 
-![Base U+T](images/base6.png)
+![Solder Connector](images/sw2.png)
 
-7. On the side opposite of the 5 inch pieces, put 1 inch pieces 
+6. Use the heat gun about 3 inches away from the wire to very carefully to shrink the connector ON A HEAT SAFE SURFACE - the regular wood of the table will burn so use a piece of scrap wood. Wait until the solder in the middle has melted to stop heating it. Don’t touch it with your fingers until it has cooled. Try your best not to melt the wires themselves and if you see that happening turn off the heat gun and ask for help.
 
-![Base U+T+](images/base7.png)
 
-8. Put 2 corner pieces on the ends of the 1 inch pieces you just places and point the end of the corner facing the ceiling
+![Heat Gun](images/hg1.png)
 
-![Base Final](images/base8.png)
+![Heat Gun](images/hg2.png)
 
-#### Vertical Motor Holder (VMH)
+7. Wait till it has cooled and check that the wires are secure in the connector and don’t move when you lightly tug on them. 
 
-1. Place the 3-inch long PVC in each of the middle holes
+8. Now on the same end of the white wire take the side you did not mark and connect it to the red wire. Make sure the metal in the connector is touching both the wires. Use the heat gun very carefully to shrink the connector. Don’t touch it with your fingers until it has cooled.
 
-![VMH start](images/vmh1.png)
+![Battery Connection](images/sb1.png)
 
-2. Then put a corner piece on the other ends of the 3 inch long pieces where each hole is facing towards the center
+![Battery Connection](images/sb2.png)
 
-![VMH+C](images/vmh2.png)
+#### 1.3 Wires to the Switches
 
-3. Connect the two corners with two 2 inch pieces on each side
+Requirements
+  - Red wire spool
+  - Black wire spool
+  - 2 switches 
+  - Control box
 
-![VMH+L](images/vmh3.png)
+1. Cut two 8-inch red and two 8-inch black wires.
 
-4. Put a T piece in the center with the exit hole facing towards the front of the ROV
+![Cut Wires](images/cw1.png)
 
-![VMH+T](images/vmh4.png)
+2. Strip the ends of the loose black and red wires about ½ in and twist the ends so they are neat.
 
-#### Top of the Frame
+![Cut Wires](images/cw2.png)
 
-1. Place two 6 inch pieces in the front holes  and two 6 inch pieces in the holes towards the back
+![Cut Wires](images/cw3.png)
 
-![Top Start](images/top1.png)
+3. Identify the GND (Sharpie) side of the white wire and twist it with the two black wires.
 
-2. Put a corner piece on the other end of each of the 6 inch pieces with the exit hole facing towards the piece in the same line
+![Cut GND Wires](images/wb1.png)
 
-![Top+C](images/top2.png)
+![Cut GND Wires](images/wb2.png)
 
-3. Connect the corners together with two 7 inch pieces 
+4. Use a green solder connector and run it over both the black wires and bring it to the point where the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.
 
-![Top+L](images/top3.png)
+![Connected Wire](images/wb5.png)
 
-4. Add 2 more 1 inch pieces to the left over T holes. We will be using them to attach our motors later
+![Connected Wire](images/wb6.png)
 
-5. Carefully use a rubber mallet to make sure the pieces are all tightly in place
+5. Twist the unmarked white wire with the two red wires and connect using another solder connector.Run a green solder connector over top both of the red wires and bring it to the point the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.
 
-6. Now the frame is complete
+![Connected Red Wire](images/rw1.png)
 
-### 3. Add Netting
+![Connected Red Wire](images/rw2.png)
 
-#### Cut the Netting 
+![Connected Red Wire](images/rw3.png)
 
-1. The goal is to create a net pocket for weights later on. First cut a large piece of net the same width and length as your frame base but add an extra inch to the outside perimeter
+![Connected Red Wire](images/rw4.png)
 
-![Cut Netting](images/net1.png)
+![Connected Red Wire](images/rw5.png)
 
-2. Cut a smaller piece for the pocket that is smaller than the width  of the inside of the base 
+6. Route wires through the hole in the control box and tie a knot to prevent slipping.
 
-![Cut Pocket](images/net2.png)
+![Wires in the box](images/cb1.png)
 
-#### Zip-tie the Netting  
+![Wires in the box](images/cb2.png)
 
-1. Use Zip-ties to secure the larger piece to the base PVC pieces. Make sure it is secure on all sides. Note that the open end will be for the closed part of our pocket 
+![Wires in the box](images/cb3.png)
 
-![Zip-Ties](images/zip1.png)
+7. Loosen switch screws and hook a red wire to one middle terminal of the switch. You do not have to take them out all the way. While it is hooked tighten the screw so that the red wire is stuck underneath it and it is snug enough you can not tug it out easily
 
-![Zip-Tie Close up](images/zip2.png)
+![Switch](images/s1.png)
 
-![Zip-Ties](images/zip3.png)
+![Switch](images/s2.png)
 
-2. Trim excess net off the edge and cut the excess zip-tie ends
+![Switch](images/s3.png)
 
-![Zip-Ties and netting trimmed](images/zip4.png)
+![Switch](images/s4.png)
 
-3. Now secure the pocket net piece to the the top of the base net piece. Leave one edge open enough to slip small rocks or weights into it is recommended to use the edge that will be closest to the forward/backward motor as the opening and the edge that has no PVC as a closed part with zipped ties
+![Switch](images/s5.png)
 
-![Zip-Tie pocket](images/zip5.png)
+8. Hook a black wire to the opposite middle terminal and tighten.
 
-![Zip-Tie pocket closed end](images/zip6.png)
+![Switch](images/s6.png)
 
-![Zip-Tie pocket example](images/zip7.png)
+![Switch](images/s7.png)
 
-4. Cut excess zip-tie ends
+![Switch](images/s8.png)
 
-### 4. Add Floats
+9. Repeat for the second switch with the remaining red and black wires.
 
-#### Attaching the Floats
+#### 1.4 Motor Tether to the Switches
 
-1.  Cut 2 pieces of pool noodle to fit on the top horizontal piece of the ROV. They have to be less than the length of the PVC piece it is on or it will not fit.
+Requirements
+  - 6 wire black tether 
+  - Blue wire spool 
+  - Yellow wire spool 
+  - Screwdriver
+  - Wire strippers
+  - 2x Switches and switch secures
+  - Control box base and top
+  - Bolts for control box lids
+  - Electrical tape
 
-2. Carefully pull out the piece you would like to attach the floats onto and slide in onto the PVC pipe.
 
-3. Reattach the piece you moved 
+1. Take the black tether and strip the ends so that the colored wires are showing. Strip the black about 6 inches on one side and 3 inches on the other.
 
-![Floats Example 1](images/float1.png)
+![Motor Wires](images/rb1.png)
+![Motor Wires](images/rb2.png)
 
-![Floats Example 2](images/float2.png)
+2. Strip the yellow, white, orange and green colored wires ½ inch and twist the ends of the wires so they are neat.
+
+3. Push the 6-inch tether side through the same control box hole.
+
+![Control Box](images/cb4.png)
+
+4. Cut two blue and two yellow wires about 2½ inches long and strip ends.
+
+![Blue-Yellow](images/by.png)
+
+5. Connect the white tether wire + a short blue wire to one switch terminal (above black wire).
+
+![Blue White Wire](images/bwire.png)
+
+![Blue White Wire](images/bwire2.png)
+
+6. Connect the other end of the blue wire diagonally opposite (below black wire).
+
+![Blue Diagonal](images/bd.png)
+
+7. Connect the orange wire + yellow wire to the opposite top terminal (above red wire).
+
+![Yellow Wire](images/oy.png)
+
+8. Connect the other end of the yellow wire diagonally opposite (below red wire).
+
+![Yellow Wire Diagonal](images/yw.png)
+
+9. Repeat for the second switch using the yellow and green tether wires + other yellow/blue jumpers. Screw the other end of the small yellow wire into the pole diagonal from it so below the black wire Now take the green tether wire and the short blue wire and screw them into the top right pole (above the black wire).Screw the other end of the blue wire diagonally across from it so underneath the red wire. The end result should be a cross shape
+
+![Second Switch](images/ys.png)
+
+![Second Switch](images/ys2.png)
+
+![Second Switch](images/ys3.png)
+
+![Second Switch](images/ys4.png)
+
+10. Now check both switches for straggly wires that might accidentally touch other poles. You can trim them away or try to tuck them. Crossing poles is not good and your robot won’t work
+
+![Trim Stragglers](images/stw.png)
+
+11. Mount switches into the lid: white/orange switch on right, yellow/green on left.
+
+![Switch Box](images/sb3.png)
+
+12. Use this order on each switch: on/off label, washer, nut, rubber topper (optional).
+
+![Switch Order](images/so.png)
+
+![Switch Box](images/cb5.png)
+
+13. Use electrical tape to secure white wire and tether inside the box.
+
+![Switch Box Tapped](images/et.png)
+
+14. Bolt the lid onto the control box.
+
+### 2. Make Motor-to-Tether Connections
+
+#### 2.1 Prep the Motors
+
+Requirements
+  - 2 motors and propellor parts
+  - 2 PVC motor holders 
+1. Attach propellers to the motors using the [presentation link](https://docs.google.com/presentation/d/e/2PACX-1vT4Y5R5tdTKjkt-p8Nh4H92TbXgnJ9fwY_43HqT1g4gGURMVNj59lkxz6pV4XoALNTm_cE2GIU4UCr0/pub?start=false&loop=false&delayms=3000&slide=id.g16ac84f6ec_2_47).
+
+![Motor](images/m1.png)
+
+2. Mount motors into ROV: back motor facing backward, vertical motor facing up.
+
+![Motor Mounted](images/m2.png)
+
+![Motor Mounted](images/m3.png)
+
+3. Strip brown and black wires of both motors.
+
+![Motor Wires](images/mw1.png)
+
+#### 2.2 Connect the Tether to the Motors
+1. Strip the orange, white, yellow, and green tether wires ½ inch.
+
+![Motor Wires](images/mw2.png)
+
+![Motor Wires](images/mw3.png)
+
+2. Connect white tether wire to brown motor wire using solder connector. Carefully use the heat gun to melt the solder. Do not touch the wires till they have cooled. Make sure to do this on a safe surface such as the scrap wood. 
+
+![Motor Wires](images/mw4.png)
+
+3. Connect orange tether wire to black motor wire.
+
+![Motor Wires](images/mw5.png)
+
+4. For vertical motor, connect yellow tether wire to brown motor wire.
+
+![Motor Wires](images/mw6.png)
+
+5. Connect green tether wire to black motor wire.
+
+![Motor Wires](images/mw7.png)
+
+6. Use heat gun to seal all connections safely.
+
+### 3. Plug it In
+
+1. Check that no wires are in motor paths.
+2. Plug in 9V battery and flip switch on.
+3. Use switches to test motor direction.
+4. If issues arise, check wire connections or ask for help.
+
+### 4. Waterproofing and Zip Tie
+
+1. Wrap motor-to-tether solder joints with coax seal—fully squish and cover.
+
+![Waterproofing](images/wp1.png)
+
+![Waterproofing](images/wp2.png)
+
+2. Seal the tether base where wires emerge.
+
+![Waterproofing](images/wwp3.png)
+
+3. Cover red and black tether wires if unused.
+4. Use zip ties to cleanly attach wires to the frame.
+5. Adjust balance by compensating if wires add weight to one side.
+6. Trim zip ties.
+
+![Robot Complete](images/robot.png)
 
 ### 5. Extensions
-
-- If there is time left over have the students design an ROV logo in Canva
-- You could also work on customizing the ROVs
+1. Test the finished ROV in a small pool.
+2. Allow time for students to decorate or customize their ROVs.
 
 ## Reflection
 
-- What challenges did you face when building your ROV frame?
-- How do you think it will perform in water?
-- If you could add one new feature or improvement to an ROV, what would it be?
-
-## Learning Outcomes
-
-- Understand what an ROV is and identify its core components.
-- Compare different underwater movement systems and ROV layouts.
-- Apply design thinking and basic engineering principles to construct an ROV frame.
-- Collaborate in teams to solve real-world-inspired challenges.
+Reflect on what went well and where challenges occurred during motor assembly. Were any parts difficult to connect? Did waterproofing work as expected? What improvements could be made?

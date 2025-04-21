@@ -28,6 +28,8 @@ _Per Robot:_
 - Zip ties
 - Netting
 
+Optional: [Build Frame Steps PDF](pdfs/ROVFrameBuildSteps.pdf)
+
 ## Learning Outcomes
 
 - Understand what an ROV is and identify its core components.

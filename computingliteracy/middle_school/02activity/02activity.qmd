@@ -22,6 +22,8 @@ In this 30-minute session, students will explore coding with Arduino by building
 
 ## [Presentation Link](https://docs.google.com/presentation/d/1glz2kz48QZUh9vxGn77U0fta346_-CcPX2OKMbvTHKU/edit?usp=sharing)
 
+## [Presentation PDF](pdfs/CodingwithArduino-HS_MS.pdf)
+
 ## Learning Outcomes
 
 - Understand the difference between digital and PWM pins on Arduino  

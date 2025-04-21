@@ -19,6 +19,8 @@ This lesson introduces middle school students to the exciting world of robotics.
 
 ## [Presentation Link](https://docs.google.com/presentation/d/1lBvxaRCd3KU_Ci5lfe21iA764TSjV_uB2NCJ-5d7bz0/edit?usp=sharing)
 
+## [Presentation PDF](pdfs/IntrotoRobotics-HS_MS.pdf)
+
 ## Questions to Ask
 
 - What are some examples of robots you’ve seen or heard about?

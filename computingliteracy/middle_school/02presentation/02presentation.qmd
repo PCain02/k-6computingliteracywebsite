@@ -17,6 +17,10 @@ This presentation introduces students to the design and construction of Remotely
 - Projector or computer with presentation
 - Optional: ROV for demonstration
 
+## [Presentation Link](https://docs.google.com/presentation/d/1M9spm-V07MzUtDBRyhYjTpxRygsS_zlWNpLYQuNWHMY/edit?usp=sharing)
+
+## [Presentation PDF](pdfs/ROVDesign-HS_MS.pdf)
+
 ## Questions to Ask
 
 - What is an ROV and what makes it different from other robots?
@@ -55,7 +59,7 @@ Use the provided cut PVC pieces and connectors to assemble a 2-motor orthogonal 
 [See Activity 3](../03activity/03activity.qmd) for an online version the building activity.
 
 Build instructions link:  
-[Google Doc Instructions](https://docs.google.com/document/d/1JO1pM3XBeRCmAP9afXCYYmD5eIm-PML3H3EooP9FBmE/edit?usp=sharing)
+[PDF Instructions](pdfs/ROVFrameBuildSteps)
 
 
 ## Reflection
