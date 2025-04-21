@@ -22,37 +22,44 @@ Explore the weekly breakdown below to access detailed activities and presentatio
 ```{=html}
 <div class="curriculum-section">
   <div class="curriculum-box">
-    <a href="01introduction/index.qmd">
-      <h3>Week 1: Introduction to Robotics</h3>
+    <a href="01presentation/01presentation.qmd">
+      <h3>Week 1 Part One: Introduction to Robotics</h3>
       <p>Learn the basics of robotics and underwater exploration.</p>
     </a>
-  </div>
-  <div class="curriculum-box">
-    <a href="02design/index.qmd">
-      <h3>Week 2: ROV Design Principles</h3>
-      <p>Understand the key components and design of an ROV.</p>
+      <a href="01activity/01activity.qmd.qmd">
+      <h3>Week 1 Part Two: Introduction to Arduino</h3>
+      <p>Learn Basic Arduino Coding and Turn on a light</p>
     </a>
   </div>
   <div class="curriculum-box">
-    <a href="03activity/03activity.qmd">
-      <h3>Week 3: Building an ROV Frame</h3>
+    <a href="02activity/02activity.qmd">
+      <h3>Week 2: Coding with Arduino</h3>
+      <p>Understand the key principles of Arduino Programming. Arduino's can be used for ROV systems like AquaGator.</p>
+    </a>
+  </div>
+  <div class="curriculum-box">
+    <a href="02presentation/02presentation.qmd">
+      <h3>Week 3 Part One: ROV Design</h3>
+      <p>Learn about frames of underwater robots.</p>
+    </a>
+      <a href="03activity/03activity.qmd">
+      <h3>Week 3 Part Two: Building an ROV Frame</h3>
       <p>Construct the frame of your underwater robot.</p>
     </a>
   </div>
   <div class="curriculum-box">
-    <a href="04electronics/index.qmd">
-      <h3>Week 4: Electronics and Wiring</h3>
+    <a href="04activity/04activity.qmd">
+      <h3>Week 4: ROV Motor Control</h3>
       <p>Learn how to wire and power your ROV.</p>
     </a>
   </div>
   <div class="curriculum-box">
-    <a href="05programming/index.qmd">
-      <h3>Week 5: Programming the ROV</h3>
-      <p>Write code to control your underwater robot.</p>
+      <h3>Week 5: Catchup Week and Troubleshooting</h3>
+      <p>Make sure the robots are operating and catch up teams on work.</p>
     </a>
   </div>
   <div class="curriculum-box">
-    <a href="06testing/index.qmd">
+    <a href="05activity/05activity.qmd">
       <h3>Week 6: Testing and Deployment</h3>
       <p>Test your ROV in water and refine its performance.</p>
     </a>
