@@ -26,7 +26,8 @@ Explore the weekly breakdown below to access detailed activities and presentatio
       <h3>Week 1 Part One: Introduction to Robotics</h3>
       <p>Learn the basics of robotics and underwater exploration.</p>
     </a>
-      <a href="01activity/01activity.qmd.qmd">
+        <hr style="width: 80%; border: 1px solid #057c3e; margin: 15px 0;"> <!-- Divider line -->
+      <a href="01activity/01activity.qmd">
       <h3>Week 1 Part Two: Introduction to Arduino</h3>
       <p>Learn Basic Arduino Coding and Turn on a light</p>
     </a>
@@ -42,6 +43,7 @@ Explore the weekly breakdown below to access detailed activities and presentatio
       <h3>Week 3 Part One: ROV Design</h3>
       <p>Learn about frames of underwater robots.</p>
     </a>
+        <hr style="width: 80%; border: 1px solid #057c3e; margin: 15px 0;"> <!-- Divider line -->
       <a href="03activity/03activity.qmd">
       <h3>Week 3 Part Two: Building an ROV Frame</h3>
       <p>Construct the frame of your underwater robot.</p>

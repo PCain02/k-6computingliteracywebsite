@@ -1,9 +1,9 @@
 ---
-title: "Activity 4: ROV Testing"
+title: "Activity 5: ROV Testing"
 subtitle: "Testing and Troubleshooting ROV Systems"
 topic: Robotics
 time_required: "1 Hour"
-categories: ["Topic: Robotics", "Time: 1 Hour", "Type: Testing"]
+categories: ["Topic: Robotics", "Time: 1 Hour", "Type: Activity"]
 toc: true
 page-layout: full
 ---
