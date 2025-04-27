@@ -2,14 +2,27 @@
 
 /* CSS styles */
 
-/* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+/* ==========================
+   Global Styles
+   ========================== */
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+/* Base Font Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition between themes */
+}
 
 code, pre, .monospace {
     font-family: 'Roboto', monospace;
 }
-
 /* Curriculum Section Styling */
 .curriculum-section {
     display: flex;
@@ -69,48 +82,103 @@ code, pre, .monospace {
     color: #005b2f; /* Darker green text on hover */
 }
 
-/* navbar styling */
-
+/* ==========================
+   Navbar Styles
+   ========================== */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     padding: 15px 30px;
-    background: #057c3e !important;
     font-weight: bolder;
 }
 
 .navbar-title {
-    color: #ffffff !important;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #ffcc00 !important;
     text-decoration: none;
 }
 
 .navbar a.active {
-    color: #ffcc00 !important;
     text-decoration: none;
 }
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete {
+    width: 130px;
+  }
+  
+  .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
+    height: 50%; 
+    width: auto;
+    font-size: medium;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 5px;
+  }
+
+[data-theme="light"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #7F7F7F;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="dark"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #7F7F7F;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="light-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #202020;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  [data-theme="dark-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+    margin-left: 10px;
+    content: "Search...";
+    color: #202020;
+    white-space: nowrap;
+    max-width: 80px;
+    overflow: hidden; 
+    display: inline-block;
+    flex-grow: 1;
+  }
+
+  /* Search Bar */
+#search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+  }
 
 body .page-footer,
 body .nav-footer {
     background-color: transparent !important;
 }
-
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25em;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 .main-title {
     font-size: 3em;
@@ -124,7 +192,60 @@ body {
     text-align: center;
 }
 
-/* button styling */
+/* ==========================
+   Button Styles
+   ========================== */
+
+   /* Light theme pagination button styling */
+[data-theme="light"] .pagination .page-item .page-link {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+[data-theme="light"] .pagination .page-item.active .page-link {
+    background-color: #057c3e;
+    color: #ffffff;
+    border-color: #057c3e;
+}
+
+[data-theme="light-high-contrast"] .pagination .page-item .page-link {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+[data-theme="light-high-contrast"] .pagination .page-item.active .page-link {
+    background-color: #057c3e;
+    color: #ffffff;
+    border-color: #057c3e;
+}
+
+/* Dark theme pagination button styling */
+[data-theme="dark"] .pagination .page-item .page-link {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+[data-theme="dark"] .pagination .page-item.active .page-link {
+    background-color: #4da6ff;
+    color: #000000;
+    border-color: #4da6ff;
+}
+
+/* Dark theme pagination button styling */
+[data-theme="dark-high-contrast"] .pagination .page-item .page-link {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+[data-theme="dark-high-contrast"] .pagination .page-item.active .page-link {
+    background-color: #ffc300;
+    color: #000000;
+    border-color: #ffc300;
+}
 
 .button-container {
     display: flex;
@@ -134,33 +255,27 @@ body {
 }
 
 .button {
-    background-color: #057c3e;
     padding: 15px 30px;
-    color: white;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #08904a;
+    opacity: 0.9;
 }
 
 .button-yellow {
-    background-color: #ffc300;
     padding: 15px 30px;
-    color: black;
-    font-weight: bolder;
     text-decoration: none;
+    font-weight: bolder;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-}
-
-.button-yellow:hover {
-    background-color: #fbcd35;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* info section styling */
@@ -170,8 +285,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 40px 20px;
-    background-color: #ffffff;
     margin: 20px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .info-image img {
@@ -204,94 +319,467 @@ body {
     flex-direction: row-reverse;
 }
 
-/* activities page: category filter styling */
+/* ==========================
+   Theme Styles
+   ========================== */
 
-[data-category] {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px; /* add spacing between each data category */
-    transition: background-color 0.3s ease; /* smooth transition for background color changes */
+/* ==========================
+   Light Mode Styles
+   ========================== */
+
+[data-theme="light"] {
+    background-color: #ffffff;
+    color: #000000;
 }
 
-/* work on this later */
 
-/* .toc-active {
-    color: #057c3e;
+/* Ensure proper contrast for text */
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6,
+[data-theme="light"] p,
+[data-theme="light"] li,
+[data-theme="light"] ul,
+[data-theme="light"] .subtitle {
+    color: #000000;  /* Light text for better readability */
+}
+
+[data-theme="light"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+
+
+[data-theme="light"] .info-section, [data-theme="light"] .info-section-reverse {
+    background-color: #ffffff;
+    color: #000000; /* Explicitly set text color to black */
+}
+
+[data-theme="light"] .info-section .info-title,
+[data-theme="light"] .info-section .info-subtitle,
+[data-theme="light"] .info-section-reverse .info-title,
+[data-theme="light"] .info-section-reverse .info-subtitle {
+    color: #000000; /* Ensure titles and subtitles are black */
+}
+
+[data-theme="light"] .navbar {
+    background-color: #057c3e; /* Light gray for navbar */
+    color: #000000;
+}
+
+[data-theme="light"] .button {
+    background-color: #057c3e;
+    color: #ffffff;
+}
+
+[data-theme="light"] .button-yellow {
+    background-color: #ffc300;
+    color: #000000;
+}
+
+/* ==========================
+   Dark Mode Styles
+   ========================== */
+[data-theme="dark"] {
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .info-section .info-title,
+[data-theme="dark"] .info-section .info-subtitle,
+[data-theme="dark"] .info-section-reverse .info-title,
+[data-theme="dark"] .info-section-reverse .info-subtitle {
+    color: #ffffff; /* Ensure titles and subtitles are black */
+}
+
+/* Ensure proper contrast for text */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] ul,
+[data-theme="dark"] .subtitle {
+    color: #ffffff;  /* Light text for better readability */
+}
+
+
+[data-theme="dark"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+
+[data-theme="dark"] body{
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .navbar {
+    background-color: #1a1a1a; /* Darker gray for navbar */
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .button-yellow {
+    background-color: #ffc300;
+    color: #000000;
+}
+
+[data-theme="dark"] .button:hover {
+    background-color: #555555;
+}
+
+[data-theme="dark"] a{
+    color: #4da6ff;
+}
+
+/* Ensure all text inside list quarto-listing-default is white */
+[data-theme="dark"] .list.quarto-listing-default {
+    color: white !important; 
+}
+
+/* Ensure links inside the listing are white */
+[data-theme="dark"] .list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
+}
+
+/* Ensure specific styling for titles */
+[data-theme="dark"] .list.quarto-listing-default .listing-title {
+    color: white !important; 
     font-weight: bold;
 }
 
-.nav-link active {
-    color: #057c3e;
-} */
+/* Ensure specific styling for subtitles */
+[data-theme="dark"] .list.quarto-listing-default .listing-subtitle {
+    color: white !important; 
+    font-style: italic; 
+}
 
+/* Ensure specific styling for categories */
+[data-theme="dark"] .list.quarto-listing-default .listing-category {
+    color: white !important; 
+    background-color: transparent;
+}
 
-/* back to top styling */
+/* Sidebar TOC*/
+[data-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a:hover {
+    color: #4da6ff !important; 
+    text-decoration: underline; 
+}
 
-#quarto-back-to-top {
-    background-color: #057c3e; /* Green background */
-    color: #ffcc00; /* White text */
+[data-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a.active {
+    color: #4da6ff !important;
     font-weight: bold;
 }
 
+/* ==========================
+   High Contrast Light Mode Styles
+   ========================== */
 
-#quarto-back-to-top:hover {
-    font-size: 1.0em;
-    transition: font-size 0.3s ease;
-
+[data-theme="light-high-contrast"] {
+    background-color: #ffffff;  /* White background */
+    color: #1a1a1a;  /* Dark text for contrast */
 }
 
-.quarto-category {
-    background-color: #ffcc00; /* yello background */
-    color: #000; /* White text */
-    box-shadow: #000 0px 0px 10px;
-    font-weight: bolder;
+[data-theme="light-high-contrast"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+/* Navbar */
+[data-theme="light-high-contrast"] .navbar {
+    background-color: #005b2f;  /* Darker green for better contrast */
+    color: #ffffff;  /* White text */
+    border-bottom: 3px solid #ffcc00;  /* Yellow accent for high visibility */
 }
 
-/* style for any element with a data-category attribute that includes "Grade" */
-[data-category*="Grade"] {
-    background-color: #ffcc00;  /* yellow background */
-    color: #000; /* text color */
+/* Navbar links and hover states */
+[data-theme="light-high-contrast"] .navbar a {
+    color: #ffffff;  /* White links */
+    text-decoration: underline;
 }
 
-/* style for any element with a data-category attribute that includes "Time" */
-[data-category*="Time"] {
-    background-color: #057c3e; /* green background */
-    color: #ffffff; /* text color */
+/* Ensure proper contrast for text */
+[data-theme="light-high-contrast"] h1,
+[data-theme="light-high-contrast"] h2,
+[data-theme="light-high-contrast"] h3,
+[data-theme="light-high-contrast"] h4,
+[data-theme="light-high-contrast"] h5,
+[data-theme="light-high-contrast"] h6,
+[data-theme="light-high-contrast"] p,
+[data-theme="light-high-contrast"] li,
+[data-theme="light-high-contrast"] ul,
+[data-theme="light-high-contrast"] .subtitle {
+    color: #000000;  /* Light text for better readability */
 }
 
-/* add a hover effect for better interaction */
-[data-category]:hover {
-    background-color: #e0e0e0; /* slightly darker gray for hover effect */
-    color: black
+
+[data-theme="light-high-contrast"] .navbar a:hover {
+    color: #ffcc00;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for additional emphasis */
 }
 
-/* which clicked, turn bg to gray */
-[data-category].active {
-    background-color: #e0e0e0; /* slightly darker gray */
-    color: black;
+/* Dropdown menu in High Contrast Light Mode */
+[data-theme="light-high-contrast"] .dropdown-menu {
+    background-color: #000000;  /* Black background for dropdown */
+    color: #ffffff;  /* White text for dropdown items */
+    border: 1px solid #ffcc00;  /* Yellow border for visibility */
 }
 
-/* activities page: pagination styling */
-
-.listing-pagination {
-    display: flex;
-    justify-content: center; /* center the pagination */
-    gap: 5px; /* add spacing between buttons */
+[data-theme="light-high-contrast"] .dropdown-menu a {
+    color: #ffffff;  /* White text for dropdown links */
 }
 
-.page-item .page-link {
-    color: #057c3e;  /* green text */
+[data-theme="light-high-contrast"] .dropdown-menu a:hover {
+    background-color: #ffcc00;  /* Yellow background on hover */
+    color: #000000;  /* Black text on hover */
+}
+
+/* Info sections */
+[data-theme="light-high-contrast"] .info-section,
+[data-theme="light-high-contrast"] .info-section-reverse {
+    background-color: #f7f7f7;  /* Light gray background */
+    color: #1a1a1a;  /* Dark text */
+    border: 2px solid #005b2f;  /* Dark green border for separation */
+}
+
+[data-theme="light-high-contrast"] .info-section .info-title,
+[data-theme="light-high-contrast"] .info-section .info-subtitle,
+[data-theme="light-high-contrast"] .info-section-reverse .info-title,
+[data-theme="light-high-contrast"] .info-section-reverse .info-subtitle {
+    color: #000000;  /* Dark green for headings */
+}
+
+/* Buttons */
+[data-theme="light-high-contrast"] .button {
+    background-color: #005b2f;  /* Dark green for buttons */
+    color: #ffffff;  /* White text for visibility */
+    border: 2px solid #005b2f;  /* Green border to match the background */
+}
+
+[data-theme="light-high-contrast"] .button:hover {
+    background-color: #ffcc00;  /* Yellow on hover */
+    color: #1a1a1a;  /* Dark text on yellow background */
+    border-color: #ffcc00;  /* Yellow border on hover */
+}
+
+[data-theme="light-high-contrast"] .button-yellow {
+    background-color: #ffcc00;  /* Bright yellow button */
+    color: #1a1a1a;  /* Dark text */
+    border: 2px solid #ffcc00;  /* Yellow border */
+}
+
+[data-theme="light-high-contrast"] .button-yellow:hover {
+    background-color: #005b2f;  /* Dark green on hover */
+    color: #ffffff;  /* White text on dark green */
+    border-color: #005b2f;  /* Dark green border on hover */
+}
+
+/* Links */
+[data-theme="light-high-contrast"] a {
+    color: #005b2f;  /* Green links */
+    text-decoration: none;
+}
+
+[data-theme="light-high-contrast"] a:hover {
+    color: #005b2f;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+/* Footer */
+[data-theme="light-high-contrast"] .page-footer,
+[data-theme="light-high-contrast"] .nav-footer {
+    background-color: #005b2f;  /* Dark green background */
+    color: #ffffff;  /* White text */
+}
+
+/* Section dividers */
+[data-theme="light-high-contrast"] .section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #005b2f;  /* Dark green divider */
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* ==========================
+   High Contrast Dark Mode Styles
+   ========================== */
+
+   [data-theme="dark-high-contrast"] {
+    background-color: #121212;  /* Dark background for high contrast */
+    color: #e0e0e0;  /* Light text color for high contrast */
+}
+
+[data-theme="dark-high-contrast"] body{
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+/* Ensure proper contrast for text */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #ffffff;  /* Light text for better readability */
+}
+
+/* Ensure all text inside list quarto-listing-default is white */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default {
+    color: white !important; 
+}
+
+/* Ensure links inside the listing are white */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
+}
+
+/* Ensure specific styling for titles */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-title {
+    color: white !important; 
     font-weight: bold;
 }
 
-.page-item.active .page-link {
-    background-color: #057c3e; /* green bg */
-    color: #ffcc00; /* white text */
+/* Ensure specific styling for subtitles */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-subtitle {
+    color: white !important; 
+    font-style: italic; 
 }
 
-/* media queries */
+/* Ensure specific styling for categories */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default .listing-category {
+    color: white !important; 
+    background-color: transparent;
+}
+
+/* Navbar */
+[data-theme="dark-high-contrast"] .navbar {
+    background-color: #1f1f1f;  /* Darker gray for navbar */
+    color: #e0e0e0;  /* Light text for navbar */
+    border-bottom: 3px solid #ffcc00;  /* Bright yellow for high contrast */
+}
+
+/* Navbar links and hover states */
+[data-theme="dark-high-contrast"] .navbar a {
+    color: #e0e0e0;  /* Light text for links */
+    text-decoration: underline;
+}
+
+[data-theme="dark-high-contrast"] .navbar a:hover {
+    color: #ffcc00;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for emphasis */
+}
+
+/* Dropdown menu in High Contrast Dark Mode */
+[data-theme="dark-high-contrast"] .dropdown-menu {
+    background-color: #1f1f1f;  /* Dark background for dropdown */
+    color: #e0e0e0;  /* Light text for dropdown items */
+    border: 1px solid #ffcc00;  /* Yellow border for visibility */
+}
+
+[data-theme="dark-high-contrast"] .dropdown-menu a {
+    color: #e0e0e0;  /* Light text for dropdown links */
+}
+
+[data-theme="dark-high-contrast"] .dropdown-menu a:hover {
+    background-color: #ffcc00;  /* Yellow background on hover */
+    color: #000000;  /* Black text on hover */
+}
+
+/* Info sections */
+[data-theme="dark-high-contrast"] .info-section,
+[data-theme="dark-high-contrast"] .info-section-reverse {
+    background-color: #2a2a2a;  /* Dark background for info sections */
+    color: #e0e0e0;  /* Light text */
+    border: 2px solid #1f1f1f;  /* Dark border for separation */
+}
+
+[data-theme="dark-high-contrast"] .info-section .info-title,
+[data-theme="dark-high-contrast"] .info-section .info-subtitle,
+[data-theme="dark-high-contrast"] .info-section-reverse .info-title,
+[data-theme="dark-high-contrast"] .info-section-reverse .info-subtitle {
+    color: #ffcc00;  /* Yellow for titles and subtitles */
+}
+
+/* Buttons */
+[data-theme="dark-high-contrast"] .button {
+    background-color: #1f1f1f;  /* Dark button background */
+    color: #e0e0e0;  /* Light text for buttons */
+    border: 2px solid #1f1f1f;  /* Dark border to match the background */
+}
+
+[data-theme="dark-high-contrast"] .button:hover {
+    background-color: #ffcc00;  /* Yellow on hover */
+    color: #121212;  /* Dark text on yellow background */
+    border-color: #ffcc00;  /* Yellow border on hover */
+}
+
+[data-theme="dark-high-contrast"] .button-yellow {
+    background-color: #ffcc00;  /* Bright yellow button */
+    color: #121212;  /* Dark text */
+    border: 2px solid #ffcc00;  /* Yellow border */
+}
+
+[data-theme="dark-high-contrast"] .button-yellow:hover {
+    background-color: #1f1f1f;  /* Dark gray on hover */
+    color: #e0e0e0;  /* Light text on dark background */
+    border-color: #1f1f1f;  /* Dark gray border on hover */
+}
+
+/* Links */
+[data-theme="dark-high-contrast"] a {
+    color: #ffcc00;  /* Yellow links */
+    text-decoration: none;
+}
+
+[data-theme="dark-high-contrast"] a:hover {
+    color: #e0e0e0;  /* Light links on hover */
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+/* Footer */
+[data-theme="dark-high-contrast"] .page-footer,
+[data-theme="dark-high-contrast"] .nav-footer {
+    background-color: #1f1f1f;  /* Dark gray footer */
+    color: #e0e0e0;  /* Light text */
+}
+
+/* Section dividers */
+[data-theme="dark-high-contrast"] .section-divider {
+    border: 0;
+    height: 2px;
+    background-color: #ffcc00;  /* Bright yellow divider */
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* ==========================
+   Media Queries
+   ========================== */
+
 @media (max-width: 768px) {
     .main-title {
         font-size: 2em;
@@ -346,5 +834,9 @@ body {
 
     .curriculum-box {
         width: 90%; /* Use 90% of the parent container's width on smaller screens */
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
     }
 }
