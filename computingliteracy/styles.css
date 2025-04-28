@@ -776,6 +776,130 @@ body .nav-footer {
     display: block;
 }
 
+/* Activities page: category filter styling */
+
+[data-category] {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add spacing between each data category */
+    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+}
+
+[data-category*="Grade"] {
+    background-color: #ffcc00; /* Yellow background */
+    color: #000; /* Black text */
+}
+
+[data-category*="Topic"] {
+    background-color: #ffcc00; /* Yellow background */
+    color: #000; /* Black text */
+}
+
+
+[data-category*="Time"] {
+    background-color: #057c3e; /* Green background */
+    color: #ffffff; /* White text */
+}
+
+[data-category]:hover {
+    background-color: #e0e0e0; /* Slightly darker gray for hover effect */
+    color: black;
+}
+
+[data-category].active {
+    background-color: #e0e0e0; /* Slightly darker gray */
+    color: black;
+}
+
+/* Dark mode: category filter styling */
+
+[data-theme="dark"] [data-category] {
+    background-color: #1a1a1a; /* Dark blue-gray background */
+    color: #ffffff; /* White text */
+    border: 1px solid #4da6ff; /* Light blue border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] [data-category*="Grade"] {
+    background-color: #4da6ff; /* Light blue background */
+    color: #000000; /* Black text */
+}
+
+[data-theme="dark"] [data-category*="Time"] {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="dark"] [data-category]:hover {
+    background-color: #00509e; /* Brighter blue on hover */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="dark"] [data-category].active {
+    background-color: #00274d; /* Darker blue for active state */
+    color: #ffffff; /* White text */
+}
+
+/* High contrast dark mode: category filter styling */
+
+[data-theme="dark-high-contrast"] [data-category] {
+    background-color: #000033; /* Very dark blue background */
+    color: #ffffff; /* White text */
+    border: 1px solid #ffcc00;; /* Light blue border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark-high-contrast"] [data-category*="Grade"] {
+    background-color: #ffcc00;; /* Light blue background */
+    color: #000000; /* Black text */
+}
+
+[data-theme="dark-high-contrast"] [data-category*="Time"] {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="dark-high-contrast"] [data-category]:hover {
+    background-color: #057c3e; /* Brighter blue on hover */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="dark-high-contrast"] [data-category].active {
+    background-color: #00274d; /* Darker blue for active state */
+    color: #ffffff; /* White text */
+}
+
+/* High contrast light mode: category filter styling */
+
+[data-theme="light-high-contrast"] [data-category] {
+    background-color: #000033; /* Very dark blue background */
+    color: #ffffff; /* White text */
+    border: 1px solid #ffcc00;; /* Light blue border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="light-high-contrast"] [data-category*="Grade"] {
+    background-color: #ffcc00;; /* Light blue background */
+    color: #000000; /* Black text */
+}
+
+[data-theme="light-high-contrast"] [data-category*="Time"] {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="light-high-contrast"] [data-category]:hover {
+    background-color:  #005b2f; /* Brighter blue on hover */
+    color: #ffffff; /* White text */
+}
+
+[data-theme="light-high-contrast"] [data-category].active {
+    background-color: #00274d; /* Darker blue for active state */
+    color: #ffffff; /* White text */
+}
+
 /* ==========================
    Media Queries
    ========================== */
