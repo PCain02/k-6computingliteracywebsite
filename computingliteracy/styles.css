@@ -82,6 +82,56 @@ code, pre, .monospace {
     color: #005b2f; /* Darker green text on hover */
 }
 
+/* Curriculum Box Styling for All Themes */
+
+/* Light Mode */
+[data-theme="light"] .curriculum-box {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #000000; /* Black text */
+    border: 2px solid #057c3e; /* Green border */
+}
+
+[data-theme="light"] .curriculum-box:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+    color: #005b2f; /* Darker green text on hover */
+}
+
+/* Dark Mode */
+[data-theme="dark"] .curriculum-box {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text */
+    border: 2px solid #4da6ff; /* Light blue border */
+}
+
+[data-theme="dark"] .curriculum-box:hover {
+    background-color: #333333; /* Slightly lighter gray on hover */
+    color: #4da6ff; /* Light blue text on hover */
+}
+
+/* High Contrast Light Mode */
+[data-theme="light-high-contrast"] .curriculum-box {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border: 2px solid #ffcc00; /* Yellow border */
+}
+
+[data-theme="light-high-contrast"] .curriculum-box:hover {
+    background-color: #ffcc00; /* Yellow background on hover */
+    color: #000000; /* Black text on hover */
+}
+
+/* High Contrast Dark Mode */
+[data-theme="dark-high-contrast"] .curriculum-box {
+    background-color: #000033; /* Very dark blue background */
+    color: #ffffff; /* White text */
+    border: 2px solid #ffcc00; /* Yellow border */
+}
+
+[data-theme="dark-high-contrast"] .curriculum-box:hover {
+    background-color: #00274d; /* Darker blue on hover */
+    color: #ffcc00; /* Yellow text on hover */
+}
+
 /* ==========================
    Navbar Styles
    ========================== */
@@ -613,6 +663,38 @@ body .nav-footer {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+/* Back to Top Button Styling */
+
+/* High Contrast Light Mode */
+[data-theme="light-high-contrast"] #quarto-back-to-top {
+    background-color: #ffcc00; /* Bright yellow background */
+    color: #000000; /* Black text for high contrast */
+    font-weight: bold;
+    border: 2px solid #000000; /* Black border for better visibility */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+[data-theme="light-high-contrast"] #quarto-back-to-top:hover {
+    background-color: #005b2f; /* Dark green background on hover */
+    color: #ffffff; /* White text on hover */
+    border-color: #005b2f; /* Match border with background */
+}
+
+/* High Contrast Dark Mode */
+[data-theme="dark-high-contrast"] #quarto-back-to-top {
+    background-color: #ffcc00; /* Bright yellow background */
+    color: #000000; /* Black text for high contrast */
+    font-weight: bold;
+    border: 2px solid #ffffff; /* White border for better visibility */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); /* Add shadow for depth */
+}
+
+[data-theme="dark-high-contrast"] #quarto-back-to-top:hover {
+    background-color: #1f1f1f; /* Dark gray background on hover */
+    color: #ffcc00; /* Yellow text on hover */
+    border-color: #ffcc00; /* Match border with text */
 }
 
 /* ==========================

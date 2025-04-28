@@ -12,7 +12,26 @@ listing:
   sort-ui: true
   filter-ui: true
   categories: unnumbered
-  fields: [categories, title, subtitle, topic time_required]
+  fields: [categories, title, subtitle, topic, time_required]
 ---
 
-Welcome to the page where you can find all the activities that have already been implemented. Use the categories to find activities based on topic and time required.
+Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.
+
+## Multi-week Curriculums
+
+Explore our multi-week curriculums designed to teach middle school students essential computing skills. Click on a curriculum to learn more.
+
+```{=html}
+<div class="curriculum-section">
+  <div class="curriculum-box">
+    <a href="starship.qmd">
+      <h3>5 Weeks: Learn Python - Starship</h3>
+      <p>Learn the basics of Python by coding your own starship.</p>
+    </a>
+  </div>
+</div>
+```
+
+## All Activities
+
+Explore all our activities. Use the categories on the side to sort the activities by type.

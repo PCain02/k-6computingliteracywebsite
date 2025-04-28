@@ -1,0 +1,60 @@
+---
+title: "Learn Python - Starship"
+subtitle: "A 5-Week Program for Learning Python"
+page-layout: full
+toc: true
+---
+
+## Overview
+
+Welcome to the **Starship**, a 5-week program designed to teach students the fundamentals of Python Programming. Each week focuses on a specific aspect of programming.
+
+Explore the weekly breakdown below to access detailed activities and presentations.
+
+[HS-Coded](https://github.com/HS-Coded)
+
+[Individual Repository](https://github.com/HS-Coded/starship-PCain02)
+
+[Progress Survey](https://docs.google.com/forms/d/e/1FAIpQLSevvV3JlZPBDaiI5nOu_IWNnTSQP95Txs1-fSrR0RvU8oTzDA/viewform)
+
+---
+
+## 6-Week Breakdown
+
+```{=html}
+<div class="curriculum-section">
+  <div class="curriculum-box">
+      <h3>Episode 1: Liftoff!</h3>
+      <p>Learn the basics of using a Codespace and navigating through files using a terminal.</p>
+  </div>
+  <div class="curriculum-box">
+      <h3>Episode 2: Cracking the code</h3>
+      <p>Create custom variables and use Python mathematics functionality.</p>
+  </div>
+  <div class="curriculum-box">
+      <h3>Episode 3: Running in Circuits</h3>
+      <p>Learn about `if` statements and `<``>` symbols.</p>
+  </div>
+  <div class="curriculum-box">
+      <h3>Episode 4: Droning On & On</h3>
+      <p>Talk to the computer and use the controls.</p>
+  </div>
+  <div class="curriculum-box">
+      <h3>Episode 5: Can You Dig It</h3>
+      <p>Run soil tests and experiment with variable values</p>
+  </div>
+</div>
+```
+
+---
+
+## Learning Outcomes
+
+By the end of this curriculum, students will:
+
+- Make their own GitHub Account.
+- Learn about GitHub Codespaces.
+- Understand the principles of Python Programming.
+
+---
+
