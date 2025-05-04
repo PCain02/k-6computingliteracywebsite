@@ -28,10 +28,13 @@ jobs:
           npm install -g htmlhint stylelint stylelint-config-standard
 
       - name: Render Quarto site
+        working-directory: computingliteracy # Specify the correct directory
         run: quarto render
 
       - name: Lint HTML in output
+        working-directory: computingliteracy # Specify the correct directory
         run: htmlhint _site/**/*.html || true
 
       - name: Lint CSS in output
+        working-directory: computingliteracy # Specify the correct directory
         run: stylelint "_site/**/*.css" || true
