@@ -84,10 +84,66 @@ code, pre, .monospace {
     border: 2px solid #fc0; /* Yellow border */
 }
 
-.curriculum-box a h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    margin-top: 0; /* Remove any default margin at the top */
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Ensure proper contrast for text */
+[data-theme="dark-high-contrast"] h1,
+[data-theme="dark-high-contrast"] h2,
+[data-theme="dark-high-contrast"] h3,
+[data-theme="dark-high-contrast"] h4,
+[data-theme="dark-high-contrast"] h5,
+[data-theme="dark-high-contrast"] h6,
+[data-theme="dark-high-contrast"] p,
+[data-theme="dark-high-contrast"] li,
+[data-theme="dark-high-contrast"] ul,
+[data-theme="dark-high-contrast"] .subtitle {
+    color: #fff;  /* Light text for better readability */
+}
+
+/* Ensure proper contrast for text */
+[data-theme="light-high-contrast"] h1,
+[data-theme="light-high-contrast"] h2,
+[data-theme="light-high-contrast"] h3,
+[data-theme="light-high-contrast"] h4,
+[data-theme="light-high-contrast"] h5,
+[data-theme="light-high-contrast"] h6,
+[data-theme="light-high-contrast"] p,
+[data-theme="light-high-contrast"] li,
+[data-theme="light-high-contrast"] ul,
+[data-theme="light-high-contrast"] .subtitle {
+    color: #000;  /* Light text for better readability */
+}
+
+/* Ensure proper contrast for text */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] ul,
+[data-theme="dark"] .subtitle {
+    color: #fff;  /* Light text for better readability */
+}
+
+/* Ensure proper contrast for text */
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6,
+[data-theme="light"] p,
+[data-theme="light"] li,
+[data-theme="light"] ul,
+[data-theme="light"] .subtitle {
+    color: #000;  /* Light text for better readability */
 }
 
 .curriculum-box a p {
@@ -103,6 +159,22 @@ code, pre, .monospace {
 .curriculum-box:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
     background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
+
+/* Links */
+[data-theme="dark-high-contrast"] a {
+    color: #fc0;  /* Yellow links */
+    text-decoration: none;
+}
+
+/* Links */
+[data-theme="light-high-contrast"] a {
+    color: #005b2f;  /* Green links */
+    text-decoration: none;
+}
+
+[data-theme="dark"] a{
+    color: #4da6ff;
 }
 
 .curriculum-box:hover a {
@@ -236,20 +308,9 @@ code, pre, .monospace {
     display: none; /* Screen readers will read this */
 }
 
-body .page-footer,
-body .nav-footer {
-    background-color: transparent !important;
-}
-
 .main-title {
     font-size: 3em;
     margin-bottom: 10px;
-    text-align: center;
-}
-
-.subtitle {
-    font-size: 1.5em;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -271,16 +332,17 @@ body .nav-footer {
 }
 
 /* Dark theme pagination button styling */
-[data-theme="dark"] .pagination .page-item.active .page-link {
-    background-color: #4da6ff;
-    color: #000;
-    border-color: #4da6ff;
-}
 
 [data-theme="dark-high-contrast"] .pagination .page-item .page-link {
     background-color: #1a1a1a;
     color: #e0e0e0;
     border: 1px solid #444;
+}
+
+[data-theme="dark"] .pagination .page-item.active .page-link {
+    background-color: #4da6ff;
+    color: #000;
+    border-color: #4da6ff;
 }
 
 [data-theme="light"] .pagination .page-item.active .page-link {
@@ -388,18 +450,29 @@ body .nav-footer {
 }
 
 
-/* Ensure proper contrast for text */
-[data-theme="light"] h1,
-[data-theme="light"] h2,
-[data-theme="light"] h3,
-[data-theme="light"] h4,
-[data-theme="light"] h5,
-[data-theme="light"] h6,
-[data-theme="light"] p,
-[data-theme="light"] li,
-[data-theme="light"] ul,
-[data-theme="light"] .subtitle {
-    color: #000;  /* Light text for better readability */
+/* Footer */
+[data-theme="light-high-contrast"] .page-footer,
+[data-theme="light-high-contrast"] .nav-footer {
+    background-color: #005b2f;  /* Dark green background */
+    color: #fff;  /* White text */
+}
+
+/* Footer */
+[data-theme="dark-high-contrast"] .page-footer,
+[data-theme="dark-high-contrast"] .nav-footer {
+    background-color: #1f1f1f;  /* Dark gray footer */
+    color: #e0e0e0;  /* Light text */
+}
+
+/* stylelint-disable */
+body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+
+[data-theme="light-high-contrast"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
 }
 
 [data-theme="light"] body .page-footer,
@@ -407,6 +480,11 @@ body .nav-footer {
     background-color: transparent !important;
 }
 
+[data-theme="dark"] body .page-footer,
+body .nav-footer {
+    background-color: transparent !important;
+}
+/* stylelint-enable */
 
 [data-theme="light"] .info-section, [data-theme="light"] .info-section-reverse {
     background-color: #fff;
@@ -450,26 +528,6 @@ body .nav-footer {
     color: #fff; /* Ensure titles and subtitles are black */
 }
 
-/* Ensure proper contrast for text */
-[data-theme="dark"] h1,
-[data-theme="dark"] h2,
-[data-theme="dark"] h3,
-[data-theme="dark"] h4,
-[data-theme="dark"] h5,
-[data-theme="dark"] h6,
-[data-theme="dark"] p,
-[data-theme="dark"] li,
-[data-theme="dark"] ul,
-[data-theme="dark"] .subtitle {
-    color: #fff;  /* Light text for better readability */
-}
-
-
-[data-theme="dark"] body .page-footer,
-body .nav-footer {
-    background-color: transparent !important;
-}
-
 [data-theme="dark"] body{
     background-color: #000;
     color: #e0e0e0;
@@ -490,17 +548,59 @@ body .nav-footer {
     color: #000;
 }
 
+/* Buttons */
+[data-theme="dark-high-contrast"] .button {
+    background-color: #1f1f1f;  /* Dark button background */
+    color: #e0e0e0;  /* Light text for buttons */
+    border: 2px solid #1f1f1f;  /* Dark border to match the background */
+}
+
+/* Buttons */
+[data-theme="light-high-contrast"] .button {
+    background-color: #005b2f;  /* Dark green for buttons */
+    color: #fff;  /* White text for visibility */
+    border: 2px solid #005b2f;  /* Green border to match the background */
+}
+
 [data-theme="dark"] .button:hover {
     background-color: #555;
 }
 
-[data-theme="dark"] a{
-    color: #4da6ff;
+
+[data-theme="dark-high-contrast"] a:hover {
+    color: #e0e0e0;  /* Light links on hover */
+    text-decoration: underline;  /* Underline links on hover */
+}
+
+[data-theme="dark-high-contrast"] .dropdown-menu a {
+    color: #e0e0e0;  /* Light text for dropdown links */
+}
+
+[data-theme="light-high-contrast"] a:hover {
+    color: #005b2f;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links on hover */
 }
 
 /* Ensure all text inside list quarto-listing-default is white */
 [data-theme="dark"] .list.quarto-listing-default {
     color: white !important; 
+}
+
+/* Navbar links and hover states */
+[data-theme="dark-high-contrast"] .navbar a {
+    color: #e0e0e0;  /* Light text for links */
+    text-decoration: underline;
+}
+
+
+[data-theme="light-high-contrast"] .dropdown-menu a {
+    color: #fff;  /* White text for dropdown links */
+}
+
+/* Navbar links and hover states */
+[data-theme="light-high-contrast"] .navbar a {
+    color: #fff;  /* White links */
+    text-decoration: underline;
 }
 
 /* Ensure links inside the listing are white */
@@ -527,6 +627,32 @@ body .nav-footer {
     background-color: transparent;
 }
 
+[data-theme="dark-high-contrast"] .dropdown-menu a:hover {
+    background-color: #fc0;  /* Yellow background on hover */
+    color: #000;  /* Black text on hover */
+}
+
+[data-theme="dark-high-contrast"] .navbar a:hover {
+    color: #fc0;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for emphasis */
+}
+
+/* Ensure links inside the listing are white */
+[data-theme="dark-high-contrast"] .list.quarto-listing-default a {
+    color: white !important; 
+    text-decoration: none; 
+}
+
+[data-theme="light-high-contrast"] .dropdown-menu a:hover {
+    background-color: #fc0;  /* Yellow background on hover */
+    color: #000;  /* Black text on hover */
+}
+
+[data-theme="light-high-contrast"] .navbar a:hover {
+    color: #fc0;  /* Yellow links on hover */
+    text-decoration: underline;  /* Underline links for additional emphasis */
+}
+
 /* Sidebar TOC */
 [data-theme="dark"] .sidebar nav[role="doc-toc"] ul > li > a:hover {
     color: #4da6ff !important; 
@@ -547,10 +673,6 @@ body .nav-footer {
     color: #1a1a1a;  /* Dark text for contrast */
 }
 
-[data-theme="light-high-contrast"] body .page-footer,
-body .nav-footer {
-    background-color: transparent !important;
-}
 
 /* Navbar */
 [data-theme="light-high-contrast"] .navbar {
@@ -559,46 +681,11 @@ body .nav-footer {
     border-bottom: 3px solid #fc0;  /* Yellow accent for high visibility */
 }
 
-/* Navbar links and hover states */
-[data-theme="light-high-contrast"] .navbar a {
-    color: #fff;  /* White links */
-    text-decoration: underline;
-}
-
-/* Ensure proper contrast for text */
-[data-theme="light-high-contrast"] h1,
-[data-theme="light-high-contrast"] h2,
-[data-theme="light-high-contrast"] h3,
-[data-theme="light-high-contrast"] h4,
-[data-theme="light-high-contrast"] h5,
-[data-theme="light-high-contrast"] h6,
-[data-theme="light-high-contrast"] p,
-[data-theme="light-high-contrast"] li,
-[data-theme="light-high-contrast"] ul,
-[data-theme="light-high-contrast"] .subtitle {
-    color: #000;  /* Light text for better readability */
-}
-
-
-[data-theme="light-high-contrast"] .navbar a:hover {
-    color: #fc0;  /* Yellow links on hover */
-    text-decoration: underline;  /* Underline links for additional emphasis */
-}
-
 /* Dropdown menu in High Contrast Light Mode */
 [data-theme="light-high-contrast"] .dropdown-menu {
     background-color: #000;  /* Black background for dropdown */
     color: #fff;  /* White text for dropdown items */
     border: 1px solid #fc0;  /* Yellow border for visibility */
-}
-
-[data-theme="light-high-contrast"] .dropdown-menu a {
-    color: #fff;  /* White text for dropdown links */
-}
-
-[data-theme="light-high-contrast"] .dropdown-menu a:hover {
-    background-color: #fc0;  /* Yellow background on hover */
-    color: #000;  /* Black text on hover */
 }
 
 /* Info sections */
@@ -616,11 +703,16 @@ body .nav-footer {
     color: #000;  /* Dark green for headings */
 }
 
-/* Buttons */
-[data-theme="light-high-contrast"] .button {
-    background-color: #005b2f;  /* Dark green for buttons */
-    color: #fff;  /* White text for visibility */
-    border: 2px solid #005b2f;  /* Green border to match the background */
+[data-theme="light-high-contrast"] .button-yellow {
+    background-color: #fc0;  /* Bright yellow button */
+    color: #1a1a1a;  /* Dark text */
+    border: 2px solid #fc0;  /* Yellow border */
+}
+
+[data-theme="dark-high-contrast"] .button-yellow {
+    background-color: #fc0;  /* Bright yellow button */
+    color: #121212;  /* Dark text */
+    border: 2px solid #fc0;  /* Yellow border */
 }
 
 [data-theme="light-high-contrast"] .button:hover {
@@ -629,34 +721,10 @@ body .nav-footer {
     border-color: #fc0;  /* Yellow border on hover */
 }
 
-[data-theme="light-high-contrast"] .button-yellow {
-    background-color: #fc0;  /* Bright yellow button */
-    color: #1a1a1a;  /* Dark text */
-    border: 2px solid #fc0;  /* Yellow border */
-}
-
 [data-theme="light-high-contrast"] .button-yellow:hover {
     background-color: #005b2f;  /* Dark green on hover */
     color: #fff;  /* White text on dark green */
     border-color: #005b2f;  /* Dark green border on hover */
-}
-
-/* Links */
-[data-theme="light-high-contrast"] a {
-    color: #005b2f;  /* Green links */
-    text-decoration: none;
-}
-
-[data-theme="light-high-contrast"] a:hover {
-    color: #005b2f;  /* Yellow links on hover */
-    text-decoration: underline;  /* Underline links on hover */
-}
-
-/* Footer */
-[data-theme="light-high-contrast"] .page-footer,
-[data-theme="light-high-contrast"] .nav-footer {
-    background-color: #005b2f;  /* Dark green background */
-    color: #fff;  /* White text */
 }
 
 /* Section dividers */
@@ -682,12 +750,6 @@ body .nav-footer {
     box-shadow: 0 4px 6px rgb(0 0 0 / 30%); /* Add shadow for depth */
 }
 
-[data-theme="light-high-contrast"] #quarto-back-to-top:hover {
-    background-color: #005b2f; /* Dark green background on hover */
-    color: #fff; /* White text on hover */
-    border-color: #005b2f; /* Match border with background */
-}
-
 /* High Contrast Dark Mode */
 [data-theme="dark-high-contrast"] #quarto-back-to-top {
     background-color: #fc0; /* Bright yellow background */
@@ -695,6 +757,12 @@ body .nav-footer {
     font-weight: bold;
     border: 2px solid #fff; /* White border for better visibility */
     box-shadow: 0 4px 6px rgb(255 255 255 / 30%); /* Add shadow for depth */
+}
+
+[data-theme="light-high-contrast"] #quarto-back-to-top:hover {
+    background-color: #005b2f; /* Dark green background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #005b2f; /* Match border with background */
 }
 
 [data-theme="dark-high-contrast"] #quarto-back-to-top:hover {
@@ -717,29 +785,15 @@ body .nav-footer {
     color: #e0e0e0;
 }
 
-/* Ensure proper contrast for text */
-[data-theme="dark-high-contrast"] h1,
-[data-theme="dark-high-contrast"] h2,
-[data-theme="dark-high-contrast"] h3,
-[data-theme="dark-high-contrast"] h4,
-[data-theme="dark-high-contrast"] h5,
-[data-theme="dark-high-contrast"] h6,
-[data-theme="dark-high-contrast"] p,
-[data-theme="dark-high-contrast"] li,
-[data-theme="dark-high-contrast"] ul,
-[data-theme="dark-high-contrast"] .subtitle {
-    color: #fff;  /* Light text for better readability */
+.curriculum-box a h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 0; /* Remove any default margin at the top */
 }
 
 /* Ensure all text inside list quarto-listing-default is white */
 [data-theme="dark-high-contrast"] .list.quarto-listing-default {
     color: white !important; 
-}
-
-/* Ensure links inside the listing are white */
-[data-theme="dark-high-contrast"] .list.quarto-listing-default a {
-    color: white !important; 
-    text-decoration: none; 
 }
 
 /* Ensure specific styling for titles */
@@ -767,31 +821,11 @@ body .nav-footer {
     border-bottom: 3px solid #fc0;  /* Bright yellow for high contrast */
 }
 
-/* Navbar links and hover states */
-[data-theme="dark-high-contrast"] .navbar a {
-    color: #e0e0e0;  /* Light text for links */
-    text-decoration: underline;
-}
-
-[data-theme="dark-high-contrast"] .navbar a:hover {
-    color: #fc0;  /* Yellow links on hover */
-    text-decoration: underline;  /* Underline links for emphasis */
-}
-
 /* Dropdown menu in High Contrast Dark Mode */
 [data-theme="dark-high-contrast"] .dropdown-menu {
     background-color: #1f1f1f;  /* Dark background for dropdown */
     color: #e0e0e0;  /* Light text for dropdown items */
     border: 1px solid #fc0;  /* Yellow border for visibility */
-}
-
-[data-theme="dark-high-contrast"] .dropdown-menu a {
-    color: #e0e0e0;  /* Light text for dropdown links */
-}
-
-[data-theme="dark-high-contrast"] .dropdown-menu a:hover {
-    background-color: #fc0;  /* Yellow background on hover */
-    color: #000;  /* Black text on hover */
 }
 
 /* Info sections */
@@ -809,12 +843,6 @@ body .nav-footer {
     color: #fc0;  /* Yellow for titles and subtitles */
 }
 
-/* Buttons */
-[data-theme="dark-high-contrast"] .button {
-    background-color: #1f1f1f;  /* Dark button background */
-    color: #e0e0e0;  /* Light text for buttons */
-    border: 2px solid #1f1f1f;  /* Dark border to match the background */
-}
 
 [data-theme="dark-high-contrast"] .button:hover {
     background-color: #fc0;  /* Yellow on hover */
@@ -822,34 +850,11 @@ body .nav-footer {
     border-color: #fc0;  /* Yellow border on hover */
 }
 
-[data-theme="dark-high-contrast"] .button-yellow {
-    background-color: #fc0;  /* Bright yellow button */
-    color: #121212;  /* Dark text */
-    border: 2px solid #fc0;  /* Yellow border */
-}
 
 [data-theme="dark-high-contrast"] .button-yellow:hover {
     background-color: #1f1f1f;  /* Dark gray on hover */
     color: #e0e0e0;  /* Light text on dark background */
     border-color: #1f1f1f;  /* Dark gray border on hover */
-}
-
-/* Links */
-[data-theme="dark-high-contrast"] a {
-    color: #fc0;  /* Yellow links */
-    text-decoration: none;
-}
-
-[data-theme="dark-high-contrast"] a:hover {
-    color: #e0e0e0;  /* Light links on hover */
-    text-decoration: underline;  /* Underline links on hover */
-}
-
-/* Footer */
-[data-theme="dark-high-contrast"] .page-footer,
-[data-theme="dark-high-contrast"] .nav-footer {
-    background-color: #1f1f1f;  /* Dark gray footer */
-    color: #e0e0e0;  /* Light text */
 }
 
 /* Section dividers */
@@ -901,6 +906,13 @@ body .nav-footer {
     color: black;
 }
 
+[data-theme="light-high-contrast"] [data-category] {
+    background-color: #003; /* Very dark blue background */
+    color: #fff; /* White text */
+    border: 1px solid #fc0;; /* Light blue border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* Dark mode: category filter styling */
 
 [data-theme="dark"] [data-category] {
@@ -920,6 +932,13 @@ body .nav-footer {
     color: #fff; /* White text */
 }
 
+[data-theme="dark-high-contrast"] [data-category] {
+    background-color: #003; /* Very dark blue background */
+    color: #fff; /* White text */
+    border: 1px solid #fc0;; /* Light blue border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 [data-theme="dark"] [data-category]:hover {
     background-color: #00509e; /* Brighter blue on hover */
     color: #fff; /* White text */
@@ -931,13 +950,6 @@ body .nav-footer {
 }
 
 /* High contrast dark mode: category filter styling */
-
-[data-theme="dark-high-contrast"] [data-category] {
-    background-color: #003; /* Very dark blue background */
-    color: #fff; /* White text */
-    border: 1px solid #fc0;; /* Light blue border */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
 
 [data-theme="dark-high-contrast"] [data-category*="Grade"] {
     background-color: #fc0;; /* Light blue background */
@@ -960,13 +972,6 @@ body .nav-footer {
 }
 
 /* High contrast light mode: category filter styling */
-
-[data-theme="light-high-contrast"] [data-category] {
-    background-color: #003; /* Very dark blue background */
-    color: #fff; /* White text */
-    border: 1px solid #fc0;; /* Light blue border */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
 
 [data-theme="light-high-contrast"] [data-category*="Grade"] {
     background-color: #fc0;; /* Light blue background */
