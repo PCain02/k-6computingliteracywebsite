@@ -99,8 +99,12 @@ code, pre, .monospace {
 /* Dark Mode */
 [data-theme="dark"] .curriculum-box {
     background-color: #1a1a1a; /* Dark gray background */
-    color: #e0e0e0; /* Light gray text */
+    color: #ffffff; /* White text */
     border: 2px solid #4da6ff; /* Light blue border */
+}
+
+[data-theme="dark"] .curriculum-box a p {
+    color: #ffffff; /* Ensure paragraph text is white */
 }
 
 [data-theme="dark"] .curriculum-box:hover {
@@ -125,6 +129,10 @@ code, pre, .monospace {
     background-color: #000033; /* Very dark blue background */
     color: #ffffff; /* White text */
     border: 2px solid #ffcc00; /* Yellow border */
+}
+
+[data-theme="dark-high-contrast"] .curriculum-box a p {
+    color: #ffffff; /* Ensure paragraph text is white */
 }
 
 [data-theme="dark-high-contrast"] .curriculum-box:hover {
@@ -223,7 +231,13 @@ code, pre, .monospace {
     margin-right: 10px;
     border: 2px solid #D9D9D9;
     background-color: #D9D9D9;
-  }
+}
+
+/* Add alt text for accessibility */
+#search-bar::before {
+    content: attr(aria-label);
+    display: none; /* Screen readers will read this */
+}
 
 body .page-footer,
 body .nav-footer {
