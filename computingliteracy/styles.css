@@ -63,6 +63,31 @@ code, pre, .monospace {
     width: 100%; /* Ensure the link spans the full width of the box */
 }
 
+/* Dark Mode */
+[data-theme="dark"] .curriculum-box {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #fff; /* White text */
+    border: 2px solid #4da6ff; /* Light blue border */
+}
+
+/* Light Mode */
+[data-theme="light"] .curriculum-box {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #000; /* Black text */
+    border: 2px solid #057c3e; /* Green border */
+}
+
+/* High Contrast Light Mode */
+[data-theme="light-high-contrast"] .curriculum-box {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 2px solid #fc0; /* Yellow border */
+}
+
+[data-theme="dark"] .curriculum-box a p {
+    color: #fff; /* Ensure paragraph text is white */
+}
+
 .curriculum-box a h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -86,27 +111,10 @@ code, pre, .monospace {
 
 /* Curriculum Box Styling for All Themes */
 
-/* Light Mode */
-[data-theme="light"] .curriculum-box {
-    background-color: #f0f0f0; /* Light gray background */
-    color: #000; /* Black text */
-    border: 2px solid #057c3e; /* Green border */
-}
 
 [data-theme="light"] .curriculum-box:hover {
     background-color: #e0e0e0; /* Slightly darker gray on hover */
     color: #005b2f; /* Darker green text on hover */
-}
-
-/* Dark Mode */
-[data-theme="dark"] .curriculum-box {
-    background-color: #1a1a1a; /* Dark gray background */
-    color: #fff; /* White text */
-    border: 2px solid #4da6ff; /* Light blue border */
-}
-
-[data-theme="dark"] .curriculum-box a p {
-    color: #fff; /* Ensure paragraph text is white */
 }
 
 [data-theme="dark"] .curriculum-box:hover {
@@ -114,27 +122,9 @@ code, pre, .monospace {
     color: #4da6ff; /* Light blue text on hover */
 }
 
-/* High Contrast Light Mode */
-[data-theme="light-high-contrast"] .curriculum-box {
-    background-color: #fff; /* White background */
-    color: #000; /* Black text */
-    border: 2px solid #fc0; /* Yellow border */
-}
-
 [data-theme="light-high-contrast"] .curriculum-box:hover {
     background-color: #fc0; /* Yellow background on hover */
     color: #000; /* Black text on hover */
-}
-
-/* High Contrast Dark Mode */
-[data-theme="dark-high-contrast"] .curriculum-box {
-    background-color: #003; /* Very dark blue background */
-    color: #fff; /* White text */
-    border: 2px solid #fc0; /* Yellow border */
-}
-
-[data-theme="dark-high-contrast"] .curriculum-box a p {
-    color: #fff; /* Ensure paragraph text is white */
 }
 
 [data-theme="dark-high-contrast"] .curriculum-box:hover {
