@@ -13,7 +13,7 @@ listing:
   sort-ui: true
   filter-ui: true
   categories: unnumbered
-  fields: [categories, title, subtitle, topic time_required]
+  fields: [categories, title, subtitle, topic, time_required]
 ---
 
 Welcome to the page where you can find all the activities or presentations that have already been implemented. Use the categories to find activities based on topic and time required.
@@ -26,7 +26,7 @@ Explore our multi-week curriculums designed to teach middle school students esse
 <div class="curriculum-section">
   <div class="curriculum-box">
     <a href="underwater_robotics.qmd">
-      <h3>Underwater Robotics</h3>
+      <h3>6 Weeks: Underwater Robotics</h3>
       <p>Learn the basics of underwater robotics with hands-on activities to build your own robot.</p>
     </a>
   </div>
