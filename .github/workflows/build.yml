@@ -3,6 +3,8 @@ name: Quarto CI
 on:
   push:
     branches: [main]
+  push:
+    branches: [bug-fixes]
   pull_request:
     branches: [main]
 
