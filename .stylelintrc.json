@@ -1,0 +1,12 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "indentation": 2,
+      "no-empty-source": null,
+      "color-hex-length": "short",
+      "string-quotes": "double"
+    },
+    "ignoreFiles": [
+      "**/site_libs/**/*.css" 
+    ]
+  }
