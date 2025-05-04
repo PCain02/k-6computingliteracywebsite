@@ -41,4 +41,8 @@ jobs:
         working-directory: computingliteracy
         run: |
           find _site -name "*.css" | grep -v site_libs | xargs stylelint
-        run: stylelint styles.css
+
+      - name: Lint Custom CSS
+        working-directory: computingliteracy
+        run: |
+          stylelint styles.css
