@@ -6,19 +6,39 @@ page-layout: full
 
 ## What is the Computing Outreach Program?
 
-Computing outreach involves engaging K-6 students in regular, hands-on computing activities to foster interest and competency in computational skills. This includes introducing students to computational thinking and problem-solving through events, workshops, and classroom activities, and using technologies. The goal is to provide consistent exposure in the computing field in a fun way.
+Computing outreach involves engaging K-12 students in regular, hands-on computing activities to foster interest and competency in computational skills. This includes introducing students to computational thinking and problem-solving through events, workshops, classroom activities, and using technologies. The goal is to provide consistent exposure to the computing field in a fun and engaging way.
 
 ## What to Expect as a Computing Outreach Fellow
 
-* You will be tasked with activities that will vary depending on the grades you are working with
-* All activities will be held in groups that can vary depending on the size of the class
-* Working with younger students ranging from K to 2nd grade, will require to participate in activities that are more based in reading and explain methods of computational skills
-* Older students from 5th to 6th grade will involve the use of more robotics in activities, requiring fellows to understand how the robots work and how they fit into the activities
-* You will be given outlines that will guide you through the necessary steps to doing activities
+* You will be tasked with activities that will vary depending on the grades you are working with.
+* All activities will be held in groups that can vary depending on the size of the class.
+* Working with younger students (K to 2nd grade) will involve activities that are more focused on reading and explaining methods of computational thinking.
+* Older students (5th to 6th grade) will involve the use of robotics in activities, requiring fellows to understand how the robots work and how they fit into the activities.
+* You will be given outlines that will guide you through the necessary steps for conducting activities.
+
+## Helping Middle School Students
+
+Middle school students (grades 6-8) are at a critical stage where they can begin to explore more advanced computational concepts. As a fellow, you will:
+
+* Introduce students to programming concepts using beginner-friendly languages like Python.
+* Facilitate hands-on activities that involve building and programming robots or creating simple games.
+* Encourage teamwork and collaboration through group projects that solve real-world problems using computational thinking.
+* Provide guidance on how computing skills can be applied in various fields, such as science, art, and engineering.
+
+## Helping High School Students
+
+High school students (grades 9-12) are ready to dive deeper into computing and explore career opportunities in the field. As a fellow, you will:
+
+* Teach students more advanced programming concepts, such as algorithms, data structures, and web development.
+* Guide students in creating their own projects, such as websites, apps, or robotics projects.
+* Organize workshops to encourage creativity and problem-solving.
+* Discuss career paths in computing, including software development, data science, cybersecurity, and artificial intelligence.
+* Provide mentorship and resources for students interested in pursuing computing-related college programs or certifications.
 
 ## Key Responsibilities
 
-* Working with children
-* Collaborating with faculty at Meadville public schools
-* Running through and understanding activities beforehand
-* Reading books that improve students understanding of computational skills
+* Working with children and teenagers across different age groups.
+* Collaborating with faculty at Meadville public schools.
+* Running through and understanding activities beforehand.
+* Reading books and using resources that improve students' understanding of computational skills.
+* Adapting activities to suit the age group and skill level of the students.
