@@ -9,6 +9,7 @@ on:
 jobs:
   build-and-lint:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -23,18 +24,20 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install HTMLHint and stylelint
+      - name: Install HTMLHint and Stylelint
         run: |
           npm install -g htmlhint stylelint stylelint-config-standard
 
       - name: Render Quarto site
-        working-directory: computingliteracy # Specify the correct directory
+        working-directory: computingliteracy
         run: quarto render
 
-      - name: Lint HTML in output
-        working-directory: computingliteracy # Specify the correct directory
-        run: htmlhint _site/**/*.html || true
+      - name: Lint HTML files
+        working-directory: computingliteracy
+        run: |
+          find _site -name "*.html" -print0 | xargs -0 -n1 htmlhint
 
-      - name: Lint CSS in output
-        working-directory: computingliteracy # Specify the correct directory
-        run: stylelint "_site/**/*.css" || true
+      - name: Lint CSS files
+        working-directory: computingliteracy
+        run: |
+          find _site -name "*.css" | grep -v site_libs | xargs stylelint
