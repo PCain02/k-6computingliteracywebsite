@@ -84,10 +84,6 @@ code, pre, .monospace {
     border: 2px solid #fc0; /* Yellow border */
 }
 
-[data-theme="dark"] .curriculum-box a p {
-    color: #fff; /* Ensure paragraph text is white */
-}
-
 .curriculum-box a h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -98,6 +94,10 @@ code, pre, .monospace {
     font-size: 0.9em;
     color: #333; /* Darker text for description */
     margin: 0; /* Remove any default margin */
+}
+
+[data-theme="dark"] .curriculum-box a p {
+    color: #fff; /* Ensure paragraph text is white */
 }
 
 .curriculum-box:hover {
@@ -155,11 +155,13 @@ code, pre, .monospace {
     text-decoration: none;
 }
 
+/* stylelint-disable-next-line */
 .navbar #quarto-search.type-overlay .aa-Autocomplete {
     width: 130px;
 }
 
-  .navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
+/* stylelint-disable-next-line */
+.navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
     height: 50%; 
     width: auto;
     font-size: medium;
@@ -169,8 +171,9 @@ code, pre, .monospace {
     display: flex;
     flex: 1 1 auto;
     padding: 5px;
-  }
+}
 
+/* stylelint-disable-next-line */
 [data-theme="light"] .aa-DetachedSearchButtonIcon::after {
     margin-left: 10px;
     content: "Search...";
@@ -180,9 +183,10 @@ code, pre, .monospace {
     overflow: hidden; 
     display: inline-block;
     flex-grow: 1;
-  }
+}
 
-  [data-theme="dark"] .aa-DetachedSearchButtonIcon::after {
+/* stylelint-disable-next-line */
+[data-theme="dark"] .aa-DetachedSearchButtonIcon::after {
     margin-left: 10px;
     content: "Search...";
     color: #7F7F7F;
@@ -191,9 +195,10 @@ code, pre, .monospace {
     overflow: hidden; 
     display: inline-block;
     flex-grow: 1;
-  }
+}
 
-  [data-theme="light-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+/* stylelint-disable-next-line */
+[data-theme="light-high-contrast"] .aa-DetachedSearchButtonIcon::after {
     margin-left: 10px;
     content: "Search...";
     color: #202020;
@@ -202,9 +207,10 @@ code, pre, .monospace {
     overflow: hidden; 
     display: inline-block;
     flex-grow: 1;
-  }
+}
 
-  [data-theme="dark-high-contrast"] .aa-DetachedSearchButtonIcon::after {
+/* stylelint-disable-next-line */
+[data-theme="dark-high-contrast"] .aa-DetachedSearchButtonIcon::after {
     margin-left: 10px;
     content: "Search...";
     color: #202020;
@@ -213,7 +219,7 @@ code, pre, .monospace {
     overflow: hidden; 
     display: inline-block;
     flex-grow: 1;
-  }
+}
 
   /* Search Bar */
 #search-bar {
