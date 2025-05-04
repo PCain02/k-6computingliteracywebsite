@@ -1,4 +1,4 @@
-/*-- scss:rules --*/
+/* -- scss:rules -- */
 
 /* CSS styles */
 
@@ -11,7 +11,7 @@
 
 /* Base Font Styles */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 1.25em;
     margin: 0;
     padding: 0;
@@ -21,8 +21,9 @@ body {
 }
 
 code, pre, .monospace {
-    font-family: 'Roboto', monospace;
+    font-family: Roboto, monospace;
 }
+
 /* Curriculum Section Styling */
 .curriculum-section {
     display: flex;
@@ -46,7 +47,7 @@ code, pre, .monospace {
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%); /* Subtle shadow for depth */
 }
 
 .curriculum-box a {

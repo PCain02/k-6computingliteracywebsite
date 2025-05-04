@@ -2,7 +2,6 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "no-empty-source": null,
-    "color-hex-length": "short"
   },
   "ignoreFiles": [
     "**/site_libs/**/*.css" 
