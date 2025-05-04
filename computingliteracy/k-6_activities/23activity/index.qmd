@@ -1,5 +1,5 @@
 ---
-title: "Activity 24: Dash Bots Pathway Challenge and Free Play"
+title: "Activity 23: Dash Bots Pathway Challenge and Free Play"
 subtitle: "Use the Dash Bot to create unique pathways, making sure to test various directional movements, sounds, and light changes."
 grades: 1st, 2nd
 time_required: "30 minutes"
