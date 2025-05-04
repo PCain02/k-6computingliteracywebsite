@@ -1,0 +1,196 @@
+---
+title: "Activity 3: Building an ROV Frame"
+subtitle: "Week 3 Part 2 of Building Underwater Robots"
+topic: Robotics
+time_required: "40 Minutes"
+categories: ["Topic: Robotics", "Time: 40 Minutes", "Type: Activity"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+In this 40-minute session, students will build their own ROV Frame for an underwater robot. It is recommended to present the [ROV Presentation](../02presentation/02presentation.qmd) first. Students should be broken up into groups with a maximum of 5 in each group. The following is the requirements per robot.
+
+## Materials Required
+
+_Per Robot:_
+
+- PVC Pipe of Various Sizes:
+  - 2 × 7" long ½" PVC
+  - 4 × 6" long ½" PVC
+  - 2 × 5" long ½" PVC
+  - 2 × 3" long ½" PVC
+  - 4 × 2" long ½" PVC
+  - 6 × 1" long ½" PVC
+- 10 × ½" PVC Corner piece SxS
+- 6 × ½" PVC T pieces SxSxS
+- Zip ties
+- Netting
+
+Optional: [Build Frame Steps PDF](pdfs/ROVFrameBuildSteps.pdf)
+
+## Learning Outcomes
+
+- Understand what an ROV is and identify its core components.
+- Compare different underwater movement systems and ROV layouts.
+- Apply design thinking and basic engineering principles to construct an ROV frame.
+- Collaborate in teams to solve real-world-inspired challenges.
+
+## Agenda
+
+### 1. Gather Your Materials
+
+Pull from the main supply these materials:
+
+- 2x 7 in long ½ in PVC Pipe 
+- 4x 6 in long ½ in PVC Pipe
+- 2x 5 in long ½ in PVC Pipe
+- 2x 3 in long ½ in PVC Pipe 
+- 4x 2 in long ½ PVC Pipe
+- 6x 1 in long ½ in PVC Pipe
+- 10 ½ in PVC Corner piece SxS
+- 6 ½ in PVC T pieces SxSxS
+
+
+### 2. Build the Frame
+
+#### The Base
+
+1. Start with the 2 in long PVCs and use a T piece with the exit hole facing the ceiling
+
+![Base T](images/base1.png)
+
+2. Now attach  2 corner pieces on the other end of the 2 inch long pieces 
+
+![Base C](images/base2.png)
+
+3. Put the 1 in pieces on the other end of each corner piece. It should look like a U shape
+
+![Base C+](images/base3.png)
+
+4. Then attach a T piece with the middle whole facing upwards to the ends of the 1 in pieces. 
+
+![Base C+T](images/base4.png)
+
+5. Continuing the build the base, attach a 5 inch PVC piece to the other end of the T piece opposite of the 1 inch pieces
+
+![Base U](images/base5.png)
+
+6. Then attach 2 more T piece to the other ends of the 5 inch PVC pieces
+
+![Base U+T](images/base6.png)
+
+7. On the side opposite of the 5 inch pieces, put 1 inch pieces 
+
+![Base U+T+](images/base7.png)
+
+8. Put 2 corner pieces on the ends of the 1 inch pieces you just places and point the end of the corner facing the ceiling
+
+![Base Final](images/base8.png)
+
+#### Vertical Motor Holder (VMH)
+
+1. Place the 3-inch long PVC in each of the middle holes
+
+![VMH start](images/vmh1.png)
+
+2. Then put a corner piece on the other ends of the 3 inch long pieces where each hole is facing towards the center
+
+![VMH+C](images/vmh2.png)
+
+3. Connect the two corners with two 2 inch pieces on each side
+
+![VMH+L](images/vmh3.png)
+
+4. Put a T piece in the center with the exit hole facing towards the front of the ROV
+
+![VMH+T](images/vmh4.png)
+
+#### Top of the Frame
+
+1. Place two 6 inch pieces in the front holes  and two 6 inch pieces in the holes towards the back
+
+![Top Start](images/top1.png)
+
+2. Put a corner piece on the other end of each of the 6 inch pieces with the exit hole facing towards the piece in the same line
+
+![Top+C](images/top2.png)
+
+3. Connect the corners together with two 7 inch pieces 
+
+![Top+L](images/top3.png)
+
+4. Add 2 more 1 inch pieces to the left over T holes. We will be using them to attach our motors later
+
+5. Carefully use a rubber mallet to make sure the pieces are all tightly in place
+
+6. Now the frame is complete
+
+### 3. Add Netting
+
+#### Cut the Netting 
+
+1. The goal is to create a net pocket for weights later on. First cut a large piece of net the same width and length as your frame base but add an extra inch to the outside perimeter
+
+![Cut Netting](images/net1.png)
+
+2. Cut a smaller piece for the pocket that is smaller than the width  of the inside of the base 
+
+![Cut Pocket](images/net2.png)
+
+#### Zip-tie the Netting  
+
+1. Use Zip-ties to secure the larger piece to the base PVC pieces. Make sure it is secure on all sides. Note that the open end will be for the closed part of our pocket 
+
+![Zip-Ties](images/zip1.png)
+
+![Zip-Tie Close up](images/zip2.png)
+
+![Zip-Ties](images/zip3.png)
+
+2. Trim excess net off the edge and cut the excess zip-tie ends
+
+![Zip-Ties and netting trimmed](images/zip4.png)
+
+3. Now secure the pocket net piece to the the top of the base net piece. Leave one edge open enough to slip small rocks or weights into it is recommended to use the edge that will be closest to the forward/backward motor as the opening and the edge that has no PVC as a closed part with zipped ties
+
+![Zip-Tie pocket](images/zip5.png)
+
+![Zip-Tie pocket closed end](images/zip6.png)
+
+![Zip-Tie pocket example](images/zip7.png)
+
+4. Cut excess zip-tie ends
+
+### 4. Add Floats
+
+#### Attaching the Floats
+
+1.  Cut 2 pieces of pool noodle to fit on the top horizontal piece of the ROV. They have to be less than the length of the PVC piece it is on or it will not fit.
+
+2. Carefully pull out the piece you would like to attach the floats onto and slide in onto the PVC pipe.
+
+3. Reattach the piece you moved 
+
+![Floats Example 1](images/float1.png)
+
+![Floats Example 2](images/float2.png)
+
+### 5. Extensions
+
+- If there is time left over have the students design an ROV logo in Canva
+- You could also work on customizing the ROVs
+
+## Reflection
+
+- What challenges did you face when building your ROV frame?
+- How do you think it will perform in water?
+- If you could add one new feature or improvement to an ROV, what would it be?
+
+## Learning Outcomes
+
+- Understand what an ROV is and identify its core components.
+- Compare different underwater movement systems and ROV layouts.
+- Apply design thinking and basic engineering principles to construct an ROV frame.
+- Collaborate in teams to solve real-world-inspired challenges.

@@ -1,0 +1,338 @@
+---
+title: "Activity 4: ROV Motor Control"
+subtitle: "Week 4 of Building Underwater Robots"
+topic: Robotics
+time_required: "1 Hour"
+categories: ["Topic: Robotics", "Time: 1 Hour", "Type: Activity"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+In this hour session, students will learn about motors and create their own motor systems for their ROVs. Students will go step-by-step through the process of connecting a battery pack, switches, and tethered motors, eventually waterproofing the system and customizing their builds.
+
+## Materials Required
+
+- Projector or computer with presentation
+- Optional: ROV for demonstration
+- 3 ft long 2-strand white wire
+- 9V battery holder
+- Red and green solder seal wire connectors
+- Wire strippers
+- Sharpie
+- Heat gun
+- Red and black wire spools
+- 2 switches
+- Control box (base and top)
+- 6-wire black tether
+- Blue and yellow wire spools
+- Screwdriver
+- Bolts for control box
+- Electrical tape
+- 2 motors and propeller parts
+- 2 PVC motor holders
+- Coax seal
+- Zip ties
+
+[ROV Motor Control Presentation PDF](pdfs/ROVMotorControlSteps.pdf)
+
+[ROV Motor Control Presentation Link](https://docs.google.com/presentation/d/16GiFRKUqk-WyLXOhBIQxm3BCg0l7T3-Y-6a_-5yf0d4/edit?usp=sharing)
+
+Optional: [ROV Motor Control Steps PDF](pdfs/ROVMotorControl-HS_MS.pdf)
+
+## Learning Outcomes
+
+- Identify the basic components used in ROV motor systems
+- Understand the electrical connections for powering and controlling motors
+- Safely use solder seal connectors and heat tools
+- Build and waterproof an underwater motor system
+- Test and troubleshoot an ROV motor system
+
+## Agenda
+
+### 1. Make Battery Connections
+
+#### 1.1 Gather Your Materials
+
+- 1x 3 ft long 2 strand white wire 
+- 1x 9v battery holder
+- Red Solder Seal Wire Connectors (Share with Others)
+- Wire Strippers (Share with others)
+- Sharpie (Share with others)
+- Heatgun (Share with others)
+
+![Materials](images/materials.png)
+
+#### 1.2 Battery to Wires
+1. Separate a small amount of the white wire at the ends. Strip the ends of the white wires carefully to about ½ in to 1 inch long on all 4 ends.
+
+![White Wire](images/bw1.png)
+
+![White Wire](images/bw2.png)
+
+![White Wire](images/bw3.png)
+
+2. Strip the battery holder wires ¼–½ inch.
+
+![Battery Holder Wire](images/bh1.png)
+
+![Battery Holder Wire](images/bh2.png)
+
+3. Mark one side of the white wire on both ends with Sharpie to label it GND.
+
+![White Wire Labeled](images/ww.png)
+
+4. Twist all wire ends so they are neat.
+
+![Twisted Wires](images/tw.png)
+
+5. Pick one end of the white wire with the sharpie mark to connect to the black wire of the battery holder. Use a solder seal wire connector to connect the black wire of the box and the sharpie marked wire together. Put the ends of the wires inside the seal piece and make sure the silver part in the middle (solder) is touching both wires. You may have to push the wires in further ro reach properly. 
+
+![Solder Connector](images/sw1.png)
+
+![Solder Connector](images/sw2.png)
+
+6. Use the heat gun about 3 inches away from the wire to very carefully to shrink the connector ON A HEAT SAFE SURFACE - the regular wood of the table will burn so use a piece of scrap wood. Wait until the solder in the middle has melted to stop heating it. Don’t touch it with your fingers until it has cooled. Try your best not to melt the wires themselves and if you see that happening turn off the heat gun and ask for help.
+
+
+![Heat Gun](images/hg1.png)
+
+![Heat Gun](images/hg2.png)
+
+7. Wait till it has cooled and check that the wires are secure in the connector and don’t move when you lightly tug on them. 
+
+8. Now on the same end of the white wire take the side you did not mark and connect it to the red wire. Make sure the metal in the connector is touching both the wires. Use the heat gun very carefully to shrink the connector. Don’t touch it with your fingers until it has cooled.
+
+![Battery Connection](images/sb1.png)
+
+![Battery Connection](images/sb2.png)
+
+#### 1.3 Wires to the Switches
+
+Requirements
+  - Red wire spool
+  - Black wire spool
+  - 2 switches 
+  - Control box
+
+1. Cut two 8-inch red and two 8-inch black wires.
+
+![Cut Wires](images/cw1.png)
+
+2. Strip the ends of the loose black and red wires about ½ in and twist the ends so they are neat.
+
+![Cut Wires](images/cw2.png)
+
+![Cut Wires](images/cw3.png)
+
+3. Identify the GND (Sharpie) side of the white wire and twist it with the two black wires.
+
+![Cut GND Wires](images/wb1.png)
+
+![Cut GND Wires](images/wb2.png)
+
+4. Use a green solder connector and run it over both the black wires and bring it to the point where the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.
+
+![Connected Wire](images/wb5.png)
+
+![Connected Wire](images/wb6.png)
+
+5. Twist the unmarked white wire with the two red wires and connect using another solder connector.Run a green solder connector over top both of the red wires and bring it to the point the wires are twisted. Make sure the silver middle is overtop the twisted wires. Again carefully use the heat gun on a safe surface to shrink the connector. Do not touch it will your hands until it has cooled.
+
+![Connected Red Wire](images/rw1.png)
+
+![Connected Red Wire](images/rw2.png)
+
+![Connected Red Wire](images/rw3.png)
+
+![Connected Red Wire](images/rw4.png)
+
+![Connected Red Wire](images/rw5.png)
+
+6. Route wires through the hole in the control box and tie a knot to prevent slipping.
+
+![Wires in the box](images/cb1.png)
+
+![Wires in the box](images/cb2.png)
+
+![Wires in the box](images/cb3.png)
+
+7. Loosen switch screws and hook a red wire to one middle terminal of the switch. You do not have to take them out all the way. While it is hooked tighten the screw so that the red wire is stuck underneath it and it is snug enough you can not tug it out easily
+
+![Switch](images/s1.png)
+
+![Switch](images/s2.png)
+
+![Switch](images/s3.png)
+
+![Switch](images/s4.png)
+
+![Switch](images/s5.png)
+
+8. Hook a black wire to the opposite middle terminal and tighten.
+
+![Switch](images/s6.png)
+
+![Switch](images/s7.png)
+
+![Switch](images/s8.png)
+
+9. Repeat for the second switch with the remaining red and black wires.
+
+#### 1.4 Motor Tether to the Switches
+
+Requirements
+  - 6 wire black tether 
+  - Blue wire spool 
+  - Yellow wire spool 
+  - Screwdriver
+  - Wire strippers
+  - 2x Switches and switch secures
+  - Control box base and top
+  - Bolts for control box lids
+  - Electrical tape
+
+
+1. Take the black tether and strip the ends so that the colored wires are showing. Strip the black about 6 inches on one side and 3 inches on the other.
+
+![Motor Wires](images/rb1.png)
+![Motor Wires](images/rb2.png)
+
+2. Strip the yellow, white, orange and green colored wires ½ inch and twist the ends of the wires so they are neat.
+
+3. Push the 6-inch tether side through the same control box hole.
+
+![Control Box](images/cb4.png)
+
+4. Cut two blue and two yellow wires about 2½ inches long and strip ends.
+
+![Blue-Yellow](images/by.png)
+
+5. Connect the white tether wire + a short blue wire to one switch terminal (above black wire).
+
+![Blue White Wire](images/bwire.png)
+
+![Blue White Wire](images/bwire2.png)
+
+6. Connect the other end of the blue wire diagonally opposite (below black wire).
+
+![Blue Diagonal](images/bd.png)
+
+7. Connect the orange wire + yellow wire to the opposite top terminal (above red wire).
+
+![Yellow Wire](images/oy.png)
+
+8. Connect the other end of the yellow wire diagonally opposite (below red wire).
+
+![Yellow Wire Diagonal](images/yw.png)
+
+9. Repeat for the second switch using the yellow and green tether wires + other yellow/blue jumpers. Screw the other end of the small yellow wire into the pole diagonal from it so below the black wire Now take the green tether wire and the short blue wire and screw them into the top right pole (above the black wire).Screw the other end of the blue wire diagonally across from it so underneath the red wire. The end result should be a cross shape
+
+![Second Switch](images/ys.png)
+
+![Second Switch](images/ys2.png)
+
+![Second Switch](images/ys3.png)
+
+![Second Switch](images/ys4.png)
+
+10. Now check both switches for straggly wires that might accidentally touch other poles. You can trim them away or try to tuck them. Crossing poles is not good and your robot won’t work
+
+![Trim Stragglers](images/stw.png)
+
+11. Mount switches into the lid: white/orange switch on right, yellow/green on left.
+
+![Switch Box](images/sb3.png)
+
+12. Use this order on each switch: on/off label, washer, nut, rubber topper (optional).
+
+![Switch Order](images/so.png)
+
+![Switch Box](images/cb5.png)
+
+13. Use electrical tape to secure white wire and tether inside the box.
+
+![Switch Box Tapped](images/et.png)
+
+14. Bolt the lid onto the control box.
+
+### 2. Make Motor-to-Tether Connections
+
+#### 2.1 Prep the Motors
+
+Requirements
+  - 2 motors and propellor parts
+  - 2 PVC motor holders 
+1. Attach propellers to the motors using the [presentation link](https://docs.google.com/presentation/d/e/2PACX-1vT4Y5R5tdTKjkt-p8Nh4H92TbXgnJ9fwY_43HqT1g4gGURMVNj59lkxz6pV4XoALNTm_cE2GIU4UCr0/pub?start=false&loop=false&delayms=3000&slide=id.g16ac84f6ec_2_47).
+
+![Motor](images/m1.png)
+
+2. Mount motors into ROV: back motor facing backward, vertical motor facing up.
+
+![Motor Mounted](images/m2.png)
+
+![Motor Mounted](images/m3.png)
+
+3. Strip brown and black wires of both motors.
+
+![Motor Wires](images/mw1.png)
+
+#### 2.2 Connect the Tether to the Motors
+1. Strip the orange, white, yellow, and green tether wires ½ inch.
+
+![Motor Wires](images/mw2.png)
+
+![Motor Wires](images/mw3.png)
+
+2. Connect white tether wire to brown motor wire using solder connector. Carefully use the heat gun to melt the solder. Do not touch the wires till they have cooled. Make sure to do this on a safe surface such as the scrap wood. 
+
+![Motor Wires](images/mw4.png)
+
+3. Connect orange tether wire to black motor wire.
+
+![Motor Wires](images/mw5.png)
+
+4. For vertical motor, connect yellow tether wire to brown motor wire.
+
+![Motor Wires](images/mw6.png)
+
+5. Connect green tether wire to black motor wire.
+
+![Motor Wires](images/mw7.png)
+
+6. Use heat gun to seal all connections safely.
+
+### 3. Plug it In
+
+1. Check that no wires are in motor paths.
+2. Plug in 9V battery and flip switch on.
+3. Use switches to test motor direction.
+4. If issues arise, check wire connections or ask for help.
+
+### 4. Waterproofing and Zip Tie
+
+1. Wrap motor-to-tether solder joints with coax seal—fully squish and cover.
+
+![Waterproofing](images/wp1.png)
+
+![Waterproofing](images/wp2.png)
+
+2. Seal the tether base where wires emerge.
+
+![Waterproofing](images/wwp3.png)
+
+3. Cover red and black tether wires if unused.
+4. Use zip ties to cleanly attach wires to the frame.
+5. Adjust balance by compensating if wires add weight to one side.
+6. Trim zip ties.
+
+![Robot Complete](images/robot.png)
+
+### 5. Extensions
+1. Test the finished ROV in a small pool.
+2. Allow time for students to decorate or customize their ROVs.
+
+## Reflection
+
+Reflect on what went well and where challenges occurred during motor assembly. Were any parts difficult to connect? Did waterproofing work as expected? What improvements could be made?

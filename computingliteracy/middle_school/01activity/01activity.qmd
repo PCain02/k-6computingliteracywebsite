@@ -1,39 +1,97 @@
 ---
-title: "Activity 1: TODO"
-subtitle: "TODO"
+title: "Activity 1: Intro to Arduino"
+subtitle: "Week 1 Part 2 of Building Underwater Robots"
 topic: Robotics
-time_required: "1 hour"
-categories: ["Topic: Robotics", "Time: 1 Hour"]
+time_required: "30 Minutes"
+categories: ["Topic: Electronics", "Time: 30 Minutes", "Type: Activity"]
 toc: true
 page-layout: full
 ---
 
 ## Description
 
-TODO
+This 30-minute activity introduces middle school students to Arduino by guiding them through the process of wiring a basic LED circuit using a breadboard and Arduino Uno—no programming required. Students will learn the fundamentals of electronics, including how to safely and effectively connect components.
 
 ## Materials Required
 
-TODO
+_Per student:_
 
-## Steps to Conduct the Activity
+- 1 Arduino Uno or equivalent  
+- 1 Breadboard  
+- 2 pieces of hookup wire (male-to-male)  
+- 1 LED of any color  
+- 1 470 ohm resistor (or close to it)  
+- 1 10k ohm resistor (or greater)  
+- 1 Arduino USB cable  
 
-### Step 1: Topic Explanation
+## [Presentation Link](https://docs.google.com/presentation/d/1Uzj6hXgbsv0XJcUhdJ__9KNt1Tii-QKJaGz4chCLlt8/edit?usp=sharing)
 
-- TODO
-
-### Step 2: Explain the Problem
-
-- TODO
-
-### Step 3: Interactive Time
-
-- TODO
-
-## Reflection
-
-- TODO
+## [Presentation PDF](/pdfs/Intro_to_Arduino-HS_MS.pdf)
 
 ## Learning Outcomes
 
-TODO
+By the end of this activity, students will be able to:
+
+- Identify parts of the Arduino Uno
+- Understand how breadboards function
+- Build a basic circuit to power an LED
+- Demonstrate knowledge of polarity and resistance
+- Troubleshoot common circuit connection issues
+
+## Activity Steps
+
+### 1. What is Arduino?
+
+- Open-source electronics platform
+- Uses programmable microcontrollers
+- Controlled via USB and written in a C++-like language
+- Great for prototyping
+
+### 2. Parts of the Arduino UNO
+
+- USB-B port (for programming)
+- Digital pins (on/off signals)
+- Analog pins (range of values, ideal for sensors)
+- Power pins (5V, 3.3V, GND)
+
+### 3. Breadboard Basics
+
+- Blue (GND) and Red (PWR) buses connect vertically
+- Rows connect horizontally, separated in the middle
+- Easy for prototyping and modifying connections
+
+### 4. LED Orientation
+
+- Long leg = positive (connect to power)
+- Short leg = negative (connect to ground)
+- LED only lights in one direction
+
+### 5. Resistor Function
+
+- Limits electrical current
+- 470Ω protects the LED
+- 10kΩ dims the LED significantly
+- Higher resistance = dimmer LED
+
+### 6. Build Your First Circuit
+
+**Step-by-step:**
+1. Connect GND to blue bus on breadboard  
+2. Connect 5V to red bus  
+3. Insert 470Ω resistor from blue bus to row 10  
+4. Place short leg of LED in row 10, long leg into red bus  
+5. Plug in Arduino and power it up  
+6. LED should light up!
+
+## Questions to Ask
+
+- Can you trace the flow of electricity from GND to 5V?
+- What changes when you use the 10kΩ resistor instead of 470Ω?
+- Do different colored LEDs vary in brightness?
+- Can you add a second LED with the same color and parts? (Try 2 methods!)
+
+## Reflection
+
+- What did you find easy or hard about building the circuit?
+- What would you change about how you built it?
+- What else would you like to build with Arduino?

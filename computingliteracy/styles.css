@@ -82,7 +82,6 @@ code, pre, .monospace {
     color: #005b2f; /* Darker green text on hover */
 }
 
-
 /* ==========================
    Navbar Styles
    ========================== */
@@ -777,71 +776,6 @@ body .nav-footer {
     display: block;
 }
 
-/* ==========================
-   Media Queries
-   ========================== */
-
-@media (max-width: 768px) {
-    .main-title {
-        font-size: 2em;
-    }
-
-    .subtitle {
-        font-size: 1.2em;
-    }
-
-    .button-container {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .button {
-        width: 100%;
-    }
-
-    .info-section, .info-section-reverse {
-        flex-direction: column;
-        padding: 20px 10px;
-    }
-
-    .info-content {
-        max-width: 100%;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .info-title {
-        font-size: 1.8em;
-    }
-
-    .info-subtitle {
-        font-size: 1em;
-    }
-
-    .info-section-reverse {
-        flex-direction: column;
-    }
-
-    .section-divider {
-        border: 0;
-        height: 2px;
-        background-color: #057c3e;
-        margin: 40px 0;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .curriculum-box {
-        width: 90%; /* Use 90% of the parent container's width on smaller screens */
-    }
-    .navbar {
-        flex-direction: column;
-        padding: 10px 20px;
-    }
-}
-
 /* Activities page: category filter styling */
 
 [data-category] {
@@ -964,4 +898,69 @@ body .nav-footer {
 [data-theme="light-high-contrast"] [data-category].active {
     background-color: #00274d; /* Darker blue for active state */
     color: #ffffff; /* White text */
+}
+
+/* ==========================
+   Media Queries
+   ========================== */
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .info-section, .info-section-reverse {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .info-content {
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .info-title {
+        font-size: 1.8em;
+    }
+
+    .info-subtitle {
+        font-size: 1em;
+    }
+
+    .info-section-reverse {
+        flex-direction: column;
+    }
+
+    .section-divider {
+        border: 0;
+        height: 2px;
+        background-color: #057c3e;
+        margin: 40px 0;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .curriculum-box {
+        width: 90%; /* Use 90% of the parent container's width on smaller screens */
+    }
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
 }

@@ -1,0 +1,86 @@
+---
+title: "Activity 5: ROV Testing"
+subtitle: "Testing and Troubleshooting ROV Systems"
+topic: Robotics
+time_required: "1 Hour"
+categories: ["Topic: Robotics", "Time: 1 Hour", "Type: Activity"]
+toc: true
+page-layout: full
+---
+
+## Description
+
+In this session, students will test their ROV motor systems after completing the build. They will observe motor behavior, identify any issues in wiring or switch configuration, and troubleshoot with peers or instructors. This hands-on testing session reinforces understanding of circuit continuity and the practical application of motor control.
+
+## Materials Required
+
+- Completed ROV with motor system installed
+- 9V battery (fully charged)
+- Small testing pool or large bin of water
+- Extra solder seal connectors (for repairs)
+- Heat gun (if repairs needed)
+- Wire strippers (for quick fixes)
+- Towels or drying station
+
+## Learning Outcomes
+
+- Safely test and evaluate motor systems
+- Identify wiring or connection issues in simple circuits
+- Use troubleshooting techniques to solve hardware problems
+- Understand the effect of wiring on motor direction and behavior
+- Observe how buoyancy and balance affect ROV performance
+
+## Testing Procedure
+
+### 1. Pre-Check
+1. Ensure the battery is charged.
+2. Verify all solder connections are sealed and not loose.
+3. Tug gently on each connection to make sure it is secure.
+4. Confirm the motor system is waterproofed and wires are zip-tied out of the way.
+
+### 2. Power On
+1. Insert the 9V battery into the holder.
+2. Flip the main power switch ON.
+3. Confirm switches are in the OFF (middle) position before starting tests.
+
+### 3. Dry Testing (Optional)
+1. Hold the ROV above a surface and flip each switch to test motor direction.
+2. Ensure both motors respond and spin freely.
+3. Watch for any rubbing, tangle, or obstruction issues.
+
+### 4. Pool Testing
+1. Carefully place the ROV into the small pool or bin of water.
+2. Observe how it floats—adjust weights if it tips or leans.
+3. Flip the first switch and test forward/backward motor response.
+4. Flip the second switch to test vertical (up/down) motor control.
+5. Try brief combinations of both motors.
+6. Watch for:
+   - Delayed or missing motor response
+   - Water intrusion (bubbles or shorts)
+   - Tangled or dragging wires
+7. If needed, remove the ROV, dry off, and perform fixes before testing again.
+
+#### Extra Pool Activities 
+1. Test buoyancy - add weights as needed to have neutral buoyancy where it does not float to the top by itself or sink (ideal for ROVs)
+2. Have an ROV
+3. Make a mini obstacle course using pool noodles
+
+### 5. Troubleshooting
+1. If a motor does not spin:
+   - Check soldered connections.
+   - Confirm correct wire colors and direction.
+   - Swap leads to reverse spin if needed.
+   - Check for shorts or loosened wires due to water.
+2. Ask for help from an instructor if you’re stuck.
+
+### 6. Safety Checks
+1. Keep fingers, hair, and clothing away from spinning propellers.
+2. Do not touch active wires with wet hands.
+3. Immediately report any smoking, sparking, or overheating parts.
+
+## Reflection
+
+- Did your ROV move correctly in the pool?
+- Was it balanced? Did it sink or float properly?
+- What issues came up, and how did you fix them?
+- What would you do differently for your next build?
