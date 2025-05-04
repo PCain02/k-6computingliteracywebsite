@@ -815,7 +815,7 @@
    
    /* 5.4 High Contrast Dark Theme */
    [data-theme="dark-high-contrast"] {
-       background-color: #000000;
+       background-color: #000;
        color: #e0e0e0;
    }
    
