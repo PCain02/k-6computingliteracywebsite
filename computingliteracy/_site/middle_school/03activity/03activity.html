@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Code with Chompers - Activity 3: Building an ROV Frame</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- settings.html -->
+<script src="../../_includes/settings.js"></script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Code with Chompers</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-settings" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">⚙️ Settings</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-settings">    
+        <li>
+    <a class="dropdown-item" href="javascript:increaseTextSize()">
+ <span class="dropdown-text">Increase Text Size</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:decreaseTextSize()">
+ <span class="dropdown-text">Decrease Text Size</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:toggleAccessibilityTheme()">
+ <span class="dropdown-text">Toggle High Contrast Mode</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:toggleTheme()">
+ <span class="dropdown-text">Toggle Dark Mode</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="javascript:resetAccessibilitySettings()">
+ <span class="dropdown-text">Reset Settings</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../technical-leader-guide/index.html"> 
+<span class="menu-text">Outreach Guide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../k-6_activities/index.html"> 
+<span class="menu-text">K-6 Activities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../middle_school/index.html"> 
+<span class="menu-text">Middle School Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../high_school/index.html"> 
+<span class="menu-text">High School Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#materials-required" id="toc-materials-required" class="nav-link" data-scroll-target="#materials-required">Materials Required</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a>
+  <ul class="collapse">
+  <li><a href="#gather-your-materials" id="toc-gather-your-materials" class="nav-link" data-scroll-target="#gather-your-materials">1. Gather Your Materials</a></li>
+  <li><a href="#build-the-frame" id="toc-build-the-frame" class="nav-link" data-scroll-target="#build-the-frame">2. Build the Frame</a></li>
+  <li><a href="#add-netting" id="toc-add-netting" class="nav-link" data-scroll-target="#add-netting">3. Add Netting</a></li>
+  <li><a href="#add-floats" id="toc-add-floats" class="nav-link" data-scroll-target="#add-floats">4. Add Floats</a></li>
+  <li><a href="#extensions" id="toc-extensions" class="nav-link" data-scroll-target="#extensions">5. Extensions</a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  <li><a href="#learning-outcomes-1" id="toc-learning-outcomes-1" class="nav-link" data-scroll-target="#learning-outcomes-1">Learning Outcomes</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Activity 3: Building an ROV Frame</h1>
+<p class="subtitle lead">Week 3 Part 2 of Building Underwater Robots</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Topic: Robotics</div>
+    <div class="quarto-category">Time: 40 Minutes</div>
+    <div class="quarto-category">Type: Activity</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>In this 40-minute session, students will build their own ROV Frame for an underwater robot. It is recommended to present the <a href="../../middle_school/02presentation/02presentation.html">ROV Presentation</a> first. Students should be broken up into groups with a maximum of 5 in each group. The following is the requirements per robot.</p>
+</section>
+<section id="materials-required" class="level2">
+<h2 class="anchored" data-anchor-id="materials-required">Materials Required</h2>
+<p><em>Per Robot:</em></p>
+<ul>
+<li>PVC Pipe of Various Sizes:
+<ul>
+<li>2 × 7” long ½” PVC</li>
+<li>4 × 6” long ½” PVC</li>
+<li>2 × 5” long ½” PVC</li>
+<li>2 × 3” long ½” PVC</li>
+<li>4 × 2” long ½” PVC</li>
+<li>6 × 1” long ½” PVC</li>
+</ul></li>
+<li>10 × ½” PVC Corner piece SxS</li>
+<li>6 × ½” PVC T pieces SxSxS</li>
+<li>Zip ties</li>
+<li>Netting</li>
+</ul>
+<p>Optional: <a href="pdfs/ROVFrameBuildSteps.pdf">Build Frame Steps PDF</a></p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<ul>
+<li>Understand what an ROV is and identify its core components.</li>
+<li>Compare different underwater movement systems and ROV layouts.</li>
+<li>Apply design thinking and basic engineering principles to construct an ROV frame.</li>
+<li>Collaborate in teams to solve real-world-inspired challenges.</li>
+</ul>
+</section>
+<section id="agenda" class="level2">
+<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="gather-your-materials" class="level3">
+<h3 class="anchored" data-anchor-id="gather-your-materials">1. Gather Your Materials</h3>
+<p>Pull from the main supply these materials:</p>
+<ul>
+<li>2x 7 in long ½ in PVC Pipe</li>
+<li>4x 6 in long ½ in PVC Pipe</li>
+<li>2x 5 in long ½ in PVC Pipe</li>
+<li>2x 3 in long ½ in PVC Pipe</li>
+<li>4x 2 in long ½ PVC Pipe</li>
+<li>6x 1 in long ½ in PVC Pipe</li>
+<li>10 ½ in PVC Corner piece SxS</li>
+<li>6 ½ in PVC T pieces SxSxS</li>
+</ul>
+</section>
+<section id="build-the-frame" class="level3">
+<h3 class="anchored" data-anchor-id="build-the-frame">2. Build the Frame</h3>
+<section id="the-base" class="level4">
+<h4 class="anchored" data-anchor-id="the-base">The Base</h4>
+<ol type="1">
+<li>Start with the 2 in long PVCs and use a T piece with the exit hole facing the ceiling</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base1.png" class="img-fluid figure-img"></p>
+<figcaption>Base T</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Now attach 2 corner pieces on the other end of the 2 inch long pieces</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base2.png" class="img-fluid figure-img"></p>
+<figcaption>Base C</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Put the 1 in pieces on the other end of each corner piece. It should look like a U shape</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base3.png" class="img-fluid figure-img"></p>
+<figcaption>Base C+</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Then attach a T piece with the middle whole facing upwards to the ends of the 1 in pieces.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base4.png" class="img-fluid figure-img"></p>
+<figcaption>Base C+T</figcaption>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>Continuing the build the base, attach a 5 inch PVC piece to the other end of the T piece opposite of the 1 inch pieces</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base5.png" class="img-fluid figure-img"></p>
+<figcaption>Base U</figcaption>
+</figure>
+</div>
+<ol start="6" type="1">
+<li>Then attach 2 more T piece to the other ends of the 5 inch PVC pieces</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base6.png" class="img-fluid figure-img"></p>
+<figcaption>Base U+T</figcaption>
+</figure>
+</div>
+<ol start="7" type="1">
+<li>On the side opposite of the 5 inch pieces, put 1 inch pieces</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base7.png" class="img-fluid figure-img"></p>
+<figcaption>Base U+T+</figcaption>
+</figure>
+</div>
+<ol start="8" type="1">
+<li>Put 2 corner pieces on the ends of the 1 inch pieces you just places and point the end of the corner facing the ceiling</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/base8.png" class="img-fluid figure-img"></p>
+<figcaption>Base Final</figcaption>
+</figure>
+</div>
+</section>
+<section id="vertical-motor-holder-vmh" class="level4">
+<h4 class="anchored" data-anchor-id="vertical-motor-holder-vmh">Vertical Motor Holder (VMH)</h4>
+<ol type="1">
+<li>Place the 3-inch long PVC in each of the middle holes</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/vmh1.png" class="img-fluid figure-img"></p>
+<figcaption>VMH start</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Then put a corner piece on the other ends of the 3 inch long pieces where each hole is facing towards the center</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/vmh2.png" class="img-fluid figure-img"></p>
+<figcaption>VMH+C</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Connect the two corners with two 2 inch pieces on each side</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/vmh3.png" class="img-fluid figure-img"></p>
+<figcaption>VMH+L</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Put a T piece in the center with the exit hole facing towards the front of the ROV</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/vmh4.png" class="img-fluid figure-img"></p>
+<figcaption>VMH+T</figcaption>
+</figure>
+</div>
+</section>
+<section id="top-of-the-frame" class="level4">
+<h4 class="anchored" data-anchor-id="top-of-the-frame">Top of the Frame</h4>
+<ol type="1">
+<li>Place two 6 inch pieces in the front holes and two 6 inch pieces in the holes towards the back</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/top1.png" class="img-fluid figure-img"></p>
+<figcaption>Top Start</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Put a corner piece on the other end of each of the 6 inch pieces with the exit hole facing towards the piece in the same line</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/top2.png" class="img-fluid figure-img"></p>
+<figcaption>Top+C</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Connect the corners together with two 7 inch pieces</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/top3.png" class="img-fluid figure-img"></p>
+<figcaption>Top+L</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li><p>Add 2 more 1 inch pieces to the left over T holes. We will be using them to attach our motors later</p></li>
+<li><p>Carefully use a rubber mallet to make sure the pieces are all tightly in place</p></li>
+<li><p>Now the frame is complete</p></li>
+</ol>
+</section>
+</section>
+<section id="add-netting" class="level3">
+<h3 class="anchored" data-anchor-id="add-netting">3. Add Netting</h3>
+<section id="cut-the-netting" class="level4">
+<h4 class="anchored" data-anchor-id="cut-the-netting">Cut the Netting</h4>
+<ol type="1">
+<li>The goal is to create a net pocket for weights later on. First cut a large piece of net the same width and length as your frame base but add an extra inch to the outside perimeter</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/net1.png" class="img-fluid figure-img"></p>
+<figcaption>Cut Netting</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Cut a smaller piece for the pocket that is smaller than the width of the inside of the base</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/net2.png" class="img-fluid figure-img"></p>
+<figcaption>Cut Pocket</figcaption>
+</figure>
+</div>
+</section>
+<section id="zip-tie-the-netting" class="level4">
+<h4 class="anchored" data-anchor-id="zip-tie-the-netting">Zip-tie the Netting</h4>
+<ol type="1">
+<li>Use Zip-ties to secure the larger piece to the base PVC pieces. Make sure it is secure on all sides. Note that the open end will be for the closed part of our pocket</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip1.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Ties</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip2.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Tie Close up</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip3.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Ties</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Trim excess net off the edge and cut the excess zip-tie ends</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip4.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Ties and netting trimmed</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Now secure the pocket net piece to the the top of the base net piece. Leave one edge open enough to slip small rocks or weights into it is recommended to use the edge that will be closest to the forward/backward motor as the opening and the edge that has no PVC as a closed part with zipped ties</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip5.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Tie pocket</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip6.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Tie pocket closed end</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/zip7.png" class="img-fluid figure-img"></p>
+<figcaption>Zip-Tie pocket example</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Cut excess zip-tie ends</li>
+</ol>
+</section>
+</section>
+<section id="add-floats" class="level3">
+<h3 class="anchored" data-anchor-id="add-floats">4. Add Floats</h3>
+<section id="attaching-the-floats" class="level4">
+<h4 class="anchored" data-anchor-id="attaching-the-floats">Attaching the Floats</h4>
+<ol type="1">
+<li><p>Cut 2 pieces of pool noodle to fit on the top horizontal piece of the ROV. They have to be less than the length of the PVC piece it is on or it will not fit.</p></li>
+<li><p>Carefully pull out the piece you would like to attach the floats onto and slide in onto the PVC pipe.</p></li>
+<li><p>Reattach the piece you moved</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/float1.png" class="img-fluid figure-img"></p>
+<figcaption>Floats Example 1</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/float2.png" class="img-fluid figure-img"></p>
+<figcaption>Floats Example 2</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="extensions" class="level3">
+<h3 class="anchored" data-anchor-id="extensions">5. Extensions</h3>
+<ul>
+<li>If there is time left over have the students design an ROV logo in Canva</li>
+<li>You could also work on customizing the ROVs</li>
+</ul>
+</section>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<ul>
+<li>What challenges did you face when building your ROV frame?</li>
+<li>How do you think it will perform in water?</li>
+<li>If you could add one new feature or improvement to an ROV, what would it be?</li>
+</ul>
+</section>
+<section id="learning-outcomes-1" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes-1">Learning Outcomes</h2>
+<ul>
+<li>Understand what an ROV is and identify its core components.</li>
+<li>Compare different underwater movement systems and ROV layouts.</li>
+<li>Apply design thinking and basic engineering principles to construct an ROV frame.</li>
+<li>Collaborate in teams to solve real-world-inspired challenges.</li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://www.cis.allegheny.edu/"><img src="../../images/footer_logo.svg" alt="Footer Image" style="height: 70px; vertical-align: middle; margin-right: 5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/K-6-computing-literacy/k-6computerliteracywebsite">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
